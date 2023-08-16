@@ -1,0 +1,1 @@
+Analogue to Digital Converter, 12 bit, 3.3 kSPS, Differential, Single Ended, I2C, Single, 2 V

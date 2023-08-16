@@ -1,1 +1,1 @@
-SMT ceramic capacitor
+SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0603 [1608 Metric], ± 10%, X5R, CL

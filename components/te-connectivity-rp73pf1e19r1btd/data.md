@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 19.1 ohm, ± 0.1%, 100 mW, 0402 [1005 Metric], Thin Film, High Power

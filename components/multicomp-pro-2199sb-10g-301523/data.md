@@ -1,0 +1,1 @@
+Pin Header, Board-to-Board, 1.27 mm, 2 Rows, 10 Contacts, Through Hole Straight, 2199SB

@@ -1,1 +1,1 @@
-RES, THICK FILM, 6K8, 1%, 0.25W, 1206
+SMT Chip Resistor, 6.8 kohm, ± 1%, 250 mW, 1206 [3216 Metric]

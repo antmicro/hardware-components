@@ -1,0 +1,1 @@
+Oscillator, 25 MHz, HCMOS, SMD, 2mm x 1.6mm, MultiVolt ECS-2016MV Series

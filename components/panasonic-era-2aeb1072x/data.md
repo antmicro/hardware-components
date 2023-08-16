@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 10.7 kohm, ± 0.1%, 62.5 mW, 0402 [1005 Metric], Metal Film (Thin Film)

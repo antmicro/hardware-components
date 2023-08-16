@@ -1,0 +1,1 @@
+Interface Bridges, USB to UART, 2.97 V, 5.5 V, DFN, 12 Pins, -40 °C

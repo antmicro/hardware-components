@@ -1,1 +1,1 @@
-Ferrite bead
+Ferrite Bead, 0805 [2012 Metric], 110 ohm, 5 A, BLM21_BH, 0.013 ohm, ± 25%

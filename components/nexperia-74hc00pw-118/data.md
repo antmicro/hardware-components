@@ -1,0 +1,1 @@
+NAND Gate IC 4 Channel 14-TSSOP

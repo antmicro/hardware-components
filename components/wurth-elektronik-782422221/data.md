@@ -1,0 +1,1 @@
+Ferrite Bead, AEC-Q200, 0402 [1005 Metric], 220 ohm, 400 mA, WE-CBA, 0.3 ohm, ± 25%

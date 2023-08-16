@@ -1,1 +1,1 @@
-SMT capacitor
+Surface Mount Tantalum Capacitor, 100 µF, 6.3 V, 1206 [3216 Metric], ± 20%, 1.8 ohm, A

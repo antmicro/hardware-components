@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 80.6 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision

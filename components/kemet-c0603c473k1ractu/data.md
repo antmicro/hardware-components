@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 47000 pF, 100 V, 0603 [1608 Metric], ± 10%, X7R, C Series KEMET

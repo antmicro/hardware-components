@@ -1,0 +1,1 @@
+Multilayer Inductor, 3.3 µH, 0.19 ohm, 900 mA, 0805 [2012 Metric], MLP

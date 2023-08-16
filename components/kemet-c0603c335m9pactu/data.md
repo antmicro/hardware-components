@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 3.3 µF, 6.3 V, 0603 [1608 Metric], ± 20%, X5R, C Series KEMET

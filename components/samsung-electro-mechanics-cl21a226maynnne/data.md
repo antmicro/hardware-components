@@ -1,1 +1,1 @@
-Capacitor
+SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]

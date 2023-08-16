@@ -1,1 +1,1 @@
-SMT ceramic capacitor
+SMD Multilayer Ceramic Capacitor, 0.22 µF, 16 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series

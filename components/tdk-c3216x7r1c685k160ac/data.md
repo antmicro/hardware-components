@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 6.8 µF, 16 V, 1206 [3216 Metric], ± 10%, X7R, C

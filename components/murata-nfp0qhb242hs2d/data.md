@@ -1,0 +1,1 @@
+Filter, Common Mode, NFP0QH Series, 100 ohm, 100 mA, 0.65mm x 0.5mm x 0.3mm

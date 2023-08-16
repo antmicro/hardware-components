@@ -1,1 +1,1 @@
-Fuse
+7 A 32 V AC 63 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 1206 (3216 Metric)

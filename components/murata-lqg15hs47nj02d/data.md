@@ -1,1 +1,1 @@
-Inductor
+Multilayer Inductor, 47 nH, 0.72 ohm, 1 GHz, 300 mA, 0402 [1005 Metric], LQG15HS_02

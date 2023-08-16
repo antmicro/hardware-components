@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 0.22 µF, 10 V, 0402 [1005 Metric], ± 10%, X5R, CC Series

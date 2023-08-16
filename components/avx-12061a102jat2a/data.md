@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 1000 pF, 100 V, 1206 [3216 Metric], ± 5%, C0G / NP0

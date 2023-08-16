@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 12 ohm, ± 1%, 100 mW, 0805 [2012 Metric], Thick Film, General Purpose

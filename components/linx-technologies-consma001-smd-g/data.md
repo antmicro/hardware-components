@@ -1,0 +1,1 @@
+SMA Connector Receptacle, Female Socket 50Ohm Surface Mount Solder

@@ -1,0 +1,1 @@
+SMD Multilayer Ceramic Capacitor, 22 µF, 25V, 2220 [5650 Metric], ±20%, X7R

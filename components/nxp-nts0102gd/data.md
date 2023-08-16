@@ -1,0 +1,1 @@
+Level Translator, Transceiver, AEC-Q100, 2 Inputs, 5.8ns, 2.3V to 5.5V, XSON-8

@@ -1,0 +1,1 @@
+Linear Voltage Regulator IC Positive Adjustable 1 Output 300mA 8-WSON (3x2.5)

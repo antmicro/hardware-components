@@ -1,1 +1,1 @@
-SMT ceramic capacitor
+SMD Multilayer Ceramic Capacitor

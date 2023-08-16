@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 22 uF, 4 V, 0402 [1005 Metric], X6S

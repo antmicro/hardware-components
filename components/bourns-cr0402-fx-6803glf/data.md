@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 680 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant

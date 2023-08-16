@@ -1,1 +1,1 @@
-SMT ceramic capacitor
+SMD Multilayer Ceramic Capacitor, 1 µF, 16 V, 0402 [1005 Metric], ± 20%, X5R, C Series KEMET

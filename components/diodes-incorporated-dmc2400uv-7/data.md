@@ -1,0 +1,1 @@
+Dual MOSFET, Complementary N and P Channel, 20 V, 20 V, 1.03 A, 1.03 A, 0.3 ohm

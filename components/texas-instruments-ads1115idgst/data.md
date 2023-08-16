@@ -1,0 +1,1 @@
+Analog to digital data acquisition converter (ADC)

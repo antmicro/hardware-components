@@ -1,0 +1,1 @@
+LED Driver, DC/DC, Synchronous Buck, 1.5 A, 1 Output, 2.2 MHz, AEC-Q100, QFN-13

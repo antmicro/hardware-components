@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 226 kohm, ± 0.1%, 62.5 mW, 0603 [1608 Metric], Thin Film, Precision Low TCR

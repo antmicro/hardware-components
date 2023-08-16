@@ -1,0 +1,1 @@
+Power Inductor (SMT), 4.7 µH, 1.55 A, Shielded, 1.9 A, SRP2512A, 1008 [2520 Metric]

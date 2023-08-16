@@ -1,0 +1,1 @@
+Humidity/Temperature Sensor, 0% to 100% RH/-40°C to 85°C Range, I2C, Digital, 1.9V to 3.6V, DFN-6

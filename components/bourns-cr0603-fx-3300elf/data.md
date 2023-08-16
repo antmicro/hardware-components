@@ -1,1 +1,1 @@
-SMT resistor
+RES, THICK FILM, 330R, 1%, 0.1W, 0603

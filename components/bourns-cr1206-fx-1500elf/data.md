@@ -1,1 +1,1 @@
-RES, THICK FILM, 150R, 1%, 0.25W, 1206
+SMT Chip Resistor, 150 ohm, ± 1%, 250 mW, 1206 [3216 Metric]

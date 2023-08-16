@@ -1,0 +1,1 @@
+100k Ohm 2 Gang Linear Panel Mount Potentiometer None 1.0 Kierros Carbon 0.05W, 1/20W PC Pins, Board Locks

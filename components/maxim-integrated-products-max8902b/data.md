@@ -1,0 +1,1 @@
+LDO Voltage Regulator, Adjustable, 1.7V to 5.5V input, 150 mV drop., 0.6-5.3V/0.5A out, TDFN-8

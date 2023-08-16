@@ -1,0 +1,1 @@
+SMD Current Sense Resistor, 0.2 ohm, ERJ6BS, 0805 [2012 Metric], 330 mW, ± 1%, Thick Film

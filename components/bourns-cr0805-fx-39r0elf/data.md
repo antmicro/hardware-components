@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, Thick Film, AEC-Q200 WCR Series, 39 ohm, 100 V, 0805 [2012 Metric], 125 mW, ± 1%

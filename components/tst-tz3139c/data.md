@@ -1,0 +1,1 @@
+48 MHz ±10ppm Crystal 10pF 30 Ohms 4-SMD, No Lead

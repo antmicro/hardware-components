@@ -4,7 +4,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
     (property "Value" "FIN1019MTC" (id 1) (at 55.88 -12.7 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Footprint" "FIN1019MTC:TSSOP-14_4.4x5mm_P0.65mm" (id 2) (at 55.88 -15.24 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -12,10 +12,10 @@
     (property "Datasheet" "http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf" (id 3) (at 55.88 -17.78 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "ON Semiconductor" (id 4) (at 55.88 -20.32 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    (property "MPN" "FIN1019MTCX" (id 4) (at 55.88 -22.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
-    (property "MPN" "FIN1019MTCX" (id 5) (at 55.88 -22.86 0)
+    (property "Manufacturer" "ON Semiconductor" (id 5) (at 55.88 -20.32 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Author" "Antmicro" (id 6) (at 55.88 -25.4 0)
@@ -112,7 +112,7 @@
       (text "R" (at 11.43 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       )
-      (pin input line (at 0 -6.35 0) (length 2.54)
+      (pin input line (at 0 -7.62 0) (length 2.54)
         (name "DE" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -128,7 +128,7 @@
         (name "DO+" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 -15.875 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 0 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -136,11 +136,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 0 -3.81 0) (length 2.54)
+      (pin input line (at 0 -5.08 0) (length 2.54)
         (name "DI" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 -15.875 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -16.51 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -148,11 +148,11 @@
         (name "RO" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 -15.875 180) (length 2.54) hide
+      (pin no_connect line (at 2.54 -2.54 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 -15.875 180) (length 2.54) hide
+      (pin no_connect line (at 17.78 -13.97 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )

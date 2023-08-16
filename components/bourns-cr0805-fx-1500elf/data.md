@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 150 ohm, ± 1%, 125 mW, 0805 [2012 Metric], Thick Film, General Purpose

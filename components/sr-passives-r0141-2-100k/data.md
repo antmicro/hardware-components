@@ -1,0 +1,1 @@
+Single turn potentiometer, horizontal,  100kΩ, 30mW

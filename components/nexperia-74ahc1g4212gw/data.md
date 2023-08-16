@@ -1,0 +1,1 @@
+12-stage divider and oscillator -40°C to 125°C Automotive AEC-Q100 5-Pin TSSOP

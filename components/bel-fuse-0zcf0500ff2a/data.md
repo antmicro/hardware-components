@@ -1,1 +1,1 @@
-0ZCF0500FF2A
+Resettable Fuses - PPTC AEC-2000 SM PTC 2920 size 5A

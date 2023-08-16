@@ -1,0 +1,1 @@
+Wirewound Inductor, 2.4 nH, 0.05 ohm, 15 GHz, 850 mA, 0402 [1005 Metric], LQW15AN

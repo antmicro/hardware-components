@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 10000 pF, 100 V, 0603 [1608 Metric], ± 5%, X7R, AVX 0603 MLCC

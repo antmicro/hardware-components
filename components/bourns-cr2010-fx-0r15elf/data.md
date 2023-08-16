@@ -1,1 +1,1 @@
-Resistor
+SMT Chip Resistor, 0.15 ohm, ± 1%, 500 mW, 2010 [5025 Metric], Thick Film, General Purpose

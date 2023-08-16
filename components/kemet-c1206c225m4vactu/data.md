@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 2.2 µF, 16 V, 1206 [3216 Metric], ± 20%, Y5V, C Series KEMET

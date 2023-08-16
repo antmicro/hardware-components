@@ -1,0 +1,1 @@
+Multilayer Inductor, 2.2 µH, 0.208 ohm, 100 MHz, 600 mA, 0805 [2012 Metric], MLZ

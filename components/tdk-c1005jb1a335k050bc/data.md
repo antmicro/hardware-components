@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 3.3µF, 10V, 0402 [1005 Metric], JB 10%

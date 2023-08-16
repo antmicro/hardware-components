@@ -1,0 +1,1 @@
+MEMS Oscillator, 100 MHz, SMD, 5mm x 3.2mm, 10 ppm, 2.5 V, ASFLMB, CMOS

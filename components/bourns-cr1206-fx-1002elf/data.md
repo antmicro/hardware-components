@@ -1,1 +1,1 @@
-RES, THICK FILM, 10K, 1%, 0.25W, 1206, REEL
+SMT Chip Resistor, 10 kohm, ± 1%, 250 mW, 1206 [3216 Metric]

@@ -1,1 +1,1 @@
-WIREWOUND RESISTOR, 0.02 OHM, 1W, ±1%
+Wirewound resistor, 0.02 ohm, 1W, ±1%

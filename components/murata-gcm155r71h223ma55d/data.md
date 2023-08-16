@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitors, 0.022 µF, 50 V, 20%, 0402 [1005 Metric], X7R

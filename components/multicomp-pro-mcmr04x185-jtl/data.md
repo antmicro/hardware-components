@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, Ceramic, 1.8 Mohm, ± 5%, 62.5 mW, 0402 [1005 Metric], Thick Film

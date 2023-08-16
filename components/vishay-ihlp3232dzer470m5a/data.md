@@ -1,1 +1,1 @@
-Fixed inductor
+Power Inductor (SMT), 47uH, 20%, High Temp, AEC-Q200

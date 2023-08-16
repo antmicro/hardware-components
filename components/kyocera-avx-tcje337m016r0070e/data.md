@@ -1,1 +1,1 @@
-Polarized capacitor
+Tantalum Capacitors - Polymer 16V 330uF 2917 20% ESR=70mOhms

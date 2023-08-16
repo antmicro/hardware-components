@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 22 µF, 16 V, 1210 [3225 Metric], ± 20%, X5R, AVX 1210 MLCC

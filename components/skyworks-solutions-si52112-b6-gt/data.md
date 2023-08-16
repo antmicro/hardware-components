@@ -1,0 +1,1 @@
+Clock Generator, 100MHz, 2.97V to 3.63V, 2 Outputs, TSSOP-8

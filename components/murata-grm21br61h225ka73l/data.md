@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 2.2 µF, 50 V, 0805 [2012 Metric], ± 10%, X5R, GRM Series

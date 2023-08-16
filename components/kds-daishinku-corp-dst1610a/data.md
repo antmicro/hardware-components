@@ -1,0 +1,1 @@
+Ultra miniature SMD tuning fork crystal resonator, mobile communications and consumer devices, series resistance 50 kohm max.

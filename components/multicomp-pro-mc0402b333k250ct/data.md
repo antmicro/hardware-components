@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 33000 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R, MC

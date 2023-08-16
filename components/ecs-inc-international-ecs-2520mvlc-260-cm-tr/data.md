@@ -1,0 +1,1 @@
+Oscillator, 26 MHz, CMOS, 25 ppm, SMD, 2.5mm x 2mm, 3.6 V, MultiVolt ECS-2520MVLC Series

@@ -1,0 +1,1 @@
+Multilayer Inductor, 56 nH, 0.325 ohm, 950 mA, 0402 [1005 Metric], MLJ

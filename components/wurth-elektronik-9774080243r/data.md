@@ -1,0 +1,1 @@
+Spacer, SMT, Non Stop, Steel, Swage Round, 4.35 mm x 8 mm, M2 Thread, WA-SMSI Series

@@ -1,1 +1,1 @@
-Resistor
+SMT Chip Resistor, 27 kohm, ± 1%, 500 mW, 2010 [5025 Metric], Thick Film, General Purpose

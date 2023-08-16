@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, General Purpose, 1800 pF, 50 V, 0603 [1608 Metric], ± 10%, X7R

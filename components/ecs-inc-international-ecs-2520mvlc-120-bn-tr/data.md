@@ -1,0 +1,1 @@
+Oscillator, 12 MHz, CMOS, 50 ppm, SMD, 2.5mm x 2mm, 3.6 V, MultiVolt ECS-2520MVLC Series

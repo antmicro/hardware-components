@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, 0.1 µF, 16 V, 0603 [1608 Metric], ± 10%, X7R, AVX 0603 MLCC

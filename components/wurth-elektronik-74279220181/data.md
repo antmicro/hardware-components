@@ -1,1 +1,1 @@
-Ferrite bead
+Ferrite Bead, 0805 [2012 Metric], 180 ohm, 3.1 A, WE-MPSB, 0.037 ohm, ± 25%

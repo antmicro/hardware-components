@@ -1,0 +1,1 @@
+Programmable Clock Generator, 200MHz, 2.25V to 3.6V, 3 Outputs, MSOP-10

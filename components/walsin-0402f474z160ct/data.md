@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, General Purpose, 0.47 µF, 16 V, 0402 [1005 Metric], -20%, +80%

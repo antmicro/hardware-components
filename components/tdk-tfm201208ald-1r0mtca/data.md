@@ -1,0 +1,1 @@
+Thin Film Inductor, 1 µH, 0.079 ohm, 2.6 A, 0805 [2012 Metric], TFM-ALD

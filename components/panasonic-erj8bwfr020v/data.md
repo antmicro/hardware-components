@@ -1,1 +1,1 @@
-SMT resistor
+SMD Current Sense Resistor, 0.02 ohm, ERJ8BW, 1206 [3216 Metric], 1 W, ± 1%, Thick Film

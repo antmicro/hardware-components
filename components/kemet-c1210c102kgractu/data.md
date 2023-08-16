@@ -1,1 +1,1 @@
-SMT capacitor
+SMD Multilayer Ceramic Capacitor, High Voltage, 1000 pF, 2 kV, 1210 [3225 Metric], ± 10%, X7R

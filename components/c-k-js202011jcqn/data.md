@@ -1,0 +1,1 @@
+Slide Switch, Subminiature, DPDT, On-On, Surface Mount, JS, 300 mA

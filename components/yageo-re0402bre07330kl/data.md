@@ -1,1 +1,1 @@
-SMT resistor
+SMD Chip Resistor, 330 kohm, ± 0.1%, 63 mW, 0402 [1005 Metric], Thick Film, Ultra Precision

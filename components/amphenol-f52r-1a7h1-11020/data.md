@@ -1,0 +1,1 @@
+FFC / FPC Board Connector, R/A, ZIF, 1 mm, 20 Contacts, Receptacle, F52R, Surface Mount, Bottom

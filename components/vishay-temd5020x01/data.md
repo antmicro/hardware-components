@@ -1,0 +1,1 @@
+Photodiode 900nm 100ns 130° 4-SMD, No Lead
