@@ -1,1 +1,1 @@
-640456-3
+Connector Header Through Hole 3 position 0.100" (2.54mm)

@@ -1,0 +1,1 @@
+PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 16 Contacts, Through Hole Mount, SSQ

@@ -1,1 +1,1 @@
-Oscillator
+Generator: quartz, 40MHz, SMD, 3.3V, ±50ppm, -20÷70°C, 5x3.2x1.3mm

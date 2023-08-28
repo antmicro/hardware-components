@@ -1,1 +1,1 @@
-BUFFER, NON INVERTING, -40 TO 125DEG C
+Buffer, Non-Inverting 2 Element 1 Bit per Element Open Drain Output 6-TSOP

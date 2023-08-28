@@ -1,1 +1,1 @@
-DIODE, SCHOTTKY, 2A, 40V, DO-214AC-2
+Diode 40 V 2A Surface Mount SMA

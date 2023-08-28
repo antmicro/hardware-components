@@ -1,0 +1,1 @@
+Connector Header Through Hole, Right Angle 3 position 0.100" (2.54mm)

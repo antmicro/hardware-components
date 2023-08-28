@@ -1,1 +1,1 @@
-Interface controller
+Analog & Digital Crosspoint ICs USB Type-C DP ALT Mode, 10-Gbps linear redriver crosspoint switch 40-WQFN 0°C to 70°C

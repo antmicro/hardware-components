@@ -1,1 +1,1 @@
-RF COAX CONN, U.FL JACK, PCB
+U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder

@@ -1,1 +1,1 @@
-Memory
+DRAM 256Mb, 16Mx16, Extended Low Temp. (-20~95C), 1600, 1.5V, 96-ball FBGA

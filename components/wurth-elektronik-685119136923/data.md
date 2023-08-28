@@ -1,1 +1,1 @@
-HDMI - Mini Receptacle Connector 19 Position Surface Mount, Right Angle, Through Hole
+HDMI Connector, 19 Contacts, Receptacle, PCB Mount, Surface Mount Right Angle

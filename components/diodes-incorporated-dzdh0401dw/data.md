@@ -1,1 +1,1 @@
-IDEAL DIODE CONTROLLER, 150DEGC
+OR Controller N+1 ORing Controller P-Channel 1:1 SOT-363

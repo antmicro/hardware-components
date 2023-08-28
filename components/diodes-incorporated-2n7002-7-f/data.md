@@ -1,1 +1,1 @@
-MOSFET, N CHANNEL, 60V, 1.2OHM, 115mA, SOT-23
+N-Channel 60 V 115mA (Ta) 370mW (Ta) Surface Mount SOT-23-3

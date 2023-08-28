@@ -1,1 +1,1 @@
-Microcontroller
+Artix-7 Field Programmable Gate Array IC 250 484-BBGA

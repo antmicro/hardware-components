@@ -1,1 +1,1 @@
-FFC connector
+Wire to Board Connector pitch 0.5mm

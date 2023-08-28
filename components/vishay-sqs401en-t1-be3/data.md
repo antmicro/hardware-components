@@ -1,1 +1,1 @@
-MOSFET, P-CH, 40V, 16A, POWERPAK 1212
+P-Channel 40 V 16A (Tc) 62.5W (Tc) Surface Mount PowerPAK® 1212-8

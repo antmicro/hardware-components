@@ -1,1 +1,1 @@
-BUFFER, NON INVERTING, -40 TO 85DEG C
+Buffer, Non-Inverting 6 Element 1 Bit per Element Open Drain Output 14-DQFN (3x2.5)

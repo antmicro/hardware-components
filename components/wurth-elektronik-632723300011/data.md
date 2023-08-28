@@ -1,1 +1,1 @@
-USB Connector, USB Type C, USB 3.1, Receptacle, 24 Ways, Surface Mount, Through Hole Mount
+USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + USB 3.1) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole

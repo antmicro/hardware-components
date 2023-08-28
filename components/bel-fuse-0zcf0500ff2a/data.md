@@ -1,1 +1,1 @@
-Resettable Fuses - PPTC AEC-2000 SM PTC 2920 size 5A
+Polymeric PTC Resettable Fuse 16V 5 A Ih Surface Mount 2920 (7351 Metric), Concave

@@ -1,0 +1,1 @@
+2.4GHz Bluetooth, WLAN, Zigbee™ Chip RF Antenna 2.4GHz ~ 2.483.5GHz 3dBi Solder Surface Mount

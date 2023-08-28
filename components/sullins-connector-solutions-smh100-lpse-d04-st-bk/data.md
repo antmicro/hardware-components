@@ -1,1 +1,1 @@
-Rectangular connector (header, male pins)
+Pin header

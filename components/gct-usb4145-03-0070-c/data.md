@@ -1,1 +1,0 @@
-Socket, USB C, SMT, 16 pin, vertical, top board mount, USB 2.0, 5A

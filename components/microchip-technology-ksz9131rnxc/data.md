@@ -1,1 +1,1 @@
-Interface controller
+Ethernet ICs Gigabit Ethernet Transceiver with RGMII support

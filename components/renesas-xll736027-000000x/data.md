@@ -1,1 +1,1 @@
-Oscillator
+27 MHz XO (Standard) LVDS Oscillator 3.3V Enable/Disable 6-SMD, No Lead

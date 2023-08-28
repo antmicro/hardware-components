@@ -1,1 +1,1 @@
-Pin Header, Vertical, Signal, 1.25 mm, 1 Rows, 4 Contacts, Surface Mount Straight, PicoBlade 53398
+Pin Header, Vertical, Signal, 1.25 mm, 1 Rows, 4 Contacts, Surface Mount Straight

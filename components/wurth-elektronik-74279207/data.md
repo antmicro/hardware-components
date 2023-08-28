@@ -1,0 +1,1 @@
+Ferrite Beads WE-CBF 0805 100MHz 100Ohm 1A

@@ -1,1 +1,1 @@
-DIODE, RECTIFIER, 3A, 40V, DO-214AC
+Diode 40 V 3A Surface Mount SMA

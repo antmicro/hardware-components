@@ -1,1 +1,0 @@
-Power Inductor (SMT), 1.5 µH, 6 A, Shielded, 8 A, SRP0420

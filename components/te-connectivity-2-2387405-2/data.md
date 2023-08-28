@@ -1,1 +1,1 @@
-PC connector
+64 Position Female Connector PCI Express™ Gold 0.039" (1.00mm) Black

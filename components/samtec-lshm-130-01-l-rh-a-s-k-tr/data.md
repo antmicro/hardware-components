@@ -1,1 +1,1 @@
-MEZZANINE CONN, HERMAPHRODITIC, 60POS
+60 Position Connector Self Mating, Non-Gendered, Hermaphroditic Surface Mount, Right Angle, Reverse Gold

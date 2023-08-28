@@ -1,1 +1,1 @@
-Microcontroller
+iCE40 UltraPlus™ Field Programmable Gate Array (FPGA) IC 39 1171456 5280 48-VFQFN Exposed Pad

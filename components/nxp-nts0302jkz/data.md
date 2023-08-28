@@ -1,1 +1,1 @@
-TRANSLATING TRANSCEIVER, -40 TO 125DEG C
+Translating Transceiver IC 8-X2SON (1.4x1)

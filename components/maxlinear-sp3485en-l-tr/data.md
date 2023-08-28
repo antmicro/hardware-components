@@ -1,1 +1,1 @@
-Interface driver/receiver/transceiver
+RS-422/RS-485 Interface IC 3.3V LoPwr Half-Dup RS485w/10Mbps Data

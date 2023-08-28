@@ -1,1 +1,1 @@
-Microcontroller
+ECP5-5G Field Programmable Gate Array (FPGA) IC 365 3833856 84000 756-FBGA

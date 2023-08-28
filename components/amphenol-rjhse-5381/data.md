@@ -1,1 +1,1 @@
-CONNECTOR, RJ45, RCPT, 8P8C, TH
+Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger

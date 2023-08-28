@@ -1,1 +1,1 @@
-Logic IC, NAND Gate, Quad, 2 Inputs, 14 Pins, VQFN, 74HC00
+Logic gate

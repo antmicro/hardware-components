@@ -1,1 +1,1 @@
-Power Load Distribution Switch, High Side, Active Low, 1 Output, 5.5V, 2.665A, 0.065 ohm, SOT26-6
+Power Switch/Driver 1:1 N-Channel 2.1A SOT-26

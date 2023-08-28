@@ -1,1 +1,1 @@
-Interface controller
+USB Interface, USB PHY Transceiver, USB 2.0, 3 V, 5.5 V, QFN, 32 Pins

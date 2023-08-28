@@ -1,1 +1,1 @@
-MEZZANINE CONN, RCPT, 100POS, 2ROW/0.4MM
+100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold

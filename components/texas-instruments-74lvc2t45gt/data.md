@@ -1,1 +1,1 @@
-IC, 2BIT, TXRX, TRI-ST, XSON8
+Level shifter

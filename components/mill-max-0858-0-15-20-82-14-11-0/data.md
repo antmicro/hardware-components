@@ -1,1 +1,1 @@
-String loaded pin
+Contact Spring Through Hole

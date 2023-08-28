@@ -1,1 +1,1 @@
-Interface controller
+USB Interface 12-X2QFN (1.6x1.6)

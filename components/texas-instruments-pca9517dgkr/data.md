@@ -1,1 +1,1 @@
-I2C BUS REPEATER, 5.5V, TSSOP-8, FULL REEL
+Buffer, ReDriver 2 Channel 400kHz 8-VSSOP

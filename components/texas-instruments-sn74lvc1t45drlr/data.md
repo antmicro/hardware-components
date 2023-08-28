@@ -1,1 +1,1 @@
-Transceiver, 74LVC1T245, 1.65 V to 5.5 V, SOT-553-6
+Level shifter

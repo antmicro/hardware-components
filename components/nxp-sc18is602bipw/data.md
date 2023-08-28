@@ -1,1 +1,1 @@
-SPI bridge
+I²C Controller SPI Interface 16-TSSOP

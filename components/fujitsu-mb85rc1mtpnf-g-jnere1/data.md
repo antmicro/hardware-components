@@ -1,1 +1,1 @@
-FRAM
+FRAM (Ferroelectric RAM) Memory IC 1Mbit I²C 3.4 MHz 130 ns 8-SOP

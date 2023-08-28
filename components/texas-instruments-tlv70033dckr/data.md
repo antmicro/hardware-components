@@ -1,1 +1,1 @@
-Fixed LDO Voltage Regulator, 2V to 5.5V, 175mV Dropout, 3.3Vout, 200mAout, SC-70-5
+Linear voltage regulator

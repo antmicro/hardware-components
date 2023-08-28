@@ -1,1 +1,1 @@
-IC, GATE
+Buffer, Non-Inverting 2 Element 4 Bit per Element 3-State Output 20-TSSOP

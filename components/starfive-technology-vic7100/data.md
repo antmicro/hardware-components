@@ -1,1 +1,1 @@
-Microcontroller
+RISC-V SiFive U74 Dual-Core 64-bit RV64GC ISA SoC

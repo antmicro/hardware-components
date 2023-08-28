@@ -1,1 +1,1 @@
-FPGA
+Kintex®-7 Field Programmable Gate Array (FPGA) IC 300 4976640 65600 676-BBGA, FCBGA

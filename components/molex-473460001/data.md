@@ -1,1 +1,1 @@
-USB Connector, Shielded, Micro USB Type B, USB 2.0, Receptacle, 5 Ways, Surface Mount, Right Angle
+USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole

@@ -1,1 +1,1 @@
-LDO, FIXED, 5V, 0.8A, -20 TO 125DEG C
+Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3

@@ -1,0 +1,1 @@
+470 µF Molded Tantalum Capacitors 6.3 V 2917 (7343 Metric) 200mOhm

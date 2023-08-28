@@ -1,1 +1,1 @@
-DDR TERMINATION REG, AEC-Q100, DFN-EP-10
+Automotive, AEC-Q100 LDO (Linear), DDR Voltage Regulator IC 1 Output 10-DFN (3x3)

@@ -1,1 +1,1 @@
-Interface driver/receiver/transceiver
+LVDS Interface IC Single LVDS Transmitter

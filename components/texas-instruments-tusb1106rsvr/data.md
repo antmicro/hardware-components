@@ -1,1 +1,1 @@
-Interface controller
+1/1 Transceiver Half USB 2.0 16-UQFN

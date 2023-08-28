@@ -1,1 +1,1 @@
-MONOSTABLE MULTIVIBRATOR, -40TO125DEG C
+Monostable Multivibrator 12 ns 8-VSSOP

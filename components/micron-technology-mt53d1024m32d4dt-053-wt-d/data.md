@@ -1,1 +1,1 @@
-Memory
+SDRAM - Mobile LPDDR4 Memory IC 32Gbit 1.866 GHz 200-VFBGA (10x14.5)

@@ -1,1 +1,1 @@
-Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 4 mm, M2.5 Thread, WA-SMSI Series
+Round Standoff Threaded M2.5x0.45 Steel 0.157" (4.00mm)

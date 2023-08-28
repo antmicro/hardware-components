@@ -1,1 +1,1 @@
-LDO VOLTAGE REGULATORS
+Linear Voltage Regulator IC Positive Fixed 1 Output 1.2A 6-WDFN (2x2)

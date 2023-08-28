@@ -1,1 +1,1 @@
-Memory
+EEPROM Memory IC 32Kbit I²C 400 kHz 900 ns 8-TDFN (2x3)

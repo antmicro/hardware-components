@@ -1,1 +1,0 @@
-MEMS Oscillator, 12 MHz, SMT, 5mm x 3.2mm, 50 ppm, 3.3 V, ASFLMB, LVCMOS

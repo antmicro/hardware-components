@@ -1,1 +1,1 @@
-SWITCH, TACTILE, SPST-NO, 50mA, SMT
+Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle

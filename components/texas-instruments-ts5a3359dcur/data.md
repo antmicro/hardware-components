@@ -1,1 +1,1 @@
-ANALOGUE SWITCH, SINGLE, SP3T, VSSOP-8
+Interface analog switch/multiplexer/demultiplexer

@@ -1,1 +1,1 @@
-SUPERVISORY CIRCUIT 2.7 uA, 6.5V, SOT23-
+Supervisor Open Drain or Open Collector 1 Channel SOT-23-6

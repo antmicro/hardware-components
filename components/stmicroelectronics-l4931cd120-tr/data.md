@@ -1,1 +1,1 @@
-LDO, FIXED, 12V, 0.25A, -40 TO 125DEG C
+Linear Voltage Regulator IC Positive Fixed 1 Output 250mA 8-SOIC

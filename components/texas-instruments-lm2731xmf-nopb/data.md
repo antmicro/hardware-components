@@ -1,1 +1,1 @@
-BOOST CONVERTER, 5-SOT-23
+Boost Switching Regulator IC Positive Adjustable 2.7V 1 Output 1.8A (Switch) SC-74A, SOT-753

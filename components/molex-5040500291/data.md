@@ -1,1 +1,1 @@
-Pin Header, Signal, 1.5 mm, 1 Rows, 2 Contacts, Surface Mount Right Angle, Pico-Lock 504050
+Connector Header Surface Mount, Right Angle 2 position 0.059" (1.50mm)

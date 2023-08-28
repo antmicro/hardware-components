@@ -1,1 +1,1 @@
-DIODE, SCHOTTKY, 5A, 40V, DO-214AB-2
+Diode 40 V 5A Surface Mount SMC

@@ -1,1 +1,1 @@
-Interface controller
+Thunderbolt™ 3 Controller, I/O

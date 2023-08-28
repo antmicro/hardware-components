@@ -1,1 +1,1 @@
-Interface controller
+USB Interface, USB OTG Transceiver with ULPI Transceiver, USB 2.0, 3 V, 3.6 V, QFN, 32 Pins

@@ -1,1 +1,1 @@
-Buffer, 74LVC1G126, 1.65 V to 5.5 V, SC-70-5
+Buffer, Non-Inverting 2 Element 1 Bit per Element 3-State Output 8-VSSOP

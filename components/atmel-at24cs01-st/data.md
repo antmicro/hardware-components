@@ -1,1 +1,1 @@
-Memory
+EEPROM Memory IC 1Kbit I²C 1 MHz 550 ns SOT-23-5

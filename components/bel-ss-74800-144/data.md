@@ -1,1 +1,1 @@
-RJ45 CONN, CAT5/5E, 8P8C, JACK, 1PORT
+Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger Cat5e

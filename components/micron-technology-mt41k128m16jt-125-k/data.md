@@ -1,1 +1,1 @@
-SDRAM
+SDRAM - DDR3L Memory IC 2Gbit Parallel 800 MHz 13.75 ns 96-FBGA (8x14)

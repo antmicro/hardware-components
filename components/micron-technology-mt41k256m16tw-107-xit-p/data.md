@@ -1,1 +1,1 @@
-Memory
+SDRAM - DDR3L Memory IC 4Gbit Parallel 933 MHz 20 ns 96-FBGA (8x14)

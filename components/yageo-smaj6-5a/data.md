@@ -1,1 +1,1 @@
-DIODE, TVS, 400W, 6.5V, UNIDIRECTIONAL, DO-214AC
+SMAJ Series 400 W 36 V ±5 % Surface Mount Bi-Directional TVS Diode – DO-214AC

@@ -1,1 +1,1 @@
-Memory
+FLASH - NOR Memory IC 16Mbit SPI - Quad I/O 120 MHz 8-USON (2x3)

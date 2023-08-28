@@ -1,1 +1,1 @@
-Interface controller
+2-Port MIPI to HDMI1.4 Converter, dual-port MIPI® D-PHY receiver, 4 data lanes (2Gbps), 16Gbs max input bandwidth

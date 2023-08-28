@@ -1,1 +1,1 @@
-LDO, FIXED, 3.3V, 0.3A, -40 TO 125DEG C
+Linear Voltage Regulator IC Positive Fixed 1 Output 300mA TSOT-23-5

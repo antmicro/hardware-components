@@ -1,1 +1,1 @@
-SENSOR CONNECTOR, 8POS, FEMALE, PANEL
+8 Position Circular Connector Receptacle, Female Sockets Solder

@@ -1,1 +1,1 @@
-Ferrite Bead, 0805 [2012 Metric], 1 kohm, 1 A, WE-CBF, 0.3 ohm, ± 25%
+Ferrite Beads WE-CBF 0805 100MHz 1kOhm 1A

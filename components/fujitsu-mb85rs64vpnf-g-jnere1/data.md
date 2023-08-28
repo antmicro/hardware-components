@@ -1,1 +1,1 @@
-Memory
+FRAM (Ferroelectric RAM) Memory IC 64Kbit SPI 20 MHz 8-SOP

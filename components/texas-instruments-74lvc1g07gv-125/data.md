@@ -1,1 +1,0 @@
-Buffer, 74LVC1G07, 1.65 V to 5.5 V, SC-74A-5

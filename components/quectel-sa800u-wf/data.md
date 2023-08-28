@@ -1,1 +1,1 @@
-Microcontroller
+Qualcomm® KryoTM 385 64-bit CPU + AdrenoTM 630 GPU

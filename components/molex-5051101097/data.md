@@ -1,1 +1,1 @@
-0.5 FPC ZIF BTM CONT EMBT PKG 10CKT
+10 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle

@@ -1,1 +1,1 @@
-Microcontroller
+ARM MCU, STM32 Family STM32G4 Series Microcontrollers, ARM Cortex-M4F, 32 bit, 170 MHz, 512 KB

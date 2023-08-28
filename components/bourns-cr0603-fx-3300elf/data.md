@@ -1,1 +1,1 @@
-RES, THICK FILM, 330R, 1%, 0.1W, 0603
+SMD Chip Resistor, 330 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose

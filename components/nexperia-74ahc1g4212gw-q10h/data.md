@@ -1,1 +1,1 @@
-IC, QUAD BUFFER
+Counter IC Divide-by-2 1 Element 12 Bit Negative Edge 5-TSSOP
