@@ -1,0 +1,1 @@
+Linux capable RISC-V Processor, 4+1 Multi-Core Coherent Configuration, 1.5GHz

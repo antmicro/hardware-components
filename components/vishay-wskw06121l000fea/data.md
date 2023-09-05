@@ -1,0 +1,1 @@
+1 mOhms ±1% 1W Chip Resistor Wide 1206 (3216 Metric), 0612 Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element

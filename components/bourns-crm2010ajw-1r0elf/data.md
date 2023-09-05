@@ -1,0 +1,1 @@
+SMD Chip Resistor

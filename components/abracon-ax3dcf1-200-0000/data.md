@@ -1,0 +1,1 @@
+Oscillator, 200 MHz, LVDS, SMT, 3.2mm x 2.5mm, 1.8 V, ClearClock AX3 Series

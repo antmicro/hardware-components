@@ -1,0 +1,1 @@
+Pin Header, Right Angle, Wire-to-Board, 2 mm, 1 Rows, 2 Contacts, Surface Mount Right Angle, PH

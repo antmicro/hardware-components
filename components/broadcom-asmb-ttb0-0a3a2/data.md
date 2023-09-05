@@ -1,0 +1,1 @@
+LED, RGB, Red, Green, Blue, SMT, 115 °, Round, R 20mA, G 20mA, B 20mA

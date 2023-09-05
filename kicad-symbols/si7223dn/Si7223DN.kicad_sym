@@ -6,7 +6,7 @@
     (property "Value" "Si7223DN" (id 1) (at 22.86 0 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "Si7223DN:PowerPak-1212" (id 2) (at 22.86 -2.54 0)
+    (property "Footprint" "Si7223DN:Vishay_PowerPAK_1212-8_Dual" (id 2) (at 22.86 -2.54 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.farnell.com/datasheets/2606257.pdf" (id 3) (at 22.86 -5.08 0)
@@ -24,9 +24,10 @@
     (property "License" "Apache-2.0" (id 7) (at 22.86 -12.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "ki_description" "Dual MOSFET, P Channel, 30 V, 6 A, 0.022 ohm, PowerPAK 1212, Surface Mount" (id 8) (at 0 0 0)
+    (property "ki_description" "Dual MOSFET, P Channel, 30 V, 30 V, 6 A, 6 A, 0.022 ohm" (id 8) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_keywords" "SEMICONDUCTOR" (id 0) (at 0 0 0))
     (symbol "Si7223DN_1_1"
       (polyline
         (pts
@@ -304,17 +305,9 @@
         (name "D2" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 13.97 -5.08 180) (length 2.54) hide
-        (name "D2" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at 13.97 3.81 180) (length 2.54)
         (name "D1" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 13.97 3.81 180) (length 2.54) hide
-        (name "D1" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
       )
     )
   )

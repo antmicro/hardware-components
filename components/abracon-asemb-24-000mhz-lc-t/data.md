@@ -1,1 +1,1 @@
-MEMS Oscillator, Clock, Pure Silicon&trade;, 24 MHz, SMD, 3.2mm x 2.5mm, 50 ppm, 3.3 V, ASEMB, LVCMOS
+MEMS Oscillator, Clock, Pure Silicon&trade;, 24 MHz, SMT, 3.2mm x 2.5mm, 50 ppm, 3.3 V, ASEMB, LVCMOS

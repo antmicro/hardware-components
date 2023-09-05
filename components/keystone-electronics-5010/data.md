@@ -1,0 +1,1 @@
+Test Point, Multipurpose Phosphor Bronze Silver Plating Through Hole Mounting Type

@@ -1,0 +1,1 @@
+Power MOSFET, P Channel, 240 V, 200 mA, 12 ohm, SOT-89, Surface Mount

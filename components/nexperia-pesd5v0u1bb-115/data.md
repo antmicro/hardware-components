@@ -1,0 +1,1 @@
+ESD Protection Device, 14 V, SOD-323, 2 Pins, 5 V, 130 W

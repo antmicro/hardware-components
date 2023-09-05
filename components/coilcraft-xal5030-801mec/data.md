@@ -1,0 +1,1 @@
+Power Inductor (SMT), 800 nH, 13 A, Shielded, 18.5 A, XAL5030

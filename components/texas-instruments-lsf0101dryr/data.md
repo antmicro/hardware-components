@@ -1,0 +1,1 @@
+Voltage Level Translator, 1 Input, 1.5 ns, 0 V to 5 V, SON-6

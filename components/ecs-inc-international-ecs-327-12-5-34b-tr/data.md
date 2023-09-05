@@ -1,0 +1,1 @@
+Crystal, 32.768 kHz, SMT, 3.2mm x 1.5mm, 12.5 pF, 20 ppm, ECX-31B

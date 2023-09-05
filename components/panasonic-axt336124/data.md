@@ -1,0 +1,1 @@
+36 Position Connector Socket, Outer Shroud Contacts Surface Mount Gold
