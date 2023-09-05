@@ -1,0 +1,1 @@
+Crystal, Miniature, 25 MHz, SMT, 3.2mm x 2.5mm, 30 ppm, 10 pF, 30 ppm, ABM8G

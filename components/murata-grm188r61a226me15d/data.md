@@ -1,0 +1,1 @@
+22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)

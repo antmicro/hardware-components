@@ -1,0 +1,1 @@
+DC/DC switching voltage regulator

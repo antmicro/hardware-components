@@ -1,0 +1,1 @@
+Isolated Through Hole DC/DC Converter, ITE, 4:1, 30 W, 1 Output, 12 V, 2.5 A

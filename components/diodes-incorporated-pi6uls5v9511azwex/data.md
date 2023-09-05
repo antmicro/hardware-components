@@ -1,0 +1,1 @@
+Interface - Signal Buffers, Repeaters Interface I2C Hot Swappable

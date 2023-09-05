@@ -1,0 +1,1 @@
+FLASH - NAND Memory IC 64Gbit MMC 100-TBGA (14x18)

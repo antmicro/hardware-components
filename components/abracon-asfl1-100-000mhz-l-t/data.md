@@ -1,0 +1,1 @@
+Oscillator, 100 MHz, 100 ppm, SMT, 5mm x 3.2mm, 3.3 V, ASFL1 Series

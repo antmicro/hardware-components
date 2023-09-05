@@ -1,0 +1,1 @@
+Power Inductor (SMT), 1.2 µH, 11.1 A, Shielded, 12.5 A

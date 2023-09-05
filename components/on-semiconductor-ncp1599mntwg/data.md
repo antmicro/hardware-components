@@ -1,0 +1,1 @@
+PWM Converter Sync, 5.5V-3V supply, 1 MHz, 3.3V/3A out, DFN-6

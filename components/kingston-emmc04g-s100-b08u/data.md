@@ -1,0 +1,1 @@
+4 GB 11.5 x 13 x 1.0 Surface Mount v5.0 e•MMC™ Flash Memory – FBGA-153

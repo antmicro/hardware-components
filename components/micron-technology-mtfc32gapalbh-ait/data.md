@@ -1,0 +1,1 @@
+FLASH - NAND Memory IC 256Gbit MMC 153-TFBGA (11.5x13)
