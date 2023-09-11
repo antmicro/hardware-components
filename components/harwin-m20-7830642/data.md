@@ -1,1 +1,0 @@
-PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 12 Contacts, Through Hole Mount, M20

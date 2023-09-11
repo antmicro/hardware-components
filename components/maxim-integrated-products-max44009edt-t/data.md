@@ -1,0 +1,1 @@
+IC, Special Function, Ambient Light Sensor, 1.7 V-3.6 V supply, OTDFN-6

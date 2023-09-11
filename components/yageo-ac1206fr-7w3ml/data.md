@@ -1,0 +1,1 @@
+Zero Ohm Resistor, Jumper, 1206 [3216 Metric], Thick Film, 250 mW, 2 A, Surface Mount Device, CR

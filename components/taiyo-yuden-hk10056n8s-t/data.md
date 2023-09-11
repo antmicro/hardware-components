@@ -1,0 +1,1 @@
+RF Inductors - SMD 0402 6.8nH 250mOhms +/-.3nHTol 430mA HiQ

@@ -1,0 +1,1 @@
+Ferrite Bead, 0201 [0603 Metric], 240 ohm, 200 mA, WE-TMSB, 0.75 ohm, ± 25%

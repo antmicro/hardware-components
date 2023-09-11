@@ -1,0 +1,1 @@
+Led Driver, 9 Outputs, Charge Pump, 2.7V-5.5V in, 1.25MHz switch, 5.5V/25.5mA out, WQFN-24

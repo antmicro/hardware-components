@@ -1,1 +1,1 @@
-Power Inductor (SMT), 6.2 µH, 9.4 A, Shielded, 6.7 A, WE-PDF
+Power Inductor (SMD), 6.2 µH, 9.4 A, Shielded, 6.7 A, WE-PDF

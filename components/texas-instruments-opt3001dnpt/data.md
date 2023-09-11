@@ -1,0 +1,1 @@
+Special Function IC, Ambient Light Sensor, 1.6 V to 3.6 V in, USON-6

@@ -1,1 +1,1 @@
-Modular Connector, RJ45 Jack, 1 x 1 (Port), 8P8C, Cat5e, Through Hole Mount
+Modular connector with magnetics

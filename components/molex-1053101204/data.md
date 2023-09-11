@@ -1,1 +1,0 @@
-Pin Header, Vertical, Power, 2.5 mm, 2 Rows, 4 Contacts, Through Hole Straight, Nano-Fit 105310

@@ -1,0 +1,1 @@
+LED Driver, Buck/Constant Current, 1 MHz, NSOIC-8, 6 V to 48 V

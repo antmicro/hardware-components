@@ -1,1 +1,0 @@
-Pin Header, Right Angle, Power, 2.5 mm, 1 Rows, 2 Contacts, Through Hole Right Angle
