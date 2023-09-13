@@ -1,1 +1,0 @@
-Connector Housing, TPA Capable, Nano-Fit 105307, Receptacle, 2 Ways, 2.5 mm

@@ -1,1 +1,1 @@
-Linear voltage regulator
+3MHz switching bucK regulator, 600mA 2.8V output voltage

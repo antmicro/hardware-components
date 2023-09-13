@@ -1,1 +1,0 @@
-Pin Header, Power, 2.5 mm, 2 Rows, 4 Contacts, Surface Mount Straight, Nano-Fit 105429

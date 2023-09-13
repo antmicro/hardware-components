@@ -1,1 +1,1 @@
-Multiplexer/Demultiplexer, Switch, 2:1, 2 Circuits, 6 ohm, 3V to 3.6V, DHVQFN-20
+Logic signal switch/multiplexer/decoder

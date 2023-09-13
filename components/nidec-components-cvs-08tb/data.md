@@ -1,1 +1,1 @@
-Slide switch
+DIP / SIP Switch, 8 Circuits, Slide, Surface Mount, SPST, 6 V, 100 mA

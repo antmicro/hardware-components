@@ -1,0 +1,1 @@
+LDO Voltage Regulator 2.5V 1A, Vin 5.5V, SMD

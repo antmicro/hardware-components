@@ -1,1 +1,1 @@
-10 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle
+FFC connector

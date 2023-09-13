@@ -1,1 +1,0 @@
-Pin Header, Wire-to-Board, 2.54 mm, 2 Rows, 10 Contacts, Surface Mount, HTST
