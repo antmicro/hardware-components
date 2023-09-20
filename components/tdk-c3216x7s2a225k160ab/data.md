@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 2.2 µF, 100 V, 1206 [3216 Metric], ± 10%, X7S, C

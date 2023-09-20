@@ -1,1 +1,0 @@
-Green, Red, Yellow 570nm Green, 630nm Red, 590nm Yellow LED Indication - Discrete 2.1V Green, 1.95V Red, 2V Yellow 4-SMD, No Lead

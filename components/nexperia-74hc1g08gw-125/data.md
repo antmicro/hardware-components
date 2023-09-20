@@ -1,1 +1,0 @@
-Logic IC, AND Gate, Single, 2 Inputs, 5 Pins, TSSOP, 74HC1G08

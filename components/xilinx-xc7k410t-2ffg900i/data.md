@@ -1,1 +1,0 @@
-FPGA, Kintex-7, MMCM, PLL, 350 I/O's, 710 MHz, 406720 Cells, 970 mV to 1.03 V, FCBGA-900

@@ -1,1 +1,0 @@
-Zero Ohm Network Resistor, Jumper, 0402 [1005 Metric], Thick Film, Isolated, Convex, 4 Resistors

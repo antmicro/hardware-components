@@ -1,1 +1,0 @@
-Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070

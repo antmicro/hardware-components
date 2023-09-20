@@ -1,1 +1,0 @@
-Power Inductor (SMT), 15 µH, 13.8 A, Shielded, 15.5 A, XAL1010

@@ -1,1 +1,0 @@
-Mezzanine Connector, Array, Female, 1.27 mm, 14 Rows, 560 Contacts, Surface Mount

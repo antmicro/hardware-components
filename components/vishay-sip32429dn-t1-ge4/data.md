@@ -1,1 +1,0 @@
-Power Load Switch, Programmable Current Limit, Active High, 1 Output, 28V, 3.5A, DFN-10

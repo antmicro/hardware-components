@@ -1,1 +1,0 @@
-Zero Ohm Resistor, Jumper, 0603 [1608 Metric], Thick Film, 100 mW, 1 A, Surface Mount Device, CR

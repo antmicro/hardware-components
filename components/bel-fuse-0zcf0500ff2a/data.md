@@ -1,1 +1,0 @@
-Polymeric PTC Resettable Fuse 16V 5 A Ih Surface Mount 2920 (7351 Metric), Concave

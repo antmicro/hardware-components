@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 8Mbit SPI 86 MHz 8-SOP

@@ -1,1 +1,0 @@
-LED, Red, SMT, 0603, 20 mA, 2 V, 636 nm

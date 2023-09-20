@@ -1,1 +1,0 @@
-10/100/1000M Ethernet controller,  triple-speed IEEE 802.3 compatible MAC, triple-speed Ethernet transceiver, PCIe bus controller, embedded memory

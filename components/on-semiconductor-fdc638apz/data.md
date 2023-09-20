@@ -1,1 +1,0 @@
-Power MOSFET, P Channel, 20 V, 4.5 A, 0.037 ohm, SuperSOT, Surface Mount

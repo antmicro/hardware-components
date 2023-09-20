@@ -1,1 +1,0 @@
-Ethernet & LAN Transformer, 10/100/1000 Base-T PoE, 1 Port, 1:1, 300 µH, 1.5 kV, Surface Mount

@@ -1,1 +1,0 @@
-3MHz switching bucK regulator, 600mA 1.0V output voltage,

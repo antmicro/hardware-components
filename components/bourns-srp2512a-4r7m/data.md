@@ -1,1 +1,0 @@
-4.7 µH Shielded Drum Core, Wirewound Inductor 1.55 A 235mOhm Max 1008 (2520 Metric)

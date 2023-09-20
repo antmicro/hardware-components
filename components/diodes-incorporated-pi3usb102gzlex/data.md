@@ -1,1 +1,0 @@
-USB Switch IC 1 Channel 10-TQFN (1.3x1.6)

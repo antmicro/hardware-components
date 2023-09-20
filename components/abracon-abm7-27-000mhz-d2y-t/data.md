@@ -1,1 +1,0 @@
-Crystal, Miniature, 27 MHz, SMD, 6mm x 3.5mm, 30 ppm, 18 pF, 20 ppm, ABM7

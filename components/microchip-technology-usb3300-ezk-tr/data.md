@@ -1,1 +1,0 @@
-USB Interface, USB Host Controller, USB 2.0 OTG, 3 V, 3.6 V, VQFN, 32 Pins

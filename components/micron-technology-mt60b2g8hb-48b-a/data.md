@@ -1,1 +1,0 @@
-DRAM, SDRAM, 16 Gbit, 2G x 8bit, FBGA, 82 Pins

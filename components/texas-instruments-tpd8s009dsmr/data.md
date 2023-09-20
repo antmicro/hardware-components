@@ -1,1 +1,0 @@
-ESD Protection Device, SON, 15 Pins, 5.5 V, TPD8S

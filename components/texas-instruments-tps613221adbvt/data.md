@@ -1,1 +1,0 @@
-Synchronous Boost Step Up Regulator, Fixed, 0.9V to 5.5V In, 3.3V/1.2A Out, 1.6MHz, SOT-23-5

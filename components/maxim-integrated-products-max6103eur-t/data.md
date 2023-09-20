@@ -1,1 +1,0 @@
-Voltage Reference, Micropower, Low Dropout, Series

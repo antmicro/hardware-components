@@ -1,1 +1,0 @@
-Power Inductor (SMT), 1 µH, 850 mA, Shielded, 480 mA, PFL1609, 0603 [1507 Metric]

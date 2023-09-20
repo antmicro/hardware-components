@@ -1,1 +1,0 @@
-DC/DC Buck Step Down Regulator Adjustable, 4.5-55V In, 0.8V to 50.6V/8AOut 2MHz, PowerPAK MLP55-27

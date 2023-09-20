@@ -1,1 +1,0 @@
-Monostable Multivibrator, 74LVC1G123, 50 mA, 1.65 V to 5.5 V, TSSOP-8

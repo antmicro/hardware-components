@@ -1,1 +1,0 @@
-Push Button On/Off Controller, Latched Output, 1.3 to 5.5 V Supply, 50 ms Debounce Time, SOT-23-6

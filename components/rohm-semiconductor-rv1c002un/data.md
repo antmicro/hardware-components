@@ -1,1 +1,0 @@
-Power MOSFET, N Channel, 20 V, 150 mA, 1.4 ohm, DFN0806, Surface Mount

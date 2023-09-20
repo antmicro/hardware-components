@@ -1,1 +1,0 @@
-Standard Recovery Diode, 400 V, 1 A, Single, 1.1 V, 1.8 µs, 30 A

@@ -1,1 +1,0 @@
-Fuse, Surface Mount, 12 A, Slow Blow, 32 VAC, 63 VDC, 1206, UST 1206

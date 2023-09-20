@@ -1,1 +1,0 @@
-Circular Connector, 620 Series, Panel Mount Receptacle, 5 Contacts, Solder Socket

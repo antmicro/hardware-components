@@ -1,1 +1,0 @@
-Fixed LDO Voltage Regulator, 3.5V to 20V, 1.07V Dropout, 3.3Vout, 1Aout, SOT-223-3

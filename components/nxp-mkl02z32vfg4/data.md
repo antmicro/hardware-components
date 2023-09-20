@@ -1,1 +1,0 @@
-ARM MCU, Kinetis L Series Ultra Low Power, Kinetis L Family KL0x Series Microcontrollers

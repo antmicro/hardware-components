@@ -1,1 +1,0 @@
-100 Hz ~ 80 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads

@@ -1,1 +1,0 @@
-Linear Voltage Regulator IC Positive Fixed 1 Output 300mA TSOT-23-5

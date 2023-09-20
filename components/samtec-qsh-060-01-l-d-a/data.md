@@ -1,1 +1,0 @@
-Mezzanine Connector, Ground Plane, Receptacle, 0.5 mm, 2 Rows, 120 Contacts, Surface Mount

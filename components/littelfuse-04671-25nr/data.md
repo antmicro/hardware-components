@@ -1,1 +1,0 @@
-Fuse, Surface Mount, 1.25 A, Very Fast Acting, 32 V, 32 V, 0603 (1608 Metric), 467

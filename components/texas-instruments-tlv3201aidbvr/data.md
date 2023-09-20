@@ -1,1 +1,0 @@
-Analogue Comparator, Micropower, 1 Comparator, 40 ns, 2.7V to 5.5V, SOT-23, 5 Pins

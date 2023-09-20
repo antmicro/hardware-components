@@ -1,1 +1,0 @@
-Voltage Level Translator, Bidirectional, 4 Input, 0.02 mA, 4 ns, 100 Mbps, 1.2 V to 3.6 V, TSSOP-14

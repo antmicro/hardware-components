@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 47000 pF, 16 V, 0402 [1005 Metric], ± 10%, X5R, MC

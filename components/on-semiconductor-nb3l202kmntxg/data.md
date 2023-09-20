@@ -1,1 +1,0 @@
-Fanout Buffer, 2 Outputs, 2.97V to 3.63 V, QFN-16, -40°C to 85°C

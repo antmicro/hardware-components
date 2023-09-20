@@ -1,1 +1,0 @@
-1.4V-Capable ±0.75°C Temperature Sensor with Window Alert Function and I2C/SMBus in WCSP

@@ -1,1 +1,0 @@
-Shift Register, 74HC595, Serial to Parallel, Serial to Serial, 1 Element, 8 bit, SOIC, 16 Pins

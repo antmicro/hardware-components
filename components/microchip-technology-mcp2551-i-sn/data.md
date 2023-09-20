@@ -1,1 +1,0 @@
-CAN Bus, Transceiver, CAN, 1, 1, 4.5 V, 5.5 V, SOIC

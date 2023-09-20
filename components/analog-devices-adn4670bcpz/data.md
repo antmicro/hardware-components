@@ -1,1 +1,0 @@
-Clock Driver IC, 2.375 V to 2.625 V, 1.1 GHz, 10 Outputs, LFCSP-32, -40°C to 85°C

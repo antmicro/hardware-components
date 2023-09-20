@@ -1,1 +1,0 @@
-Timer with Watchdog Function IC, 100 ms to 7200 s Intervals, 1.8 V to 5.5 V, SOT-23-6

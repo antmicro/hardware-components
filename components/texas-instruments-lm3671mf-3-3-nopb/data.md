@@ -1,1 +1,0 @@
-Buck (Step Down) Switching Regulator, Fixed, 2.7V-5.5V In, 3.3V And 0.6A Out, 2 MHz, SOT-23-5

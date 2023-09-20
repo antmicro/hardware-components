@@ -1,1 +1,0 @@
-SRAM, Asynchronous SRAM, 8 Mbit, 1M x 8bit, TSOP, 44 Pins, 2.7 V

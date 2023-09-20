@@ -1,1 +1,0 @@
-USB Connector, USB Type C, USB 3.1, Receptacle, 24 Ways, Surface Mount, Right Angle

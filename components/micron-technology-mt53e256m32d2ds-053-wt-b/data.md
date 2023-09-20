@@ -1,1 +1,0 @@
-DRAM, LPDDR4, 8 Gbit, 256M x 32bit, 1.866 GHz, WFBGA, 200 Pins

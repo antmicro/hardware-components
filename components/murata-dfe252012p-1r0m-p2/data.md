@@ -1,1 +1,0 @@
-1 µH Shielded Drum Core, Wirewound Inductor 3.2 A 42mOhm Max 1008 (2520 Metric) Flat Wire

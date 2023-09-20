@@ -1,1 +1,0 @@
-ARM MCU, SAM3X Series, SAM32 Family SAM 3X Series Microcontrollers, ARM Cortex-M3, 32bit, 84 MHz

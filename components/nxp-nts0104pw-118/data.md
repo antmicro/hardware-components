@@ -1,1 +1,0 @@
-Transceiver, 1.65 V to 3.6 V, TSSOP-14

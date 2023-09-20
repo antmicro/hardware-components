@@ -1,1 +1,0 @@
-Calendar, Clock IC, Format (YYYY:MM:WK:DD:hh:mm:ss/Binary), I2C, 1.2 V to 5.5 V supply, SOIC-8

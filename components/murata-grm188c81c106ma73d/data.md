@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 10 µF, 16 V, 0603 [1608 Metric], ± 20%, X6S, GRM Series

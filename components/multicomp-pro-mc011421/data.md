@@ -1,1 +1,0 @@
-Resettable Fuse, PPTC, 0603 (1608 Metric), 60 VDC, 20 mA, 60 mA, 1 s

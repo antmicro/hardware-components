@@ -1,1 +1,0 @@
-LED Driver, Boost (Step Up), 3V to 18V input, 1.2 MHz Switch. Frequency, 100 mA out, SOT-23-6

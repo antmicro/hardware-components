@@ -1,1 +1,0 @@
-USB-A (USB TYPE-A) USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed USB 3.0) Receptacle Connector 5 Position Through Hole, Right Angle

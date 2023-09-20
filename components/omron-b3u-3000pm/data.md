@@ -1,1 +1,0 @@
-Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle

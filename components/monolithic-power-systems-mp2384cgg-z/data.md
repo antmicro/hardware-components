@@ -1,1 +1,0 @@
-DC-DC Switching Synchronous Step-Down Regulator, Adjustable, 4.5-24V in, 0.6-13V/4A out, QFN-11

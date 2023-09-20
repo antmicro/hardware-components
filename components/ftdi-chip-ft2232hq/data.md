@@ -1,1 +1,0 @@
-UART Interface, 2 Channels, 480 Mbps, 1.62 V, 1.98 V, QFN

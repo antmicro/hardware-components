@@ -1,1 +1,0 @@
-Analogue Switch, 2 Channels, SPDT, 4.1 ohm, 1.4V to 4.3V, XSON, 6 Pins

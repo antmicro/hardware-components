@@ -1,1 +1,0 @@
-Surface Mount Tantalum Capacitor, MICROTAN®, 100 µF, 6.3 V, 1206 [3216 Metric], ± 20%, 1 ohm, A

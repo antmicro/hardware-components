@@ -1,1 +1,0 @@
-Jack Modular Connector 8p8c (RJ45, Ethernet) Vertical Unshielded

@@ -1,1 +1,0 @@
-Audio Transformers / Signal Transformers 1000Base-T SMD PoE+ 350uH .3Ohms 1-Port

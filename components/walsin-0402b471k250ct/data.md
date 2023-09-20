@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R

@@ -1,1 +1,0 @@
-HDMI Connector, 19 Contacts, Receptacle, PCB Mount, Surface Mount Right Angle

@@ -1,1 +1,0 @@
-Crystal, 12 MHz, SMT, 5mm x 3.2mm, 50 ppm, 18 pF, 20 ppm, ABM3B

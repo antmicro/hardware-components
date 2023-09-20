@@ -1,1 +1,0 @@
-Pin Header, Wire-to-Board, 2 mm, 1 Rows, 4 Contacts, Through Hole Straight, PH

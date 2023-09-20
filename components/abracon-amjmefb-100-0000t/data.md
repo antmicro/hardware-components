@@ -1,1 +1,0 @@
-MEMS Oscillator, 100 MHz, SMT, 3.2mm x 2.5mm, 25 ppm, 2.5 V, AMJM

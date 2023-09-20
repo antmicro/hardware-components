@@ -1,1 +1,0 @@
-SMD Chip Resistor, 8.2 ohm, ± 1%, 100 mW, 0805 [2012 Metric], Thick Film, General Purpose

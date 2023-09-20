@@ -1,1 +1,0 @@
-USB Interface, USB Hub Controller, USB 2.0, 3 V, 3.6 V, SQFN, 32 Pins

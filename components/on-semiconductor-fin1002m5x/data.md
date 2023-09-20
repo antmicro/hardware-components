@@ -1,1 +1,0 @@
-LVDS Receiver, 1 Bit, 400MBPS, SOT-23-5

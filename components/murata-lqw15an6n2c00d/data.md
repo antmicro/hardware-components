@@ -1,1 +1,0 @@
-Wirewound Inductor, 6.2 nH, 0.09 ohm, 8 GHz, 700 mA, 0402 [1005 Metric], LQW

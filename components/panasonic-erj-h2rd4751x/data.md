@@ -1,1 +1,0 @@
-SMD Chip Resistor, 4.75 kohm, ± 0.5%, 100 mW, 0402 [1005 Metric], Thick Film, High Temperature

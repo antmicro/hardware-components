@@ -1,1 +1,0 @@
-Voltage Reference, Precision Micropower, Series

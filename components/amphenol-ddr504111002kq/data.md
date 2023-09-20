@@ -1,1 +1,0 @@
-Memory Card Connector, DDR5 DIMM, Latched, 288 Contacts, Copper Alloy, Gold Plated Contacts

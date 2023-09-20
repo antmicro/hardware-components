@@ -1,1 +1,0 @@
-DC-DC Switching Boost (Step Up) Regulator, Adj., 700mV-5Vin, 3.3V-5V/2A out, 600 kHz, QSOP-16

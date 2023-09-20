@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 32Mbit SPI - Quad I/O 133 MHz 8-SOIC

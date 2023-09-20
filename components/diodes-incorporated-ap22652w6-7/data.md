@@ -1,1 +1,0 @@
-Power Switch/Driver 1:1 P-Channel 2.1A SOT-26

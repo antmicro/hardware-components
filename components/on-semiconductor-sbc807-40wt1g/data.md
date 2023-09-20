@@ -1,1 +1,0 @@
-Bipolar (BJT) Single Transistor, PNP, 45 V, 500 mA, 460 mW, SC-70, Surface Mount

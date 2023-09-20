@@ -1,1 +1,0 @@
-RF Transceiver, 2.4GHz to 2.525GHz, GFSK, 2Mbps, 0dBm out, -82dBm in, 1.9V to 3.6V, QFN-20

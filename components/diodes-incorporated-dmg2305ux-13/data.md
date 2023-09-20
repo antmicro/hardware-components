@@ -1,1 +1,0 @@
-Power MOSFET, P Channel, 20 V, 4.2 A, 0.04 ohm, SOT-23, Surface Mount

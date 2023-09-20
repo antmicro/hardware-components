@@ -1,1 +1,0 @@
-SMD Chip Resistor, 20 kohm, ± 0.1%, 62.5 mW, 0402 [1005 Metric], Thin Film, Precision

@@ -1,1 +1,0 @@
-Barrel audio connector

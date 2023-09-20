@@ -1,1 +1,0 @@
-Power Load Switch, High Side, Active Low, 1 Output, 0.09 ohm On State, 5 V supp, 500 mA, SOT-23-5

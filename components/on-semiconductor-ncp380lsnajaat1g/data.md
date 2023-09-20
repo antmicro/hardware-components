@@ -1,1 +1,0 @@
-Power Load Switch, Current Limiting, High Side, Active Low, 1 Output, 5.5V, TSOP-6

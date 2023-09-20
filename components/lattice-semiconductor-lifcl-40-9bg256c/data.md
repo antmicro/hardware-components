@@ -1,1 +1,0 @@
-CrossLink-NX™ Field Programmable Gate Array (FPGA) IC 163 1548288 39000 256-LFBGA

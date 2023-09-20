@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 22 µF, 35 V, 1206 [3216 Metric], ± 20%

@@ -1,1 +1,0 @@
-Counter IC Counter, Decade 1 Element 5 Bit Positive, Negative 16-DHVQFN (2.5x3.5)

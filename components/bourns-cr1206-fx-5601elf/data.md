@@ -1,1 +1,0 @@
-SMT Chip Resistor, Thick Film, AEC-Q200 WCR Series, 5.6 kohm, 200 V, 1206 [3216 Metric], 250 mW

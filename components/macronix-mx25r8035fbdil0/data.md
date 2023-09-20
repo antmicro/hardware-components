@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 8Mbit SPI - Quad I/O 33 MHz 8-WLCSP

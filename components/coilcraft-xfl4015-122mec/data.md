@@ -1,1 +1,0 @@
-Power Inductor (SMT), 1.2 µH, 7.1 A, Shielded, 2.6 A, XFL4015

@@ -1,1 +1,0 @@
-Schottky Rectifier, 60 V, 8 A, Dual, TO-277A, 2 Pins, 600 mV

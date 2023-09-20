@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 1 µF, 16 V, 0805 [2012 Metric], ± 10%, X7R

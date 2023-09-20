@@ -1,1 +1,0 @@
-Automotive Connector Housing, Junior Power Timer, Plug, 3 Ways

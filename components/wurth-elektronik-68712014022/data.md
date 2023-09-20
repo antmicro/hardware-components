@@ -1,1 +1,0 @@
-FFC / FPC Board Connector, 0.5 mm, 20 Contacts, Receptacle, WR-FPC, Surface Mount, Top

@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 10 µF, 100 V, 2220 [5650 Metric], ± 10%, X7S, CGA

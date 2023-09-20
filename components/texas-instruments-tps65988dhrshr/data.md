@@ -1,1 +1,0 @@
-USB, Type-C Controller PMIC 56-VQFN (7x7)

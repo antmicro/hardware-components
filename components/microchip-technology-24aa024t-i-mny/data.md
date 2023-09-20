@@ -1,1 +1,0 @@
-EEPROM, 2 Kbit, 256 x 8bit, Serial I2C (2-Wire), 400 kHz, TDFN, 8 Pins

@@ -1,1 +1,0 @@
-Surface Mount Tantalum Capacitor, 220 µF, 16 V, 2917 [7343 Metric], ± 10%, 0.9 ohm, D

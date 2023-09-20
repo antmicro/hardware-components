@@ -1,1 +1,0 @@
-Digital Isolator, 2 Channels, 3.135 V, 5.5 V, NSOIC, 8 Pins

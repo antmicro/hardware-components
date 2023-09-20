@@ -1,1 +1,0 @@
-Power Inductor (SMD), 2.2 µH, 1.2 A, Shielded, 1.5 A, DFE201610C

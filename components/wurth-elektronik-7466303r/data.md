@@ -1,1 +1,0 @@
-PCB Terminal, 90° SMT Block, Brass, Tin, REDCUBE WP-SMRA

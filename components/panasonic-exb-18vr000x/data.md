@@ -1,1 +1,0 @@
-Zero Ohm Network Resistor, Jumper, 0201 [0603 Metric], Thick Film, Isolated, Flat, 4 Resistors

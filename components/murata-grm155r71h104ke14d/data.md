@@ -1,1 +1,0 @@
-SMT Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series

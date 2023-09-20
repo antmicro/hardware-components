@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 330 pF, 100 V, 0603 [1608 Metric], ± 5%, C0G / NP0, VJ

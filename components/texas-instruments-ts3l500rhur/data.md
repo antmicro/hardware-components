@@ -1,1 +1,0 @@
-Logic signal switch/multiplexer/decoder

@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 0.1 µF, 6.3 V, 0201 [0603 Metric], ± 10%, X6S, CC Series

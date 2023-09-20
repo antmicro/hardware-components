@@ -1,1 +1,0 @@
-Wirewound Inductor, 2.2 µH, 0.076 ohm, 70 MHz, 1.55 A, 1210 [3225 Metric], LQH32PN

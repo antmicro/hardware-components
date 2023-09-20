@@ -1,1 +1,0 @@
-Capacitor, RF, High-Q, 1.2 pF, 250 V, S, ± 0.1pF, 125 °C, 0603 [1608 Metric]

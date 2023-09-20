@@ -1,1 +1,0 @@
-Power Inductor (SMT), 470 nH, 6.7 A, Shielded, 6.7 A

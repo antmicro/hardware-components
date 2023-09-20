@@ -1,1 +1,0 @@
-4.7 µH Shielded Multilayer Inductor 400 mA 340mOhm 0805 (2012 Metric)

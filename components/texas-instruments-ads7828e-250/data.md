@@ -1,1 +1,0 @@
-Power Management IC, 2 Step Down DC/DC, 3 LDO, 1.5 V to 6.5 V Supply, 2.25 MHz, VQFN-24

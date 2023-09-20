@@ -1,1 +1,0 @@
-SMD Chip Resistor, 4.7 ohm, ± 1%, 62.5 mW, 0603 [1608 Metric], Thick Film, General Purpose

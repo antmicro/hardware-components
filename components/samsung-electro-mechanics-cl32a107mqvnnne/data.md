@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 100 µF, 6.3 V, 1210 [3225 Metric], ± 20%, X5R, CL

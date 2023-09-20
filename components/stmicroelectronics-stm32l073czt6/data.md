@@ -1,1 +1,0 @@
-ARM MCU, Ultra Low Power, STM32 Family STM32L0 Series Microcontrollers, ARM Cortex-M0+, 32 bit

@@ -1,1 +1,0 @@
-Battery Charger,  1 Cell Li-Ion Battery, 7 V input, 6 V / 280 mA charge, SOT-23-5

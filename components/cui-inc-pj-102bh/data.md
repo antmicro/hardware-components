@@ -1,1 +1,0 @@
-Barrel power jack

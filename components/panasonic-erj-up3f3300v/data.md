@@ -1,1 +1,0 @@
-SMD Chip Resistor, 330 ohm, ± 1%, 250 mW, 0603 [1608 Metric], Thick Film

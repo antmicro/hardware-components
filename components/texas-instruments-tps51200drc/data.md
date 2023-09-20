@@ -1,1 +1,0 @@
-Fixed LDO Voltage Regulator, 2.375 V to 3.5 V, 0.8 V Dropout, 1.25 V / 3 A out, VSON-10

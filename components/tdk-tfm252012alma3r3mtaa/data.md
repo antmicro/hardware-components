@@ -1,1 +1,0 @@
-3.3 µH Shielded Thin Film Inductor 2 A 140mOhm Max 1008 (2520 Metric)

@@ -1,1 +1,0 @@
-Fixed LDO Voltage Regulator, 1.4V to 5.5V, 260mV Dropout, 2.8Vout, 300mAout, SOT-23-5

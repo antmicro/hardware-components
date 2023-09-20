@@ -1,1 +1,0 @@
-Voltage Reference, Low Power, Low Dropout, Series

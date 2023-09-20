@@ -1,1 +1,0 @@
-Current/Voltage Monitor Regulator High-Side 16-VQFN (3x3)

@@ -1,1 +1,0 @@
-Power MOSFET, N Channel, 25 V, 220 mA, 3.1 ohm, SOT-23, Surface Mount

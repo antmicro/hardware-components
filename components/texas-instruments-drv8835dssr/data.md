@@ -1,1 +1,0 @@
-Motor Driver, Dual H-Bridge, 2V to 7V supply, 11V/1.5A/2 Outputs, WSON-12

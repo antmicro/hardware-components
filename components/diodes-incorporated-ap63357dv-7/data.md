@@ -1,1 +1,0 @@
-Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3.5A 13-PowerVFDFN

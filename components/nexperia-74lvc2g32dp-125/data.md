@@ -1,1 +1,0 @@
-Logic IC, OR Gate, Dual, 2 Inputs, 8 Pins, TSSOP, 74LVC2G32

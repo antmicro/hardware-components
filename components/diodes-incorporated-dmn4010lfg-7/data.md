@@ -1,1 +1,0 @@
-Power MOSFET, N Channel, 40 V, 11.5 A, 0.012 ohm, PowerDI 3333, Surface Mount

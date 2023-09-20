@@ -1,1 +1,0 @@
-Surge suppression IC

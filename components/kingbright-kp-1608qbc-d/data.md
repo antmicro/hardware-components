@@ -1,1 +1,0 @@
-LED, Low Power, Blue, SMD, 0603, 20 mA, 3.3 V, 465 nm

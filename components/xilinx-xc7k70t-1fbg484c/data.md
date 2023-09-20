@@ -1,1 +1,0 @@
-Kintex®-7 Field Programmable Gate Array (FPGA) IC 285 484-BBGA, FCBGA

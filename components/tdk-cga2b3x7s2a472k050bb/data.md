@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 4700 pF, 100 V, 0402 [1005 Metric], ± 10%, X7S, CGA

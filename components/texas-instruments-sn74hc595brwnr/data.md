@@ -1,1 +1,0 @@
-Shift Register, 74HC595, Serial to Parallel, 1 Element, 8 bit, X1QFN, 16 Pins

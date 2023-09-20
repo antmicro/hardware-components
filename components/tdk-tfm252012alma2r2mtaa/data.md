@@ -1,1 +1,0 @@
-Thin Film Inductor, 2.2 µH, 0.084 ohm, 2.8 A, 1008 [2520 Metric], TFM-ALMA

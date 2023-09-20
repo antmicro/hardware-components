@@ -1,1 +1,0 @@
-DisplayPort Connector, 20 Contacts, Receptacle, PCB Mount, Surface Mount Right Angle

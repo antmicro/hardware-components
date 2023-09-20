@@ -1,1 +1,0 @@
-Power Inductor (SMT), 3.3 µH, 9.2 A, Shielded, 20 A, IHLP-3232DZ-01

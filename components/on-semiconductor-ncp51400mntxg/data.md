@@ -1,1 +1,0 @@
-Fixed LDO Voltage Regulator, 2.375V to 5.5V, 1.2 V Drop, 750 mV/3A out, DFN-10 Pins

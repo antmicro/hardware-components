@@ -1,1 +1,0 @@
-Connector Header Surface Mount, Right Angle 6 position 0.100" (2.54mm)

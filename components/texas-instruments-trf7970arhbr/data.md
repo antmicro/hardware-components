@@ -1,1 +1,0 @@
-RFID/NFC IC, 13.56 MHz, Reader, 106 kbps, 212 kbps, 424 kbps, 200 mW, 2.7 V to 5.5 V, VQFN-32

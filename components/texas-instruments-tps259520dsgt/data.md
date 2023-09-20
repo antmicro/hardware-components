@@ -1,1 +1,0 @@
-Power Load Distribution Switch, Active High, 1 Output, 12 V Input, 3.5 A, 0.043 ohm, TSOT-23-6

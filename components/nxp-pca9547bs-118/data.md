@@ -1,1 +1,0 @@
-Specialized Interface, I2C, I2C-Bus System, 2.3 V, 5.5 V, HVQFN, 24 Pins

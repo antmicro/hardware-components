@@ -1,1 +1,0 @@
-Bench Power Supply, Programmable, 3 Output, 0 V, 30 V, 0 A, 3 A

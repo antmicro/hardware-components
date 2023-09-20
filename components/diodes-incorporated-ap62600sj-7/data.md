@@ -1,1 +1,0 @@
-DC-DC Switching Synchronous Buck Regulator, Adjustable, 4.5V-18V in, 0.6 to 7 V/6 A out, VQFN2030-12

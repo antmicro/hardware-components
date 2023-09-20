@@ -1,1 +1,0 @@
-Rectangular connector (header, female pins)

@@ -1,1 +1,0 @@
-USB Interface IC 10-Gbps USB 3.1 Type-C 2:1 mux with DRP Controller 30-WQFN -40°C to 85°C

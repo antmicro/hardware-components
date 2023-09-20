@@ -1,1 +1,0 @@
-Battery Charger for 1 Cell of Li-Ion, Li-Pol battery, 6.5V input, 4.242V/2.1 A charge, QFN-16

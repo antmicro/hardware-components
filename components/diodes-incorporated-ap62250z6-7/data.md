@@ -1,1 +1,0 @@
-DC-DC Switching Synchronous Buck Regulator, Adjustable, 4.2V-18Vin, 0.8V-7V/2.5A out, SOT-563-6

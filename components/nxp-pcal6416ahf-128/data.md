@@ -1,1 +1,0 @@
-I/O Expander, 16 bit, I2C, 1.65 V, 5.5 V, HWQFN, 24 Pins

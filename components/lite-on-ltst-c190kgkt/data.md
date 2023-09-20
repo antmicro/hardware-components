@@ -1,1 +1,0 @@
-LED, QuasarBrite, Green, SMT, 0603, 20 mA, 2.2 V, 574 nm

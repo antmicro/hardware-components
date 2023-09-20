@@ -1,1 +1,0 @@
-Power MOSFET, P Channel, 50 V, 150 mA, 4.5 ohm, SOT-323, Surface Mount

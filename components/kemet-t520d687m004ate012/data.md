@@ -1,1 +1,0 @@
-Tantalum Polymer Capacitor, KO-CAP®, 680 µF, ± 20%, 4 V, D, 0.012 ohm, 2917 [7343 Metric]

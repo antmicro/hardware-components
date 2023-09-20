@@ -1,1 +1,0 @@
-Power Inductor (SMD), 2.2 µH, 8 A, Shielded, 3.1 A, XFL4020

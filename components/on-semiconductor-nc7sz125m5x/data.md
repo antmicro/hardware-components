@@ -1,1 +1,0 @@
-Buffer, 1.65 V to 5.5 V, SOT-23-5

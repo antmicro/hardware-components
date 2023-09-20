@@ -1,1 +1,0 @@
-LED Driver, 1 Output, Buck, 6 V to 60 V Input, 1 MHz, TSOT-6

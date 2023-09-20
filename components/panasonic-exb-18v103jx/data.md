@@ -1,1 +1,0 @@
-Fixed Network Resistor, 10 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%

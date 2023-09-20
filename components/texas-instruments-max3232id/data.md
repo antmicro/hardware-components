@@ -1,1 +1,0 @@
-Transceiver RS232, 2 Drivers, 3V-5.5V supply, SOIC-16

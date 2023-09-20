@@ -1,1 +1,0 @@
-Diode 40 V 5A Surface Mount SMC

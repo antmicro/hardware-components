@@ -1,1 +1,0 @@
-Humidity and Temperature Sensor, ± 2%, 0% to 100% RH, -40 to 125°C, I2C, DFN-EP-6, 1.5 to 3.6V

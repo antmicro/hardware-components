@@ -1,1 +1,0 @@
-Buffer, Non-Inverting 2 Element 1 Bit per Element 3-State Output 8-VSSOP

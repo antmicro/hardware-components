@@ -1,1 +1,0 @@
-FLASH Memory IC 32Mbit SPI - Quad I/O 104 MHz 8-USON (3x4)

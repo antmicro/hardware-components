@@ -1,1 +1,0 @@
-Ferrite Bead, 1206 [3216 Metric], 10 ohm, 10.5 A, WE-MPSB, 0.003 ohm, ± 25%

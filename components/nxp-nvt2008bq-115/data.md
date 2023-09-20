@@ -1,1 +1,0 @@
-Bidirectional Voltage Level Translator, 8 Inputs, 1.5ns, 1.8V to 5.5V, DHVQFN-20

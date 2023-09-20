@@ -1,1 +1,0 @@
-Pin Header, Signal, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 6373

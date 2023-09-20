@@ -1,1 +1,0 @@
-Zero Ohm Resistor, Jumper, 2010 [5025 Metric], Thick Film, 750 mW, 6 A, Surface Mount Device

@@ -1,1 +1,0 @@
-Crystal, 8 MHz, SMT, 5mm x 3.2mm, 10 ppm, 10 pF, 10 ppm

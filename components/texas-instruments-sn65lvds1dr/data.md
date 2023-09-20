@@ -1,1 +1,0 @@
-LVDS Interface IC Single LVDS Transmitter

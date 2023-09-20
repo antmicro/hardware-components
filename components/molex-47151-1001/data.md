@@ -1,1 +1,0 @@
-HDMI connector, socket, male, 19 pin, gold-plated, horizontal, SMT

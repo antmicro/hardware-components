@@ -1,1 +1,0 @@
-DC-DC Switching Synchronous Step-Down Regulator, Multi Output, 4-16V in, 1V/3.3V, 4.2/3A out, LGA33

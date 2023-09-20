@@ -1,1 +1,0 @@
-Pin Header, Signal, Wire-to-Board, 2 mm, 2 Rows, 14 Contacts, Surface Mount Straight

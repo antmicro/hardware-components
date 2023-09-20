@@ -1,1 +1,0 @@
-RISC-V System On Chip (SOC) IC PolarFire® FPGA - 254K Logic Modules 484-FCBGA (19x19)

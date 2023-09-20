@@ -1,1 +1,0 @@
-Power MOSFET, Enhancement Mode, N Channel, 20 V, 1 A, 0.3 ohm, SOT-323, Surface Mount

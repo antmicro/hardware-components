@@ -1,1 +1,0 @@
-Mezzanine Connector, Vita 57 XMC, Array, Female, 1.27 mm, 10 Rows, 400 Contacts, Surface Mount

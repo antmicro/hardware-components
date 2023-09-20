@@ -1,1 +1,0 @@
-Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, WR-PHD

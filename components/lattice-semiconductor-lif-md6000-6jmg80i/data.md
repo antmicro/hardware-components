@@ -1,1 +1,0 @@
-FPGA, CrossLink, PLL37 I/O, 400 MHz, 5936 Cells, 1.14 V to 1.26 V, CTFBGA-80

@@ -1,1 +1,0 @@
-EEPROM, 4 Kbit, 256 x 16bit, Serial Microwire, 2 MHz, DFN-EP-8

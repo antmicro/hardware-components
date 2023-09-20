@@ -1,1 +1,0 @@
-Schottky Rectifier, 40 V, 1 A, Single, DO-214AC (SMA), 2 Pins, 500 mV

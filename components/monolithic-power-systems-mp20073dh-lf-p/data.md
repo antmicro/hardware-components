@@ -1,1 +1,0 @@
-DDR Termination Regulator, DDR2, DDR3, 1.3V to 6V in, 2A, MSOP-EP-8
