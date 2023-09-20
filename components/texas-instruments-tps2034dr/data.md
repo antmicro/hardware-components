@@ -1,1 +1,0 @@
-Power Load Switch, High Side, Active High, 1 Output, 0.033 ohm On State, 5.5 V supp, 3 A, SOIC-8

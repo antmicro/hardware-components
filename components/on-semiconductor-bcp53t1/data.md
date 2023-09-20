@@ -1,1 +1,0 @@
-Bipolar (BJT) Single Transistor, General Purpose, PNP, 80 V, 1.5 A, 1.5 W, SOT-223, Surface Mount

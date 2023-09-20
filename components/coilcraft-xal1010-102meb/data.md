@@ -1,1 +1,0 @@
-Power Inductor (SMT), 1 µH, 55 A, Shielded, XAL1010

@@ -1,1 +1,0 @@
-Power Inductor (SMD), 3.3 µH, 3.1 A, Shielded, 3.4 A, SRP3212 Series

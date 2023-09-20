@@ -1,1 +1,0 @@
-Power Inductor (SMT), 680 nH, 7.6 A, Shielded, 6.8 A, IHLP-1616BZ-5A

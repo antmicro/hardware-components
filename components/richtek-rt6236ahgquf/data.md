@@ -1,1 +1,0 @@
-DC-DC Switching Buck Step Down Regulator, Adjustable, 4.5V-18Vin, 700mV-8V/6A out, 650kHz, UQFN-13

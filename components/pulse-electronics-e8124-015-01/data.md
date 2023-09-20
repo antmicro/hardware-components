@@ -1,1 +1,0 @@
-USB Connectors USB 3.1 type C 10G Top Mount

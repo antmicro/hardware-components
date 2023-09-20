@@ -1,1 +1,0 @@
-Dual MOSFET, N Channel, 60 V, 60 V, 300 mA, 300 mA, 1.6 ohm

@@ -1,1 +1,0 @@
-I/O Controller Interface, eSPI to LPC Bridge

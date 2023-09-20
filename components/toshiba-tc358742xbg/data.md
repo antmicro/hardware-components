@@ -1,1 +1,0 @@
-CMOS MIPI CSI-2 TO PARALLEL / Display Driver Driver 3.6V 80-Pin VFBGA

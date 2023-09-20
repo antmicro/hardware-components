@@ -1,1 +1,0 @@
-Transistor, NPN, 45 V, 0.5 A, 150 DEG C, 0.225 W, SOT-23, 100 MHz

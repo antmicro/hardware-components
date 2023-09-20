@@ -1,1 +1,0 @@
-Audio Control, MEMS Microphone, 1.62V to 3.6V, LGA, 5 Pins, -40 °C

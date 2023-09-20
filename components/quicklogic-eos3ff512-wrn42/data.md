@@ -1,1 +1,0 @@
-SoC FPGA EOS S3 Ultra Low Power MCU + eFPGA

@@ -1,1 +1,0 @@
-Fixed Network Resistor, 51 ohm, Isolated, 8 Resistors, 1506 [3816 Metric], Convex, ± 5%

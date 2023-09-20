@@ -1,1 +1,0 @@
-Interface Bridges, USB to UART, 3 V, 3.6 V, QFN, 24 Pins, -40 °C

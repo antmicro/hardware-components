@@ -1,1 +1,0 @@
-MMCX Connector Receptacle, Female Socket 50Ohm Surface Mount, Right Angle Solder

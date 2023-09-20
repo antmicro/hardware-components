@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 1200 pF, 50 V, 0603 [1608 Metric], ± 10%, X7R, C Series KEMET

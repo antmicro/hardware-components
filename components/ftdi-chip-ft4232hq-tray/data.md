@@ -1,1 +1,0 @@
-Interface Bridges, USB to UART, MPSSE, 1.62 V, 1.98 V, QFN, 64 Pins, -40 °C

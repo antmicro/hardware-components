@@ -1,1 +1,0 @@
-Operational Amplifier, Single, 1 Amplifier, 120 kHz, 0.04 V/µs, 1.5V to 5.5V, SC-70, 5 Pins

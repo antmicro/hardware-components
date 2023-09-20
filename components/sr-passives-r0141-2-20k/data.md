@@ -1,1 +1,0 @@
-Rotary potentiometer

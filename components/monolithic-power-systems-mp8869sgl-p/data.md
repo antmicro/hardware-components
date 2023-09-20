@@ -1,1 +1,0 @@
-DC-DC Switching Synchronous Buck Regulator, 2.85V-18V in, 600mV to 5.5V out, 12A, 500kHz, QFN-14

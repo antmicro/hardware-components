@@ -1,1 +1,0 @@
-Power Inductor (SMT), 470 nH, 10.5 A, Shielded, 18 A, SRP0420

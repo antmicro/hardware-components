@@ -1,1 +1,0 @@
-ESD Protection Device, 8.8 V, USON, 10 Pins, 3.6 V, TPD4E

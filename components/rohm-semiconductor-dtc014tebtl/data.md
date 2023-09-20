@@ -1,1 +1,0 @@
-Bipolar Pre-Biased / Digital Transistor, Single NPN, 50 V, 100 mA, 10 kohm

@@ -1,1 +1,0 @@
-RF Transceiver, Sub 1GHz, 2FSK, 4FSK, ASK, GFSK, MSK, OOK, 600Kbps, 1.8V to 3.6V, QFN-20

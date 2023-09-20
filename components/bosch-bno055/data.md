@@ -1,1 +1,0 @@
-Motion sensor (IMU)

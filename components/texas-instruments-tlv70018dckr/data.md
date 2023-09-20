@@ -1,1 +1,0 @@
-Fixed LDO Voltage Regulator, 2V to 5.5V, 175mV drop, 1.8V/200mA out, SC-70-5

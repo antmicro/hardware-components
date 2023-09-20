@@ -1,1 +1,0 @@
-Ferrite Bead, 0805 [2012 Metric], 600 ohm, 2 A, MPZ, 0.1 ohm, ± 25%

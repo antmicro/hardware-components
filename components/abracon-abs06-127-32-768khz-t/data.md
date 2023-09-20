@@ -1,1 +1,0 @@
-32.768 kHz crystal, 20ppm, 12.5pF, 90kOhm, no lead

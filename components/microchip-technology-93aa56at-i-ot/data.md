@@ -1,1 +1,0 @@
-EEPROM, Microwire, 2 Kbit, 256 x 8bit, Serial Microwire, 1 MHz, SOT-23, 6 Pins

@@ -1,1 +1,0 @@
-Artix-7 Field Programmable Gate Array IC 210 324-LFBGA, CSPBGA

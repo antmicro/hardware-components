@@ -1,1 +1,0 @@
-Coaxial RF connector

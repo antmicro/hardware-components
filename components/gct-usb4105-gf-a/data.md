@@ -1,1 +1,0 @@
-USB Connector, 5A, 48V, 240W, USB Type C, USB 2.0, Receptacle, 16 Ways

@@ -1,1 +1,0 @@
-Supervisor Open Drain or Open Collector 1 Channel SOT-23-6

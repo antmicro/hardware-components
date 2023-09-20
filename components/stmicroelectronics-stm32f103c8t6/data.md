@@ -1,1 +1,0 @@
-ARM MCU, Motor Control, STM32 Family STM32F1 Series Microcontrollers, ARM Cortex-M3, 32 bit, 72 MHz

@@ -1,1 +1,0 @@
-Schottky Rectifier, POWERDI®, 60 V, 7 A, Single, PowerDI 5, 2 Pins, 620 mV

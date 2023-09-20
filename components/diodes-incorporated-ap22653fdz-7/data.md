@@ -1,1 +1,0 @@
-Power Load Distribution Switch, High Side, Active High, 1 Output, 5.5 V, 2.665 A, W-DFN2020-EP-6

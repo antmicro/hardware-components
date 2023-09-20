@@ -1,1 +1,0 @@
-Board-to-board connector

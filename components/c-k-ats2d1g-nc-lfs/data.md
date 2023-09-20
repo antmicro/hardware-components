@@ -1,1 +1,0 @@
-Tactile switch

@@ -1,1 +1,0 @@
-Chip Antenna, Single Band, 2.45 GHz, 50 ohm, 3.2mm x 1.6mm x 1.3mm

@@ -1,1 +1,0 @@
-I/O Expander, 8 bit, I2C, SMBus, 2.3 V, 5.5 V, HVQFN, 16 Pins

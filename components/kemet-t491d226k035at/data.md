@@ -1,1 +1,0 @@
-Surface Mount Tantalum Capacitor, 22 µF, 35 V, 2917 [7343 Metric], ± 10%, 0.7 ohm, D

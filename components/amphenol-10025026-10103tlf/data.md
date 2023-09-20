@@ -1,1 +1,0 @@
-PCI Express Card Edge SKT 164 POS 1mm Solder ST Edge Mount Tray

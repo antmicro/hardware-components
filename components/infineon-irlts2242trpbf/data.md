@@ -1,1 +1,0 @@
-P-Channel 20 V 6.9A (Ta) 2W (Ta) Surface Mount 6-TSOP

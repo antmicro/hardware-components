@@ -1,1 +1,0 @@
-Development Board, STM32F429ZI MCU, On-Board Debugger, Arduino, ST Zio and Morpho Compatible

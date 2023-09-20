@@ -1,1 +1,0 @@
-Analog to Digital Converter, 10 bit, 188.9 kSPS, Single Ended, 2 Wire, I2C, Serial, Single

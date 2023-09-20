@@ -1,1 +1,0 @@
-Dual MOSFET, P Channel, 30 V, 30 V, 6 A, 6 A, 0.022 ohm

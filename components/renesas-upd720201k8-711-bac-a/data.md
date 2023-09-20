@@ -1,1 +1,0 @@
-USB Interface, USB Host Controller, USB 3.0, 3 V, 3.6 V, QFN, 68 Pins

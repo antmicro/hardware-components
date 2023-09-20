@@ -1,1 +1,0 @@
-USB Interface, ESD-Protected USB Peripheral/Host Controller, USB 2.0, 3 V, 3.6 V, TQFN, 32 Pins

@@ -1,1 +1,0 @@
-Dual MOSFET, N Channel, 30 V, 30 V, 400 mA, 400 mA, 1 ohm

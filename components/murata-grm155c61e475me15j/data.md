@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor

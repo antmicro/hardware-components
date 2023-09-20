@@ -1,1 +1,0 @@
-Managed NAND Flash Serial e-MMC 3.3V 512G-bit 512G/128G/64G x 1/4-bit/8-bit Automotive AEC-Q100 100-Pin TBGA T/R/Tray

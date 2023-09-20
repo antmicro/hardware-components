@@ -1,1 +1,0 @@
-Power Inductor (SMT), 6.8 µH, 6.1 A, Shielded, 7.6 A, MPL-AL

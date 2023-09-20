@@ -1,1 +1,0 @@
-ARM® Cortex®-M3 System On Chip (SOC) IC SmartFusion®2 FPGA - 25K Logic Modules 166MHz 256-FPBGA (17x17)

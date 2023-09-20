@@ -1,1 +1,0 @@
-Ferrite Bead, 0402 [1005 Metric], 220 ohm, 1.4 A, BLM15PX, 0.1 ohm, ± 25%

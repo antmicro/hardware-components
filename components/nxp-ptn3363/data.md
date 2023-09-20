@@ -1,1 +1,0 @@
-Level Shifter, HDMI/DVI, 4 Inputs, 2.8 V to 3.6 V Supply, 200 ns Delay, 3.4 Gbit/s, HVQFN-32

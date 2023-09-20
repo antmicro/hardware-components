@@ -1,1 +1,0 @@
-Connector Header Through Hole 40 position 0.100" (2.54mm)

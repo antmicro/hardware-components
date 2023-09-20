@@ -1,1 +1,0 @@
-Power Inductor (SMT), AEC-Q200, 3.3 µH, 6.6 A, Shielded, 5.9 A, XEL4030

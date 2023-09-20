@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 2 pF ±0.1pF, 50 V, 0402 [1005 Metric], C0G, NP0, GRM Series

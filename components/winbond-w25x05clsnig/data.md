@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 512Kbit SPI 104 MHz 8-SOIC

@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 8Mbit SPI - Quad I/O 104 MHz 8-USON (2x3)

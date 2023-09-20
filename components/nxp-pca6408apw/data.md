@@ -1,1 +1,0 @@
-I/O Expander, 8 bit, I2C, SMBus, 1.65 V, 5.5 V, TSSOP, 16 Pins

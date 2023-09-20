@@ -1,1 +1,0 @@
-Schottky Rectifier, Low VF, 60 V, 200 mA, Single, SOD-323F, 2 Pins, 600 mV

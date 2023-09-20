@@ -1,1 +1,0 @@
-Power Inductor (SMT), 1 µH, 5 A, Shielded, 4.5 A, IHLP-1212BZ-11

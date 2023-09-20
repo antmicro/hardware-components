@@ -1,1 +1,0 @@
-Monostable Multivibrator 12 ns 8-VSSOP

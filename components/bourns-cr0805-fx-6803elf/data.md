@@ -1,1 +1,0 @@
-SMD Chip Resistor, 680 kohm, ± 1%, 125 mW, 0805 [2012 Metric], Thick Film, Sulfur Resistant

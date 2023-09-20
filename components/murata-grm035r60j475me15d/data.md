@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 4.7 µF, 6.3 V, 0201 [0603 Metric], ± 20%, X5R, GRM Series

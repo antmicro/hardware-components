@@ -1,1 +1,0 @@
-Specialized Interface, I2C, SMBus, Servers & Routers, 1.65 V, 5.5 V, VQFN, 24 Pins

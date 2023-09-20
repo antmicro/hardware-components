@@ -1,1 +1,0 @@
-Circuit Probe Pad, SMD, Test Point, 1206

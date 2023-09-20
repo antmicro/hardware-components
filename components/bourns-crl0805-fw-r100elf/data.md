@@ -1,1 +1,0 @@
-SMD Chip Resistor, 0.1 ohm, ± 1%, 125 mW, 0805 [2012 Metric], Thick Film, Current Sense

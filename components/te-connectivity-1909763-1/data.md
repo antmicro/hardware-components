@@ -1,1 +1,0 @@
-RF / Coaxial Connector, UMCC Coaxial, Straight Jack, Surface Mount Vertical, 50 ohm, Copper Alloy

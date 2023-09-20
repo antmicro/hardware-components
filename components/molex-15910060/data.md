@@ -1,1 +1,0 @@
-Connector Header Surface Mount 6 position 0.100" (2.54mm)

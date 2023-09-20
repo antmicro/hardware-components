@@ -1,1 +1,0 @@
-Power Inductor (SMD), 1 µH, 5.5 A, Shielded, 6.5 A, SRP3212A Series

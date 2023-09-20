@@ -1,1 +1,0 @@
-USB Interface, USB Hub and Flash Media Controller, USB 2.0, 3 V, 3.6 V, QFN, 48 Pins

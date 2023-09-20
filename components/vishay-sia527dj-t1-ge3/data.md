@@ -1,1 +1,0 @@
-Dual MOSFET, N and P Channel, 12 V, 12 V, 4.5 A, 4.5 A, 0.024 ohm

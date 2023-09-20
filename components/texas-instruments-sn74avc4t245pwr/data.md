@@ -1,1 +1,0 @@
-Translation Transceiver 2 Element 2 Bit per Element 3-State Output 16-TSSOP

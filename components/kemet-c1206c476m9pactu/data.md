@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 47 µF, 6.3 V, 1206 [3216 Metric], ± 20%, X5R, C Series KEMET

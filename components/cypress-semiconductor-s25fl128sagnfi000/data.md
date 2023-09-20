@@ -1,1 +1,0 @@
-Flash Memory, MirrorBit Eclipse Architecture, Serial NOR, 128 Mbit, 16M x 8bit, SPI, WSON, 8 Pins

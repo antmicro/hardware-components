@@ -1,1 +1,0 @@
-60 (24 + 36 Power) Position Female Connector Non Specified - Dual Edge Gold Black

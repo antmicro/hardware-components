@@ -1,1 +1,0 @@
-Power Inductor (SMT), AEC-Q200, 470 nH, 3.4 A, Shielded, 6.25 A, WE-MAIA

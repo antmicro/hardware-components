@@ -1,1 +1,0 @@
-SMD Chip Resistor, 1 kohm, ± 1%, 250 mW, 1206 [3216 Metric], Thick Film, General Purpose

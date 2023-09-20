@@ -1,1 +1,0 @@
-SDRAM - DDR3 Memory IC 4Gbit Parallel 800 MHz 20 ns 96-FBGA (9x13)

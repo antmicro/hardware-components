@@ -1,1 +1,0 @@
-Timer IC, Timing Microseconds to Hours, Astable, Monostable, 4.5 V to 16 V, 200 mA out, TSSOP-8

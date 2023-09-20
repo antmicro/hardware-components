@@ -1,1 +1,0 @@
-Ferrite Bead, 0805 [2012 Metric], 110 ohm, 5 A, BLM21SP

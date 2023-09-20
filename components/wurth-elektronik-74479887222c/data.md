@@ -1,1 +1,0 @@
-Power Inductor (SMT), 2.2 µH, 1.6 A, Shielded, 1.5 A, WE-PMI

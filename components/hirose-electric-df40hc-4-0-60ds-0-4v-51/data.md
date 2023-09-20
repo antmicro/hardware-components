@@ -1,1 +1,0 @@
-Mezzanine Connector, Receptacle, 0.4 mm, 2 Rows, 60 Contacts, Surface Mount, Phosphor Bronze

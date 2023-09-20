@@ -1,1 +1,0 @@
-Power Over Ethernet (POE) Controller, 57 V/ 500 µA, 40 V UVLO Threshold, SOIC-8

@@ -1,1 +1,0 @@
-USB Interface IC Universal USB Type-C and Power Delivery (PD) 3.0 controller 96-NFBGA -10°C to 85

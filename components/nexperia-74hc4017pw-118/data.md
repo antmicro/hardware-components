@@ -1,1 +1,0 @@
-Decade, Johnson Counter, HC Family, 77 MHz, 2 V to 6 V, TSSOP-16

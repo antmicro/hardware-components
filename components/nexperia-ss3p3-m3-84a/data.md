@@ -1,1 +1,0 @@
-Schottky Rectifier, 30 V, 3 A, Single, DO-220AA, 2 Pins, 580 mV

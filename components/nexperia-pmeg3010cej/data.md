@@ -1,1 +1,0 @@
-Schottky Rectifier, 30 V, 1 A, Single, SOD-323F, 2 Pins, 520 mV

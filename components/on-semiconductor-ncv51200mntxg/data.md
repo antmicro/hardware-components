@@ -1,1 +1,0 @@
-Automotive, AEC-Q100 LDO (Linear), DDR Voltage Regulator IC 1 Output 10-DFN (3x3)

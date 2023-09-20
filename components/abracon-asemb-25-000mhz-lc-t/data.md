@@ -1,1 +1,0 @@
-MEMS Oscillator, Clock, Pure Silicon&trade;, 25 MHz, SMT, 3.2mm x 2.5mm, 50 ppm, 3.3 V, ASEMB, LVCMOS

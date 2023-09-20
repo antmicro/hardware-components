@@ -1,1 +1,0 @@
-Pin Header, Vertical, 94V-2, Power, Wire-to-Board, 4.2 mm, 2 Rows, 10 Contacts

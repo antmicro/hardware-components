@@ -1,1 +1,0 @@
-HDMI Connector, 19 Contacts, Socket, PCB Mount, Surface Mount Right Angle, Plastic Body

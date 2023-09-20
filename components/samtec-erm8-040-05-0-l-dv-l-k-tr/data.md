@@ -1,1 +1,0 @@
-80 Position Connector Header, Center Strip Contacts Surface Mount Gold

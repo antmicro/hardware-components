@@ -1,1 +1,0 @@
-SMD Chip Resistor, 100 ohm, ± 1%, 50 mW, 0201 [0603 Metric], Thick Film, Sulfur Resistant

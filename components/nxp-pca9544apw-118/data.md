@@ -1,1 +1,0 @@
-Specialized Interface, I2C, SMBus, I2C Bus & SMBus Systems Applications, 2.3 V, 5.5 V, TSSOP

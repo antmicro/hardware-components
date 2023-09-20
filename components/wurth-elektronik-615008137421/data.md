@@ -1,1 +1,0 @@
-Modular Jack, 1 x 1 (Port), 8P8C, Cat5, Through Hole Mount

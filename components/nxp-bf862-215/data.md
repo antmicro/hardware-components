@@ -1,1 +1,0 @@
-JFET Transistor, JFET, -20 V, 25 mA, -1.2 V, SOT-23, 3 Pin, 150 °C

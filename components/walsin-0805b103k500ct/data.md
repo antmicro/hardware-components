@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0805 [2012 Metric], ± 10%, X7R

@@ -1,1 +1,0 @@
-DC Power Connector, Jack, 4 A, 1.95 mm, PCB Mount, Through Hole

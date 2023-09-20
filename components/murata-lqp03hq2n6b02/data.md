@@ -1,1 +1,0 @@
-Thin Film Inductor, 2.6 nH, 0.12 ohm, 9 GHz, 600 mA, 0201 [0603 Metric], LQP03HQ_02

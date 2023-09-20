@@ -1,1 +1,0 @@
-Interface Bridges, USB to UART, FIFO, 2.97 V, 3.63 V, QFN, 48 Pins, -40 °C

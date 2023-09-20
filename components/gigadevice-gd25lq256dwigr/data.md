@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 256Mbit SPI - Quad I/O 120 MHz 8-WSON (5x6)

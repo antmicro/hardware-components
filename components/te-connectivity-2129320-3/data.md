@@ -1,1 +1,0 @@
-DisplayPort, Mini Receptacle Connector 20 Position Through Hole, Right Angle

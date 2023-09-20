@@ -1,1 +1,0 @@
-Power Inductor (SMT), 560 nH, 7.3 A, Shielded, 10 A, SRP4020TA

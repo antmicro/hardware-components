@@ -1,1 +1,0 @@
-Ethernet Controller, 1000 Mbps, IEEE 802.3, 1.14 V, 3.465 V, QFN, 48 Pins

@@ -1,1 +1,0 @@
-U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder

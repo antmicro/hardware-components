@@ -1,1 +1,0 @@
-USB Interface IC USB Type-C source controller and 1.5A power switch 12-WSON -40°C to 125°C

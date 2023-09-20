@@ -1,1 +1,0 @@
-100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold

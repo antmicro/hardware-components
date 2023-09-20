@@ -1,1 +1,0 @@
-Linear Voltage Regulator IC Positive Fixed 1 Output 150mA 6-WDFN (2x2)

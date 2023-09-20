@@ -1,1 +1,0 @@
-Surface Mount Tantalum Capacitor, 1 µF, 10 V, 1206 [3216 Metric], ± 10%, 10 ohm, A

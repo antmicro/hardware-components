@@ -1,1 +1,0 @@
-Optocoupler, 1 Channel, SMT, 4 Pins, 50 mA, 3.75 kV, 100 %

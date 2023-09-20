@@ -1,1 +1,0 @@
-Fuse, Surface Mount, 8 A, Slow Blow, 32 VDC, 1206 (3216 Metric), SF-1206SA-W

@@ -1,1 +1,0 @@
-Resettable Fuse, PPTC, 0603 (1608 Metric), PolySwitch 0603L Series, 6 VDC, 500 mA, 1 A, 0.1 s

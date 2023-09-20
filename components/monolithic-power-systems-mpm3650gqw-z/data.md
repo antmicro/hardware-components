@@ -1,1 +1,0 @@
-DC-DC Switching Step-Down Regulator, Adjustable, 2.75V to 17V in, 600mV to 12V out, 5A out, QFN-24

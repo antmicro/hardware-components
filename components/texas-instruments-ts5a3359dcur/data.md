@@ -1,1 +1,0 @@
-Interface analog switch/multiplexer/demultiplexer

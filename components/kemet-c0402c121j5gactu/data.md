@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 120 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0

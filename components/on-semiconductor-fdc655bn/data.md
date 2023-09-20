@@ -1,1 +1,0 @@
-Power MOSFET, N Channel, 30 V, 6.3 A, 0.021 ohm, SuperSOT, Surface Mount

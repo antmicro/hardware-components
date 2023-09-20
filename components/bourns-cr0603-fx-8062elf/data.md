@@ -1,1 +1,0 @@
-SMD Chip Resistor, 80.6 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose

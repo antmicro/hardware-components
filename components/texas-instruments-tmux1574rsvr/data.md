@@ -1,1 +1,0 @@
-Analogue switch

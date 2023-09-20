@@ -1,1 +1,0 @@
-SMD Chip Resistor, Ceramic, 4.42 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film

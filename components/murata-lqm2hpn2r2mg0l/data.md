@@ -1,1 +1,0 @@
-Multilayer Inductor, 2.2 µH, 0.1 ohm, 40 MHz, 1008 [2520 Metric], LQM2HPN

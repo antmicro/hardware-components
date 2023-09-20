@@ -1,1 +1,0 @@
-Timer, Oscillator & Pulse Generator IC, LinCMOS, 2.1 MHz, Astable, 2 V to 15 V, SOIC-8

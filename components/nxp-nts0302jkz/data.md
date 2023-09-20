@@ -1,1 +1,0 @@
-Translating Transceiver IC 8-X2SON (1.4x1)

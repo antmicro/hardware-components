@@ -1,1 +1,0 @@
-Optocoupler, Transistor Output, 1 Channel, SOIC, 4 Pins, 50 mA, 3 kV, 50 %

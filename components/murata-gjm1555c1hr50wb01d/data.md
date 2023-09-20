@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 0.5 pF, 50 V, 0402 [1005 Metric], ± 0.05pF, C0G / NP0, GJM

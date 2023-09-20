@@ -1,1 +1,0 @@
-TVS Diode, SMAJ, Unidirectional, 58 V, 93.6 V, DO-214AC (SMA), 2 Pins

@@ -1,1 +1,0 @@
-Power MOSFET, P Channel, 40 V, 12 A, 0.039 ohm, PowerPAK SC-70, Surface Mount

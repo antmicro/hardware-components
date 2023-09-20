@@ -1,1 +1,0 @@
-Resettable Fuse, PPTC, 1206 (3216 Metric), PolySwitch Low Rho Series, 6 VDC, 4.5 A, 9 A, 2 s

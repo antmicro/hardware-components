@@ -1,1 +1,0 @@
-Buffer, Non-Inverting 2 Element 1 Bit per Element Open Drain Output 6-TSOP

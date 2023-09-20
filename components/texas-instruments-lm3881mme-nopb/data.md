@@ -1,1 +1,0 @@
-Power Sequencer, 3-Monitors, 2.7V-5.5Vin,VSSOP-8

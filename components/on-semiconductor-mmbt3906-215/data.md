@@ -1,1 +1,0 @@
-Bipolar (BJT) Single Transistor, Switching, PNP, 40 V, 200 mA, 250 mW, TO-236AB, Surface Mount

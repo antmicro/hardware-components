@@ -1,1 +1,0 @@
-FET/MOSFET transistor

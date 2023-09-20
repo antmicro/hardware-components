@@ -1,1 +1,0 @@
-Voltage Level Translator, 8 Input, 0.02 mA, 4 ns, 1.2 V to 5.5 V, TSSOP-20

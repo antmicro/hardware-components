@@ -1,1 +1,0 @@
-Power Inductors - SMD 3.3uH Shld 20% 15.1A 9.42mOhms AECQ2

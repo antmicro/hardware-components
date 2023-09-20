@@ -1,1 +1,0 @@
-Power Inductor (SMT), 1 µH, 1.8 A, Shielded, 1.9 A, DFE Series, 0603 [1608 Metric]

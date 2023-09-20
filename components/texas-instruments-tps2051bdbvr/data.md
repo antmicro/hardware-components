@@ -1,1 +1,0 @@
-Power Distribution Switch, Current Limited, High Side, Active High, 1 Output, 5.5V, 1A, SOT-23-5

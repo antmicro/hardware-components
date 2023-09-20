@@ -1,1 +1,0 @@
-USB Connector, USB Type A, USB 2.0, Receptacle, 4 Ways, Through Hole Mount, Right Angle

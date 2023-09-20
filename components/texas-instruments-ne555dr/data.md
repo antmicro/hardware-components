@@ -1,1 +1,0 @@
-Precision Timer IC, Timing Microseconds to Hours, TTL, Astable, Monostable, 4.5 V to 16 V, SOIC-8

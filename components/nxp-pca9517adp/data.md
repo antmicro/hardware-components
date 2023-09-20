@@ -1,1 +1,0 @@
-Bus Repeater, 0.9 V to 5.5 V, TSSOP-8

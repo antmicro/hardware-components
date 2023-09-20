@@ -1,1 +1,0 @@
-Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 8 Contacts, Surface Mount Right Angle, SR

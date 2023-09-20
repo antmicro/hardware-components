@@ -1,1 +1,0 @@
-SMD Chip Resistor, 510 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose

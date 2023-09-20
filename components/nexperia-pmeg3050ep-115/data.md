@@ -1,1 +1,0 @@
-Schottky Rectifier, 30 V, 5 A, Single, SOD-128, 2 Pins, 360 mV

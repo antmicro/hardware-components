@@ -1,1 +1,0 @@
-Optocoupler, 1 Channel, SSOP, 4 Pins, 50 mA, 3.75 kV, 100 %

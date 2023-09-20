@@ -1,1 +1,0 @@
-Dual MOSFET, Complementary N and P Channel, 60 V, 60 V, 115 mA, 115 mA, 13.5 ohm

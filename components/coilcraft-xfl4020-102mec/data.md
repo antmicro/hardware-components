@@ -1,1 +1,0 @@
-Power Inductor (SMT), 1 µH, 11 A, Shielded, 4.5 A, XFL4020

@@ -1,1 +1,0 @@
-Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-3

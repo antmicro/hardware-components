@@ -1,1 +1,0 @@
-SMAJ Series 400 W 36 V ±5 % Surface Mount Bi-Directional TVS Diode – DO-214AC

@@ -1,1 +1,0 @@
-MCU, Application Specific, 32 bit, 76.8 MHz, BLE, 32KB RAM/512KB Program, 1.71-3.8 V in, QFN-40

@@ -1,1 +1,0 @@
-Voltage supervisor

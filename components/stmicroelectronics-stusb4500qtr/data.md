@@ -1,1 +1,0 @@
-USB Controller USB 2.0 I2C Interface 24-QFN (4x4)

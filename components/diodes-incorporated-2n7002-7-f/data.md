@@ -1,1 +1,0 @@
-N-Channel 60 V 115mA (Ta) 370mW (Ta) Surface Mount SOT-23-3

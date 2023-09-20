@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitor, 1500 pF, 10 V, 0402 [1005 Metric], ± 10%, X7R, WCAP-CSGP

@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 32Mbit SPI - Quad I/O, QPI 104 MHz 8-SOIC

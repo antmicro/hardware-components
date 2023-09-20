@@ -1,1 +1,0 @@
-Zero Ohm Resistor, Jumper, 0805 [2012 Metric], Thick Film, 125 mW, 2.5 A, Surface Mount Device

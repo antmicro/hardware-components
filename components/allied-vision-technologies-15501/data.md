@@ -1,1 +1,0 @@
-Alvium 1800 C MIPI CSI-2 camera with Sony IMX250, 66.0 frames per second, 5.1 MP resolution

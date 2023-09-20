@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitors, 0.22µF, 50V, 10%, X5R, 1206 [3216 Metric]

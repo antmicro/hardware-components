@@ -1,1 +1,0 @@
-Power MOSFET, P Channel, 45 V, 90 mA, 9 ohm, SOT-23, Surface Mount

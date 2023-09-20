@@ -1,1 +1,0 @@
-SMT Multilayer Ceramic Capacitor, 0.1 µF, 6.3 V, 0402 [1005 Metric], ± 10%, X5R, Walsin MLCC

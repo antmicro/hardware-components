@@ -1,1 +1,0 @@
-LED, Green, SMT, 0603, 20 mA, 2.1 V, 570 nm

@@ -1,1 +1,0 @@
-DC-DC Switching Synchronous Step-Up Regulator, 0.65-6V in, 5V out, 0.5A out, 1.2MHz, SOT-25, 5Pin

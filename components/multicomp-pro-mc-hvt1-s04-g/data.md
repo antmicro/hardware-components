@@ -1,1 +1,0 @@
-Pin Header, Board-to-Board, 1.27 mm, 1 Rows, 4 Contacts, Through Hole

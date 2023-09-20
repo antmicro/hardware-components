@@ -1,1 +1,0 @@
-Diode 40 V 3A Surface Mount SMA

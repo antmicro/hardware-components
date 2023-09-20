@@ -1,1 +1,0 @@
-MEMS Module, MotionTracking Series, 3-Axis Gyroscope/Accelerometer, ±16g, 1.71 V to 3.6 V, QFN-24

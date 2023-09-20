@@ -1,1 +1,0 @@
-FLASH - NOR Memory IC 128Mbit SPI - Quad I/O, QPI 133 MHz 8-WSON (5x6)

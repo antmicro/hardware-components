@@ -1,1 +1,0 @@
-DC-DC Buck (Step Down) Regulator, Adjustable, 3.5V to 28V In, 800mV to 25V/2A Out, 740kHz, SOIC-8

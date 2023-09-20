@@ -1,1 +1,0 @@
-SMD Multilayer Ceramic Capacitors, 22µF, 6.3V, 20%, 0402 [1005 Metric]

@@ -1,1 +1,0 @@
-350 nH Unshielded Drum Core, Wirewound Inductor 810 mA 80mOhm 0603 (1608 Metric)
