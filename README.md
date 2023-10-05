@@ -13,9 +13,12 @@ A secondary goal of this project is to make it browsable through the Antmicro [O
 ## Project structure
 
 The main directory includes this README and a LICENSE file.
+There is also a meta.json file which provides generated meta data about file checksums and sizes.
 The component-related assets are stored in the following directories:
 
-* [components](components) - this folder includes subfolders with component definitions. The subfolders are named after a component's manufacturer (MFR) and Manufacturer Part Number (MPN) concatenated with dashes. Each subfolder includes component-related assets.
+* [components](components) - this folder includes subfolders with component definitions.
+The subfolders are named after a component's manufacturer (MFR) and Manufacturer Part Number (MPN) concatenated with dashes. 
+Each subfolder includes component-related assets.
 * [kicad-symbols](kicad-symbols) - this folder contains symbol library files in KiCad format (``*.kicad_sym``). Each file represents a single symbol.
 * [kicad-footprints](kicad-footprints) - this folder contains footprint definitions in KiCad format (``*.kicad_mod``) files.
 * [blender-models](blender-models) - this folder contains component Blender models and its rendered previews.
