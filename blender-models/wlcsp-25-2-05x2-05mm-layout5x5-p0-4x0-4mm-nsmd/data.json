@@ -2,10 +2,37 @@
     "blendfile": "WLCSP-25_2.05x2.05mm_Layout5x5_P0.4x0.4mm_NSMD.blend",
     "previews": [
         {
-            "id": "iso-front",
-            "description": "Render in iso-front view",
+            "id": "front-iso",
+            "description": "Render in front-iso view",
             "fileName": "isoF.webp",
-            "animations": {}
+            "animations": {
+                "rear-iso": {
+                    "fileName": "isoF_isoR.webm"
+                },
+                "bottom-iso": {
+                    "fileName": "isoF_isoB.webm"
+                }
+            }
+        },
+        {
+            "id": "rear-iso",
+            "description": "Render in rear-iso view",
+            "fileName": "isoR.webp",
+            "animations": {
+                "front-iso": {
+                    "fileName": "isoR_isoF.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-iso",
+            "description": "Render in bottom-iso view",
+            "fileName": "isoB.webp",
+            "animations": {
+                "front-iso": {
+                    "fileName": "isoB_isoF.webm"
+                }
+            }
         }
     ]
 }
