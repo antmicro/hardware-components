@@ -9672,21 +9672,19 @@
 			(justify left bottom)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at 10 0)
-		(size 1.5 1.5)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "b8c22f58-1631-4876-9444-c47777459ea4")
-	)
-	(pad "2" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at -10 0)
 		(size 1.5 1.5)
 		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "cd176d0c-073e-4731-b092-3a4a33be12e1")
+	)
+	(pad "" np_thru_hole circle
+		(at 10 0)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b8c22f58-1631-4876-9444-c47777459ea4")
 	)
 	(model ""
 		(offset
