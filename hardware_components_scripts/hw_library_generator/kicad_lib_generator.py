@@ -64,7 +64,7 @@ class KiCadLibManager:
     def copy_symbol(self, symbol: str, dest_lib: str, footprint_lib: str) -> None:
         # Check if symbol exists
         src = repo_root / "kicad-symbols" / to_id(symbol) / (symbol + symbol_lib_extension)
-        if src is None:
+        if not Path.exists(src):
             print(f"Symbol: {symbol} does not exist. Skipping")
             return
 
