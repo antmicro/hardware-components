@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel >= 0.38"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw-library-generator"
+version = "0.1.0"
+description = "Hardware components libraries generator"
+authors = [
+    { name = "Antmicro", email = "contact@antmicro.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "typer",
+    "rich",
+    "kiutils",
+    "unidecode"
+]
+
+[tool.ruff]
+select = ["E", "F", "N", "B", "A", "RET"]
+line-length = 120
+target-version = "py38"
+exclude = [
+	  "src/__init__.py"
+]
+
+[tool.black]
+line-length = 120
+
+[tool.mypy]
+ignore_missing_imports = true
+disallow_untyped_defs = true
+
+[project.scripts]
+hw-library-generator = "hw_library_generator.main:app"
