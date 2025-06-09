@@ -1,275 +1,354 @@
 {
-	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.1.62",
-		"version":"2.0"
-	},
-	"extensionsUsed":[
-		"KHR_draco_mesh_compression",
-		"KHR_materials_specular",
-		"KHR_materials_sheen",
-		"KHR_materials_ior"
-	],
-	"extensionsRequired":[
-		"KHR_draco_mesh_compression"
-	],
-	"scene":0,
-	"scenes":[
-		{
-			"name":"Scene",
-			"nodes":[
-				0
-			]
-		}
-	],
-	"nodes":[
-		{
-			"extras":{
-				"REF":"SW",
-				"model_diagonal":9.38278177308466
-			},
-			"mesh":0,
-			"name":"PCM12SMTR"
-		}
-	],
-	"materials":[
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularFactor":0.9590908885002136
-				},
-				"KHR_materials_sheen":{
-					"sheenColorFactor":[
-						1.0,
-						1.0,
-						1.0
-					],
-					"sheenRoughnessFactor":0.5
-				},
-				"KHR_materials_ior":{
-					"ior":1
-				}
-			},
-			"name":"gltf_metal_connector",
-			"normalTexture":{
-				"index":0,
-				"scale":0.5
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
-				},
-				"metallicRoughnessTexture":{
-					"index":2
-				}
-			}
-		},
-		{
-			"doubleSided":true,
-			"name":"gltf_plastic_glossy_black",
-			"normalTexture":{
-				"index":3
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":4
-				},
-				"metallicFactor":0.13699999451637268,
-				"metallicRoughnessTexture":{
-					"index":5
-				}
-			}
-		}
-	],
-	"meshes":[
-		{
-			"name":"PCM12SMTR",
-			"primitives":[
-				{
-					"attributes":{
-						"POSITION":0,
-						"NORMAL":1,
-						"TEXCOORD_0":2
-					},
-					"extensions":{
-						"KHR_draco_mesh_compression":{
-							"bufferView":0,
-							"attributes":{
-								"POSITION":0,
-								"NORMAL":1,
-								"TEXCOORD_0":2
-							}
-						}
-					},
-					"indices":3,
-					"material":0,
-					"mode":4
-				},
-				{
-					"attributes":{
-						"POSITION":4,
-						"NORMAL":5,
-						"TEXCOORD_0":6
-					},
-					"extensions":{
-						"KHR_draco_mesh_compression":{
-							"bufferView":1,
-							"attributes":{
-								"POSITION":0,
-								"NORMAL":1,
-								"TEXCOORD_0":2
-							}
-						}
-					},
-					"indices":7,
-					"material":1,
-					"mode":4
-				}
-			]
-		}
-	],
-	"textures":[
-		{
-			"sampler":0,
-			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
-		},
-		{
-			"sampler":0,
-			"source":2
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
-			"sampler":0,
-			"source":4
-		},
-		{
-			"sampler":0,
-			"source":5
-		}
-	],
-	"images":[
-		{
-			"mimeType":"image/png",
-			"name":"gltf_metal_connector_normal",
-			"uri":"../shared_textures/gltf_metal_connector_normal.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_metal_connector_color",
-			"uri":"../shared_textures/gltf_metal_connector_color.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_metal_connector_roughness",
-			"uri":"../shared_textures/gltf_metal_connector_roughness.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_plastic_glossy_black_normal",
-			"uri":"../shared_textures/gltf_plastic_glossy_black_normal.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_plastic_glossy_black_color",
-			"uri":"../shared_textures/gltf_plastic_glossy_black_color.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_plastic_glossy_black_roughness",
-			"uri":"../shared_textures/gltf_plastic_glossy_black_roughness.png"
-		}
-	],
-	"accessors":[
-		{
-			"componentType":5126,
-			"count":3862,
-			"max":[
-				3.860799789428711,
-				1.3461999893188477,
-				1.2953999042510986
-			],
-			"min":[
-				-3.860799789428711,
-				0,
-				-2.1844000816345215
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":3862,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":3862,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":10320,
-			"type":"SCALAR"
-		},
-		{
-			"componentType":5126,
-			"count":3143,
-			"max":[
-				3.352800130844116,
-				1.3969999551773071,
-				2.7939999103546143
-			],
-			"min":[
-				-3.352800130844116,
-				-0.5080000162124634,
-				-1.2953999042510986
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":3143,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":3143,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":8628,
-			"type":"SCALAR"
-		}
-	],
-	"bufferViews":[
-		{
-			"buffer":0,
-			"byteLength":23886,
-			"byteOffset":0
-		},
-		{
-			"buffer":0,
-			"byteLength":21811,
-			"byteOffset":23888
-		}
-	],
-	"samplers":[
-		{
-			"magFilter":9729,
-			"minFilter":9987
-		}
-	],
-	"buffers":[
-		{
-			"byteLength":45700,
-			"uri":"PCM12SMTR.bin"
-		}
-	]
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 684,
+      "type": "VEC3",
+      "max": [
+        3.860799789428711,
+        1.346083641052246,
+        1.2953391075134277
+      ],
+      "min": [
+        -3.860799789428711,
+        0.0,
+        -2.1844000816345215
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 684,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 684,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1680,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3360,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1314,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 560,
+      "type": "VEC3",
+      "max": [
+        3.352800130844116,
+        1.39689302444458,
+        2.7939398288726807
+      ],
+      "min": [
+        -3.352800130844116,
+        -0.5080000162124634,
+        -1.2953999042510986
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 560,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 560,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "pygltflib@v1.16.4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 21888,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21888,
+      "byteLength": 5988,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27876,
+      "byteLength": 17920,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "PCM12SMTR.bin",
+      "byteLength": 45796
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_ior",
+    "KHR_materials_sheen",
+    "KHR_materials_specular",
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ],
+  "images": [
+    {
+      "uri": "../shared_textures/metal_connector_normal.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_normal"
+    },
+    {
+      "uri": "../shared_textures/metal_connector_color.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_color"
+    },
+    {
+      "uri": "../shared_textures/metal_connector_roughness.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_roughness"
+    },
+    {
+      "uri": "../shared_textures/plastic_glossy_black_normal.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "plastic_glossy_black_normal"
+    },
+    {
+      "uri": "../shared_textures/plastic_glossy_black_color.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "plastic_glossy_black_color"
+    },
+    {
+      "uri": "../shared_textures/plastic_glossy_black_roughness.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "plastic_glossy_black_roughness"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0,
+          "clearcoatRoughnessFactor": 0.46590909361839294
+        },
+        "KHR_materials_ior": {
+          "ior": 1
+        },
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            1,
+            1,
+            1
+          ],
+          "sheenRoughnessFactor": 0.5
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.9590908885002136
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "name": "gltf_metal_connector"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.13699999451637268,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 5,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 4,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "name": "gltf_plastic_glossy_black"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "PCM12SMTR"
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "REF": "SW",
+        "model_diagonal": 9.38278177308466
+      },
+      "mesh": 0,
+      "name": "PCM12SMTR"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 4
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
+        }
+      },
+      "sampler": 0
+    }
+  ]
 }

@@ -1,255 +1,315 @@
 {
-	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.1.62",
-		"version":"2.0"
-	},
-	"extensionsUsed":[
-		"KHR_draco_mesh_compression",
-		"KHR_materials_specular",
-		"KHR_materials_ior"
-	],
-	"extensionsRequired":[
-		"KHR_draco_mesh_compression"
-	],
-	"scene":0,
-	"scenes":[
-		{
-			"extras":{
-				"sketcher":{
-					"entities":{},
-					"constraints":{},
-					"version":[
-						0,
-						24,
-						0
-					]
-				}
-			},
-			"name":"Scene",
-			"nodes":[
-				0
-			]
-		}
-	],
-	"nodes":[
-		{
-			"extras":{
-				"REF":"D",
-				"model_diagonal":3.271085960610389
-			},
-			"mesh":0,
-			"name":"SOT-323"
-		}
-	],
-	"materials":[
-		{
-			"doubleSided":true,
-			"name":"gltf_plastic_chip",
-			"normalTexture":{
-				"index":0
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
-				},
-				"metallicFactor":0.13699999451637268,
-				"roughnessFactor":0.37063413858413696
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularFactor":0
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
-				}
-			},
-			"name":"gltf_metal_pins",
-			"normalTexture":{
-				"index":2
-			},
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":3
-				},
-				"metallicFactor":0.7818182110786438,
-				"roughnessFactor":0.28863638639450073
-			}
-		}
-	],
-	"meshes":[
-		{
-			"name":"SOT-323",
-			"primitives":[
-				{
-					"attributes":{
-						"POSITION":0,
-						"NORMAL":1,
-						"TEXCOORD_0":2
-					},
-					"extensions":{
-						"KHR_draco_mesh_compression":{
-							"bufferView":0,
-							"attributes":{
-								"POSITION":0,
-								"NORMAL":1,
-								"TEXCOORD_0":2
-							}
-						}
-					},
-					"indices":3,
-					"material":0,
-					"mode":4
-				},
-				{
-					"attributes":{
-						"POSITION":4,
-						"NORMAL":5,
-						"TEXCOORD_0":6
-					},
-					"extensions":{
-						"KHR_draco_mesh_compression":{
-							"bufferView":1,
-							"attributes":{
-								"POSITION":0,
-								"NORMAL":1,
-								"TEXCOORD_0":2
-							}
-						}
-					},
-					"indices":7,
-					"material":1,
-					"mode":4
-				}
-			]
-		}
-	],
-	"textures":[
-		{
-			"sampler":0,
-			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
-		},
-		{
-			"sampler":0,
-			"source":2
-		},
-		{
-			"sampler":0,
-			"source":3
-		}
-	],
-	"images":[
-		{
-			"mimeType":"image/png",
-			"name":"gltf_plastic_chip_normal",
-			"uri":"../shared_textures/gltf_plastic_chip_normal.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_plastic_chip_color",
-			"uri":"../shared_textures/gltf_plastic_chip_color.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_metal_pins_normal",
-			"uri":"../shared_textures/gltf_metal_pins_normal.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"gltf_metal_pins_color",
-			"uri":"../shared_textures/gltf_metal_pins_color.png"
-		}
-	],
-	"accessors":[
-		{
-			"componentType":5126,
-			"count":398,
-			"max":[
-				0.6250001192092896,
-				0.9999999403953552,
-				1.0500003099441528
-			],
-			"min":[
-				-0.6250001788139343,
-				0.10000000149011612,
-				-1.0500003099441528
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":398,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":398,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":1389,
-			"type":"SCALAR"
-		},
-		{
-			"componentType":5126,
-			"count":1996,
-			"max":[
-				1.149999976158142,
-				0.7500000596046448,
-				0.8000004291534424
-			],
-			"min":[
-				-1.1500002145767212,
-				0,
-				-0.7999997138977051
-			],
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":1996,
-			"type":"VEC3"
-		},
-		{
-			"componentType":5126,
-			"count":1996,
-			"type":"VEC2"
-		},
-		{
-			"componentType":5123,
-			"count":5367,
-			"type":"SCALAR"
-		}
-	],
-	"bufferViews":[
-		{
-			"buffer":0,
-			"byteLength":2397,
-			"byteOffset":0
-		},
-		{
-			"buffer":0,
-			"byteLength":12378,
-			"byteOffset":2400
-		}
-	],
-	"samplers":[
-		{
-			"magFilter":9729,
-			"minFilter":9987
-		}
-	],
-	"buffers":[
-		{
-			"byteLength":14780,
-			"uri":"SOT-323.bin"
-		}
-	]
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 58,
+      "type": "VEC3",
+      "max": [
+        0.6250278353691101,
+        0.9999637007713318,
+        1.0500003099441528
+      ],
+      "min": [
+        -0.6250000596046448,
+        0.10000000149011612,
+        -1.0500003099441528
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 58,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 58,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 114,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 228,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1098,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 420,
+      "type": "VEC3",
+      "max": [
+        1.149999976158142,
+        0.7499604225158691,
+        0.8000187873840332
+      ],
+      "min": [
+        -1.1500002145767212,
+        0.0,
+        -0.7999997138977051
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 420,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 420,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "pygltflib@v1.16.4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1856,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1856,
+      "byteLength": 2424,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4280,
+      "byteLength": 13440,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "SOT-323.bin",
+      "byteLength": 17720
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_ior",
+    "KHR_materials_specular",
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ],
+  "images": [
+    {
+      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "plastic_chip_normal"
+    },
+    {
+      "uri": "../shared_textures/plastic_chip_color.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "plastic_chip_color"
+    },
+    {
+      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_pins_normal"
+    },
+    {
+      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_pins_color"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.13699999451637268,
+        "roughnessFactor": 0.37063413858413696,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "name": "gltf_plastic_chip"
+    },
+    {
+      "extensions": {
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.7818182110786438,
+        "roughnessFactor": 0.28863638639450073,
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 3,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "name": "gltf_metal_pins"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "SOT-323"
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "REF": "D",
+        "model_diagonal": 3.270429724419941
+      },
+      "mesh": 0,
+      "name": "SOT-323"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "sketcher": {
+          "version": [
+            0,
+            24,
+            0
+          ]
+        }
+      },
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
+        }
+      },
+      "sampler": 0
+    }
+  ]
 }
