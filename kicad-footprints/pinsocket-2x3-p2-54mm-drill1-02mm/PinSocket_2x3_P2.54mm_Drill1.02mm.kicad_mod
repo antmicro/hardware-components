@@ -1,7 +1,7 @@
 (footprint "PinSocket_2x3_P2.54mm_Drill1.02mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight female pin header, 2x3, 2.54mm pitch, double rows")
 	(tags "Through hole pin header Female THT 2x3 2.54mm double row")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8aeeb56e-395a-4afa-b8b2-935d1e662b37")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -153,7 +141,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "45ee9fb1-b954-415d-893b-bf65522e3e06")
 	)
@@ -164,7 +152,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b217409f-6801-4f0f-9c64-7f436f13db6e")
 	)
@@ -225,7 +213,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "cb606676-f5a3-4909-a3c3-421f4bc92d05")
 	)
@@ -1652,7 +1640,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.15 10.619 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "16a34218-ad1f-40d2-a4dd-e6dfa732d7ee")
 		(effects
 			(font
@@ -1665,7 +1652,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.15 11.819 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "40822353-6475-4e75-9222-6679541d1875")
 		(effects
 			(font
@@ -1678,7 +1664,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.15 13.019 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cd235000-e506-4153-9cc6-962f41671b6f")
 		(effects
 			(font
@@ -1736,6 +1721,7 @@
 		(remove_unused_layers no)
 		(uuid "a160f07c-7c6f-411c-af61-f0c226005c8a")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 1.27 -2.5 4.3)

@@ -1,7 +1,7 @@
 (footprint "C_0402_1005Metric_EIA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "capacitor 0402")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7876a350-17e9-4cc3-bfe3-3ffb63273129")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "42ee0770-eaf1-43c6-acfa-aae1a06012be")
 	)
@@ -124,7 +112,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "fc70a61c-6761-4098-9573-4270eea4460a")
 	)
@@ -5591,7 +5579,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.9656 3.169 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3997f11f-c676-4f3e-9908-4ca39369e58d")
 		(effects
 			(font
@@ -5604,7 +5591,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.9656 4.369 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "88c2a462-0b67-4ac4-8899-2f7871b57f84")
 		(effects
 			(font
@@ -5617,7 +5603,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.9656 5.569 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "98544f9e-27db-4c30-8b62-e875b84ea2a1")
 		(effects
 			(font
@@ -5630,17 +5615,18 @@
 	(pad "1" smd roundrect
 		(at -0.5 0 90)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d56ac47c-5005-4870-8b8c-ddbb1bcea1e2")
 	)
 	(pad "2" smd roundrect
 		(at 0.498 0)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e87b6c4e-2f08-47f6-ab24-5f6524b9b249")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0.2)

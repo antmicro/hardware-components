@@ -1,7 +1,7 @@
 (footprint "LED_0603_1608Metric_G"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED SMD 0603 Green")
 	(tags "LED SMD 0603 Green")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9d42f589-29f2-40b8-9391-9e656b0d0dc4")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -163,7 +151,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "97336018-f93d-44fd-9812-4df87c49e58a")
 	)
@@ -254,7 +242,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "db93d0ce-beda-4cc9-a479-214958e97464")
 	)
@@ -265,7 +253,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "363d5fa8-68f6-4ce0-b174-3b9b6896ef28")
 	)
@@ -3112,7 +3100,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.4224 3.599 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "20f8b390-16f1-4d68-962a-23b7f0d35f7e")
 		(effects
 			(font
@@ -3125,7 +3112,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.4224 4.799 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "51f6c9b9-b1ce-40fc-8063-af2a693ced84")
 		(effects
 			(font
@@ -3138,7 +3124,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.4224 5.999 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ee87c123-6162-4141-a72e-00e8eba08f11")
 		(effects
 			(font
@@ -3151,17 +3136,18 @@
 	(pad "1" smd roundrect
 		(at -0.7 0 180)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "1c4d247a-5d62-4e7b-a53f-0dd6e756653e")
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0 180)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "3852e7f5-ff05-4170-9565-0f56d1e19290")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -0.001 0.001 0)

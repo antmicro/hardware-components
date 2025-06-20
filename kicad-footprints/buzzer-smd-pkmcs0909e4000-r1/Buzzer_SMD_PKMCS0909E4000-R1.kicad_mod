@@ -1,7 +1,7 @@
 (footprint "Buzzer_SMD_PKMCS0909E4000-R1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Buzzer")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9cc301ca-d713-4a9d-83a0-e82273532cca")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -152,7 +140,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1707222b-ed83-49ef-8b48-727c70336f87")
 	)
@@ -213,7 +201,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "da531a80-6152-4c4c-8d6d-8b419b6f6095")
 	)
@@ -224,7 +212,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "d8c9e6a1-5d99-408f-94f8-99a6fa82bb08")
 	)
@@ -275,14 +263,13 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "ad2e76fd-4b32-453b-ab1c-8c91a74f9229")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -5.6 8.15 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "705f42ed-d19d-490a-b049-012cb36c9768")
 		(effects
 			(font
@@ -295,7 +282,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.6 9.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9a07546d-9d84-4d23-8f18-80ba582812cd")
 		(effects
 			(font
@@ -308,7 +294,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.6 10.55 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d71bc513-50ee-4b4d-809b-1239d1215b5d")
 		(effects
 			(font
@@ -321,18 +306,19 @@
 	(pad "1" smd rect
 		(at -4.35 0)
 		(size 1.3 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd88b45d-70b5-4f79-af85-8e6bb1e5dba1")
 	)
 	(pad "2" smd rect
 		(at 4.35 0)
 		(size 1.3 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "855a402f-cd0e-4882-b660-f12a283ae03b")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 1)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)

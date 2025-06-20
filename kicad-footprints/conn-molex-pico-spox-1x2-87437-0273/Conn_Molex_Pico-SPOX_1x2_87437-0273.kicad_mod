@@ -1,7 +1,7 @@
 (footprint "Conn_Molex_Pico-SPOX_1x2_87437-0273"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "87437-0273")
 	(tags "Connector")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "94ff9d8b-87e5-4494-bdb0-c14a7c9400da")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c931479a-bc51-41b3-b442-d8230ed259b8")
 	)
@@ -184,7 +172,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "da454157-3b9d-4628-8770-1aec40aea957")
 	)
@@ -331,7 +319,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.95 6.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2701f353-7117-4f2f-a567-a97917d105bb")
 		(effects
 			(font
@@ -344,7 +331,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.95 7.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3bd1843d-a317-4198-adab-946d87125d73")
 		(effects
 			(font
@@ -357,7 +343,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.95 8.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e1bbfbfd-53b8-4d8c-b174-37f249869c79")
 		(effects
 			(font
@@ -370,18 +355,19 @@
 	(pad "1" smd rect
 		(at -0.7 -3.09 180)
 		(size 0.85 2.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d175f685-a4a3-4b3e-b8bb-1a1b061f96dd")
 	)
 	(pad "2" smd rect
 		(at 0.8 -3.09 180)
 		(size 0.85 2.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "48569931-adec-411f-94f5-689bba4f183c")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz 0 -0 2.88)
+			(xyz 0 0 2.88)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "Socket_TE_MULTI-BEAM_2x5_1-2212115-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Connector")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7d6e7a28-53f9-4eb4-8a7f-21fbbb32e3dd")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -152,7 +140,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fadfa288-242a-41b8-9f48-3b1a12f61c32")
 	)
@@ -163,7 +151,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "40035106-a819-45a0-8b12-c54d941cd169")
 	)
@@ -214,7 +202,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "22e4ce4c-27f0-4b63-932f-5ff86cd17473")
 	)
@@ -3551,7 +3539,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.88 24.79 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "42175095-8c86-435c-9843-acd7b1ff1fc1")
 		(effects
 			(font
@@ -3564,7 +3551,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.88 22.39 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "93015c8d-c6f7-4e5d-a868-5d353ccd18c0")
 		(effects
 			(font
@@ -3577,7 +3563,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.88 23.59 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "dedfaf34-e977-46f0-b2eb-9c6ddac0e342")
 		(effects
 			(font
@@ -3884,6 +3869,7 @@
 			"ffe12673-1660-435d-87ef-517280b5acc7"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 4.91 -19.393 4)

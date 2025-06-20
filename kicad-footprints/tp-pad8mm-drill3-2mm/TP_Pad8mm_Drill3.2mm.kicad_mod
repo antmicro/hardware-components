@@ -1,7 +1,7 @@
 (footprint "TP_Pad8mm_Drill3.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.04 -4.6 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e588a9da-1415-47b3-80ea-f642c03bc075")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -63,7 +51,7 @@
 			)
 		)
 	)
-	(solder_paste_ratio -1)
+	(solder_paste_margin_ratio -1)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
@@ -72,7 +60,7 @@
 			(width 2.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Cu")
 		(uuid "b03a0f21-10a3-4cd5-b834-4fd3eb4f4ab7")
 	)
@@ -83,7 +71,18 @@
 			(width 2.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "791b92c3-a521-42a0-938f-72b268551630")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 2.2)
+			(type solid)
+		)
+		(fill no)
 		(layer "B.Cu")
 		(uuid "52b6676e-572a-4843-a8a5-927bab857b53")
 	)
@@ -94,20 +93,9 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f9e5f5db-6683-4f44-bf14-55d3659603ad")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 3.1 0)
-		(stroke
-			(width 2.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Mask")
-		(uuid "791b92c3-a521-42a0-938f-72b268551630")
 	)
 	(fp_circle
 		(center 0 0)
@@ -116,14 +104,13 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1dc7ab4e-fc4c-4614-81e1-d25af63de805")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -4.35 8.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "40036a49-ce9c-42e7-a4df-434005e35e67")
 		(effects
 			(font
@@ -136,7 +123,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.35 7.55 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d694a9a7-66e7-41b4-b71b-d8ab96e7cf0a")
 		(effects
 			(font
@@ -149,7 +135,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.35 6.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f2d3d02e-cdeb-47b0-8b39-aa4271e43727")
 		(effects
 			(font
@@ -223,4 +208,5 @@
 		(remove_unused_layers no)
 		(uuid "0e1e151f-b3f0-4c38-b325-df34c2ab924f")
 	)
+	(embedded_fonts no)
 )

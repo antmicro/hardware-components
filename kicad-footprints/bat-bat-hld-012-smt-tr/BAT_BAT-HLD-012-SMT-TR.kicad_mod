@@ -1,7 +1,7 @@
 (footprint "BAT_BAT-HLD-012-SMT-TR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Linx Technologies Battery Holder, CR1216/1225, Surface Mount, from SnapEDA: https://www.snapeda.com/parts/BAT-HLD-012-SMT-TR/Linx/view-part/?ref=search&t=BAT-HLD-012-SMT-TR")
 	(tags "battery holder retainer cr1216 cr1225 smt lithium ")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e2aec7f3-4e84-4167-8afc-97d72fe61a60")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -153,7 +141,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5ec1a667-fb5e-4bd2-acd7-ba017c8b8bb3")
 	)
@@ -246,7 +234,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "60de48d1-ae77-4d19-8b5c-daa8caa62ac2")
 	)
@@ -4943,7 +4931,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -9.17 8.589 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "211e9a68-944d-4e01-b498-efa5e7188eed")
 		(effects
 			(font
@@ -4956,7 +4943,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -9.17 9.789 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e603d478-1fd2-4e89-9171-a89278cb0e87")
 		(effects
 			(font
@@ -4969,7 +4955,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -9.17 10.989 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "efeb46ac-15af-4bf0-8d97-5fb4f1062cf9")
 		(effects
 			(font
@@ -4988,15 +4973,16 @@
 	(pad "P1" smd rect
 		(at -7.651 -0.052)
 		(size 2.5 5.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d8ca3680-6da7-400f-8147-8be60ce6d1b8")
 	)
 	(pad "P2" smd rect
 		(at 7.65 -0.052)
 		(size 2.5 5.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b4f2a09f-a891-478b-83c5-f44e5ecc7a46")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

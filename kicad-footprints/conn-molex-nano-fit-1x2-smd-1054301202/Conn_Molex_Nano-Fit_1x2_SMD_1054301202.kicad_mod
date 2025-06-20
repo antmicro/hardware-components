@@ -1,7 +1,7 @@
 (footprint "Conn_Molex_Nano-Fit_1x2_SMD_1054301202"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Nano-Fit Power Connectors, 105430-xx02, 2 Pins per row")
 	(tags "connector Molex Nano-Fit")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0bbec8e-e4ac-4102-b8ed-d12b348905fd")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -173,7 +161,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ef350337-a902-4c82-8ff4-8170ed8c7950")
 	)
@@ -184,7 +172,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8871998c-7f1a-431a-8180-8759e4cc335e")
 	)
@@ -195,7 +183,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "257ebabc-fd9f-4699-9daf-4878e21d125e")
 	)
@@ -2312,7 +2300,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.77 8.11 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5aba9830-e2f3-4cc0-9e19-5bb52e28c4c1")
 		(effects
 			(font
@@ -2325,7 +2312,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.77 9.31 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9cbe5e3c-bf1d-4b65-b8bb-a15c277da9d9")
 		(effects
 			(font
@@ -2338,7 +2324,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.77 10.51 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d743dd16-66fe-434e-a87d-49b910391a79")
 		(effects
 			(font
@@ -2351,31 +2336,32 @@
 	(pad "1" smd roundrect
 		(at 1.528 -4.901 90)
 		(size 2.5 1.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "568da8cb-f933-46d0-87fa-f150b06cd2ea")
 	)
 	(pad "2" smd roundrect
 		(at -0.97 -4.901 90)
 		(size 2.5 1.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "74c0386c-0716-491e-9703-f48ecf57be53")
 	)
 	(pad "MP" smd roundrect
 		(at -3.54 0.029)
 		(size 1.1 8.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "eef5c965-29d1-4eb3-841e-3761fb566910")
 	)
 	(pad "MP" smd roundrect
 		(at 3.499 0.029)
 		(size 1.1 8.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9c6b628e-7cf0-438a-82e8-a1a196572003")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0.28 4.9 0)

@@ -1,7 +1,7 @@
 (footprint "SOD-923"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.6 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6988508-dcc1-4229-b220-d4e129225cb0")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -143,7 +131,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d3efdfaf-b442-40bb-9e99-0f5f63e7a732")
 	)
@@ -164,7 +152,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9889f68b-8d82-4267-b7f7-d4cb159a0146")
 	)
@@ -175,7 +163,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "75a620b4-3f02-4d54-95a0-3dd60ed00010")
 	)
@@ -503,7 +491,6 @@
 		(at -0.68 3.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2570f020-b9a1-46b9-a0a0-5d5dab601177")
 		(effects
 			(font
@@ -516,7 +503,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.68 4.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "66a387f1-57a9-45fd-8170-6f0dc2689083")
 		(effects
 			(font
@@ -529,7 +515,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.68 5.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "dfe48a2e-2992-4338-a247-326d3fcd7dc9")
 		(effects
 			(font
@@ -542,17 +527,18 @@
 	(pad "1" smd roundrect
 		(at -0.438 0)
 		(size 0.4 0.325)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "68dee708-fef5-43ac-8c4c-28bb834c1927")
 	)
 	(pad "2" smd roundrect
 		(at 0.436 0)
 		(size 0.4 0.325)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6988026b-ae1c-42ee-8307-c3bce9d0a979")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

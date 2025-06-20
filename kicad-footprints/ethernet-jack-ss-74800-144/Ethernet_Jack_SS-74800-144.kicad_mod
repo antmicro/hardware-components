@@ -1,7 +1,7 @@
 (footprint "Ethernet_Jack_SS-74800-144"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.belfuse.com/resources/drawings/stewartconnector/dr-STW-SS-74800-144.pdf")
 	(property "Reference" "REF**"
@@ -20,19 +20,6 @@
 		(at 0 6.84 180)
 		(layer "F.Fab")
 		(uuid "31d4f875-e4b3-4003-ad94-bd46884a1277")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3db97955-2555-416d-a7e3-6f1eacced72d")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -75,7 +62,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "5818aaf1-b788-4cd0-960e-64636bc6fd70")
 	)
@@ -180,7 +167,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d9e3f742-d783-4898-b24e-510dfffee9a8")
 	)
@@ -191,7 +178,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "689c8f48-a872-40fb-a1d3-f129bafb4d5a")
 	)
@@ -15708,7 +15695,6 @@
 	(fp_text user "board outline"
 		(at -3.625 2.156 0)
 		(layer "Cmts.User")
-		(hide yes)
 		(uuid "5b3f48ed-ef44-4741-844c-c80e94434f46")
 		(effects
 			(font
@@ -15721,7 +15707,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.91 7.74 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "322ba39e-5dbe-4112-85fd-a5fc2c7c7e94")
 		(effects
 			(font
@@ -15734,7 +15719,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.91 8.94 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "571eb1df-fe4f-40c1-9095-28f79e9feaf2")
 		(effects
 			(font
@@ -15747,7 +15731,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.91 10.14 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a5369009-287d-4a5c-9b08-fc0ac14ccc62")
 		(effects
 			(font
@@ -15869,6 +15852,7 @@
 		(remove_unused_layers no)
 		(uuid "3931a243-d2cb-4093-ad51-8d7de45b3383")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 11.95 14.9 -4)

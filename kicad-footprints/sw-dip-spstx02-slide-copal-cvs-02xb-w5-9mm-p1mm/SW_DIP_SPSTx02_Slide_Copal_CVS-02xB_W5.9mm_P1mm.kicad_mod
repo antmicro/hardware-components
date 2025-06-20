@@ -1,7 +1,7 @@
 (footprint "SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD 2x-dip-switch SPST Copal_CVS-02xB, Slide, row spacing 5.9 mm")
 	(tags "SMD DIP Switch SPST Slide 5.9mm")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c07db87a-9d2e-4f52-a529-fb2535b01817")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "39d933d9-dbc8-4f9f-90a7-d9a49635cf1a")
 	)
@@ -104,7 +92,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8957e4be-552d-4063-9859-6eb59627d281")
 	)
@@ -305,7 +293,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9818663b-95c1-4c2d-a5da-8feb366790b2")
 	)
@@ -316,7 +304,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "12cd6186-0c90-4d60-8a79-42466d1e271c")
 	)
@@ -17723,7 +17711,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.6 4.91 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "876efe80-88a6-4920-8cbe-887565b9d4af")
 		(effects
 			(font
@@ -17736,7 +17723,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.6 5.908 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9ad4e606-95cd-4460-8c0c-3e4df4115b01")
 		(effects
 			(font
@@ -17761,7 +17747,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.6 6.908 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cd6ec75b-5816-441e-9110-7bf5b4da3a9a")
 		(effects
 			(font
@@ -17774,51 +17759,52 @@
 	(pad "1" smd rect
 		(at -2.95 -0.5)
 		(size 1.2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1bab959a-c90c-4688-ae82-93d650575f0d")
 	)
 	(pad "2" smd rect
 		(at -2.95 0.5)
 		(size 1.2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "797ee230-750d-4681-8e41-2abc89af147b")
 	)
 	(pad "3" smd rect
 		(at 2.95 0.5)
 		(size 1.2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aa78dd54-b3a6-40ff-a9c6-ace90ae57169")
 	)
 	(pad "4" smd rect
 		(at 2.95 -0.5)
 		(size 1.2 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "14a409fa-30a5-4c60-b868-270d53cc87f2")
 	)
 	(pad "SH" smd rect
 		(at -2.15 -1.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1b8087fc-e2b9-411b-a70b-e2ecfb56b0df")
 	)
 	(pad "SH" smd rect
 		(at -2.15 1.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1e8edc35-ef02-4cb2-b330-a4d4d5e73d33")
 	)
 	(pad "SH" smd rect
 		(at 2.15 -1.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b11db0aa-4426-4e9c-90f4-ce9095d05c3e")
 	)
 	(pad "SH" smd rect
 		(at 2.15 1.5)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "439b644f-3c34-4fe8-9b68-891b7f33ed07")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "SW_SKRPABE010_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bd1e2ee7-dd96-4b7d-a93b-6b06e3cd57da")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -91,7 +79,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d9844cd2-1131-4dae-a3d6-3c8aaca2d63c")
 	)
@@ -142,7 +130,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "b6b7832f-f3df-483d-8d74-09104b90600f")
 	)
@@ -4569,7 +4557,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.1 5.799 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "12f6895b-0c2b-4fc4-b19d-d1564384dcd4")
 		(effects
 			(font
@@ -4582,7 +4569,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.1 4.599 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "85c00161-365b-4fc2-a804-ac8d5906dc69")
 		(effects
 			(font
@@ -4595,7 +4581,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.1 6.999 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e8759f2f-4562-4dd8-a7f1-ee7a169a1124")
 		(effects
 			(font
@@ -4608,27 +4593,28 @@
 	(pad "1" smd rect
 		(at -2.077 -1.075 90)
 		(size 0.65 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9995aa73-d26e-4b79-9707-afd836b9ed24")
 	)
 	(pad "2" smd rect
 		(at 2.075 -1.075 90)
 		(size 0.65 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dbee654b-0332-451b-b1aa-d0214bcc1678")
 	)
 	(pad "3" smd rect
 		(at -2.077 1.074 90)
 		(size 0.65 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23cf522c-1bfb-4bf0-8e97-0fbbddb9098e")
 	)
 	(pad "4" smd rect
 		(at 2.075 1.074 90)
 		(size 0.65 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d87a339c-a7da-46b2-897c-2fd15ce470c6")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 1.4)

@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_ECS_3225MV_3.2x2.5x1.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.032 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8348aa52-df7e-4c71-babe-54ddb4d2b21d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4fedad41-bead-4afb-83fc-477d7183ed7e")
 	)
@@ -104,7 +92,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0a193d37-f351-4a74-b3e7-d9d84f8de0d1")
 	)
@@ -155,7 +143,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "1b9fe275-2966-4763-8e38-1fc285343bf1")
 	)
@@ -4402,7 +4390,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.2 5.302 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "306c2c5d-0fea-4eff-9545-e19089c2daca")
 		(effects
 			(font
@@ -4415,7 +4402,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.2 6.502 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "59683133-6e3f-4b20-b0fc-c511038a9eec")
 		(effects
 			(font
@@ -4428,7 +4414,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.2 7.702 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a2029367-c178-422f-b156-56c0aab00193")
 		(effects
 			(font
@@ -4441,28 +4426,28 @@
 	(pad "1" smd rect
 		(at -0.8 -1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "a706a345-eeca-4675-bc53-ede5660c2317")
 	)
 	(pad "2" smd rect
 		(at -0.8 1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "5025e5bd-6d58-4e61-9b7a-c4334c9eb9f3")
 	)
 	(pad "3" smd rect
 		(at 0.8 1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "43d79105-7c66-4ae1-9ec3-a5cc40b6a552")
 	)
 	(pad "4" smd rect
 		(at 0.8 -1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "d3fafdb0-a253-46fb-82ec-57ebb01bee7e")
 	)
@@ -4682,9 +4667,10 @@
 			"ffd7e98e-ba20-45f0-930e-e18ef8927061" "fff94146-a898-453d-8fa7-95ce2a3ad3fb"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

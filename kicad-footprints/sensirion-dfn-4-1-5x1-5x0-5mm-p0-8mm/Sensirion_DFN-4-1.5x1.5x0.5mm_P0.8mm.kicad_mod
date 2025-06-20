@@ -1,7 +1,7 @@
 (footprint "Sensirion_DFN-4-1.5x1.5x0.5mm_P0.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Sensiron's 4-pin 1.5mm x 1.5mm Dual Flat No-Lead, used for SHT4x series I²C Humidity & Temperature Sensors, 0.5mm Height. Based on \"Recommended land pattern\" from SHT4x Datasheet V3: https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf")
 	(tags "dfn4 DFN-4 sensirion sht4x SHT40 SHT41 SHT45")
@@ -29,18 +29,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dbbddbd2-8f11-4246-9027-7db041e5267e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -125,7 +113,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1db1f911-d41d-46f8-9372-9f39b1b6a812")
 	)
@@ -136,7 +124,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "24d74bdc-2c54-4e39-a30d-d46c5999fd98")
 	)
@@ -197,7 +185,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "34b30aee-ba21-479a-9635-38d0b9e966d8")
 	)
@@ -208,7 +196,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2bb62ef9-81e9-4dad-926e-ede4d362bb83")
 	)
@@ -219,7 +207,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "3d3a3e56-7222-49a7-9cda-61599e058224")
 	)
@@ -6966,7 +6954,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.258 3.499 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "092efe61-d270-441c-b236-e2bb597ce6f4")
 		(effects
 			(font
@@ -6980,7 +6967,6 @@
 		(at -1.258 4.699 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "66e87637-c65d-4dcd-8130-ba1e5a234b6b")
 		(effects
 			(font
@@ -6993,7 +6979,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.258 5.899 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "94b5c20e-53fc-4b73-9d64-18a5680ec751")
 		(effects
 			(font
@@ -7006,31 +6991,32 @@
 	(pad "1" smd roundrect
 		(at -0.701 -0.403)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ddd46df3-d9e3-40b9-a54d-2ad713fddc23")
 	)
 	(pad "2" smd roundrect
 		(at -0.701 0.401)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b76d2388-6d05-4193-9213-b4e856c3afc7")
 	)
 	(pad "3" smd roundrect
 		(at 0.699 0.401)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "30fb02f2-9445-44d3-9116-4234ef095834")
 	)
 	(pad "4" smd roundrect
 		(at 0.699 -0.403)
 		(size 0.5 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d9951915-0310-4dd2-9e59-ec48fe7d0d68")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0.001 -0.001 0)

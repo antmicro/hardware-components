@@ -1,7 +1,7 @@
 (footprint "Phone_TRS_MiniJack_SJ1-3523N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6.7 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cbe3530f-2692-4b56-9fb6-70f462e829b6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -171,7 +159,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3fe632a8-1503-4755-a62d-cc040eff65e4")
 	)
@@ -232,7 +220,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "77ff4b54-4b06-40e1-b943-aa8f210381e5")
 	)
@@ -3799,7 +3787,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -21.5 9.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2924c686-9897-4e9f-9655-7a0870ed7464")
 		(effects
 			(font
@@ -3812,7 +3799,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -21.5 10.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "735271cb-fb99-460a-94b7-082790c21ef8")
 		(effects
 			(font
@@ -3825,7 +3811,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -21.5 11.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b254d0e7-9f9f-4d5d-86c3-39584a7cc5d4")
 		(effects
 			(font
@@ -3894,9 +3879,10 @@
 		(remove_unused_layers no)
 		(uuid "a17a800a-1506-486d-a4a8-44d61d4c8086")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -6.8 -0 2.6)
+			(xyz -6.8 0 2.6)
 		)
 		(scale
 			(xyz 1 1 1)

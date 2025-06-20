@@ -1,7 +1,7 @@
 (footprint "C_Pol_Panasonic-F-D8mm-H10.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "capacitor electrolytic")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9f959663-da1a-4abc-8106-effb9f66e82a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -172,7 +160,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2b5b40c2-1001-4635-a480-f6e48070a5c0")
 	)
@@ -243,7 +231,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "a1e29286-cc4e-4699-9b80-e47062ec212b")
 	)
@@ -958,7 +946,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "2ac43fbc-0fcc-4481-8161-206c90b736d0")
 	)
@@ -969,14 +957,13 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "97de1f31-2829-4182-8879-d58da7888e06")
 	)
 	(fp_text user "Author: Antmicro"
 		(at -6.15 7.535 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1d98c0b0-62c5-49b5-8204-d69aed87da60")
 		(effects
 			(font
@@ -989,7 +976,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -6.15 8.735 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4a694c05-30a7-4910-a3d9-407f3faff45b")
 		(effects
 			(font
@@ -1002,7 +988,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -6.15 9.935 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c4ee3785-79de-438c-a344-4c42f3ecda76")
 		(effects
 			(font
@@ -1015,17 +1000,18 @@
 	(pad "1" smd rect
 		(at -3.55 0)
 		(size 4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "e0adad60-8a9f-4b62-bd8f-eb3c3b25080d")
 	)
 	(pad "2" smd rect
 		(at 3.55 0)
 		(size 4 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "5f3e6d41-34ca-4b03-9f00-df10a88ec119")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

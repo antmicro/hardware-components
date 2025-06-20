@@ -1,7 +1,7 @@
 (footprint "XDFN-2_1x0.60mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.8 180)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6bb5c1d1-d7d0-4548-9a73-dfeac41e1273")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -97,7 +85,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "794e7535-c1c5-4a88-9490-40b4540acfbf")
 	)
@@ -108,7 +96,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e32c0d07-6ffa-44e0-8593-64454837ae6c")
 	)
@@ -119,7 +107,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "2083c32d-a35c-4e7e-82d9-e699ce5ac3ae")
 	)
@@ -166,7 +154,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.8 3.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "26351232-687d-4302-970c-2ca8d115a17c")
 		(effects
 			(font
@@ -179,7 +166,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.8 5.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3f6fd050-6f6c-458f-9381-9b420051c096")
 		(effects
 			(font
@@ -192,7 +178,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.8 4.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4f008043-7cae-40d0-9330-cc442977346d")
 		(effects
 			(font
@@ -205,17 +190,18 @@
 	(pad "1" smd roundrect
 		(at -0.351 0)
 		(size 0.3 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "57a79414-c3a1-49e5-b11a-32edd0c49eb2")
 	)
 	(pad "2" smd roundrect
 		(at 0.349 0)
 		(size 0.3 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "eae52e83-1200-4472-8ec0-b05a75771cf1")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

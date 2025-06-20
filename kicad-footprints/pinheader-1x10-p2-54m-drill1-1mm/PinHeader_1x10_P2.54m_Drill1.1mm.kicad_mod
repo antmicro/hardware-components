@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x10_P2.54m_Drill1.1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WR-PHD 2.54mm Pin Header, 10 Pin")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "13b3421d-5dee-4866-988c-8c94d4cffc74")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -112,7 +100,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3e8b78c2-ef3c-4ccc-94ba-18ad981eb9a3")
 	)
@@ -123,7 +111,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "09f911bb-dd16-47a6-ad3f-28486f8b7b8c")
 	)
@@ -1950,7 +1938,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.61 4.27 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4b3c85ed-32b5-416f-8828-5583ba0bb876")
 		(effects
 			(font
@@ -1963,7 +1950,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.61 5.47 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cb575e6a-5e4f-4941-8a56-07193c274b38")
 		(effects
 			(font
@@ -1976,7 +1962,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.61 6.67 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "db3bc7ba-b47b-404b-8492-cf11baf8f6a5")
 		(effects
 			(font
@@ -2066,9 +2051,10 @@
 		(remove_unused_layers no)
 		(uuid "543ee2ad-e4ca-4b49-b4b1-e5c3631b9814")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz 11.43 -0 1)
+			(xyz 11.43 0 1)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "LED_0802_2106Metric_B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED SMD 0802 Blue")
 	(tags "LED SMD 0802 Blue")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e96f6b08-1c2b-4400-8db5-3a0ca48511ca")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -335,7 +323,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1f04ee51-5a2f-42e5-9157-1b59721d0053")
 	)
@@ -346,7 +334,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "a208eb14-5f50-48de-93e6-5043945222a9")
 	)
@@ -1333,7 +1321,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.5 3.351 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "20f8b390-16f1-4d68-962a-23b7f0d35f7e")
 		(effects
 			(font
@@ -1346,7 +1333,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.5 4.551 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "51f6c9b9-b1ce-40fc-8063-af2a693ced84")
 		(effects
 			(font
@@ -1359,7 +1345,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.5 5.751 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ee87c123-6162-4141-a72e-00e8eba08f11")
 		(effects
 			(font
@@ -1372,20 +1357,21 @@
 	(pad "1" smd roundrect
 		(at -1.2 0.25)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "316858d1-b4d8-4b3f-8fdb-fd0729553cdb")
 	)
 	(pad "2" smd roundrect
 		(at 1.2 0.25)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "fb943ab2-3e31-4a43-88ba-e07c88f27c59")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0.249 0.29)
+			(xyz 0 -0.249 0.29)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "SOT-23-5L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Based on: https://eu.mouser.com/datasheet/2/389/ldk320-1374943.pdf")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "78bd997e-9e78-4364-8e1a-7babd036d372")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -162,7 +150,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1c4240bf-781e-4342-b145-6c5ec8a2fe4c")
 	)
@@ -173,7 +161,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0fcaeebf-f922-48ba-87a7-c9c181f0c60e")
 	)
@@ -194,7 +182,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0c42278c-19e8-436a-8666-2d4484ba6acc")
 	)
@@ -205,7 +193,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "34fcbe4a-d7d4-4582-aab5-7ddb33b1ac23")
 	)
@@ -982,7 +970,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.898 4.299 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4ee50767-a68f-4eb8-bc27-b67623fc1a1c")
 		(effects
 			(font
@@ -995,7 +982,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.898 6.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a37910b0-ef2e-4480-a00f-34ca64f9b1f6")
 		(effects
 			(font
@@ -1008,7 +994,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.898 5.499 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a7d179be-c30c-4a09-8212-3334daf60673")
 		(effects
 			(font
@@ -1021,33 +1006,34 @@
 	(pad "1" smd rect
 		(at -1.15 -0.95 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "66537756-2d2d-4dd9-a870-b3a7c3e20216")
 	)
 	(pad "2" smd rect
 		(at -1.15 0 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c1603c51-f96c-454d-aa9f-05c4dfce5717")
 	)
 	(pad "3" smd rect
 		(at -1.15 0.95 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3a143517-2cec-4059-8b9c-a07f6cfea57b")
 	)
 	(pad "4" smd rect
 		(at 1.15 0.95 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d9dedb53-66d8-4a4a-a079-8cdcc9950240")
 	)
 	(pad "5" smd rect
 		(at 1.15 -0.95 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2d91cb34-7314-4bfc-b27f-a97a271cd75f")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

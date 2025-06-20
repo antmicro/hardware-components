@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Wire2Board_1x2_P5mm_1935161"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.7 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7f2829e0-1d66-45a3-a920-9a2f17e4df8d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "89fbd498-d443-4b36-88e8-01e426c3007b")
 	)
@@ -162,7 +150,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4c8f2f11-9550-401f-a905-164c0214cd01")
 	)
@@ -213,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "90bf3dc9-ba3a-45f0-b936-9437c249c313")
 	)
@@ -10120,7 +10108,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -69.29 96.32 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cac4ffaf-7653-4947-85fb-f3b2cb35cb3e")
 		(effects
 			(font
@@ -10133,7 +10120,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -69.29 97.52 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e3155ae9-4180-4cd3-b5cc-f2004ad04365")
 		(effects
 			(font
@@ -10146,7 +10132,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -69.29 98.72 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fcfd4fc9-7867-4dd9-8e4e-937cfffd3342")
 		(effects
 			(font
@@ -10172,6 +10157,7 @@
 		(remove_unused_layers no)
 		(uuid "d9a4c97f-9a28-4e8a-afeb-51db57603735")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -30.1 -44.65 -39)

@@ -1,7 +1,7 @@
 (footprint "L_0603_1608Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.2 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e5d2d98b-d828-47df-84d2-1a54c6524649")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -91,7 +79,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "6098e9ca-fb3e-48d8-aff5-49d6337e32ae")
 	)
@@ -102,7 +90,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "66d50711-a48d-4b3e-b45d-0272b06a76b0")
 	)
@@ -113,7 +101,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "caf4f77a-e5ab-4e5a-aae3-0a19002f169e")
 	)
@@ -2190,7 +2178,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.9 3.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2d101c55-a43b-4d23-acd4-e0512ef2b91b")
 		(effects
 			(font
@@ -2203,7 +2190,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.9 4.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "62d21223-5ae3-4d43-b217-a869d83881ca")
 		(effects
 			(font
@@ -2216,7 +2202,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.9 5.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f65fc63f-05cf-4eab-ae78-4c7dadad20c4")
 		(effects
 			(font
@@ -2229,17 +2214,18 @@
 	(pad "1" smd roundrect
 		(at -0.7 0)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "1bedfffe-f2b7-41c6-a1c5-404af47e27c3")
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "77348d37-d393-4d2c-a049-5f6ca78f1bf6")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

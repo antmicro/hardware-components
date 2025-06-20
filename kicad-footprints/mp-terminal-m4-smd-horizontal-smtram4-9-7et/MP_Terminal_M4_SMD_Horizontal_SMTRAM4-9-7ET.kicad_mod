@@ -1,7 +1,7 @@
 (footprint "MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hardware, SMD M4")
 	(property "Reference" "REF**"
@@ -20,19 +20,6 @@
 		(at -5.72 4.91 0)
 		(layer "F.Fab")
 		(uuid "5cf67544-ab73-4314-b206-c319db368284")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0219bbc2-5bba-4895-be4c-858412d82b2b")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -67,7 +54,7 @@
 			(justify left bottom)
 		)
 	)
-	(solder_paste_ratio -1)
+	(solder_paste_margin_ratio -1)
 	(attr smd)
 	(fp_rect
 		(start -5.6 -3.7)
@@ -76,7 +63,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "70142512-d6d4-4a9c-b3e2-fcb58b2ef81a")
 	)
@@ -87,7 +74,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4604c9da-aca2-4806-8699-6762d54dabec")
 	)
@@ -98,7 +85,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "617941b2-a1c9-4cd1-9c47-532638dd8956")
 	)
@@ -109,7 +96,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "cba116ca-41f2-4920-a52e-944bdafd4f23")
 	)
@@ -1316,7 +1303,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.77 6.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5c956018-7439-4fad-abaf-3ecd42c4f589")
 		(effects
 			(font
@@ -1329,7 +1315,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.77 7.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "7f58385d-6181-4b37-9706-f83e62916985")
 		(effects
 			(font
@@ -1342,7 +1327,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.77 8.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "dd6c77e7-d0eb-4729-bdf4-cfb1edc38fd0")
 		(effects
 			(font
@@ -1369,13 +1353,14 @@
 	(pad "1" smd roundrect
 		(at 0 0)
 		(size 10.65 6.57)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.025)
 		(uuid "05ca6f26-f6e0-4aa1-b851-88d173f20960")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -3.5 0)
+			(xyz 0 -3.5 0)
 		)
 		(scale
 			(xyz 1 1 1)

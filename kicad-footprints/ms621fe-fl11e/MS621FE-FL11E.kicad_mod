@@ -1,7 +1,7 @@
 (footprint "MS621FE-FL11E"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.25 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2b7395c5-3cd4-4b0c-9a0b-c34fecd60b43")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -163,7 +151,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a07b32d8-5994-4305-b628-922ad113b535")
 	)
@@ -174,7 +162,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "d17e691e-30a2-4853-b801-0d5d6dd4b01e")
 	)
@@ -1445,14 +1433,13 @@
 			(width 0.02)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "a17a9193-359c-41ed-b60d-187a1f18e26c")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -3.501 8.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "627dfa68-7e3b-4982-98c0-251db26c3b86")
 		(effects
 			(font
@@ -1465,7 +1452,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.501 9.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a37165a9-045b-418f-a006-2e71e6071868")
 		(effects
 			(font
@@ -1476,7 +1462,7 @@
 		)
 	)
 	(fp_text user "COPPER KEEPOUT"
-		(at -0.2 -3.14 -90)
+		(at -0.2 -3.14 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a870ff05-66d1-4ef8-b655-5e306f6541b5")
@@ -1491,7 +1477,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.501 11.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b177a762-936e-4a98-9d88-99e3582c39d9")
 		(effects
 			(font
@@ -1504,13 +1489,13 @@
 	(pad "1" smd rect
 		(at -0.75 -4.05 270)
 		(size 1.8 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee80b162-f5a3-4fc8-adb5-cc22a0f0cc02")
 	)
 	(pad "2" smd rect
 		(at 0.75 -4.05 270)
 		(size 1.8 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be8a7cf6-4c29-4771-a68a-3dc654415c03")
 	)
 	(zone
@@ -1531,6 +1516,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -1541,6 +1530,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -1 -8.75 0)

@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRP4020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.799 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b5b0d466-c81f-4751-b919-b62c498af9ba")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1c403b7d-5b85-4afd-b74c-2e2fe16e1aae")
 	)
@@ -142,7 +130,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "880c03ad-359d-406e-b886-98130231888f")
 	)
@@ -153,7 +141,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "c965b236-4cfc-4872-869f-b5ef4ea7f7df")
 	)
@@ -340,7 +328,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.225 5.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3aefe21b-23b0-4c90-a136-e05ae29e94d7")
 		(effects
 			(font
@@ -353,7 +340,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.225 6.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5e17a660-e036-495f-8fab-d886be55aa0a")
 		(effects
 			(font
@@ -366,7 +352,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.225 7.599 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "764089b4-84f0-4a80-a203-42fad58b2994")
 		(effects
 			(font
@@ -379,20 +364,21 @@
 	(pad "1" smd roundrect
 		(at -2.05 0)
 		(size 1.9 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "581f8c34-8b25-49ad-bee7-d7c01a8e3ac9")
 	)
 	(pad "2" smd roundrect
 		(at 2.05 0)
 		(size 1.9 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "d322aeb0-0652-4c9b-8a53-6a59214d8163")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

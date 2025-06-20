@@ -1,7 +1,7 @@
 (footprint "Heatsink_Fischer_FK250_08_LF_PAK_15x8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "15x8 mm SMD heatsink for SO-8")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "86e3814a-5c51-49c8-a8a5-50a8ba4d5af1")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -154,7 +142,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "169af8c8-7f36-4c6f-adb8-e5e32e30b8de")
 	)
@@ -165,7 +153,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "be125fc2-0727-4c72-b974-215c0483be70")
 	)
@@ -176,7 +164,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "80223cbe-e244-4a27-8d6a-77df7c4bc1a9")
 	)
@@ -187,7 +175,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "095a68d0-0d88-4992-9ecf-be83b58b3569")
 	)
@@ -8994,7 +8982,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.6 7.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "37df9f13-84b6-49cd-b88f-3df461345b7b")
 		(effects
 			(font
@@ -9007,7 +8994,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.6 8.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b0d7528b-3249-416f-89b2-90030994b52c")
 		(effects
 			(font
@@ -9020,7 +9006,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.6 9.85 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "edaee1e4-024a-4a79-a80c-f8d307557b37")
 		(effects
 			(font
@@ -9033,15 +9018,16 @@
 	(pad "1" smd rect
 		(at -4.75 0)
 		(size 2.5 8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5ad3dc5-4a5e-4c11-b0b1-8b247dc70fbe")
 	)
 	(pad "1" smd rect
 		(at 4.75 0)
 		(size 2.5 8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "183333f7-6937-4b9a-bdd1-c81e3e52d271")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -61.1 -219.7 6)

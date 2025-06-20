@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Wire2Board_1x2_P5mm_OSTTC020162"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.45 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5982a435-4359-4dda-9c94-d6e47f76ce56")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "76717467-74b2-4fef-ab11-989c29bbe2f6")
 	)
@@ -162,7 +150,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c04dc708-d988-4248-b846-3e0ee6b645ed")
 	)
@@ -213,7 +201,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "2ac450a2-8d98-418d-adfe-633b7ecd1012")
 	)
@@ -4494,7 +4482,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "33276557-e9df-44cc-86b9-64d453e78c15")
 	)
@@ -4505,7 +4493,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "b42e1c41-a04d-4aaf-9918-f593be4a7f6b")
 	)
@@ -4516,7 +4504,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "fe48fb7f-938a-4ddc-8e0e-311e35d232a0")
 	)
@@ -4527,14 +4515,13 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "e3701f09-6c65-4999-afdc-f2b12e5743d6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -2.65 8.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "28755e4c-cde5-4478-b177-7116be5135d1")
 		(effects
 			(font
@@ -4547,7 +4534,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.65 9.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "7ef1c7a6-32ff-43af-8b4e-c742b52846f8")
 		(effects
 			(font
@@ -4560,7 +4546,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.65 10.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "acae8ac8-8bae-42d9-81c1-59ab36da4a1b")
 		(effects
 			(font
@@ -4586,6 +4571,7 @@
 		(remove_unused_layers no)
 		(uuid "9d6de0b9-ac3b-46c9-86ba-a74bde63239c")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -30.1 -44.65 -39)

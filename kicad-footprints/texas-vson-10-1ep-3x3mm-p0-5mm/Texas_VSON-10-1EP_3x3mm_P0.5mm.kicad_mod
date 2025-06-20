@@ -1,7 +1,7 @@
 (footprint "Texas_VSON-10-1EP_3x3mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas DRC0010J, VSON10 3x3mm Body, 0.5mm Pitch,  http://www.ti.com/lit/ds/symlink/tps63000.pdf")
 	(tags "Texas VSON10 3x3mm")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3b94223d-dc39-4add-a086-767e28087134")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -143,7 +131,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8332337f-ea7b-4330-a5e1-73ad59843e08")
 	)
@@ -154,7 +142,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fc053912-a6c7-4b11-8383-ed1b5bf619b2")
 	)
@@ -215,7 +203,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "6489323a-a220-49cf-9eb3-ec7c4ac79663")
 	)
@@ -2012,7 +2000,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2 5.549 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "27a52f44-45e7-45ec-9ccd-b4b404fcf1ea")
 		(effects
 			(font
@@ -2025,7 +2012,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2 6.749 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cb184d78-d68c-4d37-9038-7d16b700c383")
 		(effects
 			(font
@@ -2038,7 +2024,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2 7.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ea7a3dc3-83fc-41e8-bb5c-fba96bd9e288")
 		(effects
 			(font
@@ -2099,61 +2084,61 @@
 	(pad "1" smd rect
 		(at -1.401 -1)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "689e53fd-59c4-4739-93dc-e43b8148a49a")
 	)
 	(pad "2" smd rect
 		(at -1.401 -0.5)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "096f70e4-753e-4024-9ab6-937a7b1a1f84")
 	)
 	(pad "3" smd rect
 		(at -1.401 0)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a2a9fcc6-dc67-450e-bb5a-b557ef6e4c74")
 	)
 	(pad "4" smd rect
 		(at -1.401 0.497)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bcedd2f5-a223-4505-9c92-f6f64b6df29d")
 	)
 	(pad "5" smd rect
 		(at -1.401 0.997)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73ff576e-52bb-4bf5-88da-ccdc8900ceb9")
 	)
 	(pad "6" smd rect
 		(at 1.398 0.997)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c6de69d1-5232-4a62-8444-3210c8910d37")
 	)
 	(pad "7" smd rect
 		(at 1.398 0.497)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5caaa451-74d7-4ded-93a1-f1b3c10fe303")
 	)
 	(pad "8" smd rect
 		(at 1.398 0)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa9b441e-d1a1-4cb8-bb48-8ace6b8c67c4")
 	)
 	(pad "9" smd rect
 		(at 1.398 -0.5)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22569bfd-08c5-46bf-b8b9-873652d6c222")
 	)
 	(pad "10" smd rect
 		(at 1.398 -1)
 		(size 0.6 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f1a79c54-e98f-4dd1-9172-c69edbfdde51")
 	)
 	(pad "11" smd custom
@@ -2177,6 +2162,7 @@
 		)
 		(uuid "40d2dbad-bd2a-4ec7-a74e-3cadfb7fe159")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "L_WE-TPC-3816"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.58 -2.7 180)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "51ce04aa-a1a2-4b78-a6cb-846f1b7130c0")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -91,7 +79,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0c2d0285-6c2b-459f-8dcc-482c395ea059")
 	)
@@ -102,7 +90,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "cc421ff0-2ae0-474e-801f-2028a968bdfd")
 	)
@@ -153,7 +141,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "541347fd-3ea6-43ea-9722-b9faa9abbde2")
 	)
@@ -14370,7 +14358,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.8 5.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "08e2d62f-f99a-4268-8b33-617dfcc63e75")
 		(effects
 			(font
@@ -14383,7 +14370,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.8 6.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 		(effects
 			(font
@@ -14396,7 +14382,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.8 8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "eaef1172-3351-417c-bfc4-74a598f141cb")
 		(effects
 			(font
@@ -14409,7 +14394,7 @@
 	(pad "1" smd custom
 		(at 0 -1.75)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -14432,7 +14417,7 @@
 	(pad "2" smd custom
 		(at 0 1.75)
 		(size 0.7 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -15167,9 +15152,10 @@
 			"ffd5b008-8f8d-44a9-bfba-cb35ffe8a504"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 1.65)
+			(xyz 0 0 1.65)
 		)
 		(scale
 			(xyz 1 1 1)

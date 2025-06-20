@@ -1,7 +1,7 @@
 (footprint "Vishay_PowerPAK_1212-8_Dual"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PowerPAK 1212-8 Dual (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72598/72598.pdf)")
 	(tags "Vishay_PowerPAK_1212-8_Dual")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a87b98b2-66d6-405a-a1f7-5e567914ba84")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -153,7 +141,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3c257c68-c2fa-4849-b94b-7bae414e8598")
 	)
@@ -164,7 +152,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e76fe79e-00fb-47f8-b3f7-1d491a6f3cef")
 	)
@@ -225,7 +213,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e8079315-b627-4be4-8fce-7e9a2e3fccc6")
 	)
@@ -456,7 +444,7 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "ca5b5ab7-fd54-4e84-a91c-72d5caa0abc3")
 	)
@@ -467,7 +455,7 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "2cd40967-3878-4a89-b3f8-6f8307133095")
 	)
@@ -478,7 +466,7 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "27daaa29-60c5-4b3a-bc0e-b1ff8a77f1e3")
 	)
@@ -489,7 +477,7 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "3877cddd-6e01-41ab-95ed-aa11c02d3efe")
 	)
@@ -500,7 +488,7 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "06c5b94f-5381-40ff-a1e3-93c1c99b0be7")
 	)
@@ -511,7 +499,7 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "ad23f6ad-1534-49f4-8088-133b33cbedb8")
 	)
@@ -522,7 +510,7 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "bf1150ca-f5ba-4f44-b745-fac50ef8eb6e")
 	)
@@ -533,14 +521,13 @@
 			(width 0.009999)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "515cf814-73a2-4c0f-9558-d01251ae29d4")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -1.94 7.075 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "49e73694-1085-42dd-8a9d-17a4c5174cec")
 		(effects
 			(font
@@ -553,7 +540,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.94 5.875 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "beee6626-3339-4190-ba7e-c68f324c44fd")
 		(effects
 			(font
@@ -566,7 +552,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.94 4.675 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "feed0722-14b8-4e6b-9150-cdb4290e7f87")
 		(effects
 			(font
@@ -579,35 +564,35 @@
 	(pad "1" smd roundrect
 		(at -1.449 -0.975)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(uuid "905f2b9d-4e48-4839-b509-6d7ded5676fd")
 	)
 	(pad "2" smd roundrect
 		(at -1.449 -0.325)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(uuid "ac27ab21-75bb-4781-a322-c42760398a90")
 	)
 	(pad "3" smd roundrect
 		(at -1.449 0.324)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(uuid "0351a5f5-5760-4126-b72b-b72c7003cd75")
 	)
 	(pad "4" smd roundrect
 		(at -1.449 0.975)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(uuid "fa308ac7-b49a-48dc-b857-14774f69e970")
 	)
 	(pad "5" smd roundrect
 		(at -0.2 0.95 180)
 		(size 0.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(zone_connect 2)
 		(uuid "6d9cc3af-0efa-4f09-85c0-b5e3324fe88f")
@@ -615,7 +600,7 @@
 	(pad "5" smd roundrect
 		(at 0.45 0.65 180)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(zone_connect 2)
 		(uuid "d3784b72-a5e8-4d8c-85d5-be34afc14d24")
@@ -623,7 +608,7 @@
 	(pad "5" smd roundrect
 		(at 1.45 0.325 180)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(zone_connect 2)
 		(uuid "4a5c411d-aa09-4f36-9ed2-06a541ab7fbf")
@@ -631,7 +616,7 @@
 	(pad "5" smd roundrect
 		(at 1.45 0.975 180)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(zone_connect 2)
 		(uuid "122bbd1f-76ff-490c-8e42-277398cf4791")
@@ -639,7 +624,7 @@
 	(pad "6" smd roundrect
 		(at -0.2 -0.95)
 		(size 0.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(zone_connect 2)
 		(uuid "aa443180-d873-4535-a972-ae8583329e05")
@@ -647,7 +632,7 @@
 	(pad "6" smd roundrect
 		(at 0.45 -0.65)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(zone_connect 2)
 		(uuid "ab94ca65-6f17-4145-bc12-367e8b833687")
@@ -655,7 +640,7 @@
 	(pad "6" smd roundrect
 		(at 1.45 -0.975)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(zone_connect 2)
 		(uuid "c8e90248-5870-4b6b-8548-5c82dfb05993")
@@ -663,7 +648,7 @@
 	(pad "6" smd roundrect
 		(at 1.45 -0.325)
 		(size 0.56 0.41)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1219512195)
 		(zone_connect 2)
 		(uuid "2e7fd248-fd69-4b47-b92e-fa9665a1a593")
@@ -683,6 +668,7 @@
 			"ce62d068-518e-4f67-84c5-41763014cd32" "fc9faddc-0eca-43e5-90e5-9a4f63cd6e33"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

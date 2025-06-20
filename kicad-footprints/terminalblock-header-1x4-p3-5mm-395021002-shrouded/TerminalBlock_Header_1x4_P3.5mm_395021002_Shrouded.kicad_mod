@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Header_1x4_P3.5mm_395021002_Shrouded"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.75 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "16c0dff1-cac2-408a-8815-e307e99683b6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,7 +59,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "4957fb8a-681a-44ff-84e4-307cb565ca6d")
 	)
@@ -82,7 +70,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "65d91304-83c9-4600-98d4-6c6ef9ebec3d")
 	)
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c51d3a7f-9fbb-46fd-9c90-ba8861815941")
 	)
@@ -124,7 +112,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a3138bdf-368c-4559-b605-c841a4d77dde")
 	)
@@ -135,7 +123,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "1a4f03a6-d0a4-4ce1-aed0-9fc677889ebf")
 	)
@@ -182,7 +170,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.7 10.12 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "310fb16a-cc99-433e-a21f-e6cadaadd415")
 		(effects
 			(font
@@ -195,7 +182,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.7 12.52 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "912d359e-847c-42f8-880d-6987a7e8bc83")
 		(effects
 			(font
@@ -208,7 +194,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.7 11.32 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b11f0152-02bc-4ae6-8611-9fd82443fa54")
 		(effects
 			(font
@@ -234,6 +219,7 @@
 		(remove_unused_layers no)
 		(uuid "5e143b97-5d30-45ff-937b-a8eaaebf6230")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 1.75 -3.3 0)

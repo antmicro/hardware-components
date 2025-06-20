@@ -1,7 +1,7 @@
 (footprint "C_0402_1005Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0402")
 	(tags "capacitor SMD 0402")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "348fba09-a75f-48ec-8ffd-83ba5aebab50")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d05df3ee-4f2b-45d9-9074-523cfec4f6fa")
 	)
@@ -6930,7 +6918,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.939 3.399 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "20ec2445-7073-4589-ab3e-865e3b4e944a")
 		(effects
 			(font
@@ -6943,7 +6930,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.939 4.599 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3997f11f-c676-4f3e-9908-4ca39369e58d")
 		(effects
 			(font
@@ -6956,7 +6942,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.939 5.799 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c8dada4b-ab3a-4e1d-8442-2a4c47b5001f")
 		(effects
 			(font
@@ -6969,20 +6954,21 @@
 	(pad "1" smd roundrect
 		(at -0.48 0)
 		(size 0.59 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d56ac47c-5005-4870-8b8c-ddbb1bcea1e2")
 	)
 	(pad "2" smd roundrect
 		(at 0.48 0)
 		(size 0.59 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e87b6c4e-2f08-47f6-ab24-5f6524b9b249")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0.2)
+			(xyz 0 0 0.2)
 		)
 		(scale
 			(xyz 1 1 1)

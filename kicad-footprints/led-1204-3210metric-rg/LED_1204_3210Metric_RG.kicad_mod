@@ -1,7 +1,7 @@
 (footprint "LED_1204_3210Metric_RG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.9 -1.3 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "db41919c-8275-4586-afdd-ab3d64584bd2")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -82,7 +70,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9b6f787d-27ee-48f8-b35b-5f45159e2eaf")
 	)
@@ -144,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "5fc7b36e-cb52-4408-b33c-774c105f815b")
 	)
@@ -1361,7 +1349,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.9 4.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1612ab0c-687c-46d0-990a-30905d20fd7d")
 		(effects
 			(font
@@ -1374,7 +1361,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.9 5.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b7a512db-730a-4e57-b817-751088e90b7b")
 		(effects
 			(font
@@ -1387,7 +1373,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.9 6.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cb1dec16-891d-41c7-8faf-61faf9024dff")
 		(effects
 			(font
@@ -1400,21 +1385,21 @@
 	(pad "1" smd roundrect
 		(at -1.375 0.4 180)
 		(size 0.75 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "888fece9-2eb4-4542-81d3-f7b1d0617c4f")
 	)
 	(pad "2" smd roundrect
 		(at 0 1.05 180)
 		(size 0.95 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b5b2d395-36e3-493c-86ea-e298d311aa2d")
 	)
 	(pad "3" smd roundrect
 		(at 1.375 0.4 180)
 		(size 0.75 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "045dfc3a-0825-452b-93da-bf9663dfb3d7")
 	)
@@ -1483,6 +1468,7 @@
 			"fd9f7f1c-86fd-4110-9216-0cba0a248696"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

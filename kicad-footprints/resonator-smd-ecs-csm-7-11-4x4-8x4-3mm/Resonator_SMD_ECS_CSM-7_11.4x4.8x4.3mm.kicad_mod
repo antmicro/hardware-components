@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_ECS_CSM-7_11.4x4.8x4.3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.9 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "267cb675-e8ad-40e0-859e-3a220a63af38")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fe566b93-99f3-455c-8235-9238ac5870ca")
 	)
@@ -302,7 +290,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "392260bf-fc05-4f11-8ddc-fdb0a7eea49f")
 	)
@@ -7639,7 +7627,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.75 5.514 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "123c20e7-4495-4e23-be5f-d5964996e6e5")
 		(effects
 			(font
@@ -7652,7 +7639,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.75 6.714 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4ed3a2b2-fee8-4796-a510-64f21a32e08e")
 		(effects
 			(font
@@ -7665,7 +7651,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.75 7.914 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f9ab681f-5e92-48ab-88f2-7c27ba11f516")
 		(effects
 			(font
@@ -7678,20 +7663,21 @@
 	(pad "1" smd rect
 		(at -4.75 0.01)
 		(size 5.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ec7beddd-fb84-447c-bb48-b07a93e7aa4f")
 	)
 	(pad "2" smd rect
 		(at 4.75 0.01)
 		(size 5.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "6f59744a-2361-4bde-b5db-11207109d361")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0.01 0)
+			(xyz 0 -0.01 0)
 		)
 		(scale
 			(xyz 1 1 1)

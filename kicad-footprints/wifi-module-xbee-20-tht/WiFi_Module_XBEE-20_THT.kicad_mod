@@ -1,7 +1,7 @@
 (footprint "WiFi_Module_XBEE-20_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -20.8 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e419c94b-9969-45ed-a31c-ff65d0be0ae6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -211,7 +199,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e8fbf7bb-1c00-4d59-9d74-627017726cc7")
 	)
@@ -222,7 +210,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3c2ec6e4-2014-4ef2-8056-865acd743c06")
 	)
@@ -293,7 +281,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "fa85d03d-ca44-425c-bf65-b0ec4390b6fc")
 	)
@@ -68840,7 +68828,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -13.54 23.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d5c54306-d6e1-4f8a-9ac4-a6d82d577726")
 		(effects
 			(font
@@ -68853,7 +68840,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -13.54 24.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e85f8586-3894-41fe-88c2-b9464fe3fdbe")
 		(effects
 			(font
@@ -68866,7 +68852,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -13.54 25.85 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f46d5af2-7e8f-4834-a93c-e2af597272be")
 		(effects
 			(font
@@ -69036,6 +69021,7 @@
 		(remove_unused_layers no)
 		(uuid "b9d95685-ded3-4ccc-8e4d-c067f592e4e9")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 11 -9 0)

@@ -1,7 +1,7 @@
 (footprint "ARTY_A7_SHIELD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Arduino UNO R3")
 	(tags "Arduino UNO R3")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "94d05330-dd78-414c-9a50-5711ba95ce9c")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c179d2e6-3ae0-473d-8211-6052f827da71")
 	)
@@ -414,7 +402,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "07b74a1d-c81c-42ec-bfe6-b5c30a22896a")
 	)
@@ -10901,7 +10889,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -13.4 54.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "02572617-d027-4da1-80b6-71d26e494b9f")
 		(effects
 			(font
@@ -10914,7 +10901,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -13.4 55.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2de2649c-d39f-47b6-b5ef-c90cfbb6bfc6")
 		(effects
 			(font
@@ -10927,7 +10913,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -13.4 56.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "7310ad39-ac51-4b47-a771-1a3d7fa66f20")
 		(effects
 			(font
@@ -11449,6 +11434,7 @@
 		(remove_unused_layers no)
 		(uuid "e4352309-6819-482d-84f5-90b330d93e46")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 13.12 -24.45 -0.7)

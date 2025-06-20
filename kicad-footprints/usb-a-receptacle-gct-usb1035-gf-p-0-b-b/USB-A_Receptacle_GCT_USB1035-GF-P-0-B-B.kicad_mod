@@ -1,7 +1,7 @@
 (footprint "USB-A_Receptacle_GCT_USB1035-GF-P-0-B-B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint based on: https://eu.mouser.com/datasheet/2/837/USB1035-1948815.pdf")
 	(property "Reference" "REF**"
@@ -20,19 +20,6 @@
 		(at 0 17.11 0)
 		(layer "F.Fab")
 		(uuid "d9baa695-7b1b-4c9b-938b-20003918d3ce")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "359e361e-cf21-4da8-8a60-85bae228d3ea")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -105,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "08821bec-03e7-4228-a61c-8225d1457090")
 	)
@@ -116,7 +103,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "808ba7d2-09bb-4c7d-9cdd-c50b3db8112d")
 	)
@@ -127,7 +114,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "b80280b5-62e3-439c-a89f-810059f15248")
 	)
@@ -6724,7 +6711,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.47 18.01 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b275790a-d4df-4aee-bb86-d6c3025adb92")
 		(effects
 			(font
@@ -6737,7 +6723,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.47 19.21 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b6fe87b2-7f92-41d0-809e-afa4b0af01da")
 		(effects
 			(font
@@ -6750,7 +6735,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.47 20.41 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bd78750f-7372-4126-983d-624ccfa866ca")
 		(effects
 			(font
@@ -6856,6 +6840,7 @@
 		(remove_unused_layers no)
 		(uuid "394479d5-3abb-4cd0-bf71-ea76fa926809")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 3.5 -5.3 0)

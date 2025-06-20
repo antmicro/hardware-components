@@ -1,7 +1,7 @@
 (footprint "Photodiode_SMD_4.2x5mm_TEMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.675 -3.64 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "196cb368-312d-4acf-8dc9-4afe44c4c248")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -3057,7 +3045,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.19 6.818 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "212ad261-7bb4-4cf7-bdf8-40780cb3d6ee")
 		(effects
 			(font
@@ -3070,7 +3057,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.19 8.018 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5d077a9d-8299-4660-857a-bfbd19a57bb3")
 		(effects
 			(font
@@ -3083,7 +3069,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.19 5.618 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d911938d-bd3a-4f10-8bee-975d015e1958")
 		(effects
 			(font
@@ -3096,13 +3081,13 @@
 	(pad "1" smd rect
 		(at -2.425 0 90)
 		(size 4.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b8ccadd3-5674-4ef9-b261-9620b5c319c2")
 	)
 	(pad "2" smd rect
 		(at 2.424 0 90)
 		(size 4.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "10c0af12-baaf-4cf2-ac8b-ac363127e81a")
 	)
 	(group ""
@@ -3253,6 +3238,7 @@
 			"ff5faacf-f26d-45d9-a472-f9dca49a5c3c" "ffc469bb-21b9-42d5-91bf-fa544446bd9f"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

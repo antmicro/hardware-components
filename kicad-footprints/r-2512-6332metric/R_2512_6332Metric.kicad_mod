@@ -1,7 +1,7 @@
 (footprint "R_2512_6332Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "resistor SMD 2512")
 	(tags "resistor SMD 2512")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "54f789de-1516-46d2-8c59-674b1384c846")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c633d7ee-357f-41a3-bd6e-ab2572ed0aa9")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a655970f-1a81-48fa-b200-aff4ea42d413")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "3d006ca8-960a-4f3d-b2fb-54a9bceb87e1")
 	)
@@ -242,7 +230,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.25 5.25 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "45d10c95-813f-4be8-b0e9-453f3ac6159b")
 		(effects
 			(font
@@ -255,7 +242,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.25 6.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4e238f61-90df-411a-b145-52b6f9f58548")
 		(effects
 			(font
@@ -268,7 +254,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.25 7.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "aa1ce7c2-e880-470b-b29f-450160536f42")
 		(effects
 			(font
@@ -281,14 +266,14 @@
 	(pad "1" smd roundrect
 		(at -2.925 0)
 		(size 1.47 3.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "1323a6c9-1760-4f21-bc21-77b7bfe3085a")
 	)
 	(pad "2" smd roundrect
 		(at 2.925 0)
 		(size 1.47 3.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "7beb7d21-85a3-4eea-be6f-ea259f2be8ca")
 	)
@@ -302,6 +287,7 @@
 			"dd5cc60c-2b09-40d7-a25b-bbf36987b7fb" "e03374f9-a337-434f-9028-3fea2b4aab7b"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

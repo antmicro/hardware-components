@@ -1,7 +1,7 @@
 (footprint "Molex_Mini-Fit_2x8_39-30-1161"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Mini-Fit Jr 5569-16A2 2x8 P4.20mm")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9c741e8c-418e-4b6a-978a-a6b47b01f249")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -362,7 +350,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "385082f0-9b6d-49ae-a76e-5e2dac8abfed")
 	)
@@ -373,7 +361,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "282b02e4-3bd7-46cf-bda8-25ba33a3f3c1")
 	)
@@ -444,7 +432,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "f5b222bc-1c66-4263-be06-57ed6cb5d532")
 	)
@@ -17941,7 +17929,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.44 10.55 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "af415d47-9ec8-45ea-8255-bda8359a0bb8")
 		(effects
 			(font
@@ -17954,7 +17941,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.44 11.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c1617356-d093-44a6-8ba6-ea2c004d07bd")
 		(effects
 			(font
@@ -17967,7 +17953,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.44 12.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "de25e3a9-be53-406e-b63b-3fe3e8e57b38")
 		(effects
 			(font
@@ -18120,6 +18105,7 @@
 		(remove_unused_layers no)
 		(uuid "ee31b48a-4219-4d16-a7ca-2b272492f7bd")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 14.699 13.85 0)

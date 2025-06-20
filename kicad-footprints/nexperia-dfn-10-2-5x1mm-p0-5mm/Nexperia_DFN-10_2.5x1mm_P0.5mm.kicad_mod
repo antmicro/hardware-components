@@ -1,7 +1,7 @@
 (footprint "Nexperia_DFN-10_2.5x1mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.016 -0.995 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "52eb2519-56bd-4324-b35b-02cdbd094721")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -91,7 +79,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "92dcafe4-585a-4857-82b7-6d65263b7095")
 	)
@@ -102,7 +90,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3ba035de-7871-457d-aa76-834671c6abb0")
 	)
@@ -163,7 +151,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "a16055fd-f5f1-4992-84a7-79b12497f5ba")
 	)
@@ -294,7 +282,7 @@
 			(width 0.02)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "ff4476ff-790f-44a2-8b46-5d3a4c03f3d2")
 	)
@@ -415,14 +403,13 @@
 			(width 0.02)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "564b3c2d-cc55-4379-be1d-7a12371653f2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -1.367 3.704 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "355b1f0d-27c3-40e5-ab60-863c435954ba")
 		(effects
 			(font
@@ -435,7 +422,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.367 4.905 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "51d472aa-d0e3-4205-8bef-d99576176ff1")
 		(effects
 			(font
@@ -448,7 +434,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.367 6.105 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8ab65467-d217-4f69-bd50-e07eecbcb932")
 		(effects
 			(font
@@ -461,70 +446,70 @@
 	(pad "1" smd rect
 		(at -1 0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "9851d924-9aae-403e-beb9-405bda65955f")
 	)
 	(pad "2" smd rect
 		(at -0.5 0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "406c66ba-6ae9-4705-a1b7-37e760ebc8c2")
 	)
 	(pad "3" smd rect
 		(at 0 0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "c55c22a9-0693-4525-9388-88980d0f5729")
 	)
 	(pad "4" smd rect
 		(at 0.5 0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "a814fe03-3c0d-497f-b919-63ca17cd80d1")
 	)
 	(pad "5" smd rect
 		(at 1 0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "847f591a-5a45-4d58-aad5-ea17d334b036")
 	)
 	(pad "6" smd rect
 		(at 1 -0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "0c109558-acfa-4968-9611-669ab5a380ff")
 	)
 	(pad "7" smd rect
 		(at 0.5 -0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "454d991c-b209-4d5a-9977-eeee63c25dfe")
 	)
 	(pad "8" smd rect
 		(at 0 -0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "7c71b886-55a2-4b5c-94c8-5a45f40a644b")
 	)
 	(pad "9" smd rect
 		(at -0.501 -0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "60b55ea4-0b19-4e05-8161-57296977fc31")
 	)
 	(pad "10" smd rect
 		(at -1 -0.3875)
 		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "5c725081-3ca0-4b69-9b0b-4bb7958fc9cc")
 	)
@@ -544,6 +529,7 @@
 			"dfd426f9-2366-46b4-b8df-d7601ab7ef69"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -1.01553 -1.905708 1.45)

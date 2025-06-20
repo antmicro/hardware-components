@@ -1,7 +1,7 @@
 (footprint "Conn_Hirose_DF33C_1x2_DF33C-2P-3.3DSA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.3mm Pitch Small Size Connectors for Internal Power Source")
 	(tags "Headers & Wire Housings 3.3mm Hdr Single Row Straight pin 2Pos")
@@ -29,18 +29,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "040291aa-e245-4ae5-9497-c6a25ec6b725")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -125,7 +113,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "5f48746e-25b8-4e7e-9276-57a6b66d691d")
 	)
@@ -136,7 +124,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f31a81b4-2a30-494d-a081-568620fff25a")
 	)
@@ -187,7 +175,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "62bbdc6f-2993-4eb0-95f1-72b8d32eeb68")
 	)
@@ -7574,7 +7562,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.15 5.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "22de3ef5-4df2-418f-aacf-7f1de3c8f1c5")
 		(effects
 			(font
@@ -7588,7 +7575,6 @@
 		(at -3.15 7.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "50f97d7e-8bfa-45ae-aced-d0ee730c15ed")
 		(effects
 			(font
@@ -7601,7 +7587,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.15 8.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f92d020c-e28d-4e4f-a5a7-881955f1bfa3")
 		(effects
 			(font
@@ -7634,6 +7619,7 @@
 		(remove_unused_layers no)
 		(uuid "fe87fe70-39e0-4fea-b2b6-ceeeb523f005")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 1.649 -0.4 0)

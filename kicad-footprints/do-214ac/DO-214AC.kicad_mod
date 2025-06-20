@@ -1,7 +1,7 @@
 (footprint "DO-214AC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.05 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fcb04ccc-633d-4a57-a6e8-2bd223c200a7")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -81,7 +69,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "da433352-5379-445d-b528-90ca7db74c5a")
 	)
@@ -152,7 +140,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "13883bde-d03c-44ef-a6ed-2187cdd50cd1")
 	)
@@ -163,7 +151,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "448b2d10-1d3b-493d-84eb-3541ab89f77b")
 	)
@@ -470,7 +458,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.301 5.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "281f7d8f-affb-4d65-aa10-31b8f8755c52")
 		(effects
 			(font
@@ -483,7 +470,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.301 6.85 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c8745de1-bcb9-4095-8d33-4245a227fdc4")
 		(effects
 			(font
@@ -496,7 +482,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.301 4.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "df05ac74-e86a-4e51-b912-7c8277e7fdfb")
 		(effects
 			(font
@@ -509,17 +494,18 @@
 	(pad "A" smd roundrect
 		(at 1.999 0)
 		(size 2 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "0e3c39ba-c5ce-45a3-acd8-b9eb4b369d29")
 	)
 	(pad "K" smd roundrect
 		(at -2 0)
 		(size 2 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "93b8f42c-878c-4aee-b7e4-f4ec50bb33e5")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 1.4)

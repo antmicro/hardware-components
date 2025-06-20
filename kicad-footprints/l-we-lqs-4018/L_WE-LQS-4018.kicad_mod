@@ -1,7 +1,7 @@
 (footprint "L_WE-LQS-4018"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6307d1da-6b50-4082-b718-bb38000efe37")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 	)
@@ -142,7 +130,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0a151f86-30fa-4cff-8060-df2d769ba379")
 	)
@@ -153,7 +141,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -1340,7 +1328,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.25 5.299 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "08e2d62f-f99a-4268-8b33-617dfcc63e75")
 		(effects
 			(font
@@ -1353,7 +1340,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.25 6.499 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 		(effects
 			(font
@@ -1366,7 +1352,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.25 7.699 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "eaef1172-3351-417c-bfc4-74a598f141cb")
 		(effects
 			(font
@@ -1379,17 +1364,18 @@
 	(pad "1" smd roundrect
 		(at -1.525 0)
 		(size 0.95 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "c346007d-8e71-4354-95df-115053f3c62f")
 	)
 	(pad "2" smd roundrect
 		(at 1.525 0)
 		(size 0.95 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "b26c385e-9754-4588-81da-80015685998e")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0.95)

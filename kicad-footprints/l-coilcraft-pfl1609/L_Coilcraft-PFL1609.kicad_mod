@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft-PFL1609"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.2 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "24545b32-4c48-4278-8e9b-5499bd128ace")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -91,7 +79,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "66f43cf2-d95f-42b1-be96-6f721e19c5c7")
 	)
@@ -102,7 +90,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "66d50711-a48d-4b3e-b45d-0272b06a76b0")
 	)
@@ -113,7 +101,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "38cfa66f-ef56-43c3-8363-7970ab17a3ec")
 	)
@@ -160,7 +148,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.35 4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2d101c55-a43b-4d23-acd4-e0512ef2b91b")
 		(effects
 			(font
@@ -173,7 +160,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.35 5.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "62d21223-5ae3-4d43-b217-a869d83881ca")
 		(effects
 			(font
@@ -186,7 +172,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.35 6.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f65fc63f-05cf-4eab-ae78-4c7dadad20c4")
 		(effects
 			(font
@@ -199,20 +184,21 @@
 	(pad "1" smd roundrect
 		(at -0.635 0)
 		(size 0.64 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "3ece37e5-712e-4964-ba61-0009acbf99c6")
 	)
 	(pad "2" smd roundrect
 		(at 0.635 0)
 		(size 0.64 1.02)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "02efe8a7-ecc2-4b40-904b-b5f49b6db436")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "RCA_Jack_RCJ-014-SMT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -7.3 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "76d1228a-0fd3-47d2-b621-576dd4103489")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -303,7 +291,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "96df1fd7-9c84-4930-a3ee-4932b9e63189")
 	)
@@ -3801,7 +3789,6 @@
 		(at -7.92 10.05 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2e4f32e5-f59f-4fb3-ae19-60bd5ad2b90a")
 		(effects
 			(font
@@ -3814,7 +3801,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.92 11.25 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "39003898-a53d-4251-a200-7141316a4c6c")
 		(effects
 			(font
@@ -3827,7 +3813,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.92 12.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "dd3cfa65-9a18-4b5e-83b3-0327fc74fcb7")
 		(effects
 			(font
@@ -3848,21 +3833,22 @@
 	(pad "1" smd rect
 		(at 6.975 -6.3)
 		(size 2.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4bdfbb78-28a9-47f5-98df-c574e9d3f075")
 	)
 	(pad "1" smd rect
 		(at 6.975 6.4)
 		(size 2.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "98d58caf-4b71-42f7-8a0c-a0a70eb2d796")
 	)
 	(pad "2" smd rect
 		(at 7.175 0.05)
 		(size 2.2 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "70c16cc1-31fb-48da-9d23-9bfb52da9897")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -7.525 -0.05 6.5)

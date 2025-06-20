@@ -1,7 +1,7 @@
 (footprint "Conn_Hirose_DF13_1x10_DF13A-10P-1.25H"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.9 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aad59ab0-e2ab-4566-ba6d-98b87b62cf64")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,7 +59,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "69f7d75c-732a-407f-8d91-84560d69812d")
 	)
@@ -82,7 +70,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "38db212f-dc4a-4025-be04-43e7927eef60")
 	)
@@ -93,7 +81,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "71712b95-1740-4251-9353-2607d2e2a0b1")
 	)
@@ -4140,7 +4128,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -23.27 8.69 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5ec7559c-ff46-4ec5-800a-f40c4ad417ec")
 		(effects
 			(font
@@ -4153,7 +4140,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -23.27 9.89 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "71b869bb-48b4-4e0d-9048-26fefc25b46d")
 		(effects
 			(font
@@ -4166,7 +4152,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -23.27 11.09 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e3e87d0c-1a50-4758-9615-e0bc5203b6e9")
 		(effects
 			(font
@@ -4179,81 +4164,82 @@
 	(pad "1" smd rect
 		(at -5.675 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cc127573-7448-447f-9091-6d017d7a03e3")
 	)
 	(pad "1" smd rect
 		(at -5.675 2.41 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cd7c6fe0-8047-43bc-a11d-94c591231115")
 	)
 	(pad "2" smd rect
 		(at -4.425 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d3e002a-d345-4b50-a89b-69c609bbb711")
 	)
 	(pad "3" smd rect
 		(at -3.175 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "309477ca-846a-4c14-b822-1577d52acc60")
 	)
 	(pad "4" smd rect
 		(at -1.925 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cda3d262-d42a-42d4-861b-39a4b39da9ef")
 	)
 	(pad "5" smd rect
 		(at -0.675 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e078e519-c707-4dfc-bcf4-4a51cd64e12b")
 	)
 	(pad "6" smd rect
 		(at 0.575 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e19d296e-5be7-4ca4-b3e8-cebef5ac158a")
 	)
 	(pad "7" smd rect
 		(at 1.825 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1938e4a9-b5cf-4ba3-a3c2-41ee7e7ea6e4")
 	)
 	(pad "8" smd rect
 		(at 3.075 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1388db0d-e642-4649-b167-67fcf5da986c")
 	)
 	(pad "9" smd rect
 		(at 4.325 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd86cce8-7826-47cd-90a1-a5f4c47c79bb")
 	)
 	(pad "10" smd rect
 		(at 5.575 2.4 180)
 		(size 0.7 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d950f74b-0445-4fe6-92b9-4d8de52b23f0")
 	)
 	(pad "MP" smd rect
 		(at -8.025 -0.89 180)
 		(size 1.6 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43c09439-db57-4ede-93a4-c19fe8ad8a30")
 	)
 	(pad "MP" smd rect
 		(at 8.015 -0.89 180)
 		(size 1.6 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b041a404-ee0a-4877-9b78-12b20b88aa85")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 6.8 0.8 -22.6)

@@ -1,7 +1,7 @@
 (footprint "SAMTEC_PCIE-164-02-X-D-TH"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -62.275 -1.286 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fec708c7-dbcd-48c9-837c-b80b6e49ca17")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "05e231ea-0907-4273-bf76-1e90caca5c95")
 	)
@@ -142,7 +130,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9d4c7570-114c-4fdb-86b7-edb7b6d2dfb2")
 	)
@@ -203,7 +191,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "8b568e98-e357-4d9e-be1f-a3ff21508c5c")
 	)
@@ -40640,7 +40628,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -65.85 12.214 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "62ef3c92-9cd3-40ec-9148-44843b379196")
 		(effects
 			(font
@@ -40653,7 +40640,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -65.85 13.414 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "87d06956-04e9-46c8-a12e-9be8c55893fa")
 		(effects
 			(font
@@ -40666,7 +40652,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -65.85 14.614 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a6389f2e-0bea-4b28-b781-1d166eac4848")
 		(effects
 			(font
@@ -42002,6 +41987,7 @@
 		(remove_unused_layers no)
 		(uuid "a33af3d3-117f-48cd-b1d0-c3c593c6be49")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 11.4 -4.95 1)

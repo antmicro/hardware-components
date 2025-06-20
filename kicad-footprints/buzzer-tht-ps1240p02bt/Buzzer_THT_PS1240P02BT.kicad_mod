@@ -1,7 +1,7 @@
 (footprint "Buzzer_THT_PS1240P02BT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Buzzer")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8def3a1e-69ff-4bf6-adb0-58eb341bd87a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -72,7 +60,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c50c27c8-80e2-4d04-b36d-8e770d2e11a5")
 	)
@@ -83,7 +71,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "cecc3576-5e1d-4fff-8bc3-053a9042e44f")
 	)
@@ -94,7 +82,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f4c41d13-cc77-4d52-8139-167067977d9f")
 	)
@@ -105,7 +93,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "4a2c0013-1a7a-4e6b-ab56-bd911a3bac63")
 	)
@@ -116,7 +104,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2f3c715b-f150-4f22-9a5e-51ec2b64216e")
 	)
@@ -127,7 +115,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ddb32fec-32a0-41c4-8a1c-8c70895d92a0")
 	)
@@ -138,7 +126,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "cef827c0-88eb-4341-8b10-0e72ee03d4ed")
 	)
@@ -4135,7 +4123,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -6.49 11.824 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bf0782e4-f18a-428e-832f-743b99d02c11")
 		(effects
 			(font
@@ -4148,7 +4135,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -6.49 13.024 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cb691297-d191-4b77-87ce-c6dff1b47377")
 		(effects
 			(font
@@ -4161,7 +4147,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -6.49 14.224 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ef5fd148-bdea-4824-9dc9-b30cdf4fd143")
 		(effects
 			(font
@@ -4187,9 +4172,10 @@
 		(remove_unused_layers no)
 		(uuid "02cc5760-5aae-4b7a-93ba-19e2a20933a2")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -2.5 3.7)
+			(xyz 0 -2.5 3.7)
 		)
 		(scale
 			(xyz 1 1 1)

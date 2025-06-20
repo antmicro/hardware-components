@@ -1,7 +1,7 @@
 (footprint "L_Vishay-IHLP-1212AE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.818 -2.699 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5cdcbe4d-01cd-47e9-99e6-f434dc2e170d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "efd0857d-6988-4d50-a351-bb52be5cd758")
 	)
@@ -142,7 +130,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f58550ee-3a27-463c-8fbb-b1dec29cf640")
 	)
@@ -153,7 +141,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -440,7 +428,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.35 5.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5d1a5118-8ca8-4e1b-a2e4-5f8dcc30952f")
 		(effects
 			(font
@@ -453,7 +440,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.35 6.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6bac8119-a7a4-4b12-b743-98783107f81a")
 		(effects
 			(font
@@ -466,7 +452,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.35 7.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "df597c8f-875c-48fa-b3fe-d0cdbb2e36d4")
 		(effects
 			(font
@@ -479,17 +464,18 @@
 	(pad "1" smd roundrect
 		(at -1.35 0)
 		(size 1.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "365c0ed7-8e3f-4dd2-861f-1b2670516ade")
 	)
 	(pad "2" smd roundrect
 		(at 1.35 0)
 		(size 1.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "608a5563-d112-4d9c-b2a0-2c0f057ea701")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 15.653 75.75 0)

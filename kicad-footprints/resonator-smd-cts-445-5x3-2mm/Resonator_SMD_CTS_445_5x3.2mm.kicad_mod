@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_CTS_445_5x3.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.55 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f450e81d-8ab5-4166-9f6f-77c6ca98ebc7")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4f09e47a-29d0-4e2c-af74-d8184c9cab63")
 	)
@@ -144,7 +132,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "95ebb15e-f9e3-4e83-87b8-b0dc6bf64873")
 	)
@@ -1692,7 +1680,6 @@
 		(at -5.914 4.34 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "0a60dbf3-ea80-489d-9898-ede7e25b72d9")
 		(effects
 			(font
@@ -1705,7 +1692,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.914 6.74 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "50019b02-b421-4bac-b382-e97540a97390")
 		(effects
 			(font
@@ -1718,7 +1704,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.914 5.54 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bffadef2-eeec-41fd-ac76-0b898d2784f6")
 		(effects
 			(font
@@ -1731,20 +1716,21 @@
 	(pad "1" smd rect
 		(at -1.9 0)
 		(size 1.8 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "1cae1b6f-65a5-442b-ae64-0a5027f83992")
 	)
 	(pad "2" smd rect
 		(at 1.9 0)
 		(size 1.8 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "27d017d0-daaa-4611-8aaa-424d63fbd080")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

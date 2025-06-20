@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_ECS_ECX-1210_1.2x1x0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.001 -0.949 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "69fc0656-8dd5-40d1-92aa-3ba176df4030")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "51fdbe8d-78ad-4f3d-be79-6f37f3cd25d8")
 	)
@@ -84,7 +72,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "570719e8-f914-4ec6-8ad8-d9c3b450a36b")
 	)
@@ -812,7 +800,6 @@
 		(at -1.15 3.851 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "570ada55-d607-448b-a8dd-db83c79dcba8")
 		(effects
 			(font
@@ -825,7 +812,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.15 5.051 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ef806753-cd4c-4dcd-82d8-e22428f1226d")
 		(effects
 			(font
@@ -838,7 +824,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.15 6.251 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fef4d157-9b52-4277-ac8b-932adb11c41f")
 		(effects
 			(font
@@ -851,7 +836,7 @@
 	(pad "1" smd roundrect
 		(at -0.41 0 180)
 		(size 0.575 1.14)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -860,7 +845,7 @@
 	(pad "2" smd roundrect
 		(at 0.415 0 180)
 		(size 0.575 1.14)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "df1e5a87-c694-44b0-a86f-cf20e3f6eddb")
 	)
@@ -904,6 +889,7 @@
 			"fca92aca-699f-4288-8226-86dcb5c0168d" "fdaa2e03-4520-42d9-9849-1d5a44069f46"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0.001 -0.001 0)

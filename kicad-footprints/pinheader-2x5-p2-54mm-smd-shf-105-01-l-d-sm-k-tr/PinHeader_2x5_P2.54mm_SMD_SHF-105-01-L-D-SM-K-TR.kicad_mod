@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x5_P2.54mm_SMD_SHF-105-01-L-D-SM-K-TR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.9 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6c1a7f5a-c713-4f55-a9f2-b7b58a9be49e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -133,7 +121,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "aa4a9043-b8c6-4aaf-9123-b5afb69df83e")
 	)
@@ -144,7 +132,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5a3298a7-6e71-4612-8a84-87f217bf65d6")
 	)
@@ -155,7 +143,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "64916ed7-5c26-416e-8b04-09c7bf3a6de3")
 	)
@@ -2382,7 +2370,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.1 7.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "30416e61-3c88-4552-b8cb-7e9e84ab4377")
 		(effects
 			(font
@@ -2395,7 +2382,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.1 8.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a70184e7-697d-4c33-8836-5b6311dd1a69")
 		(effects
 			(font
@@ -2408,7 +2394,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.1 9.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b937124a-cd82-4dd1-be5e-7e880540cc2f")
 		(effects
 			(font
@@ -2421,76 +2406,77 @@
 	(pad "1" smd rect
 		(at -2.54 2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "a3afc376-40bf-4ad1-bb08-91aba41f0cc5")
 	)
 	(pad "2" smd rect
 		(at -2.54 -2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "d7bab5a0-0b81-40e8-9877-7f68895e98ff")
 	)
 	(pad "3" smd rect
 		(at -1.27 2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "c3052dac-b274-4605-bea3-c2cb2f2ff888")
 	)
 	(pad "4" smd rect
 		(at -1.27 -2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "f28fcb84-e6e2-4a22-ad43-5c00324df0c2")
 	)
 	(pad "5" smd rect
 		(at 0 2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "a947a21b-c9b0-4dec-ba5b-eea185752e61")
 	)
 	(pad "6" smd rect
 		(at 0 -2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "7e558558-4169-443e-a6b1-35cd71fa05df")
 	)
 	(pad "7" smd rect
 		(at 1.27 2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "3bee4427-8f37-444e-8eb1-93b0ae04279b")
 	)
 	(pad "8" smd rect
 		(at 1.27 -2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "b9f53750-42bd-4dff-9273-bf63fb5290a1")
 	)
 	(pad "9" smd rect
 		(at 2.54 2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "1401de5d-19c8-44b8-b76f-c27948eab23e")
 	)
 	(pad "10" smd rect
 		(at 2.54 -2.03 90)
 		(size 2.794 0.7366)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "6ab6fb85-c71b-4fd4-8763-9984338a1c84")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0.127)
+			(xyz 0 0 0.127)
 		)
 		(scale
 			(xyz 1 1 1)

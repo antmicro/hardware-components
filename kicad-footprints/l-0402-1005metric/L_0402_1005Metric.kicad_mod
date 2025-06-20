@@ -1,7 +1,7 @@
 (footprint "L_0402_1005Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor SMD 0402")
 	(tags "Inductor SMD 0402")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3d6d5014-5666-42a0-80bc-610c622d4bdb")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5f469260-0e5e-42b3-b498-597e0eddb012")
 	)
@@ -84,7 +72,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "be6401ca-8bb3-4839-b37b-0ae22d146dba")
 	)
@@ -1445,7 +1433,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "4366413d-87c7-44f5-b49d-25b2c2ee58ce")
 	)
@@ -6912,7 +6900,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.932 4.17 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "20ec2445-7073-4589-ab3e-865e3b4e944a")
 		(effects
 			(font
@@ -6925,7 +6912,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.932 3.168 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3997f11f-c676-4f3e-9908-4ca39369e58d")
 		(effects
 			(font
@@ -6938,7 +6924,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.932 5.17 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c8dada4b-ab3a-4e1d-8442-2a4c47b5001f")
 		(effects
 			(font
@@ -6951,17 +6936,18 @@
 	(pad "1" smd roundrect
 		(at -0.48 0)
 		(size 0.59 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8758ea11-2751-4d20-a067-378f561a838b")
 	)
 	(pad "2" smd roundrect
 		(at 0.48 0)
 		(size 0.59 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "743bd49d-6a99-478f-a36c-21270d1ff853")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

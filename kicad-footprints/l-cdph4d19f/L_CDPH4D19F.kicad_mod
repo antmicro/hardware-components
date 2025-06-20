@@ -1,7 +1,7 @@
 (footprint "L_CDPH4D19F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Sumida CDPH4D19F  series SMD inductor")
 	(tags "Sumida CDPH4D19F SMD inductor")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4f131f01-b041-42e7-88c5-fae5dd4cc1a9")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -254,7 +242,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4fe91cab-4e8f-4fad-a8ad-182eed59d877")
 	)
@@ -265,7 +253,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "5584f153-8e2a-42d3-819d-96afdc1a9e86")
 	)
@@ -2112,7 +2100,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.25 6.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ab8243bd-6c15-4625-ae2f-d45aa7c98bb9")
 		(effects
 			(font
@@ -2125,7 +2112,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.25 7.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cfae2c6f-0c6c-41fc-9272-4e9fa01a7f51")
 		(effects
 			(font
@@ -2138,7 +2124,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.25 8.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fe0ea6f4-4baa-44dc-bcc6-aa0ce9762ccc")
 		(effects
 			(font
@@ -2151,15 +2136,16 @@
 	(pad "1" smd rect
 		(at -1.743 -1.743 135)
 		(size 1.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe861a27-668b-488a-ad8b-21e47c163082")
 	)
 	(pad "2" smd rect
 		(at 1.768 1.768 135)
 		(size 1.8 2.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e293bbb8-c505-4e5a-8521-ecd194a13af8")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

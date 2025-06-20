@@ -1,7 +1,7 @@
 (footprint "NetTie-2_SMD_Pad0.1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Net tie, 2 pin, 0.1mm  SMD pads")
 	(tags "net tie")
@@ -28,18 +28,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "61ef6c63-6a71-4761-8bd0-6d3fe13597c8")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -76,7 +64,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "4c587801-35de-4fc4-895b-9942aca7f89f")
 	)
@@ -89,14 +77,13 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "72a94ba9-98ac-4345-bd14-a5fd8db58ce1")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -0.128 5.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "02592214-8e8d-48ad-83b5-8b6878a7c146")
 		(effects
 			(font
@@ -109,7 +96,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.128 4.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "827ee187-550f-4579-9b26-2f2a40434b58")
 		(effects
 			(font
@@ -122,7 +108,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.128 3.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e3535e49-eae9-4f88-a2ae-66dd4a16670c")
 		(effects
 			(font
@@ -144,4 +129,5 @@
 		(layers "F.Cu")
 		(uuid "b531e0f4-5d47-4a72-8a54-a3eaafb85b86")
 	)
+	(embedded_fonts no)
 )

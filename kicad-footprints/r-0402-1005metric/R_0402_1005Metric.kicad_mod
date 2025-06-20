@@ -1,7 +1,7 @@
 (footprint "R_0402_1005Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0402")
 	(tags "resistor SMD 0402")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "43186c02-e430-4330-ae62-d914e0385194")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d3deadb5-e024-4ccb-9602-a45960f404df")
 	)
@@ -84,7 +72,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0e34d182-14bf-4920-a475-ff524e6dd644")
 	)
@@ -95,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "a2414235-040e-4e17-b3f3-9b2c57838e11")
 	)
@@ -202,7 +190,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.95 5.169 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "060155c0-ab88-4c8d-9fda-ab0ed07f90de")
 		(effects
 			(font
@@ -215,7 +202,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.95 4.169 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "48f52940-44de-493b-97c2-80bee990623d")
 		(effects
 			(font
@@ -228,7 +214,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.95 3.168 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d4bf243b-867b-464f-a3e8-c685b7bd49f9")
 		(effects
 			(font
@@ -241,17 +226,18 @@
 	(pad "1" smd roundrect
 		(at -0.48 0)
 		(size 0.59 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "202eb3fb-969f-4b44-bdfa-2e646b2178f6")
 	)
 	(pad "2" smd roundrect
 		(at 0.48 0)
 		(size 0.59 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2110f46b-912b-4451-8297-f621fff7d3dc")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 -0.01)

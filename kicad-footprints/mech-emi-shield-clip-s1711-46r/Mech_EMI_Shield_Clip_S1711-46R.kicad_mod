@@ -1,7 +1,7 @@
 (footprint "Mech_EMI_Shield_Clip_S1711-46R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shield Clip, SMT, 8.79mm x 2.28mm")
 	(tags "MECHANICAL")
@@ -29,18 +29,6 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3c31f42b-2da6-4f38-a618-90663ed1175a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -66,39 +54,6 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -4.35 -1)
-		(end -1.85 1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "616a155d-a13f-4dfc-81de-c57719a7e34c")
-	)
-	(fp_rect
-		(start -1.25 -1)
-		(end 1.25 1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "1ccb311c-c190-45f0-a54e-11cdf0c26f59")
-	)
-	(fp_rect
-		(start 1.85 -1)
-		(end 4.35 1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "c58bc610-ba26-4b34-990a-a34baafb6c9c")
-	)
 	(fp_line
 		(start -5.08 -1.5)
 		(end -4.55 -1.5)
@@ -179,6 +134,39 @@
 		(layer "F.SilkS")
 		(uuid "1dbfd3ee-7caa-42d3-9ba5-32ce819d7a88")
 	)
+	(fp_rect
+		(start -4.35 -1)
+		(end -1.85 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "616a155d-a13f-4dfc-81de-c57719a7e34c")
+	)
+	(fp_rect
+		(start -1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1ccb311c-c190-45f0-a54e-11cdf0c26f59")
+	)
+	(fp_rect
+		(start 1.85 -1)
+		(end 4.35 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "c58bc610-ba26-4b34-990a-a34baafb6c9c")
+	)
 	(fp_line
 		(start -5.3 0)
 		(end 5.3 0)
@@ -196,7 +184,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a8d8e3bf-5d2b-4299-96f4-c018a80c2c3b")
 	)
@@ -247,7 +235,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "8e2a778f-e5d6-41c4-8835-807ab79689a1")
 	)
@@ -6754,7 +6742,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.08 3.225 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "15f60d77-0e13-420e-b3f9-b3afeeacdfa7")
 		(effects
 			(font
@@ -6767,7 +6754,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.08 4.425 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3bff47f5-162b-4970-a3a1-4e9635a4c8a7")
 		(effects
 			(font
@@ -6780,7 +6766,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.08 5.625 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f7c5cae5-f5b8-4efb-b6f7-e1cd9d17b763")
 		(effects
 			(font
@@ -7126,9 +7111,10 @@
 			"ff35ac38-e134-45fd-aae1-7a04f3be7b34" "ffa97118-db2d-45e9-9ef3-a4c564480fdc"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

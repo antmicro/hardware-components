@@ -1,7 +1,7 @@
 (footprint "L_MPS-MPL-AL5050"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.01 -3.33 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "26c30b62-83f1-49c7-b942-91199ea52335")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,7 +59,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c801d42e-dd94-493e-bd2f-6c3ddad43f55")
 	)
@@ -82,7 +70,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 	)
@@ -93,7 +81,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c19dbe3c-ced0-48f7-a91d-777569cfb936")
 	)
@@ -104,7 +92,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -1471,7 +1459,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.9 6.25 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "08e2d62f-f99a-4268-8b33-617dfcc63e75")
 		(effects
 			(font
@@ -1484,7 +1471,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.9 7.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 		(effects
 			(font
@@ -1497,7 +1483,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.9 8.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "eaef1172-3351-417c-bfc4-74a598f141cb")
 		(effects
 			(font
@@ -1510,17 +1495,18 @@
 	(pad "1" smd roundrect
 		(at -1.625 0)
 		(size 1.25 4.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "ade2c7d4-2679-4188-a6a2-d3bd0fec8691")
 	)
 	(pad "2" smd roundrect
 		(at 1.625 0)
 		(size 1.25 4.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "7a80b26c-70ae-4c08-90b0-b689d1d7c5f9")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 4.8)

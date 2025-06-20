@@ -1,7 +1,7 @@
 (footprint "Coax_Conn_U.FL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "53bd0454-f680-427e-8441-29e01b95f678")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -152,7 +140,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "16d2bdc5-ac19-4a51-b00f-14c15075069d")
 	)
@@ -203,7 +191,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "5b4f0e8d-f1e2-4050-9a93-281264bc8bb4")
 	)
@@ -7660,7 +7648,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.13 4.52 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "25b46f4d-e415-4c27-b832-237290846279")
 		(effects
 			(font
@@ -7673,7 +7660,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.13 5.72 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "68a1e01d-6705-4b26-87e5-118dbac0253c")
 		(effects
 			(font
@@ -7686,7 +7672,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.13 6.92 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b217a6aa-e7e9-4281-a942-f0881b8f2fbc")
 		(effects
 			(font
@@ -7699,19 +7684,19 @@
 	(pad "1" smd rect
 		(at -0.012 1.499)
 		(size 1 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ceeeacb1-5215-47a4-bb20-54518adbafda")
 	)
 	(pad "SH1" smd rect
 		(at 1.463 0)
 		(size 1.05 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "07aae532-623e-4cbc-aab6-f02d6e66578b")
 	)
 	(pad "SH2" smd rect
 		(at -1.488 0)
 		(size 1.05 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "65709db0-a407-46bb-aa9b-7130cc3ab4f8")
 	)
 	(zone
@@ -7732,6 +7717,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -7742,6 +7731,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 55.23891 1.1 22.5)

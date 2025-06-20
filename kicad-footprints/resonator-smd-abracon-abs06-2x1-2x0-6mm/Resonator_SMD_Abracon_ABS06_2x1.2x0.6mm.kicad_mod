@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_Abracon_ABS06_2x1.2x0.6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal 2012")
 	(tags "SMD SMT crystal")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e8bed4b7-2412-4125-8d59-c4d8f9e79f42")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c1aefcbe-486a-433a-a560-c56806bb52a9")
 	)
@@ -154,7 +142,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "f476c31e-1a34-4db0-b8f6-96f340a62cd5")
 	)
@@ -2841,7 +2829,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.441 3.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "27539453-99da-45e6-b5af-0b3382dac7d2")
 		(effects
 			(font
@@ -2854,7 +2841,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.441 5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "640c8078-617b-4c67-a55e-4c829eba4d3b")
 		(effects
 			(font
@@ -2867,7 +2853,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.441 6.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b5057ed7-520c-475d-9fec-d6b17670ba7c")
 		(effects
 			(font
@@ -2880,15 +2865,16 @@
 	(pad "1" smd rect
 		(at -0.725 0)
 		(size 0.75 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7b332b34-24e3-47f2-9f43-bea60c75cb17")
 	)
 	(pad "2" smd rect
 		(at 0.725 0)
 		(size 0.75 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "03d942f7-f1ca-4a32-8ea3-adff6524da8b")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_PCIexpress_x8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PCIexpress x8")
 	(tags "PCIexpress")
@@ -29,18 +29,6 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c5750268-27c2-4849-a2d1-c36f1192ca40")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -66,16 +54,17 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_circle
-		(center 0 -2.675)
-		(end 0.05 -2.675)
+	(fp_poly
+		(pts
+			(xy -0.5 -2.05) (xy 50.7 -2.05) (xy 50.6 3.4) (xy -0.6 3.4)
+		)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "21adb2c6-b866-4ce2-81f2-1bcd8e815c24")
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b1a7f4ea-d335-425b-b653-404b832473f5")
 	)
 	(fp_poly
 		(pts
@@ -85,21 +74,20 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "B.Mask")
 		(uuid "15268074-7843-4b08-b932-5bbd3aee4eb1")
 	)
-	(fp_poly
-		(pts
-			(xy -0.5 -2.05) (xy 50.7 -2.05) (xy 50.6 3.4) (xy -0.6 3.4)
-		)
+	(fp_circle
+		(center 0 -2.675)
+		(end 0.05 -2.675)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "b1a7f4ea-d335-425b-b653-404b832473f5")
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "21adb2c6-b866-4ce2-81f2-1bcd8e815c24")
 	)
 	(fp_line
 		(start -0.65 -4.95)
@@ -239,7 +227,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.75 11.05 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "45e9f490-426e-4726-a174-9feb55021639")
 		(effects
 			(font
@@ -252,7 +239,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.75 8.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a3f9a03d-5f42-4bdd-a4bc-eb9313d37429")
 		(effects
 			(font
@@ -265,7 +251,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.75 9.85 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d468971f-831d-4264-aeff-ad7eef9225c1")
 		(effects
 			(font
@@ -863,4 +848,5 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "8931d1c0-83d7-4fda-bed9-f557077f6ae3")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "L_Murata-DS75LC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.625 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4335ae53-5405-4728-94af-9c6f78d3593d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -291,7 +279,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -7018,7 +7006,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.45 7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 		(effects
 			(font
@@ -7031,7 +7018,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.45 8.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 		(effects
 			(font
@@ -7044,7 +7030,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.45 9.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 		(effects
 			(font
@@ -7057,17 +7042,18 @@
 	(pad "1" smd roundrect
 		(at -3.189 0)
 		(size 2 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 	)
 	(pad "2" smd roundrect
 		(at 3.211 0)
 		(size 2 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

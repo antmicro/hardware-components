@@ -1,7 +1,7 @@
 (footprint "R_2010_5025Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 2010")
 	(tags "resistor SMD 2010")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c4f6bc67-51fe-4c32-aa9a-11e9cb48ae56")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e2dc2065-c426-4267-be0f-0628c868c12b")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4ecbcaec-80d8-41ce-9041-e84cfe4725de")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "367ed929-436e-4564-867c-148e75f4de49")
 	)
@@ -322,7 +310,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.34 4.278 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9c742b85-1b51-4a9d-bb4f-a8e27b179bdb")
 		(effects
 			(font
@@ -335,7 +322,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.34 5.278 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ad8d405d-3eef-4146-822c-90fd66d1c7ab")
 		(effects
 			(font
@@ -348,7 +334,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.34 6.278 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bf5e0ce9-eb40-4169-b32a-1dc9f1f5835f")
 		(effects
 			(font
@@ -361,15 +346,16 @@
 	(pad "1" smd rect
 		(at -2.32 0)
 		(size 1.5 2.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73ff7448-8939-4bb8-a22d-1700909c84b4")
 	)
 	(pad "2" smd rect
 		(at 2.32 0)
 		(size 1.5 2.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f36c3001-6284-447f-8524-0f51745ee7f9")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

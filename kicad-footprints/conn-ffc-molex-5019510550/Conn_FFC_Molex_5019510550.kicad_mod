@@ -1,7 +1,7 @@
 (footprint "Conn_FFC_Molex_5019510550"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint based on: https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/501/501951/5019510550_sd.pdf?inline")
 	(tags "Connector")
@@ -29,21 +29,8 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at -0.123 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3178c312-82c1-4229-a598-31fa716ccb0b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(property "Datasheet" ""
-		(at -0.123 0 -90)
+		(at -0.123 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2f33de28-1231-4a1e-b69a-168e8ff2d3f2")
@@ -56,7 +43,7 @@
 		)
 	)
 	(property "Description" ""
-		(at -0.123 0 -90)
+		(at -0.123 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "bb5d0736-1605-47b5-8715-b726e9945a32")
@@ -156,7 +143,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "510bb5a8-d71b-4166-9ef4-f843fd071a07")
 	)
@@ -167,7 +154,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "cf857f41-41f1-4eb3-bcff-cdd32d0bdd1c")
 	)
@@ -178,7 +165,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "078cd630-e2ea-49a5-ae9e-4f5cdc6f3ece")
 	)
@@ -5105,7 +5092,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.9 4.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ba78bc3a-0c71-49bc-a3fb-bc8f1d017ea7")
 		(effects
 			(font
@@ -5118,7 +5104,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.9 6.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ce3d08c4-8663-42e4-950e-5c90fa5ec274")
 		(effects
 			(font
@@ -5131,7 +5116,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.9 7.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d3d384a5-e390-42ce-8cc2-fcebbd539763")
 		(effects
 			(font
@@ -5144,60 +5128,61 @@
 	(pad "1" smd rect
 		(at -1.575 -1 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3cde3d8a-ba82-4cde-ac99-c5f70e8871dd")
 	)
 	(pad "2" smd rect
 		(at 1.325 -0.5 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1c28bd57-5f43-4527-8ab6-3c438d38ccfd")
 	)
 	(pad "3" smd rect
 		(at -1.575 0 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "63a7c1cc-9aa9-41bf-9fae-6c8b1207aec7")
 	)
 	(pad "4" smd rect
 		(at 1.325 0.5 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "97549091-2021-4134-8c73-3ff807b22c27")
 	)
 	(pad "5" smd rect
 		(at -1.575 1 270)
 		(size 0.6 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bed16568-72f4-4c28-9d7e-774fc06fd8a9")
 	)
 	(pad "MP" smd rect
 		(at -1.475 -2 270)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be59c1db-89c9-48a9-a94c-ff5a05f82782")
 	)
 	(pad "MP" smd rect
 		(at -1.475 2 270)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "93a5b3b0-5e78-49d1-b3ed-1758321f01d5")
 	)
 	(pad "MP" smd rect
 		(at 1.225 -2 270)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "be11b6e8-a0b4-49c3-893b-9c258f690b39")
 	)
 	(pad "MP" smd rect
 		(at 1.225 2 270)
 		(size 0.8 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "86041c75-672b-42aa-9e1b-61d7ec316b04")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0.14 -0 0.52)
+			(xyz -0.14 0 0.52)
 		)
 		(scale
 			(xyz 1 1 1)

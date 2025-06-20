@@ -1,7 +1,7 @@
 (footprint "Conn_FFC_HDGC_1x22_0.5K-DX-22PWB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "FFC/FPC connector, FH12-22S-0.5SH, 22 Pins")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7dd4d4fd-1d14-4191-8656-d27f516de28f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -142,7 +130,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c62c1b31-ab66-484f-a59c-824a863151c4")
 	)
@@ -153,7 +141,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b36c33f4-73f2-4b67-9f18-8dfc64328d26")
 	)
@@ -294,7 +282,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "3bf47ce4-432f-4098-b536-977ca705e0a5")
 	)
@@ -4911,7 +4899,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.95 5.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "097db20b-cbfc-4fbd-a7b7-c78fc01b8326")
 		(effects
 			(font
@@ -4924,7 +4911,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.95 6.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "45c2ff88-6263-4053-8754-f2fa40eb0859")
 		(effects
 			(font
@@ -4937,7 +4923,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.95 8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "dac863eb-1783-4d1d-bc6d-db78e4cc229f")
 		(effects
 			(font
@@ -4950,147 +4935,148 @@
 	(pad "1" smd rect
 		(at -5.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "af63cb8c-c1b1-44e4-8d15-4c3b706f67be")
 	)
 	(pad "2" smd rect
 		(at -4.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5615e8a3-e4f8-43dd-bcbc-6625993e2b64")
 	)
 	(pad "3" smd rect
 		(at -4.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d34aee20-c735-4345-afdf-fd3c31720cce")
 	)
 	(pad "4" smd rect
 		(at -3.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a2bde7d-ae14-42eb-8cbe-c2740b289c01")
 	)
 	(pad "5" smd rect
 		(at -3.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3f5fd77d-fdd3-4f8b-b966-95fcc906d806")
 	)
 	(pad "6" smd rect
 		(at -2.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "893ed581-cbe2-4dc7-8076-6e9a06419c93")
 	)
 	(pad "7" smd rect
 		(at -2.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "47de07fa-1ff6-4780-8a30-294dde7afc09")
 	)
 	(pad "8" smd rect
 		(at -1.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8a0b7216-a159-431c-b9e6-5ca37b2dd6e2")
 	)
 	(pad "9" smd rect
 		(at -1.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e8b536b8-12c2-4f31-9d50-88a94fcf797d")
 	)
 	(pad "10" smd rect
 		(at -0.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2c9adba1-0823-4f69-a928-9cfdc7105865")
 	)
 	(pad "11" smd rect
 		(at -0.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d6a86dc6-3f6f-4b41-9b67-af75df97a39e")
 	)
 	(pad "12" smd rect
 		(at 0.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6c5e1fd9-c3c4-4e14-8752-1653cb57488c")
 	)
 	(pad "13" smd rect
 		(at 0.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "00ef44a2-ff92-4343-8c96-9f064f05d0b4")
 	)
 	(pad "14" smd rect
 		(at 1.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b0a29ba4-e4f1-4a49-a0ac-f00b66a71a91")
 	)
 	(pad "15" smd rect
 		(at 1.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d6bfa466-4035-49d2-9e32-298127d990af")
 	)
 	(pad "16" smd rect
 		(at 2.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0e8595c9-a8d8-4382-a9c8-9a1971ed3b37")
 	)
 	(pad "17" smd rect
 		(at 2.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5b9dee4e-5b9d-461c-923e-fe92f92f8308")
 	)
 	(pad "18" smd rect
 		(at 3.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "94aa23c7-b0d3-40d6-82d5-1c8a0e756841")
 	)
 	(pad "19" smd rect
 		(at 3.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d6c2ce6e-e033-4ce9-9056-0a5c8b5d84a9")
 	)
 	(pad "20" smd rect
 		(at 4.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3cbf55e9-bc52-4ba5-8fbf-046b325e2791")
 	)
 	(pad "21" smd rect
 		(at 4.75 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3ebef04d-3a39-42b8-b8bd-9c38d10000cd")
 	)
 	(pad "22" smd rect
 		(at 5.25 -2.8 180)
 		(size 0.3 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f9eefa8f-1e5a-4ca5-9d9c-01150f569d57")
 	)
 	(pad "MP" smd rect
 		(at -7.155 0.415)
 		(size 1.8 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6d9e35d5-792c-42bc-9824-d2b9fad42806")
 	)
 	(pad "MP" smd rect
 		(at 7.145 0.415)
 		(size 1.8 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "106de9ea-aa6f-45a1-b412-2f07ca97222a")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 16.431 -9.516 -128)

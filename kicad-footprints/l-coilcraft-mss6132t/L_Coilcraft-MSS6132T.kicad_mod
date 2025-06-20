@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft-MSS6132T"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.5 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "93f40fdc-f0d6-4c9f-a1df-1c0abfeefb5e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -91,7 +79,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "818ddc58-9a78-4d47-b2b6-f7ef9bf57599")
 	)
@@ -102,7 +90,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e286b724-dbb9-412e-9a66-3b897fbdf706")
 	)
@@ -113,7 +101,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "4f071e25-85e8-44e7-a03e-ca755200f8af")
 	)
@@ -4160,7 +4148,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.35 6.826 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2430d9a3-d46c-49f1-bf1c-173f55c79a01")
 		(effects
 			(font
@@ -4173,7 +4160,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.35 8.026 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e54bdc3e-227e-4585-9b7c-130c2cdaea52")
 		(effects
 			(font
@@ -4186,7 +4172,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.35 9.226 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 		(effects
 			(font
@@ -4199,7 +4184,7 @@
 	(pad "1" smd custom
 		(at -2.71 0 90)
 		(size 6 0.575)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -4227,7 +4212,7 @@
 	(pad "2" smd custom
 		(at 2.71 0 270)
 		(size 6 0.575)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -4252,9 +4237,10 @@
 		)
 		(uuid "4723b0d3-089a-4e56-9523-c4c088f2025c")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0.2)
+			(xyz 0 0 0.2)
 		)
 		(scale
 			(xyz 1 1 1)

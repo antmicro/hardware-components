@@ -1,7 +1,7 @@
 (footprint "C_Pol_EIA-B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.3 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c4c3090c-682a-4268-bc4b-e68395c4e2fe")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -281,7 +269,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "256dde77-178f-42eb-b8eb-f6f17bc43d1a")
 	)
@@ -292,7 +280,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "533986b8-dee6-4d87-a000-d1fde9624d64")
 	)
@@ -303,7 +291,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "f532116a-73a7-438a-bfb5-4eba6ab69e1c")
 	)
@@ -350,7 +338,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.665 4.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8e0ef171-6948-47fa-a720-66ef1be55595")
 		(effects
 			(font
@@ -363,7 +350,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.665 5.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b4319b34-b972-42fa-97a5-1249fc332c9f")
 		(effects
 			(font
@@ -376,7 +362,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.665 6.85 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bb121a73-659b-4ab6-adf3-1c235d0d283c")
 		(effects
 			(font
@@ -389,17 +374,18 @@
 	(pad "1" smd roundrect
 		(at -1.551 0)
 		(size 1.2 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "5b5183bb-fa6b-4826-a81c-372f93711644")
 	)
 	(pad "2" smd roundrect
 		(at 1.55 0)
 		(size 1.2 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "30277bb7-1a6b-430d-83dd-5641b41c5323")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -1.0145 4.97373 -2)

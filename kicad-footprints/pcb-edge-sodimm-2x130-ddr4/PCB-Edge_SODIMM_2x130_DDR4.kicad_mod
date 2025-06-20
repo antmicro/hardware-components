@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_SODIMM_2x130_DDR4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f7a42fa9-236d-43b5-bcd5-f3db83f26725")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,7 +59,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "42d93041-d8be-4d3e-babd-171798cb7cd9")
 	)
@@ -175,7 +163,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0d651264-1a45-4824-a0a3-b621c2474751")
 	)
@@ -186,7 +174,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "3f4b7ab2-5b26-43d5-bc0f-b20dc9ff179a")
 	)
@@ -483,7 +471,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at 0 5.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "739f3ce9-b168-4cb5-8f2c-f36624124eb2")
 		(effects
 			(font
@@ -496,7 +483,6 @@
 	(fp_text user "Author: Antmicro"
 		(at 0 4.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a562e1bd-f95c-4e99-b69b-9b3e66b0d6fe")
 		(effects
 			(font
@@ -509,7 +495,6 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 2.999 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b948fa1b-d9ed-487a-a824-beb0be688315")
 		(effects
 			(font
@@ -2093,4 +2078,5 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "b059c31a-1d58-4676-b4f5-6e6096be4eec")
 	)
+	(embedded_fonts no)
 )

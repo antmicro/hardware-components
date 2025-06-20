@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_KDS_DST1610A_1.6x1x0.45mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.95 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "33399056-8c8c-4686-884b-f9c37edadfc7")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "68a658cb-9928-4885-94a0-63745c84e179")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fbe713c3-4314-4045-a3ed-2d66dec9dca5")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "c60fe390-dc9f-40f6-b969-02b7ec380537")
 	)
@@ -1493,7 +1481,6 @@
 		(at -1.051 3.929 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "570ada55-d607-448b-a8dd-db83c79dcba8")
 		(effects
 			(font
@@ -1506,7 +1493,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.051 5.129 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ef806753-cd4c-4dcd-82d8-e22428f1226d")
 		(effects
 			(font
@@ -1519,7 +1505,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.051 6.328 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fef4d157-9b52-4277-ac8b-932adb11c41f")
 		(effects
 			(font
@@ -1532,7 +1517,7 @@
 	(pad "1" smd roundrect
 		(at -0.55 0 180)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(chamfer_ratio 0.2)
 		(chamfer)
@@ -1541,10 +1526,11 @@
 	(pad "2" smd roundrect
 		(at 0.55 0 180)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "df1e5a87-c694-44b0-a86f-cf20e3f6eddb")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

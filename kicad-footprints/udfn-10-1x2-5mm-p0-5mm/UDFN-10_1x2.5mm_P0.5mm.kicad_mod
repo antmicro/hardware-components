@@ -1,7 +1,7 @@
 (footprint "UDFN-10_1x2.5mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint based on https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-arrays-sp33r6-series-datasheet?assetguid=17fda436-825f-4698-a26d-e7bf3e493099")
 	(property "Reference" "D**"
@@ -28,21 +28,8 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dafb92b1-18eb-4f66-ad7f-ea9071455d85")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(property "Datasheet" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "761582f2-afd5-480a-b18c-a335e0dd452f")
@@ -55,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "fdb0ac01-2ac7-4e05-8606-8861ecad1319")
@@ -135,7 +122,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0377eac6-5134-4b7d-907f-8411b7463394")
 	)
@@ -146,7 +133,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4d2109f7-3f12-4531-94bd-c86a2fccc2aa")
 	)
@@ -197,7 +184,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "8c31e5a2-cde9-49c6-8f8f-f96cac041888")
 	)
@@ -628,14 +615,13 @@
 			(width 0.015)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "d26bc477-0b8e-47ad-a07a-3e46cfae50bb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -1.63 3.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4f9a7327-6327-4f62-a498-83d3bbfb8346")
 		(effects
 			(font
@@ -648,7 +634,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.63 4.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "aceae2e5-e6f2-4c07-b375-d59fa6101267")
 		(effects
 			(font
@@ -661,7 +646,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.63 6.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "de28fc4a-6f47-40d2-b554-042ee771b53c")
 		(effects
 			(font
@@ -674,60 +658,61 @@
 	(pad "1" smd rect
 		(at -0.4 -1 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa7e4a3f-ed2e-4caa-b2fd-2e12b737884d")
 	)
 	(pad "2" smd rect
 		(at -0.4 -0.5 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "88ad9d49-fa03-4e42-8163-6165a6aed25b")
 	)
 	(pad "3" smd rect
 		(at 0 0 270)
 		(size 0.4 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d47b956c-5357-42d6-887c-e21e22ca9055")
 	)
 	(pad "4" smd rect
 		(at -0.4 0.5 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b45f1d91-a086-41c7-9429-ae1a25bf5e25")
 	)
 	(pad "5" smd rect
 		(at -0.4 1 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "96a69a35-428c-4d21-9454-01306a0d9ca4")
 	)
 	(pad "6" smd rect
 		(at 0.4 1 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9784ec08-ac56-4506-9332-1bc08452ef47")
 	)
 	(pad "7" smd rect
 		(at 0.4 0.5 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1bc99090-923c-4b3e-9393-79c4505fd4f6")
 	)
 	(pad "9" smd rect
 		(at 0.4 -0.5 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "adb60eb0-6610-49f4-831a-b15516f0be61")
 	)
 	(pad "10" smd rect
 		(at 0.4 -1 270)
 		(size 0.2 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fbcc60c5-7dbd-49f7-ba70-7b7cbad081fa")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 0.005 0.3)
+			(xyz 0 0.005 0.3)
 		)
 		(scale
 			(xyz 1 1 1)

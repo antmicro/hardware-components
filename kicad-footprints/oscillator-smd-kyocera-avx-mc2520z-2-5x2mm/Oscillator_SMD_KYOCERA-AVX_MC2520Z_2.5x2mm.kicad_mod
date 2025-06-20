@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_KYOCERA-AVX_MC2520Z_2.5x2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Miniature Crystal Clock Oscillator Kyocera MC2520Z series")
 	(tags "Crystal Clock Oscillator Kyocera MC2520Z SMD")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "15486fa3-8dbe-42d9-a025-a7d9adbeef72")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -113,7 +101,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "77164733-5714-4772-8e54-94d65b6b4d67")
 	)
@@ -124,7 +112,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "46e9dc2f-51ea-4beb-b79d-8cf571a6009f")
 	)
@@ -145,7 +133,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0f91d9fc-58e5-4d30-bf22-77ae54b96264")
 	)
@@ -156,7 +144,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "b38b216d-8248-4d9f-80f7-75cbab4e2736")
 	)
@@ -4263,7 +4251,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.25 3.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "89b213ac-65f0-49c1-8956-fb61da64e716")
 		(effects
 			(font
@@ -4276,7 +4263,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.25 6.302 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cd647f0f-9a4b-45aa-849a-3522989a808e")
 		(effects
 			(font
@@ -4289,7 +4275,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.25 5.102 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f0308302-0653-412c-b272-52d67f43602f")
 		(effects
 			(font
@@ -4302,31 +4287,32 @@
 	(pad "1" smd roundrect
 		(at -0.725 -0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "59e1e177-92fd-4edd-b465-1755bfd09769")
 	)
 	(pad "2" smd roundrect
 		(at -0.725 0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "d4dfae32-864d-4066-ba84-079f2d2f512c")
 	)
 	(pad "3" smd roundrect
 		(at 0.725 0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "23255538-b47e-44f2-9111-2d3aefc3b579")
 	)
 	(pad "4" smd roundrect
 		(at 0.725 -0.925)
 		(size 0.95 1.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "d85fbdc5-80ea-431b-9238-b110de0f4ccb")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

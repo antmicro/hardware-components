@@ -1,7 +1,7 @@
 (footprint "Heatsink_960-27-12-D-AB-0"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "27mm x 27mm Heat Sink, BGA, Black Anodized Aluminum, Top Mount, Push Pin")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "569173e5-7402-437d-b28a-496a25e91edd")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -74,7 +62,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b9b23d9c-b751-451e-8f24-1312f4b8ff14")
 	)
@@ -85,7 +73,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "38787bb8-f80b-49fd-8147-99ec0d5f676c")
 	)
@@ -96,7 +84,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5fce50f5-88c3-4ad9-8520-5b17cc6dda24")
 	)
@@ -107,7 +95,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "255df6a0-191d-4562-bf23-c7b2748222e6")
 	)
@@ -4344,7 +4332,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -21.35 23.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1ba58080-baf0-4e76-a771-39732dbd9051")
 		(effects
 			(font
@@ -4357,7 +4344,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -21.35 24.55 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "248ac571-f381-4ae8-aba6-4e6a2f147706")
 		(effects
 			(font
@@ -4370,7 +4356,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -21.35 25.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a4eff254-4450-4a52-8e00-bf264dd2702e")
 		(effects
 			(font
@@ -4394,9 +4379,10 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "f521c11a-0d8f-4aea-95a8-da37995b6615")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz 0.003 -0 2.85)
+			(xyz 0.003 0 2.85)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "DisplayPort-Mini_Receptacle_TE_2129320-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.125 -5.334 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d9f4109e-d644-41aa-aec1-ed3ec6f6812c")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -111,7 +99,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "57f78047-1cea-462f-af9a-d6bf0c2f1d55")
 	)
@@ -322,7 +310,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "c461e114-ffae-4b6c-83aa-d1986aa632d9")
 	)
@@ -7472,7 +7460,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.842 10.55 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1bd5160a-76d1-4137-9c9e-58ce56a48dec")
 		(effects
 			(font
@@ -7485,7 +7472,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.842 11.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2f07d3f4-c564-4d22-9f32-290488e19188")
 		(effects
 			(font
@@ -7498,7 +7484,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.842 12.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bc28a4cd-262a-414c-a02e-edadc9c4bb06")
 		(effects
 			(font
@@ -7714,6 +7699,7 @@
 		(remove_unused_layers no)
 		(uuid "f89169de-0e12-4b32-9987-da559a084cd6")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 2.7 -8.05 1.5)

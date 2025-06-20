@@ -1,7 +1,7 @@
 (footprint "USB-A_Receptacle_WE_614004185023_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB 2.0 Type A Vertical Short Type THT")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "96cfa7a7-0963-4d3f-a08b-627312d7ad28")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -212,7 +200,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "37ead591-85a9-4b70-b9e4-97b6bcaef409")
 	)
@@ -223,7 +211,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "457c1b85-26ec-45ca-86ac-3e04d92650c2")
 	)
@@ -14780,7 +14768,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.75 8.499 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "01125460-1a99-42cb-a7b1-740132383b55")
 		(effects
 			(font
@@ -14793,7 +14780,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.75 7.299 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9ee52cb9-55f7-4519-a0d3-fd0fea52e0c9")
 		(effects
 			(font
@@ -14806,7 +14792,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.75 9.698 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ca5824dd-e0e9-43d3-88c9-9e71281d7c13")
 		(effects
 			(font
@@ -14864,6 +14849,7 @@
 		(remove_unused_layers no)
 		(uuid "8af1a58b-360d-430b-8b4e-d8103b368e82")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 3.5 -1.5 0.5)

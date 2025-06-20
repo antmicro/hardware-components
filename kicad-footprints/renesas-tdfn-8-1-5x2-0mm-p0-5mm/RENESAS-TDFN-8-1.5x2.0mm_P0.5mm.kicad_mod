@@ -1,7 +1,7 @@
 (footprint "RENESAS-TDFN-8-1.5x2.0mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "8 Lead TDFN Package 1.5 x 2.0 mm (Fused Lead) JEDEC MO-252 ")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2538a88b-a556-4c79-b752-d898e2c91e17")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -94,7 +82,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "23673343-4e5d-4e36-8cc5-2e126093bb94")
 	)
@@ -105,7 +93,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "05c1473e-5ee2-41a3-b677-4aa4c136d31b")
 	)
@@ -166,7 +154,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "c67da167-1ebb-4a5e-89e8-da8612ee125d")
 	)
@@ -2853,7 +2841,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -9.7 4.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1e55f411-149b-4a0d-9b35-c77f00c988fb")
 		(effects
 			(font
@@ -2866,7 +2853,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -9.7 5.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "51b84a03-f73e-4637-b7b4-16c4aaf22de5")
 		(effects
 			(font
@@ -2879,7 +2865,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -9.7 6.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "db7dcc0a-f6cd-4855-ae19-e1dd6a460df0")
 		(effects
 			(font
@@ -2892,19 +2877,19 @@
 	(pad "1" smd rect
 		(at -0.527 -0.75 270)
 		(size 0.28 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c0bf3563-e3cd-4843-b8ee-1bfd898d00e1")
 	)
 	(pad "2" smd rect
 		(at -0.576 -0.25 270)
 		(size 0.28 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3110d577-e9e3-44ef-8e0e-5c050e1eefa1")
 	)
 	(pad "3" smd custom
 		(at -0.576 0.248 270)
 		(size 0.28 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -2930,7 +2915,7 @@
 	(pad "5" smd custom
 		(at 0.574 0.748 90)
 		(size 0.28 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(options
 			(clearance outline)
@@ -2956,15 +2941,16 @@
 	(pad "7" smd rect
 		(at 0.574 -0.25 270)
 		(size 0.28 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b7f29b7a-29a3-45ee-b071-ba3a3197be97")
 	)
 	(pad "8" smd rect
 		(at 0.574 -0.75 270)
 		(size 0.28 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a4b90692-8336-4ab7-819a-b82075788d17")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "Mech_Lightpipe_Mentor_1271.1000"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1x1  Horizontal Light Guide with transparent pipe")
 	(tags "Horizontal, THT, MECHANICAL")
@@ -29,18 +29,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c8ffc471-bfc1-4ebd-9e7a-41002f67eede")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -75,7 +63,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2f8b7c29-31d7-47d2-9fc9-243139d54ca9")
 	)
@@ -86,7 +74,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "eb765b29-4447-45bc-98bb-37fa1a229f6d")
 	)
@@ -117,7 +105,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c6c8b498-fdde-446a-83eb-f6c883c99a74")
 	)
@@ -128,7 +116,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "7f693a4e-937c-4a55-93d0-95404da613f0")
 	)
@@ -2285,7 +2273,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.8 9.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "11680894-a291-4500-bff4-de74265e4723")
 		(effects
 			(font
@@ -2298,7 +2285,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.8 10.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6725b686-004e-4d29-9cb8-7e9e857b54f4")
 		(effects
 			(font
@@ -2311,7 +2297,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.8 11.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c1c57fc6-b5ae-4191-8d51-947deff2512c")
 		(effects
 			(font
@@ -2447,9 +2432,10 @@
 			"ffe0a6ae-753d-4f8c-8c4c-8be80a901622"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 0.698 0)
+			(xyz 0 0.698 0)
 		)
 		(scale
 			(xyz 1 1 1)

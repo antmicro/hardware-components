@@ -1,7 +1,7 @@
 (footprint "Module_Jetson-Orin-AGX"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Jetson Orin AGX series")
 	(tags "Jetson Orin AGX")
@@ -21,19 +21,6 @@
 		(at 1.768 54.9945 0)
 		(layer "F.Fab")
 		(uuid "c0ed28b0-71ce-4e0a-9bb1-189043d6fcdb")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at -166.182 -192.6685 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "afee5906-5f77-43eb-99a5-16d79baa1fc2")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -96,7 +83,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "de7332b9-e374-485c-9db0-1c5b1081a749")
 	)
@@ -107,7 +94,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "7ccdb919-2420-4c94-9802-b2c46451eb2b")
 	)
@@ -318,7 +305,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "a5b1d9e3-15e6-4e6c-8d64-409626efc782")
 	)
@@ -329,7 +316,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "ce3649b3-bd36-43ec-9eca-c2e377808623")
 	)
@@ -340,7 +327,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "21180588-333b-4724-a455-b45d397d8771")
 	)
@@ -395,7 +382,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "bd0d1687-16fb-48f0-9006-8c1778c4758e")
 	)
@@ -406,7 +393,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "7492a3a3-d27a-4240-a457-97a2231037b9")
 	)
@@ -417,7 +404,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "3dbc6559-68b8-4120-b6e5-197fbdfee7a3")
 	)
@@ -428,7 +415,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "9992c5c6-5ec8-41bb-91db-32b9a6581545")
 	)
@@ -439,7 +426,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "706a4b8d-7b20-410b-a9f4-0db0cd1d54e3")
 	)
@@ -450,7 +437,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "1b8b2f6d-7c46-490a-bcae-01201c489be7")
 	)
@@ -461,7 +448,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "083ff997-e177-4b33-ae08-1beeb32a3cc1")
 	)
@@ -472,7 +459,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "31909feb-0bb5-4024-9c72-bf529b077e4a")
 	)
@@ -545,7 +532,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -43.332 53.9465 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "aafffd78-4774-4cac-98d5-e5a8ede24e8d")
 		(effects
 			(font
@@ -558,7 +544,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -43.332 52.7465 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c7fd796a-25c1-4366-9f12-ca6bd7c5c0dd")
 		(effects
 			(font
@@ -571,7 +556,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -43.332 55.1465 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "dc6df7e6-5a68-4c82-988d-22c99a2b709f")
 		(effects
 			(font
@@ -589,6 +573,22 @@
 			(xy -32.35 36.56) (xy -32.35 16.46)
 		)
 		(height -3)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
 		(gr_text "20.10 mm"
 			(at -36.5 26.51 90)
 			(layer "Dwgs.User")
@@ -600,6 +600,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "1a332f44-4448-4fd3-a7a9-366ebd6114b6")
+		(pts
+			(xy -39.5 46) (xy -39.5 50)
+		)
+		(height 7.5)
 		(format
 			(prefix "")
 			(suffix "")
@@ -610,18 +619,12 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "1a332f44-4448-4fd3-a7a9-366ebd6114b6")
-		(pts
-			(xy -39.5 46) (xy -39.5 50)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 7.5)
 		(gr_text "4.00 mm"
 			(at -48.5 48 90)
 			(layer "Dwgs.User")
@@ -633,6 +636,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "26f8db02-23ce-48c2-962c-5bec374ebd76")
+		(pts
+			(xy -43.5 0) (xy 43.5 0)
+		)
+		(height -59.1)
 		(format
 			(prefix "")
 			(suffix "")
@@ -643,18 +655,12 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 2)
+			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "26f8db02-23ce-48c2-962c-5bec374ebd76")
-		(pts
-			(xy -43.5 0) (xy 43.5 0)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height -59.1)
 		(gr_text "87.00 mm"
 			(at 0 -60.25 0)
 			(layer "Dwgs.User")
@@ -666,6 +672,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "33ccf6d9-7ca5-427d-9c1f-af4fa4de8fa5")
+		(pts
+			(xy 39.5 46) (xy 39.5 25.56)
+		)
+		(height 0)
 		(format
 			(prefix "")
 			(suffix "")
@@ -677,17 +692,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "33ccf6d9-7ca5-427d-9c1f-af4fa4de8fa5")
-		(pts
-			(xy 39.5 46) (xy 39.5 25.56)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 0)
 		(gr_text "20.44 mm"
 			(at 38.35 35.78 90)
 			(layer "Dwgs.User")
@@ -699,6 +708,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "5e971712-f979-4bb0-8bed-fb0046992782")
+		(pts
+			(xy 0 50) (xy 0 -50)
+		)
+		(height 54.5)
 		(format
 			(prefix "")
 			(suffix "")
@@ -710,17 +728,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "5e971712-f979-4bb0-8bed-fb0046992782")
-		(pts
-			(xy 0 50) (xy 0 -50)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 54.5)
 		(gr_text "100.00 mm"
 			(at 53.35 0 90)
 			(layer "Dwgs.User")
@@ -732,6 +744,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "7dfb6ba6-9a81-43f4-b85e-14e79835161b")
+		(pts
+			(xy -39.5 46) (xy -43.5 46)
+		)
+		(height -9.5)
 		(format
 			(prefix "")
 			(suffix "")
@@ -742,18 +763,12 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "7dfb6ba6-9a81-43f4-b85e-14e79835161b")
-		(pts
-			(xy -39.5 46) (xy -43.5 46)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height -9.5)
 		(gr_text "4.00 mm"
 			(at -41.5 57 0)
 			(layer "Dwgs.User")
@@ -765,6 +780,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "dedfc0d0-da6c-4b7e-a915-6f013276667c")
+		(pts
+			(xy -32.35 16.46) (xy 32.35 16.46)
+		)
+		(height -3.96)
 		(format
 			(prefix "")
 			(suffix "")
@@ -776,17 +800,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 2)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "dedfc0d0-da6c-4b7e-a915-6f013276667c")
-		(pts
-			(xy -32.35 16.46) (xy 32.35 16.46)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height -3.96)
 		(gr_text "64.70 mm"
 			(at -4.5 11 0)
 			(layer "Dwgs.User")
@@ -798,19 +816,6 @@
 				)
 			)
 		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 2)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type radial)
@@ -820,17 +825,6 @@
 			(xy 41.5 -48) (xy 42.914214 -49.414214)
 		)
 		(leader_length 6.45934)
-		(gr_text "4x R 2.00 mm"
-			(at 56.77 -53.981657 0)
-			(layer "Dwgs.User")
-			(uuid "917d53bf-79fe-469b-8b4a-5884c54e4efb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(format
 			(prefix "4x R ")
 			(suffix "")
@@ -842,7 +836,20 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "4x R 2.00 mm"
+			(at 56.77 -53.981657 0)
+			(layer "Dwgs.User")
+			(uuid "917d53bf-79fe-469b-8b4a-5884c54e4efb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type radial)
@@ -852,17 +859,6 @@
 			(xy 39.5 46) (xy 41.25 46)
 		)
 		(leader_length 5.251023)
-		(gr_text "4x ∅3.50±0.20 mm"
-			(at 57.117794 56.616771 315)
-			(layer "Dwgs.User")
-			(uuid "cd4b66d7-7549-4a21-9798-fc61317551b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(format
 			(prefix "4x ∅")
 			(suffix "")
@@ -875,8 +871,22 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "4x ∅3.50±0.20 mm"
+			(at 57.117794 56.616771 315)
+			(layer "Dwgs.User")
+			(uuid "cd4b66d7-7549-4a21-9798-fc61317551b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 41 41.75 5.1)

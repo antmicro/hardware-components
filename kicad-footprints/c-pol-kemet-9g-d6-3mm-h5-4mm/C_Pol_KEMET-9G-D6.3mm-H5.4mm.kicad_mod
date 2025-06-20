@@ -1,7 +1,7 @@
 (footprint "C_Pol_KEMET-9G-D6.3mm-H5.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Capacitor")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9fd48f8d-f62c-4947-a8e9-38fdc456b29a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -312,7 +300,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "dc1e964d-a4c4-4538-b811-4a410c5295a6")
 	)
@@ -323,7 +311,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "b80189ca-b527-4759-9fd7-4bb5acb1bc51")
 	)
@@ -3240,7 +3228,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.52 5.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "353db457-22cc-4a24-a0d7-fba09ba656b4")
 		(effects
 			(font
@@ -3253,7 +3240,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.52 7.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9f101a64-4c3d-4303-96d9-b429bdddb7f3")
 		(effects
 			(font
@@ -3266,7 +3252,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.52 8.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b54dadbe-0595-4f23-ba9c-b426102b3f83")
 		(effects
 			(font
@@ -3279,17 +3264,18 @@
 	(pad "1" smd roundrect
 		(at -2.95 0 90)
 		(size 1.8 3.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "d51299ad-c1cc-4bd7-a306-f3cb0a6a0911")
 	)
 	(pad "2" smd roundrect
 		(at 2.95 0 90)
 		(size 1.8 3.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "ea970fba-4bc4-4c01-9dfe-f8c0e57aa020")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 3.4 3.4 0.3)

@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_Citizen_CMJ206_8.3x2.5x2.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.294 180)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "096256dc-eda1-487d-aea2-198c7ab3790d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -141,7 +129,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "00341f88-d2da-4085-aa1f-4a4ef848d305")
 	)
@@ -272,7 +260,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "96dcce6c-47af-4959-b78a-6a3b948784d0")
 	)
@@ -7189,7 +7177,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.1 8.106 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "0f4ab4e5-1832-43f4-8b32-6ae1b9cfa512")
 		(effects
 			(font
@@ -7202,7 +7189,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.1 9.306 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "384b733c-3e50-47ef-aaa5-c9ca90218439")
 		(effects
 			(font
@@ -7215,7 +7201,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.1 10.506 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6af69640-acc7-48b5-8440-870dc6872603")
 		(effects
 			(font
@@ -7228,24 +7213,25 @@
 	(pad "1" smd rect
 		(at -1.27 -4.16)
 		(size 1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe69f543-d3c1-4a5a-8725-5c426c7fd184")
 	)
 	(pad "2" smd rect
 		(at 1.27 -4.16)
 		(size 1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61e28808-8ba3-4e98-a65b-b0fdfe58e8bd")
 	)
 	(pad "3" smd rect
 		(at 0 3.79)
 		(size 3.4 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a32b98f6-f83a-4609-a3bc-6ea649a25586")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 0.182 0)
+			(xyz 0 0.182 0)
 		)
 		(scale
 			(xyz 1 1 1)

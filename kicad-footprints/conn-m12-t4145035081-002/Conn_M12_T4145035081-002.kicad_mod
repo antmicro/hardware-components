@@ -1,7 +1,7 @@
 (footprint "Conn_M12_T4145035081-002"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Connector M12, 8 pins")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "878d4fcd-0e3f-4ebe-b8e4-a27949e5b362")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -72,7 +60,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2203a00b-e983-44da-a3a3-5b5cd1f264d6")
 	)
@@ -83,7 +71,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "545ba76b-8473-4dc8-9848-a050976c7eba")
 	)
@@ -94,7 +82,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "73b6dfb7-4eee-4d2e-a06f-3c6892b9f2d9")
 	)
@@ -105,7 +93,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "c307febd-799f-4cb0-aa8f-f6c12156039e")
 	)
@@ -25142,7 +25130,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -9.25 31.01 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5d1ffa34-e0e4-4ff8-b0da-1385986b0058")
 		(effects
 			(font
@@ -25155,7 +25142,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -9.25 32.21 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "97690c87-cd20-4ffb-b67e-0a3af2114fb0")
 		(effects
 			(font
@@ -25168,7 +25154,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -9.25 29.81 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a462bc89-513e-48e2-9177-b9dd75b3a451")
 		(effects
 			(font
@@ -25278,6 +25263,7 @@
 		(remove_unused_layers no)
 		(uuid "72aa1fb1-42cb-405d-a3a6-60177309843e")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 1.5 -26.79 8.5)

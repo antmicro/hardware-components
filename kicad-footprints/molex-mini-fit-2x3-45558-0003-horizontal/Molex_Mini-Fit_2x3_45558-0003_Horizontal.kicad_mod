@@ -1,7 +1,7 @@
 (footprint "Molex_Mini-Fit_2x3_45558-0003_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.1 -14.4 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "769ae0e0-0a66-4335-8922-9ced210f644b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -64,6 +52,50 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center 0 -7.299)
+		(end -0.788 -7.299)
+		(stroke
+			(width 1.5762)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "6f6cd7dd-0cb5-4d45-9fce-ad1fb4c435d4")
+	)
+	(fp_circle
+		(center 8.4 -7.299)
+		(end 7.612 -7.299)
+		(stroke
+			(width 1.5762)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "d18778fa-bc86-4577-9e44-bb294096e84e")
+	)
+	(fp_circle
+		(center 0 -7.299)
+		(end -0.788 -7.299)
+		(stroke
+			(width 1.5762)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Mask")
+		(uuid "3331162c-96a6-413e-83d6-680c943975f6")
+	)
+	(fp_circle
+		(center 8.4 -7.299)
+		(end 7.612 -7.299)
+		(stroke
+			(width 1.5762)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Mask")
+		(uuid "8b1aaa51-fa2f-4022-8ddf-3f01733d165a")
+	)
 	(fp_line
 		(start -3.1 -13.9)
 		(end 11.5 -13.9)
@@ -121,53 +153,9 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "34fd32dc-d78e-4d12-9825-12da1f327122")
-	)
-	(fp_circle
-		(center 0 -7.299)
-		(end -0.788 -7.299)
-		(stroke
-			(width 1.5762)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.Mask")
-		(uuid "3331162c-96a6-413e-83d6-680c943975f6")
-	)
-	(fp_circle
-		(center 8.4 -7.299)
-		(end 7.612 -7.299)
-		(stroke
-			(width 1.5762)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.Mask")
-		(uuid "8b1aaa51-fa2f-4022-8ddf-3f01733d165a")
-	)
-	(fp_circle
-		(center 0 -7.299)
-		(end -0.788 -7.299)
-		(stroke
-			(width 1.5762)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Mask")
-		(uuid "6f6cd7dd-0cb5-4d45-9fce-ad1fb4c435d4")
-	)
-	(fp_circle
-		(center 8.4 -7.299)
-		(end 7.612 -7.299)
-		(stroke
-			(width 1.5762)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Mask")
-		(uuid "d18778fa-bc86-4577-9e44-bb294096e84e")
 	)
 	(fp_rect
 		(start -3.5 -14.3)
@@ -176,7 +164,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "631e21eb-e812-4ac5-a732-45b16ed6bb18")
 	)
@@ -237,7 +225,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "06412347-aa87-4700-8af2-be3a614901cb")
 	)
@@ -2024,7 +2012,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.85 9.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "590ba19b-37df-4c4a-93f3-40bc83fd195f")
 		(effects
 			(font
@@ -2037,7 +2024,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.85 11.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "708bcb1a-0559-42c7-9e07-701f92fe9ab0")
 		(effects
 			(font
@@ -2050,7 +2036,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.85 12.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "83c1d7cc-908b-4ca8-b2e3-833d69633d26")
 		(effects
 			(font
@@ -2122,6 +2107,7 @@
 		(remove_unused_layers no)
 		(uuid "7e37e74b-fa36-4f71-a697-c35d51ac75a2")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 4.2 13.9 5.25)

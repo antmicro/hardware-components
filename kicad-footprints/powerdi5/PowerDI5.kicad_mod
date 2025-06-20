@@ -1,7 +1,7 @@
 (footprint "PowerDI5"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.55 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b036c0f3-1065-4689-9996-bdcb4609b323")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "57596789-f314-465b-9307-16a7d5d1c4b4")
 	)
@@ -142,7 +130,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "fb15a5b5-8f9c-4d51-b877-c0b6cd64d0a6")
 	)
@@ -459,7 +447,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.32 6.901 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2d562e76-06da-4ad5-80e3-d937494bf433")
 		(effects
 			(font
@@ -472,7 +459,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.32 5.701 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "42708eac-ba6c-4c7e-8f0b-8080a605173b")
 		(effects
 			(font
@@ -485,7 +471,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.32 4.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "83dcc328-91cb-4bce-bc96-47877f795c7e")
 		(effects
 			(font
@@ -498,24 +483,25 @@
 	(pad "1" smd roundrect
 		(at 1.1 0 270)
 		(size 3.36 4.86)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "54323fe2-ee8f-429f-a0b0-91ba47cedfb1")
 	)
 	(pad "2" smd roundrect
 		(at -2.862 -0.94 90)
 		(size 1.39 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a9a0c209-cad2-42ef-8051-84138bcd62ad")
 	)
 	(pad "2" smd roundrect
 		(at -2.862 0.941 270)
 		(size 1.39 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "444d9386-e0b1-44cb-894d-b07da3bf99cd")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 10.75 -7.25 0)

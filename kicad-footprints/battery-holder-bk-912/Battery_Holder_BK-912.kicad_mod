@@ -1,7 +1,7 @@
 (footprint "Battery_Holder_BK-912"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -9.8 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9d570d63-78d1-4c1f-bd17-ea699086acc6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -311,7 +299,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "385c9d2a-0b17-4f52-99b7-1b82cce8d5a7")
 	)
@@ -5888,7 +5876,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -12.631 15.514 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "032c9800-9ca2-4273-bf52-52c8a7eecf5a")
 		(effects
 			(font
@@ -5901,7 +5888,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -12.631 13.114 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6bbcc123-a653-4975-b27f-9c00ddcb8649")
 		(effects
 			(font
@@ -5914,7 +5900,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -12.631 14.313 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e2295ea0-8e51-4a9b-a371-fde674822435")
 		(effects
 			(font
@@ -5933,15 +5918,16 @@
 	(pad "S1" smd rect
 		(at -10.985 -0.25)
 		(size 2.79 5.08)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa179d6f-1d7d-494c-afb5-f73f47506abe")
 	)
 	(pad "S2" smd rect
 		(at 10.983 -0.25 180)
 		(size 2.79 5.08)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cfccc462-d6ef-4cf0-8523-3253251bd181")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "WLCSP-12_2x1.3mm_Layout4x3_P0.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.225 -0.9 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cb3e4137-0096-4206-949c-256d42d79e4a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "bac3b032-9f32-438d-88d4-625517e4c086")
 	)
@@ -162,7 +150,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1ebb6682-e085-4c28-baae-12b1d8ee2b6e")
 	)
@@ -173,7 +161,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0c016d0b-c849-4c13-9a3b-5884d77b5815")
 	)
@@ -184,7 +172,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "5ba8bed0-2cbe-4dd1-a743-d3e8921fa024")
 	)
@@ -631,7 +619,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.325 4.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5d704a95-3e7c-4e2f-9504-b3898f40fa0f")
 		(effects
 			(font
@@ -644,7 +631,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.325 5.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "61942e40-8a96-49cc-a758-fe945b2f5e76")
 		(effects
 			(font
@@ -657,7 +643,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.325 6.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "81ad33f8-a23f-4355-850d-ae67a724ae15")
 		(effects
 			(font
@@ -670,73 +655,73 @@
 	(pad "A1" smd circle
 		(at -0.6 -0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca6d79c5-8533-44a5-b3b4-55dcaa685fd3")
 	)
 	(pad "A2" smd circle
 		(at -0.2 -0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "863e0c87-6d95-4384-aec3-5c2684746141")
 	)
 	(pad "A3" smd circle
 		(at 0.2 -0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a32c3a70-a5f2-4fc1-9877-d3c38149b7cf")
 	)
 	(pad "A4" smd circle
 		(at 0.6 -0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9773f355-a608-4f2d-a118-4984648b04c3")
 	)
 	(pad "B1" smd circle
 		(at -0.6 0 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "87b9db93-86a0-456e-b99c-0e9e70139f92")
 	)
 	(pad "B2" smd circle
 		(at -0.2 0 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba56de47-2341-42ea-b303-63d42c58baf2")
 	)
 	(pad "B3" smd circle
 		(at 0.2 0 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "89d7b7d1-8508-480e-adba-7b56c057f902")
 	)
 	(pad "B4" smd circle
 		(at 0.6 0 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8bff78ca-5f3f-4deb-8c61-b6ee3140b419")
 	)
 	(pad "C1" smd circle
 		(at -0.6 0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "56fb2299-70ba-45d5-a625-b9df9188a07a")
 	)
 	(pad "C2" smd circle
 		(at -0.2 0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8614a028-c491-466e-875a-3a2eceaf17ab")
 	)
 	(pad "C3" smd circle
 		(at 0.2 0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "12cc354a-08eb-43ad-b85e-d6e5c381de53")
 	)
 	(pad "C4" smd circle
 		(at 0.6 0.4 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2b92fc2a-7f05-45c8-b69c-baf67f8b0fdd")
 	)
 	(group ""
@@ -765,6 +750,7 @@
 			"f9bb4943-d07c-4340-9046-8e4c3a9738c2" "ff5714be-1bda-4865-95d5-8a461c144006"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

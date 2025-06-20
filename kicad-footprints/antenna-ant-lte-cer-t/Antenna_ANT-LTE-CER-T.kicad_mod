@@ -1,7 +1,7 @@
 (footprint "Antenna_ANT-LTE-CER-T"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 8 3.7 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f2eef6bf-3890-4728-aba6-9e575ace4072")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -101,7 +89,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "007edc63-4dd0-4f3c-b66e-2fae077a4b31")
 	)
@@ -112,7 +100,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4ae1de70-e529-4c50-a8c9-6e95fa894933")
 	)
@@ -123,7 +111,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "62bcfa7b-4bf8-4721-96d0-25899af4a410")
 	)
@@ -134,7 +122,7 @@
 			(width 0.02)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "02d6336c-b1b2-4e90-934c-7b9bf36d628e")
 	)
@@ -153,7 +141,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -20.25 8.711 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1f1acfe3-a692-40c0-aaf8-4f32df513b74")
 		(effects
 			(font
@@ -166,7 +153,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -20.25 7.511 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2a09db34-51eb-4caf-ad0b-8f9d021695ed")
 		(effects
 			(font
@@ -179,7 +165,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -20.25 6.311 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2eca47ec-6b9e-43ca-b509-a8b12e4d07d0")
 		(effects
 			(font
@@ -192,37 +177,42 @@
 	(pad "1" smd rect
 		(at 4.9 2.25)
 		(size 1.2 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c92b9775-d7b3-4694-9017-9f08cb379033")
 	)
 	(pad "2" smd rect
 		(at 2.975 2.25)
 		(size 1.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dc3deca1-58f8-46fe-92fc-4d2cfe8cc85f")
 	)
 	(pad "3" smd rect
 		(at 6.825 2.25)
 		(size 1.65 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe268f4c-5881-43da-83c3-6f118fda7c6a")
 	)
 	(pad "MP1" smd rect
 		(at -18 0)
 		(size 4 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0bbd4af7-b12c-4fa2-ba50-571ef4417423")
 	)
 	(pad "MP2" smd rect
 		(at 18 0)
 		(size 4 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f769a2bb-0fcc-479c-b997-e528fda035d3")
 	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "c620b77f-6608-4623-a42f-f126e660ac30")
 		(name "KEEPOUT")
 		(hatch edge 0.508)
@@ -238,6 +228,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -248,6 +242,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

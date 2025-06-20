@@ -1,7 +1,7 @@
 (footprint "C_Pol_Panasonic-C6-D6.3mm-H5.9mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.335 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a23c5a31-36a7-4e18-a651-b653d8f005fc")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -371,7 +359,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "848f0ec9-4f0e-458c-86d5-8c048a24cac7")
 	)
@@ -382,7 +370,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "f62abf90-4c30-4077-9f83-21c863a7ffd3")
 	)
@@ -3893,14 +3881,13 @@
 			(width 0.009)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "034a5520-c65b-4a02-a012-f01a2ddea137")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -5.148 7.08 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "48421812-6c7f-4e85-bf1f-232ade011e50")
 		(effects
 			(font
@@ -3913,7 +3900,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.148 8.28 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "74b68cdc-0025-428c-9462-af40e2f39185")
 		(effects
 			(font
@@ -3926,7 +3912,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.148 9.48 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c03c3e78-7fc9-49ef-9e86-44c3db3eb30b")
 		(effects
 			(font
@@ -3939,20 +3924,21 @@
 	(pad "1" smd roundrect
 		(at -2.799 0)
 		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "35db49b2-5137-42ad-8155-0428b1696d6c")
 	)
 	(pad "2" smd roundrect
 		(at 2.799 0)
 		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "2e87621f-79ec-4c11-b09f-0ccb75fdb217")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "L_1008_2520Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor SMD 1008 (2520 Metric)")
 	(tags "inductor")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "10eb798a-b1ac-4f7f-a5a8-5ba3bb7f97f6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "bdaea486-6a95-464b-972f-486c7dc634fd")
 	)
@@ -154,7 +142,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "91f96347-b399-4866-835c-3af265b4812e")
 	)
@@ -165,7 +153,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "d9724053-9b8f-44c9-8b08-957ef70ce48d")
 	)
@@ -292,7 +280,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.75 4.049 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "0f1fe727-5274-4b00-a3e7-c24e208f4460")
 		(effects
 			(font
@@ -305,7 +292,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.75 5.248 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1385f23b-3ef0-4714-b754-57cd34327c28")
 		(effects
 			(font
@@ -318,7 +304,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.75 6.448 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f65ffec1-9f8b-4106-a92b-f19510a434ea")
 		(effects
 			(font
@@ -331,17 +316,18 @@
 	(pad "1" smd roundrect
 		(at -1.075 0)
 		(size 1.25 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "32edb4cb-b4bb-4aa9-9ca9-3d870fbc4d4b")
 	)
 	(pad "2" smd roundrect
 		(at 1.075 0)
 		(size 1.25 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "177af0d7-065b-4aee-8d75-d99d1ed97e4d")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0.0005 -0.001 0.5)

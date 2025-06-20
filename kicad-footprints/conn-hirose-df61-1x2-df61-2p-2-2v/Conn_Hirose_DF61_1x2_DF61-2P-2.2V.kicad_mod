@@ -1,7 +1,7 @@
 (footprint "Conn_Hirose_DF61_1x2_DF61-2P-2.2V"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Wire-to-Board Swing-Lock Connector for Low-Profile Power Source")
 	(tags "Headers & Wire Housings 2P SMT HEADER 2.2MM PITCH LOW PROFILE DF61")
@@ -29,18 +29,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0bd04e6e-5658-4d2c-828d-946f98808dc8")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -135,7 +123,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "890ba0fa-2548-416b-9a3f-9af5bd429e9b")
 	)
@@ -146,7 +134,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ab848218-76f8-4ef9-9eb3-63dd60eca4f3")
 	)
@@ -197,7 +185,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "a9622f2f-59f1-4e19-973d-210719153cf7")
 	)
@@ -3094,7 +3082,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.43 6.17 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "22de3ef5-4df2-418f-aacf-7f1de3c8f1c5")
 		(effects
 			(font
@@ -3108,7 +3095,6 @@
 		(at -3.43 7.37 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "50f97d7e-8bfa-45ae-aced-d0ee730c15ed")
 		(effects
 			(font
@@ -3121,7 +3107,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.43 8.57 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f92d020c-e28d-4e4f-a5a7-881955f1bfa3")
 		(effects
 			(font
@@ -3134,25 +3119,25 @@
 	(pad "1" smd rect
 		(at -2.244 -0.974)
 		(size 1.15 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d97f25e3-3c36-4f32-81de-3db677735400")
 	)
 	(pad "2" smd rect
 		(at 2.254 -0.974)
 		(size 1.15 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "97de4374-55b3-466e-aae3-b4179ebe4bd6")
 	)
 	(pad "MP" smd rect
 		(at -2.144 3.306)
 		(size 1.35 1.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc6e874e-163c-4701-91b2-3d61414a8222")
 	)
 	(pad "MP" smd rect
 		(at 2.156 3.306)
 		(size 1.35 1.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a2db8199-d305-4047-9f1e-df373f11d739")
 	)
 	(zone
@@ -3173,6 +3158,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -3184,6 +3173,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -15.244 -16.026 -2)

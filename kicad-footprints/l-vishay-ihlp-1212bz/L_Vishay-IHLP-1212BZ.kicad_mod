@@ -1,7 +1,7 @@
 (footprint "L_Vishay-IHLP-1212BZ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.261 -2.699 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e100d51-ed8a-41b6-ba92-6be263ec9b81")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4e8b21ce-f674-49cc-a008-2cac484d8866")
 	)
@@ -142,7 +130,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fb01a2a9-7417-41cf-9d34-2934ae7d66b1")
 	)
@@ -153,7 +141,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "fb4896b3-cc64-4a11-b428-d01f3600115d")
 	)
@@ -440,7 +428,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.35 5.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5d1a5118-8ca8-4e1b-a2e4-5f8dcc30952f")
 		(effects
 			(font
@@ -453,7 +440,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.35 6.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6bac8119-a7a4-4b12-b743-98783107f81a")
 		(effects
 			(font
@@ -466,7 +452,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.35 7.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "df597c8f-875c-48fa-b3fe-d0cdbb2e36d4")
 		(effects
 			(font
@@ -479,17 +464,18 @@
 	(pad "1" smd roundrect
 		(at -1.35 0)
 		(size 1.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "456cd257-e870-4425-8aab-ee519a96f80a")
 	)
 	(pad "2" smd roundrect
 		(at 1.35 0)
 		(size 1.5 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "68530d02-9601-471d-a53a-a74a0ce7ab1c")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "D_SMC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode SMC (DO-214AB)")
 	(tags "Diode SMC (DO-214AB)")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "171643bf-8e1a-46e1-ae1c-a54a03036c2f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -103,7 +91,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f9e5bd5c-177c-4cff-aa08-653ad8941c14")
 	)
@@ -430,7 +418,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.9 6.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "671fd4e5-686a-499b-b884-82739eb80de7")
 		(effects
 			(font
@@ -443,7 +430,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.9 7.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c9e12437-6cd2-46d7-90de-25c3d2081b3a")
 		(effects
 			(font
@@ -456,7 +442,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.9 8.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d5267ecb-5db9-43b8-b1d4-12da46974f16")
 		(effects
 			(font
@@ -469,15 +454,16 @@
 	(pad "1" smd rect
 		(at -3.4 0 90)
 		(size 3.3 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "37167cda-bcaa-4411-8b80-b72a52c5a29f")
 	)
 	(pad "2" smd rect
 		(at 3.4 0 90)
 		(size 3.3 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d7d622e5-dc80-45c7-b6c1-8247e96ba9e5")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

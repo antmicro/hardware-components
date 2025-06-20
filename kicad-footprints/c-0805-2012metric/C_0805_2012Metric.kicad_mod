@@ -1,7 +1,7 @@
 (footprint "C_0805_2012Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0805")
 	(tags "capacitor SMD 0805")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bccbb77f-939e-44b0-9f2e-d9e36339f068")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3083b1cf-5414-4217-95ba-df6dacfce1f4")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9a27761d-4547-4aac-bd53-022aba2331c5")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "f6e53629-34b0-4592-937c-470dbdb0b50d")
 	)
@@ -5582,7 +5570,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.9 3.947 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "947e738a-af6c-4694-83bb-b1efda111bf8")
 		(effects
 			(font
@@ -5595,7 +5582,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.9 4.947 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b10322ce-e214-4d1a-9964-cbcd42e62a27")
 		(effects
 			(font
@@ -5608,7 +5594,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.9 5.947 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e3c8fa33-6f0f-4b1a-a90b-a6b2cf0ea7cb")
 		(effects
 			(font
@@ -5621,17 +5606,18 @@
 	(pad "1" smd roundrect
 		(at -1.1 0)
 		(size 1.2 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2ddf146b-d657-4572-b3af-1688b35dca28")
 	)
 	(pad "2" smd roundrect
 		(at 1.1 0)
 		(size 1.2 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "370b7770-1351-4b69-b7a6-a228a659c8df")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -1 0.625 1.2)

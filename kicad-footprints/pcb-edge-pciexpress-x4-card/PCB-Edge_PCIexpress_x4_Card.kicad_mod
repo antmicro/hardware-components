@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_PCIexpress_x4_Card"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PCIexpress x4 card")
 	(tags "PCIexpress")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9ecd0bff-ba54-4624-bb56-a83f92af7a91")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -74,31 +62,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
-		(layer "B.Mask")
-		(uuid "75b5eab6-3f1f-4970-881e-bc71b9013905")
-	)
-	(fp_poly
-		(pts
-			(xy -0.25 -5.5) (xy 34.25 -5.5) (xy 34.25 0) (xy -0.25 0)
-		)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Mask")
-		(uuid "e328e205-5c59-41a5-8733-de9d320579f0")
-	)
-	(fp_poly
-		(pts
-			(xy -11.8 -4.5) (xy -11.8 -8) (xy -3.8 -8) (xy -3.8 -4.5)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "3820d74c-9515-497c-8925-8ef9fabc3a24")
 	)
@@ -110,9 +74,33 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "3bff5402-976a-463d-86e3-ba21248c61de")
+	)
+	(fp_poly
+		(pts
+			(xy -11.8 -4.5) (xy -11.8 -8) (xy -3.8 -8) (xy -3.8 -4.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "75b5eab6-3f1f-4970-881e-bc71b9013905")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 -5.5) (xy 34.25 -5.5) (xy 34.25 0) (xy -0.25 0)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "e328e205-5c59-41a5-8733-de9d320579f0")
 	)
 	(fp_line
 		(start -45.15 -111.15)
@@ -785,7 +773,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "18624978-18e6-47c8-96ff-43a272a5051a")
 	)
@@ -796,7 +784,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "3f8db8fd-4ef2-46ec-9df3-99488b936161")
 	)
@@ -807,7 +795,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "9266604d-9e17-4b4d-b7d6-f6da47bef7e2")
 	)
@@ -1117,7 +1105,7 @@
 		)
 	)
 	(fp_text user "Keep out components and traces solder side"
-		(at -44.275 -74.325 -90)
+		(at -44.275 -74.325 270)
 		(layer "Cmts.User")
 		(uuid "69b8b916-098e-4736-90f5-e34e4813380d")
 		(effects
@@ -1219,7 +1207,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "13a2d943-aea6-44cb-a404-18e0c43678f4")
 		(effects
 			(font
@@ -1231,7 +1218,6 @@
 	(fp_text user "Author: Antmicro"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5d42d472-5273-4cbb-8f5d-2303af571dfd")
 		(effects
 			(font
@@ -1624,4 +1610,5 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "63fadf24-8eb7-4918-bc94-31fab0c6ac38")
 	)
+	(embedded_fonts no)
 )

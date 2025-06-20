@@ -1,114 +1,52 @@
 (kicad_symbol_lib
-  (symbol "SP33R6-04UTG"  (pin_names hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property "Reference" "D" (at 22.86 -2.54 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Value" "SP33R6-04UTG" (at 22.86 -7.62 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Footprint" "SP33R6-04UTG:UDFN-10_1x2.5mm_P0.5mm" (at 22.86 -10.16 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-arrays-sp33r6-series-datasheet?assetguid=17fda436-825f-4698-a26d-e7bf3e493099" (at 22.86 -12.7 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Description" "ESD Suppressors / TVS Diodes, Breakdown Voltage 0.6V, 3A, 0.2pF, 12kV, uDFN-10L TVS Array, USB 4.0 / Thunderbolt 3.0 complainant" (at 22.86 -15.24 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Manufacturer" "Littelfuse" (at 22.86 -17.78 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "MPN" "SP33R6-04UTG" (at 22.86 -5.08 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Author" "Antmicro" (at 22.86 -20.32 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "License" "Apache-2.0" (at 22.86 -22.86 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD" (at 0 0 0)
-      (effects (font (size 1.27 1.27))( hide yes ))
-    )
+  (symbol "SP33R6-04UTG"  (pin_names (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+    (property  "Reference" "D"  (at  22.86 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
+    (property  "Value" "SP33R6-04UTG"  (at  22.86 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Footprint" "SP33R6-04UTG:UDFN-10_1x2.5mm_P0.5mm"  (at  22.86 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-arrays-sp33r6-series-datasheet?assetguid=17fda436-825f-4698-a26d-e7bf3e493099"  (at  22.86 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Description" "ESD Suppressors / TVS Diodes, Breakdown Voltage 0.6V, 3A, 0.2pF, 12kV, uDFN-10L TVS Array, USB 4.0 / Thunderbolt 3.0 complainant"  (at  22.86 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Manufacturer" "Littelfuse"  (at  22.86 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "MPN" "SP33R6-04UTG"  (at  22.86 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
+    (property  "Author" "Antmicro"  (at  22.86 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "License" "Apache-2.0"  (at  22.86 -22.86 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
     (symbol "SP33R6-04UTG_1_1" 
-      (polyline
-        (pts
-          (xy 2.54 -7.62)
-          (xy 7.62 -7.62)
-        )
+      (rectangle (start 2.54 2.54) (end 8.89 -12.7)
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -5.08)
-          (xy 7.62 -5.08)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 7.62 -2.54)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type background
+))      )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 7.62 0)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 7.62 -10.16)
-          (xy 2.54 -10.16)
+          (xy 2.54 -2.54)
+          (xy 7.62 -2.54)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 7.62 0)
-          (xy 7.62 -10.16)
+          (xy 2.54 -5.08)
+          (xy 7.62 -5.08)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 4.826 -8.255)
-          (xy 5.08 -8.001)
-          (xy 5.08 -7.239)
-          (xy 5.334 -6.985)
+          (xy 2.54 -7.62)
+          (xy 7.62 -7.62)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.826 -5.715)
-          (xy 5.08 -5.461)
-          (xy 5.08 -4.699)
-          (xy 5.334 -4.445)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.826 -3.175)
-          (xy 5.08 -2.921)
-          (xy 5.08 -2.159)
-          (xy 5.334 -1.905)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
           (xy 4.826 -0.635)
@@ -117,58 +55,38 @@
           (xy 5.334 0.635)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 5.08 -7.62)
-          (xy 3.81 -8.255)
-          (xy 3.81 -6.985)
-          (xy 5.08 -7.62)
+          (xy 4.826 -3.175)
+          (xy 5.08 -2.921)
+          (xy 5.08 -2.159)
+          (xy 5.334 -1.905)
         )
         (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 5.08 -5.08)
-          (xy 3.81 -5.715)
-          (xy 3.81 -4.445)
-          (xy 5.08 -5.08)
+          (xy 4.826 -5.715)
+          (xy 5.08 -5.461)
+          (xy 5.08 -4.699)
+          (xy 5.334 -4.445)
         )
         (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 5.08 -5.08)
-          (xy 6.35 -4.445)
-          (xy 6.35 -5.715)
-          (xy 5.08 -5.08)
+          (xy 4.826 -8.255)
+          (xy 5.08 -8.001)
+          (xy 5.08 -7.239)
+          (xy 5.334 -6.985)
         )
         (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -2.54)
-          (xy 3.81 -3.175)
-          (xy 3.81 -1.905)
-          (xy 5.08 -2.54)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -2.54)
-          (xy 6.35 -3.175)
-          (xy 6.35 -1.905)
-          (xy 5.08 -2.54)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
           (xy 5.08 0)
@@ -177,8 +95,8 @@
           (xy 5.08 0)
         )
         (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
+        (fill   (type outline
+))      )
       (polyline
         (pts
           (xy 5.08 0)
@@ -187,8 +105,58 @@
           (xy 5.08 0)
         )
         (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
+        (fill   (type outline
+))      )
+      (polyline
+        (pts
+          (xy 5.08 -2.54)
+          (xy 3.81 -3.175)
+          (xy 3.81 -1.905)
+          (xy 5.08 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type outline
+))      )
+      (polyline
+        (pts
+          (xy 5.08 -2.54)
+          (xy 6.35 -3.175)
+          (xy 6.35 -1.905)
+          (xy 5.08 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type outline
+))      )
+      (polyline
+        (pts
+          (xy 5.08 -5.08)
+          (xy 3.81 -5.715)
+          (xy 3.81 -4.445)
+          (xy 5.08 -5.08)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type outline
+))      )
+      (polyline
+        (pts
+          (xy 5.08 -5.08)
+          (xy 6.35 -4.445)
+          (xy 6.35 -5.715)
+          (xy 5.08 -5.08)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type outline
+))      )
+      (polyline
+        (pts
+          (xy 5.08 -7.62)
+          (xy 3.81 -8.255)
+          (xy 3.81 -6.985)
+          (xy 5.08 -7.62)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type outline
+))      )
       (polyline
         (pts
           (xy 6.35 -6.985)
@@ -197,64 +165,76 @@
           (xy 6.35 -6.985)
         )
         (stroke (width 0.254) (type default))
-        (fill (type outline))
-      )
-      (rectangle (start 2.54 2.54) (end 8.89 -12.7)
+        (fill   (type outline
+))      )
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 7.62 -10.16)
+        )
         (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (circle (center 7.62 -7.62) (radius 0.254)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 7.62 -5.08) (radius 0.254)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 7.62 -5.08) (radius 0.254)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (circle (center 7.62 -2.54) (radius 0.254)
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
+      (circle (center 7.62 -5.08) (radius 0.254)
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
+      (circle (center 7.62 -5.08) (radius 0.254)
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
+      (circle (center 7.62 -7.62) (radius 0.254)
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
+      (polyline
+        (pts
+          (xy 7.62 -10.16)
+          (xy 2.54 -10.16)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
       (pin passive line (at 0 0 0) (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (name "1" (effects   (font (size 1.27 1.27))))
+        (number "1" (effects   (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 0 0) (length 2.54) hide
-        (name "10" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
+      (pin passive line (at 0 0 0) (length 2.54) (hide yes)
+        (name "10" (effects   (font (size 1.27 1.27))))
+        (number "10" (effects   (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -2.54 0) (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
+        (name "2" (effects   (font (size 1.27 1.27))))
+        (number "2" (effects   (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -10.16 0) (length 2.54)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
+      (pin passive line (at 0 -2.54 0) (length 2.54) (hide yes)
+        (name "9" (effects   (font (size 1.27 1.27))))
+        (number "9" (effects   (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -5.08 0) (length 2.54)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
+        (name "4" (effects   (font (size 1.27 1.27))))
+        (number "4" (effects   (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -5.08 0) (length 2.54) (hide yes)
+        (name "7" (effects   (font (size 1.27 1.27))))
+        (number "7" (effects   (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -7.62 0) (length 2.54)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
+        (name "5" (effects   (font (size 1.27 1.27))))
+        (number "5" (effects   (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -7.62 0) (length 2.54) hide
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
+      (pin passive line (at 0 -7.62 0) (length 2.54) (hide yes)
+        (name "6" (effects   (font (size 1.27 1.27))))
+        (number "6" (effects   (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -5.08 0) (length 2.54) hide
-        (name "7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 2.54) hide
-        (name "9" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
+      (pin power_in line (at 0 -10.16 0) (length 2.54)
+        (name "3" (effects   (font (size 1.27 1.27))))
+        (number "3" (effects   (font (size 1.27 1.27))))
       )
     )
-  )
+     (embedded_fonts no)  )
 )

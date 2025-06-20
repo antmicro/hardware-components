@@ -1,7 +1,7 @@
 (footprint "LED_RGB_LTST-C19HE1WT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf")
 	(property "Reference" "REF**"
@@ -28,21 +28,8 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at -0.005 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6d5df0eb-c1d6-4435-b451-1b9ca244e463")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(property "Datasheet" ""
-		(at -0.005 0 -90)
+		(at -0.005 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "8089c68a-4cf5-4f39-ad56-d6d8f115de0f")
@@ -55,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at -0.005 0 -90)
+		(at -0.005 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "30d4c481-1290-4218-8a5b-1b6be4a93a4c")
@@ -155,7 +142,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b301effa-5d03-45fe-b58c-4716db572d1e")
 	)
@@ -166,7 +153,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9a9b5b98-127a-433d-aa3a-48f9af5f2bef")
 	)
@@ -227,7 +214,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "32f9c259-cf93-47e6-b7c5-5ee60f0fd813")
 	)
@@ -1104,7 +1091,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.305 2.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1d79dbcc-9304-489e-b858-a5986e2d4565")
 		(effects
 			(font
@@ -1117,7 +1103,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.305 4.15 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2c032e79-b25c-4a75-a83b-e7edb0f7185d")
 		(effects
 			(font
@@ -1130,7 +1115,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.305 5.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "98237929-cd48-4c49-8088-b033595e372c")
 		(effects
 			(font
@@ -1143,25 +1127,25 @@
 	(pad "1" smd rect
 		(at 0.72 -0.425 270)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c764c3a7-9fc2-4f93-aa5a-9a8d1400dfd7")
 	)
 	(pad "2" smd rect
 		(at 0.72 0.425 270)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f4f978c1-02b0-47a7-a187-68736f738a84")
 	)
 	(pad "3" smd rect
 		(at -0.73 0.425 270)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c1626ba5-d7c6-4e6c-9b0e-00b446b96cd9")
 	)
 	(pad "4" smd rect
 		(at -0.73 -0.425 270)
 		(size 0.65 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1cd25475-6b5a-41b5-a612-0365b8533104")
 	)
 	(group ""
@@ -1212,9 +1196,10 @@
 			"fc2287f3-2d4f-43b4-97f0-b9588148d271"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0.005 -0 0)
+			(xyz -0.005 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "USB-A_Receptacle_Molex_483930001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB 3.0, type A, right angle")
 	(tags "USB 3.0 type A right angle")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "84a4506c-3ba1-421e-8757-a7d02c222c5f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -153,7 +141,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "016cbdcb-2d5f-4da6-823d-58debe178521")
 	)
@@ -164,7 +152,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3392c365-2e12-4724-b2e5-d4499e5c19ff")
 	)
@@ -215,7 +203,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "243371d4-d73f-4d38-8dc8-40814f9bf7ea")
 	)
@@ -15582,7 +15570,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4 17.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6d991d49-d496-4144-8426-ed32462e0a66")
 		(effects
 			(font
@@ -15595,7 +15582,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4 16.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6f0466c5-6d6a-4b8c-a6b7-dcd169d4be14")
 		(effects
 			(font
@@ -15608,7 +15594,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4 15 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e6357f23-fff0-421b-bd5a-edf97469efb7")
 		(effects
 			(font
@@ -15722,6 +15707,7 @@
 		(remove_unused_layers no)
 		(uuid "9bded33f-55cd-47ed-8cb7-c50d79f4be09")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 3.5 -11.75 0.5)

@@ -1,7 +1,7 @@
 (footprint "L_Vishay-IHLP3232DZ"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.001 -4.6 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3193fa33-a97c-4ea7-9d04-250bcf43a841")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -295,7 +283,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a8f8321f-f0cf-4a9c-96aa-819ac0d270e5")
 	)
@@ -306,7 +294,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -4243,7 +4231,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.08 7.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "11dca4c7-b8a0-4e96-b799-b6bfb43bc969")
 		(effects
 			(font
@@ -4256,7 +4243,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.08 8.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a8a40104-903a-49a5-90b4-997ef8d7726c")
 		(effects
 			(font
@@ -4269,7 +4255,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.08 9.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c45a5b07-cd63-4bd3-8e0e-bd7a896f526f")
 		(effects
 			(font
@@ -4282,17 +4267,18 @@
 	(pad "1" smd roundrect
 		(at -3.6195 0)
 		(size 2.413 5.334)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "e03b9f70-4152-4331-b826-f45536a9e46a")
 	)
 	(pad "2" smd roundrect
 		(at 3.6195 0)
 		(size 2.413 5.334)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "413554bf-905d-4709-9773-3cf651213592")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0.001 0 0)

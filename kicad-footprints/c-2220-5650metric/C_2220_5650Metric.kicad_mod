@@ -1,7 +1,7 @@
 (footprint "C_2220_5650Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 2220")
 	(tags "capacitor SMD 2220")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f0f8fbe1-bcb1-4ff2-b1e7-94478de98d0b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0878be11-34be-46ad-abea-f3462ce23272")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6b7dac32-ba45-4e61-b780-62ce88e977a5")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "7d9b10e2-476f-4c36-8714-12eb3a6bca66")
 	)
@@ -1542,7 +1530,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.7 6.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "68eb66d7-738f-4873-ade1-df0dd1a8e450")
 		(effects
 			(font
@@ -1555,7 +1542,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.7 7.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "7aaee08b-a7c2-4afc-a222-9822fd6f1aeb")
 		(effects
 			(font
@@ -1568,7 +1554,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.7 5.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "93f32312-182b-4afb-8647-19f7802ae5bf")
 		(effects
 			(font
@@ -1581,17 +1566,18 @@
 	(pad "1" smd roundrect
 		(at -2.55 0)
 		(size 1.8 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.138889)
 		(uuid "01f31883-ab25-4443-92bc-08caef36e61f")
 	)
 	(pad "2" smd roundrect
 		(at 2.55 0)
 		(size 1.8 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.138889)
 		(uuid "7affd4d1-3d41-4b2d-a917-23f4e4eaf486")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft-XAL6030"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.25 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aeed6a45-3673-46f3-9820-1d89e2db0b65")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a453ae22-1ad6-4272-b1cc-7ba646a7a05d")
 	)
@@ -84,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 	)
@@ -95,7 +83,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9c26b263-438a-44a8-a237-c0e6f6f510ba")
 	)
@@ -106,7 +94,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -1513,7 +1501,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.52 6.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "14fc914d-8c7c-447c-8fc0-af9165aaaa27")
 		(effects
 			(font
@@ -1527,7 +1514,6 @@
 		(at -3.52 7.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "32bcd56d-1604-44eb-ba88-1126390250d0")
 		(effects
 			(font
@@ -1540,7 +1526,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.52 9.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "694d6c9d-c59e-4241-bc26-18226a803c2b")
 		(effects
 			(font
@@ -1553,17 +1538,18 @@
 	(pad "1" smd roundrect
 		(at -2.02 0)
 		(size 1.43 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "d9b4e5c2-4e42-48f0-8491-f2e7647a195f")
 	)
 	(pad "2" smd roundrect
 		(at 2.019 0)
 		(size 1.43 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "6924ce82-bebb-4b30-bcaf-b1c65a18a733")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

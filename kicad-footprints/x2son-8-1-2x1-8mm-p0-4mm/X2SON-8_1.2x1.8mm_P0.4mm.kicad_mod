@@ -1,7 +1,7 @@
 (footprint "X2SON-8_1.2x1.8mm_P0.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.7 0)
@@ -19,19 +19,6 @@
 		(at 0 2.25 0)
 		(layer "F.Fab")
 		(uuid "26db30a6-c739-4674-bf6a-7280b3eae95b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f8c7a421-70f0-4df3-97c1-cc33f4fda7ce")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -94,7 +81,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d544413a-983c-476c-8115-ca9ff22a3186")
 	)
@@ -105,7 +92,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "abb364f8-a899-4dc0-bb76-43266f786d79")
 	)
@@ -116,7 +103,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4045e438-033c-4d3f-8995-63602c2da0b3")
 	)
@@ -127,7 +114,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "289b0e82-42db-476f-90a4-a6ac19f1a4ed")
 	)
@@ -138,7 +125,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "32c49b69-323e-4009-a048-d5382d579b90")
 	)
@@ -149,14 +136,13 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "4e7fd228-d47d-4a0a-8220-8d0a1dc86b7c")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -1.25 5.55 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "39e42b93-d762-4c29-987e-c533e6e8bb27")
 		(effects
 			(font
@@ -169,7 +155,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.25 4.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "557b37a1-5e43-4a82-8a9d-0463f1457c7a")
 		(effects
 			(font
@@ -182,7 +167,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.25 3.15 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fc0ecc9d-a1fc-4e41-85bd-d6fe1aeb50f8")
 		(effects
 			(font
@@ -240,9 +224,10 @@
 		(layers "F.Cu" "F.Paste")
 		(uuid "dfb35ea5-1275-4e1d-9647-e07769ed9af9")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

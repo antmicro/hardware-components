@@ -1,7 +1,7 @@
 (footprint "Switch_Slide_CAS-120TA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.25 -2.851 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bc3c4ff1-733f-457c-92d2-370525a562ec")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,7 +59,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "15d92ddd-b4a6-400b-a0ac-fec212a7af79")
 	)
@@ -82,7 +70,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "527cf291-5fd8-48de-812c-4188ef1af2a5")
 	)
@@ -3139,7 +3127,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.15 7.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "800c5ba8-1b95-4e5f-8f18-812aa592b168")
 		(effects
 			(font
@@ -3152,7 +3139,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.15 5.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "81df4cda-d75e-410e-b5f2-550a0d474ba2")
 		(effects
 			(font
@@ -3165,7 +3151,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.15 6.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "827939c5-a1f3-4366-a8a0-e6af0699abf2")
 		(effects
 			(font
@@ -3178,21 +3163,22 @@
 	(pad "1" smd rect
 		(at -1.75 1.148)
 		(size 1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b8387b54-26c8-48bf-b946-33e63535a424")
 	)
 	(pad "2" smd rect
 		(at 0 -1.151)
 		(size 1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e9f48809-fc1b-4733-9aa7-76a5591c59ec")
 	)
 	(pad "3" smd rect
 		(at 1.749 1.148)
 		(size 1 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7622cdd6-6a3a-4262-91dc-7f6a0ff269fd")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 2.5)

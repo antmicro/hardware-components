@@ -1,7 +1,7 @@
 (footprint "Conn_JST_XH_1x4_B4B-XH-A-LF-SN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Connector")
 	(property "Reference" "REF**"
@@ -28,21 +28,8 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "daeec218-4cfb-4080-b28c-f2234371a513")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(property "Datasheet" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d7320fc2-b1a1-4ff2-984c-9b070fb02d9a")
@@ -55,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d1cbbaf7-9a05-469d-ace3-e9319fd7251b")
@@ -155,7 +142,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0a693ac9-99a4-40b9-80ab-a107f404177a")
 	)
@@ -166,7 +153,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "06e08714-6cca-452e-ae8b-c53ce916d467")
 	)
@@ -177,7 +164,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "b25579c7-c47b-405f-8c3e-45afa1f7aad4")
 	)
@@ -1694,7 +1681,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.47 12.211 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2e3595e4-acb8-4b2c-866a-31e533552cac")
 		(effects
 			(font
@@ -1707,7 +1693,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.47 13.411 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6fec17e8-3b8d-41bc-950f-cda822b35890")
 		(effects
 			(font
@@ -1720,7 +1705,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.47 14.611 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f3067884-bbd8-4d8e-9aef-9b9b7c4c0888")
 		(effects
 			(font
@@ -1762,6 +1746,7 @@
 		(remove_unused_layers no)
 		(uuid "dc0c8631-dbc9-4c77-a506-f2dd3131e706")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -0.5 -3.75 0)

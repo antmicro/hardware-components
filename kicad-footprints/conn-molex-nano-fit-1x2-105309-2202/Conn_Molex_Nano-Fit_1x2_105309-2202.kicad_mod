@@ -1,7 +1,7 @@
 (footprint "Conn_Molex_Nano-Fit_1x2_105309-2202"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Based on: https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105430/1054301202_sd.pdf?inline")
 	(property "Reference" "REF**"
@@ -20,19 +20,6 @@
 		(at -2.4 6.225 0)
 		(layer "F.Fab")
 		(uuid "36cbf3a2-e317-494a-a1fa-cbcfa075df98")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 2.5 0 180)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6b9deb80-a1b4-416b-a20a-37d8a09467d5")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -115,7 +102,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "210befe7-c812-4af2-8bb8-172d8ee6e8e6")
 	)
@@ -126,7 +113,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b166dbb5-bfdd-424f-a071-4ec4f83f73d6")
 	)
@@ -137,7 +124,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "849b4a68-1c1d-4616-a46c-7d2bce48e87f")
 	)
@@ -1004,7 +991,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.4 7.425 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "135a7d02-b44d-414a-b4ec-76b3741c622d")
 		(effects
 			(font
@@ -1017,7 +1003,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.4 8.625 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9a366071-e868-4a02-83aa-7a19281d9c38")
 		(effects
 			(font
@@ -1030,7 +1015,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.4 9.825 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b8f624d8-4a52-4419-a93e-538b2ebda824")
 		(effects
 			(font
@@ -1063,9 +1047,10 @@
 		(remove_unused_layers no)
 		(uuid "ebc20d33-8eb2-410d-b2a4-fff762425760")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz 1.25 -0 4.75)
+			(xyz 1.25 0 4.75)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "Phone_TRS_MiniJack_SJ-3523-SMT-TR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.7 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2a9503ef-a2f8-4c89-817c-951a3637fe0d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8d63d414-9231-4a5d-92c2-6ab2e30ab3f3")
 	)
@@ -212,7 +200,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "7e07a510-a798-4fea-a6f3-b998f441e119")
 	)
@@ -1289,7 +1277,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -9.25 8.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "28e579b2-dc5f-4c9b-9ddc-af1c313da44e")
 		(effects
 			(font
@@ -1302,7 +1289,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -9.25 10.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2a479564-704d-4946-a795-0d00e5dbed7b")
 		(effects
 			(font
@@ -1315,7 +1301,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -9.25 9.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "976fae42-738b-4056-b4e2-8395b03373f3")
 		(effects
 			(font
@@ -1342,24 +1327,25 @@
 	(pad "1" smd rect
 		(at -3.6 3.7)
 		(size 2.2 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c182002b-4f51-40d1-ac9c-004934905016")
 	)
 	(pad "2" smd rect
 		(at 5.8 3.7)
 		(size 2.8 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9fd1b6c3-38af-4c07-b7c7-63ec0f8194b4")
 	)
 	(pad "3" smd rect
 		(at -1.6 -3.7)
 		(size 2.2 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "07f3308b-34d7-44a2-9b93-4df8a0a1c4c0")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -6 -0 0)
+			(xyz -6 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "Conn_Molex_Micro-Fit_2x6_430451201"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -9.5 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "76573982-8e40-441d-8bc3-bdbb7d31b3d5")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "61f94bd4-f740-4ecb-b237-54d76d98e96f")
 	)
@@ -162,7 +150,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "009139ef-6b09-4069-ac87-d6206153b2e5")
 	)
@@ -243,7 +231,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "19df824f-f444-41ab-9a2b-415120cf786f")
 	)
@@ -1150,7 +1138,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.62 10 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "194efdf2-cc60-434d-bc6a-99afb5ac5a8a")
 		(effects
 			(font
@@ -1163,7 +1150,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.62 7.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5c026aaa-db28-4932-aea0-8666b1b0d19a")
 		(effects
 			(font
@@ -1176,7 +1162,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.62 8.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e318585f-cd12-4ec2-9554-ab5219ad31b6")
 		(effects
 			(font
@@ -1296,6 +1281,7 @@
 		(remove_unused_layers no)
 		(uuid "707b9013-bad6-43db-ab7f-55f7d2f654ba")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 7.5 4 4)

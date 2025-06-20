@@ -1,7 +1,7 @@
 (footprint "Spacer_Drill4.45mm_H5.15mm_JSOM-0515-01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.4 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "33ff42f3-fcf9-44e4-b026-8bec67cdab78")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -63,7 +51,7 @@
 			)
 		)
 	)
-	(solder_paste_ratio -1)
+	(solder_paste_margin_ratio -1)
 	(attr smd)
 	(fp_circle
 		(center 0 0)
@@ -72,7 +60,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8c54ea98-14f9-41ca-a947-fe83f462a9dc")
 	)
@@ -83,7 +71,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0329ca11-2ccb-4453-b2c1-e30a9d69e5f7")
 	)
@@ -154,14 +142,13 @@
 			(width 0.02)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "96df2a59-1e9a-4fd5-989c-27832bc7b87f")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -3.25 6.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "40b3b8ca-d39e-49ce-b127-753f921ed526")
 		(effects
 			(font
@@ -174,7 +161,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.25 7.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ab6ae9b4-d555-4146-8696-b41fef03b17f")
 		(effects
 			(font
@@ -187,7 +173,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.25 8.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c4cdbe8a-fa22-4297-ae4e-d820fc661413")
 		(effects
 			(font
@@ -277,6 +262,7 @@
 		(remove_unused_layers no)
 		(uuid "5d3a794a-feda-449f-ba16-0ff8931acdf6")
 	)
+	(embedded_fonts no)
 	(model "/"
 		(offset
 			(xyz 0 0 -1.4)

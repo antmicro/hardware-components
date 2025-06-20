@@ -1,7 +1,7 @@
 (footprint "USB-A_Receptacle_Samtec_USB-A-S-F-B-VT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.9 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2d7fb8b7-c009-43d0-991f-b4d1fd85fb6d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -135,7 +123,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "22780afb-25d8-4a43-98c6-806d7938a848")
 	)
@@ -146,7 +134,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7bf1ba14-69b0-4b0b-939c-c56e659b7161")
 	)
@@ -157,7 +145,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "3f7d67e1-aaf4-4724-aa37-15155c4a8fbb")
 	)
@@ -5184,7 +5172,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.84 8.96 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3b6be1a9-732a-4152-98e1-2f310dafe4f2")
 		(effects
 			(font
@@ -5197,7 +5184,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.84 10.16 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6bb3b08e-0222-46b9-a144-9c00ad53431d")
 		(effects
 			(font
@@ -5210,7 +5196,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.84 11.36 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "93d2713c-187f-4910-a369-a699d3faf4e0")
 		(effects
 			(font
@@ -5268,6 +5253,7 @@
 		(remove_unused_layers no)
 		(uuid "bb95dbad-a6b8-44c5-8d1b-fc0ecd362414")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 3.5 -4.107 7.62)

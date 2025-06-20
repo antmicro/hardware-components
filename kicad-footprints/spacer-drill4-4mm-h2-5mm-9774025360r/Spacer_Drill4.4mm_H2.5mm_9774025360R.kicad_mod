@@ -1,7 +1,7 @@
 (footprint "Spacer_Drill4.4mm_H2.5mm_9774025360R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hardware, Inside through hole M3, Drill 4.4mm, Height 2.5mm")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "de5f31bd-0815-4987-b144-ac97c96ddc2b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -64,7 +52,7 @@
 			)
 		)
 	)
-	(solder_paste_ratio -1)
+	(solder_paste_margin_ratio -1)
 	(attr smd)
 	(fp_circle
 		(center 0 0)
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "86c3eb40-dbcf-4a3b-ae13-e8066d818230")
 	)
@@ -84,7 +72,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "926c223a-08c0-4f70-80a0-d2ddad6c71ec")
 	)
@@ -95,7 +83,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "a464d7d4-5041-4808-b36c-f7e52d3a7c21")
 	)
@@ -106,14 +94,13 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "add35b03-4bca-4972-8e8e-8e4b04300800")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -3.95 6.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5c956018-7439-4fad-abaf-3ecd42c4f589")
 		(effects
 			(font
@@ -126,7 +113,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.95 7.85 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "7f58385d-6181-4b37-9706-f83e62916985")
 		(effects
 			(font
@@ -139,7 +125,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.95 9.05 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "dd6c77e7-d0eb-4729-bdf4-cfb1edc38fd0")
 		(effects
 			(font
@@ -489,9 +474,10 @@
 		(remove_unused_layers no)
 		(uuid "05ca6f26-f6e0-4aa1-b851-88d173f20960")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

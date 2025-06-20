@@ -1,7 +1,7 @@
 (footprint "Conn_Phoenix_XS_1x2_1815264"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9ca98a3d-9fc9-4fd1-b8f8-cf38d9596d08")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -133,7 +121,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "96bae573-c92f-4fc4-8f91-628c59433fff")
 	)
@@ -144,7 +132,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "83fe9630-5881-4dba-8631-25918fb6d0f3")
 	)
@@ -215,7 +203,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "5bd846a5-0062-48b0-80ba-83bc3b9829d5")
 	)
@@ -4183,7 +4171,6 @@
 		(at -2.85 6.55 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8ceb00b0-d99d-4128-8b57-8ffc74c22e63")
 		(effects
 			(font
@@ -4196,7 +4183,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.85 7.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8e1e773f-4be1-4013-8a8f-fdb346b4bf66")
 		(effects
 			(font
@@ -4209,7 +4195,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.85 8.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "976adda1-b94b-4286-81e6-283cff16362d")
 		(effects
 			(font
@@ -4235,6 +4220,7 @@
 		(remove_unused_layers no)
 		(uuid "4e83c3ad-39bb-49d6-ba6a-8827b509c644")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 4.5 -2.5 7.5)

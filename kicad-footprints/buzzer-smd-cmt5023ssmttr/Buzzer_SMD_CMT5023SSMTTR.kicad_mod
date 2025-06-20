@@ -1,7 +1,7 @@
 (footprint "Buzzer_SMD_CMT5023SSMTTR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Buzzer")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d1b631a9-a1e3-424f-ad7c-16924d8d0031")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -122,7 +110,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "08e2d62f-f99a-4268-8b33-617dfcc63e75")
 	)
@@ -243,7 +231,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 	)
@@ -390,7 +378,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.15 4.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "33ef4c62-9f8a-4e97-a0fb-1a5e1968fbea")
 		(effects
 			(font
@@ -403,7 +390,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.15 5.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b5a72f59-178a-405b-ab65-d5a3dbd5ee32")
 		(effects
 			(font
@@ -416,7 +402,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.15 7.15 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cfd7cd5f-fb94-4069-bfe8-4fe2f991c0ed")
 		(effects
 			(font
@@ -429,24 +414,25 @@
 	(pad "1" smd rect
 		(at -1.8 1.75 90)
 		(size 1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "120c9257-8855-42cb-9db2-c866ee3496cf")
 	)
 	(pad "2" smd rect
 		(at 1.8 1.75 90)
 		(size 1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9cdd981e-d172-4bb0-b713-233afe4e8081")
 	)
 	(pad "MP" smd rect
 		(at -1.8 -1.75 90)
 		(size 1 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8bb83a49-afb4-4f69-ae69-9d76d310430e")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

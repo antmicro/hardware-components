@@ -1,7 +1,7 @@
 (footprint "C_Pol_Panasonic-SVPF-E12"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.7 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d8007c84-e36b-4ee7-bbdb-b883d6509305")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b60d855c-ae71-4b0c-bb6f-debda57c4b9d")
 	)
@@ -84,7 +72,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "8fabeb51-b59d-4cc9-b203-3d423bb5213d")
 	)
@@ -2341,7 +2329,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.243 6.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "7127715d-258a-4c23-b608-b56e43eb2d11")
 		(effects
 			(font
@@ -2354,7 +2341,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.243 8.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "af1fce3f-6f91-443e-b57b-c4770f6a7e20")
 		(effects
 			(font
@@ -2367,7 +2353,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.243 7.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e4867377-1380-47dd-90ec-0bd684e10462")
 		(effects
 			(font
@@ -2380,18 +2365,19 @@
 	(pad "1" smd rect
 		(at -3.9 0)
 		(size 4.8 1.905)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "216ae15f-7ebb-4471-8df3-7b45407fd46e")
 	)
 	(pad "2" smd rect
 		(at 3.9 0)
 		(size 4.8 1.905)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "78f27d33-b324-409f-aa54-08e876dd0110")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "CONV_PDQE30-Q48-S24-D"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.726 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "da12e275-f77e-4024-835b-d6b2cca1f5d0")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -111,7 +99,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "de7d82d5-2c26-484d-92f0-5ac3bb28736c")
 	)
@@ -122,7 +110,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5e97110c-d357-48d0-b4d7-029827844adc")
 	)
@@ -173,7 +161,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "179de827-7ddb-42b4-b132-44d8b2e2965f")
 	)
@@ -184,7 +172,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "34408e2e-43a8-4c47-97e2-7cf42336f753")
 	)
@@ -195,7 +183,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "78aa58d9-590b-4b8f-8189-f024b6ececf2")
 	)
@@ -1522,7 +1510,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.912 26.312 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "806cd285-b7ce-4631-8268-4d11c0c96924")
 		(effects
 			(font
@@ -1535,7 +1522,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.912 27.51 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a12e7108-ceda-4556-959f-e2d101c71ebc")
 		(effects
 			(font
@@ -1548,7 +1534,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.912 28.711 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bc5a3342-82fe-44cc-950b-d773eb6a70ee")
 		(effects
 			(font
@@ -1606,6 +1591,7 @@
 		(remove_unused_layers no)
 		(uuid "2262d1d2-7782-4d17-b6ae-9964a0dfe6d3")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 10.16 -10.16 0)

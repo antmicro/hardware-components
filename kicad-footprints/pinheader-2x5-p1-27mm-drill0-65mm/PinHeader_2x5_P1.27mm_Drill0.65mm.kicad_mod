@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x5_P1.27mm_Drill0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 2x5, 1.27mm pitch, double rows")
 	(tags "Through hole pin header THT 2x5 1.27mm double row")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eeaebf46-b184-40a8-9744-41d0a4d308c0")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -134,7 +122,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "b96ee444-c7d6-45cd-90e9-937df1ff3dff")
 	)
@@ -145,7 +133,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "26681da8-40d9-48ff-a691-c8f5ed923f4d")
 	)
@@ -206,7 +194,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "ade6609b-f64d-4b34-ad06-f39c4936d6c7")
 	)
@@ -217,7 +205,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "84bf30bf-54d3-481a-a0ef-57fdef52b3c3")
 	)
@@ -1744,7 +1732,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.135 9.999 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "60096257-0567-4416-9922-faa5b00aaf2f")
 		(effects
 			(font
@@ -1757,7 +1744,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.135 11.198 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6f324d92-ba26-4146-9382-cee8fc452699")
 		(effects
 			(font
@@ -1770,7 +1756,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.135 12.399 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d3939363-5d5a-4202-a9ff-50ae110aab13")
 		(effects
 			(font
@@ -1860,6 +1845,7 @@
 		(remove_unused_layers no)
 		(uuid "66d29aa3-232b-4966-83bb-f138e38b8833")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -0.001 1.27 0)

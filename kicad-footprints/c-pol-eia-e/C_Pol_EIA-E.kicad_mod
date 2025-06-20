@@ -1,7 +1,7 @@
 (footprint "C_Pol_EIA-E"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Capacitor Polarised")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e0e14e3e-fcac-45cd-be29-04b8325b30e1")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -272,7 +260,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "dbfa1d1d-a29a-4880-868b-7c9c5403496c")
 	)
@@ -283,7 +271,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "f669bb76-d986-41f8-b012-989f170208fe")
 	)
@@ -490,7 +478,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.84 4.59 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5c1ec0e7-5883-4198-bfd7-62c8c54a276f")
 		(effects
 			(font
@@ -503,7 +490,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.84 5.79 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b577d5cd-918e-4391-a083-dcfecdccdc6b")
 		(effects
 			(font
@@ -516,7 +502,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.84 6.99 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d8f9beaa-f25d-4f75-b808-491da8683e27")
 		(effects
 			(font
@@ -529,17 +514,18 @@
 	(pad "1" smd roundrect
 		(at -3.101 0)
 		(size 2.35 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "3deac7f4-ee40-4b89-986e-99c5953d0c8f")
 	)
 	(pad "2" smd roundrect
 		(at 3.1 0)
 		(size 2.35 2.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "f4655a20-cfae-4c95-954b-44e951a07255")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -3.595 -3.809 0.59)

@@ -1,7 +1,7 @@
 (footprint "LED_0603_1608Metric_G_Right_Angle"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.9 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "364b8e94-151f-404c-979c-f393e8e60861")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -323,7 +311,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2ac098ed-7d03-46dd-8c6d-7fd1f5846350")
 	)
@@ -334,7 +322,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "51043d95-32ec-4e4c-a624-579d05ac8807")
 	)
@@ -741,7 +729,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.55 4.09 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2851d406-b898-44d8-bfe1-59653c0e6a4e")
 		(effects
 			(font
@@ -754,7 +741,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.55 5.29 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9d8b9f0e-946d-4753-a07d-778dfe8e174f")
 		(effects
 			(font
@@ -767,7 +753,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.55 6.49 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ad0b28a0-9ac2-4da7-b0db-d44300fb29c8")
 		(effects
 			(font
@@ -780,14 +765,14 @@
 	(pad "1" smd roundrect
 		(at -0.7 0.24)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4d9b5ee1-8766-4395-8031-995762aba8ce")
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0.24)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dff297fe-6c1b-4eff-921a-4e28ef9946fe")
 	)
@@ -815,6 +800,7 @@
 			"e81ec103-2acb-47eb-bcef-72b63e64bc7d" "f753b598-2ee0-4c7b-aa50-b8f59ab80d55"
 		)
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 -0.575 0.3)

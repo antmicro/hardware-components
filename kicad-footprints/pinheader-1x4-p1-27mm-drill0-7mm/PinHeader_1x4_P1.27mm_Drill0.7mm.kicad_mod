@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x4_P1.27mm_Drill0.7mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://cnctech.us/pdfs/3220-XX-0100-00.pdf")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "94305632-1b61-4987-88cf-bf4b97c0a41f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -132,7 +120,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fde7cced-5abb-49b2-a6d3-a017c31de337")
 	)
@@ -144,7 +132,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "104cb505-fa79-4d9e-a6a4-a18ff029e70d")
 	)
@@ -155,7 +143,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f94212eb-1b81-498c-bf1f-c5dbcc8612e7")
 	)
@@ -216,7 +204,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "d0962dcc-1780-4f9f-b3cf-c96e45471a28")
 	)
@@ -963,7 +951,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.446 5.038 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2a8da4b8-5c0c-4adb-b576-b501ce2acc06")
 		(effects
 			(font
@@ -976,7 +963,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.446 6.24 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "36ee966e-101f-483f-a0a0-9c80c78cccf4")
 		(effects
 			(font
@@ -989,7 +975,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.446 7.44 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9ad7f143-66ae-489c-b710-2afbca8ab6aa")
 		(effects
 			(font
@@ -1031,6 +1016,7 @@
 		(remove_unused_layers no)
 		(uuid "c6e491d5-8b93-4c52-85f7-bec5f4df0e8a")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

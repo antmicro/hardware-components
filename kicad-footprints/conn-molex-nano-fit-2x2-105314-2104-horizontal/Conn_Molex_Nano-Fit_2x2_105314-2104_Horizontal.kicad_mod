@@ -1,7 +1,7 @@
 (footprint "Conn_Molex_Nano-Fit_2x2_105314-2104_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Nano-Fit Power Connectors, 105314-xx04, 2 Pins per row")
 	(tags "connector Molex Nano-Fit top entry")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "74a908b9-ff29-45b3-9963-0814edec89db")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -193,7 +181,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8c9465e6-4dea-4ed4-9d36-a9c1adf2ac2e")
 	)
@@ -204,7 +192,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d9f064a8-dd21-4a4f-a9ef-c2e044906f0c")
 	)
@@ -255,7 +243,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "6d49e854-60e4-4180-87aa-18152866a2d4")
 	)
@@ -2792,7 +2780,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.64 16.72 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "78ee7272-5d2e-4548-a8ef-55029c2258e8")
 		(effects
 			(font
@@ -2805,7 +2792,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.64 17.92 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e1291090-fa8f-47da-ac6d-56e5db3faa54")
 		(effects
 			(font
@@ -2818,7 +2804,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.64 19.12 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fd6565fb-33c6-45d5-a992-3c2ac7bfacac")
 		(effects
 			(font
@@ -2875,9 +2860,10 @@
 		(remove_unused_layers no)
 		(uuid "fe062da2-d543-4da5-85ed-4323ae7a2526")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

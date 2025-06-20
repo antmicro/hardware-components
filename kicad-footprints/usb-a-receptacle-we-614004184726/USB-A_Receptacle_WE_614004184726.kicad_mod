@@ -1,7 +1,7 @@
 (footprint "USB-A_Receptacle_WE_614004184726"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB-A (USB TYPE-A) USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8de95cae-a318-4c0d-af9c-38ac3b77d005")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -132,7 +120,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "be165637-e947-4a3f-8539-8f67524fb8c8")
 	)
@@ -143,7 +131,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f12c0fc7-7455-466d-83fd-cf157df03d50")
 	)
@@ -204,7 +192,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "9ee20214-cfd6-410a-bad9-a329a18306b3")
 	)
@@ -8011,7 +7999,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.96 12.425 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "26bce980-a45c-4408-9a53-ec3476f1488a")
 		(effects
 			(font
@@ -8024,7 +8011,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.96 13.625 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5b85d20c-d138-4871-90b7-0d79c18ff339")
 		(effects
 			(font
@@ -8037,7 +8023,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.96 14.825 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "67c0924d-28a2-4d17-b0c9-5a5119e66afd")
 		(effects
 			(font
@@ -8106,6 +8091,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "02a2dd84-043d-4bbb-9903-363bef3dd5c9")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 2.1 -0.1 7.5)

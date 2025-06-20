@@ -1,7 +1,7 @@
 (footprint "CST3-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.8 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0f9e9c91-e82a-437c-bc7c-b494f3bf7de7")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,7 +59,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3b3702fb-a51a-4849-99b3-51e28856222f")
 	)
@@ -122,7 +110,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "2799c271-87d1-4d99-805c-437b5a7f45b9")
 	)
@@ -169,7 +157,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.65 3.524 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "651aa2fd-15d7-4388-b7e2-c7f7de60e749")
 		(effects
 			(font
@@ -182,7 +169,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.65 4.724 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "82a4aee8-18ff-4e3b-83e2-4cf51828e8a2")
 		(effects
 			(font
@@ -195,7 +181,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.65 5.924 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d07e9009-313e-4728-accb-62c94a521216")
 		(effects
 			(font
@@ -208,21 +193,22 @@
 	(pad "1" smd rect
 		(at -0.3165 -0.175)
 		(size 0.3048 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d871c632-63cb-4be3-a021-6d2a5e35421e")
 	)
 	(pad "2" smd rect
 		(at -0.3165 0.174)
 		(size 0.3048 0.2032)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3bfce75a-e2d2-4095-8ef6-e4fcf4e41f4e")
 	)
 	(pad "3" smd rect
 		(at 0.3165 0)
 		(size 0.3048 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e117eff5-b72e-4e4e-87eb-32d124c0bd90")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

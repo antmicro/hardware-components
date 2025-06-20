@@ -10,18 +10,18 @@ authors = [
     { name = "Antmicro", email = "contact@antmicro.com" }
 ]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.11"
 dependencies = [
     "typer",
     "rich",
-    "kiutils",
+    "kiutils @ git+https://github.com/antmicro/kiutils.git@52b9084f8f3320629e31613fb287028fd7cec21e",
     "unidecode"
 ]
 
 [tool.ruff]
 select = ["E", "F", "N", "B", "A", "RET"]
 line-length = 120
-target-version = "py38"
+target-version = "py311"
 exclude = [
 	  "src/__init__.py"
 ]

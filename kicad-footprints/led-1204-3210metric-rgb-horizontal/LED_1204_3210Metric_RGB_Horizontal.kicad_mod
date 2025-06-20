@@ -1,7 +1,7 @@
 (footprint "LED_1204_3210Metric_RGB_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint based on: https://optoelectronics.liteon.com/upload/download/DS22-2003-047/LTST-S310F2KT.PDF")
 	(property "Reference" "REF**"
@@ -22,19 +22,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5182162a-10b1-49a3-b09f-dc3760a1f0b9")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2ad89175-1c38-49d5-a532-4d7c327fd0da")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -77,7 +64,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "e4e772c9-142f-4813-add0-be2ca4157e4f")
 	)
@@ -88,7 +75,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "45edb5c6-78bb-434e-ab29-baa6cb2a2c37")
 	)
@@ -99,7 +86,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "8e7cbda9-96a2-489e-875b-3a43b4143916")
 	)
@@ -947,7 +934,6 @@
 		(at -2.75 3.495 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "76a442c2-c1d6-42c3-81bd-b83d1993df80")
 		(effects
 			(font
@@ -960,7 +946,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.75 4.695 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "84f6505d-219a-44c8-ae17-7af8be53958a")
 		(effects
 			(font
@@ -973,7 +958,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.75 5.895 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d6657128-0f49-4d66-97e2-8e40463756a2")
 		(effects
 			(font
@@ -986,31 +970,32 @@
 	(pad "1" smd roundrect
 		(at 0.4 -0.5)
 		(size 0.5 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "373284a8-0423-489f-a081-673797e1f14e")
 	)
 	(pad "2" smd roundrect
 		(at -0.4 -0.5)
 		(size 0.5 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "47dece63-d06f-44df-aeaa-e0feb5ff9677")
 	)
 	(pad "3" smd roundrect
 		(at -1.75 0)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "510f1e69-5d4b-457c-b8a1-6710fc0fb14b")
 	)
 	(pad "4" smd roundrect
 		(at 1.75 0)
 		(size 1.5 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "b3281306-8bc9-40e0-9040-a818f6bbcb15")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0.245 0.5)

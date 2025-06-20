@@ -1,7 +1,7 @@
 (footprint "SW_SPDT_ATE1D-2M3-10-Z"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.1 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c439a479-9a55-468e-b1d8-ae6c641c9dc5")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6c552154-08f1-4383-95f7-22441db8f3ec")
 	)
@@ -202,7 +190,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ca3a098c-925c-41ba-b151-446407dcb31e")
 	)
@@ -213,7 +201,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1359d04b-ce8c-477c-94aa-cf33b924a29b")
 	)
@@ -224,7 +212,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "1f5b6d22-c0b5-41db-8d12-f6737d1a2012")
 	)
@@ -4931,7 +4919,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.81 6.91 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "26e3b6c5-50f3-4902-864d-8ee8e47c21e6")
 		(effects
 			(font
@@ -4944,7 +4931,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.81 8.11 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8e4539f9-acfc-46bd-8c1d-54c87595cc0a")
 		(effects
 			(font
@@ -4957,7 +4943,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.81 5.71 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ffecf1ce-3285-4296-b5ea-fc350f27f9ee")
 		(effects
 			(font
@@ -4991,9 +4976,10 @@
 		(remove_unused_layers no)
 		(uuid "b998a594-5981-49d4-bb31-29f4cc796b6b")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz 2.54 -0 0)
+			(xyz 2.54 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

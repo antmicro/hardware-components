@@ -1,7 +1,7 @@
 (footprint "C_1206_3216Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 1206")
 	(tags "capacitor SMD 1206")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2ff8672b-cc5e-464b-98e8-e14d1488cd5e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "67c698ce-259c-4f45-a1a6-e9b60106beb1")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ba3a7635-f36d-4225-ae6f-e0bbbf618165")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "67eff746-8aab-4ff0-b7f4-c354d8c4280b")
 	)
@@ -2242,7 +2230,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.625 4.101 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1da3c817-070c-4dfb-9202-2cfc4a794640")
 		(effects
 			(font
@@ -2255,7 +2242,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.625 5.301 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "21656dad-7ddd-495a-9e49-5a5afc667cee")
 		(effects
 			(font
@@ -2268,7 +2254,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.625 6.501 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "f3e7d03e-5c37-4d1c-a7d4-165765a885f3")
 		(effects
 			(font
@@ -2281,20 +2266,21 @@
 	(pad "1" smd roundrect
 		(at -1.5 0.001)
 		(size 1.15 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ddca2e24-2631-45dd-9433-cf09b5989323")
 	)
 	(pad "2" smd roundrect
 		(at 1.5 0.001)
 		(size 1.15 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c9e73b80-fac8-4929-ad12-c621113c038c")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0.001 0)
+			(xyz 0 -0.001 0)
 		)
 		(scale
 			(xyz 1 1 1)

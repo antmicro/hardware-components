@@ -1,7 +1,7 @@
 (footprint "L_WE-PD2-1054"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -5.2 -5.099 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d3797959-ee1f-4d60-bead-9c2c6a104e63")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -91,7 +79,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 	)
@@ -102,7 +90,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d5c64a6c-6b4c-482d-a362-368093295988")
 	)
@@ -113,7 +101,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -5330,7 +5318,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.599 8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 		(effects
 			(font
@@ -5343,7 +5330,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.599 9.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 		(effects
 			(font
@@ -5356,7 +5342,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.599 10.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 		(effects
 			(font
@@ -5369,17 +5354,18 @@
 	(pad "1" smd roundrect
 		(at -3.125 0 180)
 		(size 3.75 9.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "55ec310a-55f1-4da4-be78-5a0e50ebac20")
 	)
 	(pad "2" smd roundrect
 		(at 3.125 0 180)
 		(size 3.75 9.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "5cdef5ec-db15-405e-8f02-15c31beff845")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 1.6)

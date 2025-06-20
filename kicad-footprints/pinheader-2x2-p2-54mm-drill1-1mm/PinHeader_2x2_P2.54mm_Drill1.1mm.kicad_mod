@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x2_P2.54mm_Drill1.1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight male pin header, 2x2, 2.54mm pitch, double rows")
 	(tags "Through hole pin header male THT 2x2 2.54mm double row")
@@ -21,19 +21,6 @@
 		(at 0 5.16 0)
 		(layer "F.Fab")
 		(uuid "3c109699-dfd6-4c21-8e42-6b9415c659e0")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c25e23bb-fe99-4997-909a-d186bd077d20")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -156,7 +143,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fd17b2b0-e16f-4ec1-8ca0-ab501db0a748")
 	)
@@ -177,7 +164,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "96f32ec9-1afa-4cb6-9b80-b6dd081e7cd2")
 	)
@@ -188,7 +175,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "ee5b17e8-806b-4451-8363-bd076d7eb220")
 	)
@@ -915,7 +902,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.52 6.06 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "40822353-6475-4e75-9222-6679541d1875")
 		(effects
 			(font
@@ -928,7 +914,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.52 7.26 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8ab9c79e-ee66-4059-b800-1732e34541cf")
 		(effects
 			(font
@@ -941,7 +926,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.52 8.46 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b6acb779-352d-4a0f-be4c-b6d423f06d79")
 		(effects
 			(font
@@ -983,9 +967,10 @@
 		(remove_unused_layers no)
 		(uuid "ee229e9b-3e18-4efc-9487-1c27a15e9b03")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -1.27 1.27)
+			(xyz 0 -1.27 1.27)
 		)
 		(scale
 			(xyz 1 1 1)

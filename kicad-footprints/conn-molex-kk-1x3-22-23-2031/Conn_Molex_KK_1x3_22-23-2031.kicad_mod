@@ -1,7 +1,7 @@
 (footprint "Conn_Molex_KK_1x3_22-23-2031"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.7 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb093b38-27c6-4080-9413-cfe48000c8ff")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,7 +59,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "0bb86e74-e7fa-4369-b3ed-dde0974c8a42")
 	)
@@ -82,7 +70,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c74afe5e-4e72-4bb3-80cf-db4d1967d3d2")
 	)
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "203267e2-44a4-42bb-b07e-ee03c7668908")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0ab43787-b025-4672-9f6d-fbe9229c6a9b")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "70b1a162-b8ac-42ca-be7b-ab1423458d10")
 	)
@@ -642,7 +630,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.55 6.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "141470af-3f0d-428e-9771-371353e96325")
 		(effects
 			(font
@@ -655,7 +642,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.55 7.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6990901d-9f39-453c-9286-aa7718c2ca0e")
 		(effects
 			(font
@@ -668,7 +654,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.55 8.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b1100d3e-004c-42f4-9f70-62d4f99adbd7")
 		(effects
 			(font
@@ -702,9 +687,10 @@
 		(remove_unused_layers no)
 		(uuid "a7b12161-d45f-49a9-bfcc-ba48ec685cfd")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz 2.55 0.15 1.580000019)
+			(xyz 2.55 0.15 1.58)
 		)
 		(scale
 			(xyz 1 1 1)

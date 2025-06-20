@@ -1,7 +1,7 @@
 (footprint "SC70-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.6 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4532b696-2ab3-43aa-9f27-4d36758d0dc7")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -231,7 +219,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "024344dc-afdd-4f89-bfca-496b55240bd4")
 	)
@@ -242,7 +230,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "a50e1ae9-1a6a-4bd5-afb7-de332c18617f")
 	)
@@ -16499,7 +16487,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.45 4.783 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "610d5097-6aba-45ce-a302-3b6d4ab82332")
 		(effects
 			(font
@@ -16512,7 +16499,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.45 5.782 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d091fabe-c84e-4beb-a180-dabecde453e2")
 		(effects
 			(font
@@ -16525,7 +16511,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.45 6.782 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ec2852c4-de13-4cd8-8c0b-2be720497727")
 		(effects
 			(font
@@ -16538,21 +16523,22 @@
 	(pad "1" smd rect
 		(at -1.051 -0.65 90)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5af971d0-7b79-49b0-a5e9-a7ff6158e4a5")
 	)
 	(pad "2" smd rect
 		(at -1.051 0.65 90)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cfb23e33-8cd6-4dbd-9cd8-fabcf698a094")
 	)
 	(pad "3" smd rect
 		(at 1.05 0 90)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e7adaf2c-2bfe-4288-9cb3-d32d77d6f225")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -1.48 -0.86 -0.45)

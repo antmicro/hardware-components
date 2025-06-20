@@ -1,7 +1,7 @@
 (footprint "L_Bourns-SRP1265A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SRP1265A")
 	(tags "Inductor")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cc809cd5-e6da-4344-8cac-0082b9c8e050")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -133,7 +121,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b3a41ed5-c4dc-4249-b88f-a15df4343aac")
 	)
@@ -184,7 +172,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "56470831-d93c-4fe1-a4da-0ae0960a2c7b")
 	)
@@ -1051,7 +1039,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.8 9.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8b22c832-aadc-4dbb-9452-601313daaa9c")
 		(effects
 			(font
@@ -1064,7 +1051,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.8 11.1 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "cf7a5b00-cea0-40e7-92ca-3eefe1be0d02")
 		(effects
 			(font
@@ -1077,7 +1063,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.8 12.3 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d3c4b46b-0082-463a-9073-96c1c64aa4e7")
 		(effects
 			(font
@@ -1090,18 +1075,19 @@
 	(pad "1" smd rect
 		(at -5.5 0)
 		(size 3.1 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "09ea9278-021b-4a79-b7a2-093f869a434c")
 	)
 	(pad "2" smd rect
 		(at 5.6 0)
 		(size 3.1 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f9c6e128-59d9-49ae-ba02-20a62012ce10")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz 0.05 -0 3.099999858)
+			(xyz 0.05 0 3.1)
 		)
 		(scale
 			(xyz 1 1 1)

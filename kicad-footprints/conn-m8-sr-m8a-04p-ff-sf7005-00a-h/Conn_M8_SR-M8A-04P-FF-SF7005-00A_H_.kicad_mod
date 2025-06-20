@@ -1,7 +1,7 @@
 (footprint "Conn_M8_SR-M8A-04P-FF-SF7005-00A_H_"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Connector M8, 4 pins ")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0c2836bc-7121-4945-a858-0a618a71e90f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -142,7 +130,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a5c40a0a-7329-4a51-87e0-3f3fa094ca86")
 	)
@@ -153,7 +141,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0cbdacf1-303a-4dec-822b-198815b833ae")
 	)
@@ -164,7 +152,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "75db0c2e-d11a-4a45-bcfd-1a0f4bdc8989")
 	)
@@ -175,7 +163,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "07370189-ea24-4217-8d4a-d22f83413302")
 	)
@@ -11202,7 +11190,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.7 19.25 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "435beda0-3a5d-4ef7-8dd3-b5c6de3eb017")
 		(effects
 			(font
@@ -11215,7 +11202,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.7 20.45 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5c44cff8-97d6-4976-a755-24543b8efa6a")
 		(effects
 			(font
@@ -11228,7 +11214,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.7 21.65 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "65f125bb-56c8-4049-9f8b-d1eea8db7fee")
 		(effects
 			(font
@@ -11298,6 +11283,7 @@
 		(remove_unused_layers no)
 		(uuid "cd7b8bce-bb06-4c2f-803c-943226a65ec3")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -1.7 -4.5 6)

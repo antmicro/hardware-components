@@ -1,7 +1,7 @@
 (footprint "Heatsink_Fischer_FK2440_8D_PAK_23x8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "23x8 mm SMD heatsink for SO-8")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "59b35943-6203-4513-a0f6-c32acf5d1456")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -152,7 +140,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8a1b33ce-ea06-446d-a818-f1d0783cdc8e")
 	)
@@ -163,7 +151,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "eb3c8510-1b2c-4a1a-bf3c-09c3b5eb00ba")
 	)
@@ -214,7 +202,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e25ffd6f-b444-46fa-953a-a088a3855e26")
 	)
@@ -9019,7 +9007,7 @@
 		(uuid "0aff615c-9976-4311-8d49-98fe6aecadcb")
 	)
 	(fp_text user "H10mm"
-		(at -9.485 2 -90)
+		(at -9.485 2 270)
 		(layer "Cmts.User")
 		(uuid "69005bd4-a973-43de-b068-42505e8cf121")
 		(effects
@@ -9045,7 +9033,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -11.9 11.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "333f0f86-4eec-48d7-84c6-78f28b677101")
 		(effects
 			(font
@@ -9058,7 +9045,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -11.9 12.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "51e3ebba-837a-4ad6-a575-317ce4749404")
 		(effects
 			(font
@@ -9071,7 +9057,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -11.9 10 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "ac150377-8b6d-465e-9206-bf8cfdf8a02a")
 		(effects
 			(font
@@ -9084,17 +9069,18 @@
 	(pad "1" smd rect
 		(at -6.185 0 180)
 		(size 3.25 8.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "ce548e53-2cfd-4fff-957b-91cf5f6294b3")
 	)
 	(pad "1" smd rect
 		(at 6.215 0)
 		(size 3.25 8.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 2)
 		(uuid "29b6934f-06bd-4877-a945-dfa6e2860a68")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -296.235 -4 -208.5)

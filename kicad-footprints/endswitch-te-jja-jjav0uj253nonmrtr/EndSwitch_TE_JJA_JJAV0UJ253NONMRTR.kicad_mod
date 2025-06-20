@@ -1,7 +1,7 @@
 (footprint "EndSwitch_TE_JJA_JJAV0UJ253NONMRTR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.3 -2.1 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5ac3b901-d76f-4bed-8823-c454f5cdb62b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7ca25502-060a-4719-97ad-070e5a90a96c")
 	)
@@ -162,7 +150,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f00ae78c-8515-4fdf-b1f3-181041fc9907")
 	)
@@ -173,7 +161,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "33e4bd39-bbca-40b6-b3ad-03401c79a4a7")
 	)
@@ -2940,7 +2928,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -3.4 6.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "248a35aa-f250-44f5-9747-eaed7cae2625")
 		(effects
 			(font
@@ -2953,7 +2940,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -3.4 7.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "289c4132-35e5-4085-a8d7-f32f35ee13df")
 		(effects
 			(font
@@ -2966,7 +2952,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -3.4 8.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "55e310ee-3b5e-4ec7-9b27-e83d2c8c0a78")
 		(effects
 			(font
@@ -2993,30 +2978,31 @@
 	(pad "1" smd rect
 		(at -1.425 -0.95 90)
 		(size 0.9 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6f7c739-9b2f-4d22-95b1-d79911755f58")
 	)
 	(pad "2" smd rect
 		(at 1.425 -0.95 90)
 		(size 0.9 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ba429d56-cb31-4183-90e2-a3d23bb2ef34")
 	)
 	(pad "3" smd rect
 		(at -1.425 0.95 90)
 		(size 0.9 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ec9a6911-6023-4aec-b3e6-19687ee736e5")
 	)
 	(pad "4" smd rect
 		(at 1.425 0.95 90)
 		(size 0.9 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0faff896-bb85-4019-97fe-1fcf169e3973")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 1.5)
+			(xyz 0 0 1.5)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,7 +1,7 @@
 (footprint "RCA_Jack_PJRAN1X1U01X"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RCA Connector")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6509a54e-4a36-4152-a352-1dcf7b46b1cf")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -112,7 +100,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "011dd345-78bd-4ddf-a461-9e453b78311e")
 	)
@@ -243,7 +231,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "f4b8e2b3-cf70-490f-b911-1cc7e81d6998")
 	)
@@ -1390,7 +1378,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -33.71 17.225 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "0b4e341c-2353-424b-868d-615cf4b1c8e4")
 		(effects
 			(font
@@ -1403,7 +1390,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -33.71 18.425 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "74d37ea3-9f6d-4565-b926-a8adfdf378aa")
 		(effects
 			(font
@@ -1416,7 +1402,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -33.71 19.625 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fd964682-fe76-46ef-8c8d-9eef27680e23")
 		(effects
 			(font
@@ -1450,9 +1435,10 @@
 		(remove_unused_layers no)
 		(uuid "657741d4-86d8-4109-8f49-13c2ee0ef1e0")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -13.8 -0 6.6)
+			(xyz -13.8 0 6.6)
 		)
 		(scale
 			(xyz 1 1 1)

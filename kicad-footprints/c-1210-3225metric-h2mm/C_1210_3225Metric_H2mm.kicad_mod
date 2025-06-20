@@ -1,7 +1,7 @@
 (footprint "C_1210_3225Metric_H2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 1210")
 	(tags "capacitor SMD 1210")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cd28f3f5-5910-4494-8f9b-0a02cf75feec")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7ce11e6e-614b-4b46-8862-ca7bcff56d52")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ec44eb44-fb5d-4173-a56d-606d5a94b72b")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "ac5e4972-6d48-46ba-91cf-fb68a8c948ac")
 	)
@@ -182,7 +170,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.1 5.749 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "07b9f335-b59d-4467-939d-99016158ed55")
 		(effects
 			(font
@@ -195,7 +182,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.1 4.749 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "95a64b01-464b-4f90-b1e1-7c4dc007e201")
 		(effects
 			(font
@@ -208,7 +194,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.1 6.749 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c6339f1e-9df0-44e8-8f40-bec106a2ae53")
 		(effects
 			(font
@@ -221,18 +206,19 @@
 	(pad "1" smd rect
 		(at -1.7 0)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f369c2f-c300-438d-88f1-2512d0288a3c")
 	)
 	(pad "2" smd rect
 		(at 1.7 0)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f65c724-234b-4794-b070-334b83b82722")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 0 2.2)
+			(xyz 0 0 2.2)
 		)
 		(scale
 			(xyz 1 1 1)

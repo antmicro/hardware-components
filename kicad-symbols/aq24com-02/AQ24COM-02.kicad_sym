@@ -1,78 +1,36 @@
 (kicad_symbol_lib
-  (symbol "AQ24COM-02"  (pin_names hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property "Reference" "D" (at 22.86 -2.54 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Value" "AQ24COM-02" (at 22.86 -7.62 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Footprint" "AQ24COM-02:SC70-3" (at 22.86 -10.16 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-array-aq24com-02-datasheet?assetguid=B7352006-E994-424F-925B-AB8903DF3B24" (at 22.86 -12.7 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Description" "Bidirectional TVS diode array, 30 kV, SC70-3, 24 V" (at 22.86 -15.24 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "MPN" "AQ24COM-02JTG" (at 22.86 -5.08 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-    )
-    (property "Manufacturer" "Littelfuse" (at 22.86 -17.78 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "Author" "Antmicro" (at 22.86 -20.32 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "License" "Apache-2.0" (at 22.86 -22.86 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom)( hide yes ))
-    )
-    (property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD" (at 0 0 0)
-      (effects (font (size 1.27 1.27))( hide yes ))
-    )
+  (symbol "AQ24COM-02"  (pin_names (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+    (property  "Reference" "D"  (at  22.86 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
+    (property  "Value" "AQ24COM-02"  (at  22.86 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Footprint" "AQ24COM-02:SC70-3"  (at  22.86 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-array-aq24com-02-datasheet?assetguid=B7352006-E994-424F-925B-AB8903DF3B24"  (at  22.86 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Description" "Bidirectional TVS diode array, 30 kV, SC70-3, 24 V"  (at  22.86 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "MPN" "AQ24COM-02JTG"  (at  22.86 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
+    (property  "Manufacturer" "Littelfuse"  (at  22.86 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "Author" "Antmicro"  (at  22.86 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "License" "Apache-2.0"  (at  22.86 -22.86 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
+    (property  "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
     (symbol "AQ24COM-02_1_1" 
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 7.62 -2.54)
-        )
+      (rectangle (start 2.54 2.54) (end 8.89 -7.62)
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type background
+))      )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 7.62 0)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 7.62 -5.08)
-          (xy 2.54 -5.08)
+          (xy 2.54 -2.54)
+          (xy 7.62 -2.54)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -5.08)
-          (xy 7.62 0)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.826 -3.175)
-          (xy 5.08 -2.921)
-          (xy 5.08 -2.159)
-          (xy 5.334 -1.905)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
           (xy 4.826 -0.635)
@@ -81,18 +39,18 @@
           (xy 5.334 0.635)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
-          (xy 5.08 -2.54)
-          (xy 3.81 -3.175)
-          (xy 3.81 -1.905)
-          (xy 5.08 -2.54)
+          (xy 4.826 -3.175)
+          (xy 5.08 -2.921)
+          (xy 5.08 -2.159)
+          (xy 5.334 -1.905)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
           (xy 5.08 0)
@@ -101,8 +59,8 @@
           (xy 5.08 0)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
       (polyline
         (pts
           (xy 5.08 0)
@@ -111,8 +69,18 @@
           (xy 5.08 0)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
+      (polyline
+        (pts
+          (xy 5.08 -2.54)
+          (xy 3.81 -3.175)
+          (xy 3.81 -1.905)
+          (xy 5.08 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
       (polyline
         (pts
           (xy 6.35 -1.905)
@@ -121,28 +89,40 @@
           (xy 6.35 -1.905)
         )
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 2.54 2.54) (end 8.89 -7.62)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
+        (fill   (type none
+))      )
       (circle (center 7.62 -2.54) (radius 0.254)
         (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
+        (fill   (type none
+))      )
+      (polyline
+        (pts
+          (xy 7.62 -5.08)
+          (xy 2.54 -5.08)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
+      (polyline
+        (pts
+          (xy 7.62 -5.08)
+          (xy 7.62 0)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
       (pin passive line (at 0 0 0) (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (name "1" (effects   (font (size 1.27 1.27))))
+        (number "1" (effects   (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -2.54 0) (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
+        (name "2" (effects   (font (size 1.27 1.27))))
+        (number "2" (effects   (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -5.08 0) (length 2.54)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
+        (name "3" (effects   (font (size 1.27 1.27))))
+        (number "3" (effects   (font (size 1.27 1.27))))
       )
     )
-  )
+     (embedded_fonts no)  )
 )

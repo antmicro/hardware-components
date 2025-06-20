@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint based on: https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129382.pdf")
 	(property "Reference" "REF**"
@@ -20,19 +20,6 @@
 		(at -1.62 14.2 0)
 		(layer "F.Fab")
 		(uuid "93633732-0545-4069-8351-618874b57bdb")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 180)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dd313afe-32ff-4434-9daf-a3a8c03995d7")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -155,7 +142,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fccb80b2-da5e-4d0e-9954-1ba6f62643c4")
 	)
@@ -166,7 +153,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ea881969-456f-48ce-9f09-08e3fe0a165c")
 	)
@@ -177,7 +164,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "d1c75723-2e5d-4395-bc92-41b6852ac906")
 	)
@@ -3114,7 +3101,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.77 15.27 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2a6d28e5-5dce-42d7-b63b-3ce13ac14166")
 		(effects
 			(font
@@ -3127,7 +3113,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.77 16.47 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "74a0d3a6-c8f9-422b-83b9-10ebe082d706")
 		(effects
 			(font
@@ -3140,7 +3125,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.77 17.67 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e190651d-0919-4411-9e08-2c1fe9d99a43")
 		(effects
 			(font
@@ -3246,9 +3230,10 @@
 		(remove_unused_layers no)
 		(uuid "c3e38738-e762-42aa-a4e3-2f0fe0404f48")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

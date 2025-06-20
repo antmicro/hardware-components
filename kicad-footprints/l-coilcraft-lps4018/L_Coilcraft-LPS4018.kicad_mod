@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft-LPS4018"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.2 -3.2 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "107b4571-40f7-4124-859b-e0a6ea119bf8")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -73,7 +61,7 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "60bea8e8-1c53-4d87-853a-36c97894a78d")
 	)
@@ -86,7 +74,7 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "5f5a476e-bdf6-4d2a-adb8-4a1837649ad7")
 	)
@@ -99,9 +87,9 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "864ab66d-abb9-491a-86fc-9212236da94e")
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "d6da3093-bf3a-4df4-8b27-b53553e72430")
 	)
 	(fp_poly
 		(pts
@@ -112,9 +100,9 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "09010841-8ee3-42c7-958c-7863b1f3252c")
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "25f04c25-4f09-4603-a063-a5e8367f296e")
 	)
 	(fp_line
 		(start -0.55 -2.025)
@@ -145,9 +133,9 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "d6da3093-bf3a-4df4-8b27-b53553e72430")
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "864ab66d-abb9-491a-86fc-9212236da94e")
 	)
 	(fp_poly
 		(pts
@@ -158,9 +146,9 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "25f04c25-4f09-4603-a063-a5e8367f296e")
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "09010841-8ee3-42c7-958c-7863b1f3252c")
 	)
 	(fp_rect
 		(start -2.46 -2.25)
@@ -169,7 +157,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 	)
@@ -180,7 +168,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e286b724-dbb9-412e-9a66-3b897fbdf706")
 	)
@@ -191,7 +179,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -358,7 +346,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.46 5.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 		(effects
 			(font
@@ -371,7 +358,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.46 6.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 		(effects
 			(font
@@ -384,7 +370,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.46 7.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 		(effects
 			(font
@@ -397,15 +382,16 @@
 	(pad "1" smd rect
 		(at -1.765 0 90)
 		(size 2.79 0.87)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 	)
 	(pad "2" smd rect
 		(at 1.765 0 270)
 		(size 2.79 0.87)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

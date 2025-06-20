@@ -1,7 +1,7 @@
 (footprint "L_Coilcraft-XEL4020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.65 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2b008cb2-8823-4598-881a-5a023056ae67")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -111,7 +99,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "6a37671f-a6f0-4ebb-9ae8-69f60f92eabb")
 	)
@@ -122,7 +110,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d4b73142-f460-427f-8e4c-fd344819dc22")
 	)
@@ -133,7 +121,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "c51faee0-9676-44db-b932-ed749ff514e1")
 	)
@@ -220,7 +208,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -2.4 5.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "0b17c822-0d90-423a-bf9c-5bd308600bc1")
 		(effects
 			(font
@@ -233,7 +220,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -2.4 6.55 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "728df0bf-84d1-4c2a-bd70-6af4aba0b681")
 		(effects
 			(font
@@ -246,7 +232,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -2.4 7.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8c81632b-8677-4173-80f1-6f4cdf58fa37")
 		(effects
 			(font
@@ -259,17 +244,18 @@
 	(pad "1" smd roundrect
 		(at -1.185 0)
 		(size 0.98 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "db90c6b8-fd87-4d22-9c46-889b815ead02")
 	)
 	(pad "2" smd roundrect
 		(at 1.185 0)
 		(size 0.98 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "56342715-792e-4088-9e3b-8bcb277ec113")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0.1)

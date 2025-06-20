@@ -1,7 +1,7 @@
 (footprint "R_0603_1608Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0603")
 	(tags "resistor SMD 0603")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "38faa4aa-cbe5-410f-abbd-d044bbb72d76")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "baf4286b-6306-4e25-93bb-812c42997853")
 	)
@@ -104,7 +92,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9da8b8ae-fce0-4572-9396-38269db87161")
 	)
@@ -115,7 +103,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "d10191bd-258d-4ebe-b25c-6ff5193f3289")
 	)
@@ -222,7 +210,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.25 5.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3dd4cbd5-ca46-4e34-a108-8ae93dfb1e5b")
 		(effects
 			(font
@@ -235,7 +222,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.25 4.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "8931e24e-d3c9-45dd-ba18-da5a8b87e465")
 		(effects
 			(font
@@ -248,7 +234,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.25 3.898 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fa52e52a-a3ff-4c4e-bde0-81e46a58e79f")
 		(effects
 			(font
@@ -261,17 +246,18 @@
 	(pad "1" smd roundrect
 		(at -0.7 0)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "dcc6f237-ffc0-4a54-87fa-83fff4f26680")
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "9e5a0eb7-a42c-4f99-a45e-1dd013d3cea4")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz -0.8 -0.4 0.45)

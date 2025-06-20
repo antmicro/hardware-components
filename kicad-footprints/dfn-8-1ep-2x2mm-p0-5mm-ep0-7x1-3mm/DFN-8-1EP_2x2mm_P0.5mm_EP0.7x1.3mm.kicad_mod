@@ -1,7 +1,7 @@
 (footprint "DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "DFN NoLead")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1f136a35-146b-44b4-b882-37cda4cb40e7")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -93,7 +81,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "657ed88a-e96a-45f3-9525-70fcc4c9743c")
 	)
@@ -194,7 +182,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "612a2b2e-41f9-4156-a64f-9187d2baf3a1")
 	)
@@ -2881,7 +2869,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.62 3.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "27a95d5b-410f-4f55-84d0-88f22c8566c7")
 		(effects
 			(font
@@ -2894,7 +2881,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.62 6.35 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6c09177f-b7d3-4a60-97ac-fd4419aa78f0")
 		(effects
 			(font
@@ -2907,7 +2893,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.62 5.15 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9a286c62-b0b5-4319-80b2-5aec77709bfa")
 		(effects
 			(font
@@ -2920,56 +2905,56 @@
 	(pad "1" smd roundrect
 		(at -1.002 -0.75)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ade5b06b-dbbc-4238-ad81-9dab5aafc0a4")
 	)
 	(pad "2" smd roundrect
 		(at -1.002 -0.25)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f950f0c4-298e-4a2a-ad73-2d284e907919")
 	)
 	(pad "3" smd roundrect
 		(at -1.002 0.248)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cce9af51-ad37-4cd3-a6de-942d507b7ccb")
 	)
 	(pad "4" smd roundrect
 		(at -1.002 0.748)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cb74f7da-1f23-4b56-9c9a-818428572f55")
 	)
 	(pad "5" smd roundrect
 		(at 1 0.748)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7efc0ba4-1da5-4d23-911d-6dfe5674e69a")
 	)
 	(pad "6" smd roundrect
 		(at 1 0.248)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "df26e737-6001-46ab-bdd9-7f225caaa075")
 	)
 	(pad "7" smd roundrect
 		(at 1 -0.25)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "57fb4513-da4e-4f88-a676-4940331c409f")
 	)
 	(pad "8" smd roundrect
 		(at 1 -0.75)
 		(size 0.8 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b59635f8-1a10-4a71-b6f8-8b919a1306b8")
 	)
@@ -2979,6 +2964,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "0fbf070c-58af-42c5-b181-052b87e82110")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

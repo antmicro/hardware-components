@@ -1,7 +1,7 @@
 (footprint "C_Pol_Wurth-Elektronik-WCAP-ASLI-D6.3mm-H5.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.9 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "51894994-1b93-4140-8077-90dd2d57a34e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -311,7 +299,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c01d25cd-f4bb-4ef3-b5ea-533a2a4ddb2b")
 	)
@@ -322,7 +310,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -3059,7 +3047,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.14 6.325 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2e41ffa8-9c22-463e-b918-215ef536d6ce")
 		(effects
 			(font
@@ -3072,7 +3059,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.14 7.525 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "90331d42-214b-49c0-ab1b-1d8695d875db")
 		(effects
 			(font
@@ -3085,7 +3071,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.14 8.725 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e6508b73-11ef-4bb4-b427-a7b5961ce509")
 		(effects
 			(font
@@ -3098,20 +3083,21 @@
 	(pad "1" smd roundrect
 		(at -2.799 0)
 		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "3f214fbd-2c11-474f-9a54-20bcdd8104b1")
 	)
 	(pad "2" smd roundrect
 		(at 2.799 0)
 		(size 3.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "fe76b961-7320-4794-b03c-540be20785af")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

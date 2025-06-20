@@ -1,7 +1,7 @@
 (footprint "C_Pol_Panasonic-G-D10mm-H10.2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "capacitor electrolytic")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1f9ca270-5b33-4290-b0a9-fe74934fa1e4")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -312,7 +300,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "e149e0b1-47fa-4b20-b36e-2d51ee1e85c3")
 	)
@@ -3609,7 +3597,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -7.01 8.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1f15cc5a-95b8-40a9-ae1e-7ecca87b9345")
 		(effects
 			(font
@@ -3622,7 +3609,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -7.01 9.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "47f0bb44-7c2d-4e66-b615-d9b4e0b25548")
 		(effects
 			(font
@@ -3635,7 +3621,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -7.01 10.8 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b974b853-75bb-4bbc-93b7-5ec0fe3a2314")
 		(effects
 			(font
@@ -3648,20 +3633,21 @@
 	(pad "1" smd roundrect
 		(at -4.35 0)
 		(size 4.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "4949adcf-5ce0-4ce0-91dc-c9dfe9aed0d4")
 	)
 	(pad "2" smd roundrect
 		(at 4.35 0)
 		(size 4.1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "515932ab-b8aa-44c3-a994-a2418604e674")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 1)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)

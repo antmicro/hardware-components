@@ -1,7 +1,7 @@
 (footprint "Spacer_Drill3.7mm_H4mm_9774040151R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Spacer M=3 h=4mm fi=5.1mm")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d9a97b3b-5451-48bc-b08e-6b5e01decead")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -64,7 +52,7 @@
 			)
 		)
 	)
-	(solder_paste_ratio -1)
+	(solder_paste_margin_ratio -1)
 	(attr smd)
 	(fp_circle
 		(center 0 0)
@@ -73,7 +61,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7dfb6942-1c0b-4e17-a311-aa878ea4434c")
 	)
@@ -84,7 +72,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6ab51882-0027-4a2e-9c73-58d445de0ded")
 	)
@@ -95,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "d4ff7608-4eee-4bc2-9ca9-ad11e3efaa19")
 	)
@@ -106,7 +94,7 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "424ea24e-9a1c-446c-8010-03cc8d3dccfd")
 	)
@@ -117,14 +105,13 @@
 			(width 0.02)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "88e385d2-21d0-4ce6-a04d-0f14545f6161")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -9.6 6.5 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "6cf9e47b-60d3-4028-a73a-515d82856c14")
 		(effects
 			(font
@@ -137,7 +124,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -9.6 7.7 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b1255b36-db2e-4df1-a0a7-ef7d7297f645")
 		(effects
 			(font
@@ -150,7 +136,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -9.6 8.9 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c33a2698-f68c-4291-bd15-f30a5e932656")
 		(effects
 			(font
@@ -500,6 +485,7 @@
 		(remove_unused_layers no)
 		(uuid "618f6118-5313-4ec1-9bf8-490d359a8249")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "C_Pol_Vishay-T59-EE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -4.85 -3.6 0)
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b621da61-b57c-4100-8b6e-bc019f97eaf4")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -113,7 +101,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ab2ce8a0-40c8-47cb-aa68-37e65114b89e")
 	)
@@ -124,7 +112,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "14924318-6620-4db5-b514-6815d78fee65")
 	)
@@ -135,7 +123,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "026de127-6821-4c42-aace-eb9bf5365009")
 	)
@@ -12842,7 +12830,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.08 7.08 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "a643c084-670b-41c0-88f5-314eb224b649")
 		(effects
 			(font
@@ -12856,7 +12843,6 @@
 		(at -5.08 8.28 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "d13f1888-ac25-4b74-8838-e3278032adb6")
 		(effects
 			(font
@@ -12869,7 +12855,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.08 9.48 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "db19e0c9-b678-458f-a80c-2666b0536923")
 		(effects
 			(font
@@ -12882,15 +12867,16 @@
 	(pad "1" smd trapezoid
 		(at -3.4 0)
 		(size 2.5 5.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "294b3de7-c86d-4f49-b893-578c5b2bc6b9")
 	)
 	(pad "2" smd trapezoid
 		(at 3.4 0)
 		(size 2.5 5.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5c3b64ce-3b2f-4a66-be41-08d78c50f508")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

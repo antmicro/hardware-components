@@ -1,7 +1,7 @@
 (footprint "D_0201_0603Metric_SP00R6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Footprint based on: https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-array-sp00r6-datasheet?assetguid=5FA6369D-0E65-4A4F-8ED7-0E61EB3C9FBF")
 	(property "Reference" "D**"
@@ -20,19 +20,6 @@
 		(at 0 1.36 0)
 		(layer "F.Fab")
 		(uuid "9b0ab166-ddf4-4deb-a4ac-b9f5695433d8")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.005 -0.005 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "21aca4e0-ce43-40f6-bb60-85ca5f5f57ec")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3453f11f-a4cc-4ef0-9356-e0ae4197b29d")
 	)
@@ -136,7 +123,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "abbdabe8-e033-4070-a92d-6bfc7e10c45e")
 	)
@@ -183,7 +170,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.895 4.66 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "16ae7b26-aaa7-4bf8-b4d8-0c4c69aa780d")
 		(effects
 			(font
@@ -196,7 +182,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.895 3.46 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "674362ab-4c77-45d5-96ae-0f207225ccd5")
 		(effects
 			(font
@@ -209,7 +194,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.895 2.26 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b72b11dc-a6e1-43a3-8d09-8ba4a34c524e")
 		(effects
 			(font
@@ -222,15 +206,16 @@
 	(pad "1" smd rect
 		(at -0.195 -0.005)
 		(size 0.195 0.325)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a1e522ba-2f21-41b6-a180-63b4afda0aac")
 	)
 	(pad "2" smd rect
 		(at 0.205 -0.005)
 		(size 0.195 0.325)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8d497c14-ee25-44fa-a36f-a532c24a3ce4")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0.005 0.005 -0.09)

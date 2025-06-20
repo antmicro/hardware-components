@@ -1,7 +1,7 @@
 (footprint "Texas_DSBGA-6_1.2x0.8mm_Layout2x3_P0.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.1 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a0568035-133e-4601-9820-5a810c01a928")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -151,7 +139,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2c332f47-297e-4323-9162-6af529e275df")
 	)
@@ -162,7 +150,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "647b9d75-e0de-47ee-9b8a-8068bc11fb36")
 	)
@@ -223,7 +211,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "a8fb4427-a22d-4f98-9ab2-dde9ba449057")
 	)
@@ -2870,7 +2858,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -1.428 5.477 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "7ef31eac-2729-4c95-9eb2-90d65151a2c4")
 		(effects
 			(font
@@ -2883,7 +2870,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -1.428 6.677 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "9849b44d-e37d-4dfc-831f-54a760d24753")
 		(effects
 			(font
@@ -2896,7 +2882,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -1.428 4.277 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "aad01268-3d7b-4c40-bf67-860346ebdfd6")
 		(effects
 			(font
@@ -2909,39 +2894,40 @@
 	(pad "A1" smd circle
 		(at -0.2 -0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7c529253-515f-46a0-b6e7-a3451ae04406")
 	)
 	(pad "A2" smd circle
 		(at 0.2 -0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6701eae0-f049-4b26-8185-d5712d9353e5")
 	)
 	(pad "B1" smd circle
 		(at -0.2 0)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "03a20680-b6cb-452b-bc44-4e587c814628")
 	)
 	(pad "B2" smd circle
 		(at 0.2 0)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5abbc904-8227-42f6-b702-0a1b46e659c6")
 	)
 	(pad "C1" smd circle
 		(at -0.2 0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "11119c0c-7543-453f-85ed-7ce33fc984fb")
 	)
 	(pad "C2" smd circle
 		(at 0.2 0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f4697da3-6678-4702-babc-1bb5707198f3")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 0)

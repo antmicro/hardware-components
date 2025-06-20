@@ -1,7 +1,7 @@
 (footprint "PogoPin_Harwin_1x1_H17.75mm_Drill0.9mm_S13-503"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Based on: https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf")
 	(property "Reference" "REF**"
@@ -20,19 +20,6 @@
 		(at 0 1.85 0)
 		(layer "F.Fab")
 		(uuid "f8667a19-5f10-4701-bbbb-5e2a980952ad")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e3ec73f6-2a31-485f-bbea-6c2cb7324121")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -75,7 +62,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e0b3b9ea-e0c9-4f89-9f07-0e68f4c90815")
 	)
@@ -86,7 +73,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "fbfb7b7a-7755-4329-b18a-09470872232f")
 	)
@@ -2443,7 +2430,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -0.75 2.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "0b5cd12e-3fa7-4b4f-becb-c9c3b223cc27")
 		(effects
 			(font
@@ -2456,7 +2442,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -0.75 3.95 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5d9ff586-e686-44c4-a713-ff1f9d8ad5cd")
 		(effects
 			(font
@@ -2469,7 +2454,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -0.75 5.15 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "bab7884a-32f4-4827-922c-911f8c3fba33")
 		(effects
 			(font
@@ -2487,6 +2471,7 @@
 		(remove_unused_layers no)
 		(uuid "99aa45ff-f1ee-4212-985b-85503e5b28df")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 0 12.75)

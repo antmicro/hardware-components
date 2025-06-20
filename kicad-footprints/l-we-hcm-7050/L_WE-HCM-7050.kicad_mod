@@ -1,7 +1,7 @@
 (footprint "L_WE-HCM-7050"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.9 -3.9 0)
@@ -25,18 +25,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f581e275-c96d-4a29-8746-c3f0072ba07f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -131,7 +119,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "42fb053b-f6c2-47ca-9b24-09962510167d")
 	)
@@ -142,7 +130,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8a0662c1-b7ec-425b-8932-c6cf5dd5de4d")
 	)
@@ -153,7 +141,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "ac51c38e-4008-4aaf-9cdc-6fa2c1758771")
 	)
@@ -19060,7 +19048,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.25 7.2 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "81c041f3-483e-477d-9475-d108280de2a9")
 		(effects
 			(font
@@ -19073,7 +19060,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.25 8.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 		(effects
 			(font
@@ -19086,7 +19072,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -4.25 9.6 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e68c5170-03c3-4a20-abd0-ad610c43d035")
 		(effects
 			(font
@@ -19099,20 +19084,21 @@
 	(pad "1" smd roundrect
 		(at -2.65 0)
 		(size 2 3.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "c991ef33-882e-4461-9a5c-d4d62e09ccbc")
 	)
 	(pad "2" smd roundrect
 		(at 2.65 0 180)
 		(size 2 3.05)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "16dea5d3-9cfd-42b5-9ab0-c2b45b907aa0")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
-			(xyz -0 -0 2.9)
+			(xyz 0 0 2.9)
 		)
 		(scale
 			(xyz 1 1 1)

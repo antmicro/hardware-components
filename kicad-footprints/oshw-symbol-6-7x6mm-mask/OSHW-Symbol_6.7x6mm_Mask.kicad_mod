@@ -1,7 +1,7 @@
 (footprint "OSHW-Symbol_6.7x6mm_Mask"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Open Source Hardware Symbol")
 	(tags "Logo Symbol OSHW")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a63a3882-150e-4129-a141-21d58ad7bdb4")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -144,7 +132,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "b5505ac1-9a7f-4483-acc2-f13b08c9fc6b")
 	)
@@ -155,14 +143,13 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c26f4a50-8eea-4ea3-abeb-2c8e9580bbd4")
 	)
 	(fp_text user "Author: Antmicro"
 		(at -4.34 7.29 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3244d560-e4d1-40f2-8b88-663ccbfec946")
 		(effects
 			(font
@@ -175,7 +162,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -4.34 6.09 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "5614e245-67f6-433e-aeec-59364db77e5e")
 		(effects
 			(font
@@ -188,7 +174,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -4.34 8.49 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e7d80bee-3816-49cb-8775-ed7682a3e19f")
 		(effects
 			(font
@@ -198,4 +183,5 @@
 			(justify left bottom)
 		)
 	)
+	(embedded_fonts no)
 )

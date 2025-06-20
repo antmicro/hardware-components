@@ -1,7 +1,7 @@
 (footprint "USB-Micro-B_Receptacle_WE_629105150921"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB - micro B, USB 2.0, Connector, 5 Position Surface Mount, Right Angle; Through Hole ")
 	(tags "USB micro B, 2.0, connector")
@@ -27,18 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "60e4377d-4511-4f72-912f-2befba1314a1")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -143,7 +131,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "45da024b-ab34-4247-a4bb-82c84a8dd09c")
 	)
@@ -154,7 +142,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "add485e3-4ae8-4848-8000-589f4a1ce97a")
 	)
@@ -215,7 +203,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "2901620b-5a81-461f-8595-73b6a0b6bbae")
 	)
@@ -23842,7 +23830,6 @@
 	(fp_text user "${REFERENCE}"
 		(at -5.1 6.11 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "814f76bf-c912-4055-9e10-d011ab243b4b")
 		(effects
 			(font
@@ -23855,7 +23842,6 @@
 	(fp_text user "PCB Edge"
 		(at -5.1 7.31 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "abdb18dd-3cdc-4605-8c80-3eb2c4156661")
 		(effects
 			(font
@@ -23868,7 +23854,6 @@
 	(fp_text user "Author: Antmicro"
 		(at -5.1 8.51 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e0bc1270-dd16-4964-93cf-224c876348f8")
 		(effects
 			(font
@@ -23881,7 +23866,6 @@
 	(fp_text user "License: Apache-2.0"
 		(at -5.1 9.71 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e37e1904-0f47-4d68-8d7b-a620fa6e4cf2")
 		(effects
 			(font
@@ -23894,31 +23878,31 @@
 	(pad "1" smd rect
 		(at -1.301 -2.806)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2bb873aa-2e59-4561-81da-6c1e7a321402")
 	)
 	(pad "2" smd rect
 		(at -0.652 -2.806)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "87dc45a3-2366-42a0-b6f2-09d78380f2e4")
 	)
 	(pad "3" smd rect
 		(at 0 -2.806)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f9f83f82-e22c-478a-87ec-0e153bf30b44")
 	)
 	(pad "4" smd rect
 		(at 0.65 -2.806 180)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "27efd341-6a74-45b6-8b07-505a836e962b")
 	)
 	(pad "5" smd rect
 		(at 1.3 -2.806 180)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "198d0a10-d611-45c6-b944-530e9eecf846")
 	)
 	(pad "SH" thru_hole oval
@@ -23940,13 +23924,13 @@
 	(pad "SH" smd rect
 		(at -1.15 0)
 		(size 1.8 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b9160fee-2c88-4d28-9158-bc7f68281c41")
 	)
 	(pad "SH" smd rect
 		(at 1.148 0)
 		(size 1.8 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eaebf414-51a1-440d-b42e-96661c58d73b")
 	)
 	(pad "SH" thru_hole oval
@@ -23965,6 +23949,7 @@
 		(remove_unused_layers no)
 		(uuid "292e6e29-a99f-4b70-883b-d3775628e519")
 	)
+	(embedded_fonts no)
 	(model ""
 		(offset
 			(xyz 0 2 1)
