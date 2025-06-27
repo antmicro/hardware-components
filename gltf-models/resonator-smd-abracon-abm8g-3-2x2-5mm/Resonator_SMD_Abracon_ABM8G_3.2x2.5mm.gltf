@@ -5,16 +5,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 326,
+      "count": 563,
       "type": "VEC3",
       "max": [
         1.6001999378204346,
-        0.10509766638278961,
+        0.9337673187255859,
         1.2445347309112549
       ],
       "min": [
         -1.6001999378204346,
-        0.0,
+        -5.21540641784668e-08,
         -1.2446000576019287
       ]
     },
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 326,
+      "count": 563,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,7 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 326,
+      "count": 563,
       "type": "VEC2"
     },
     {
@@ -39,15 +39,23 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 636,
+      "count": 1476,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 1272,
+      "byteOffset": 2952,
       "componentType": 5123,
       "normalized": false,
-      "count": 2016,
+      "count": 948,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4848,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 750,
       "type": "SCALAR"
     },
     {
@@ -55,16 +63,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 556,
+      "count": 318,
       "type": "VEC3",
       "max": [
         1.6001999378204346,
-        0.9906148314476013,
+        0.7429124116897583,
         1.2445347309112549
       ],
       "min": [
         -1.6001999378204346,
-        0.005079999566078186,
+        0.005079947412014008,
         -1.2446000576019287
       ]
     },
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 556,
+      "count": 318,
       "type": "VEC3"
     },
     {
@@ -81,7 +89,41 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 556,
+      "count": 318,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 212,
+      "type": "VEC3",
+      "max": [
+        1.3334999084472656,
+        0.9880623817443848,
+        1.000815987586975
+      ],
+      "min": [
+        -1.3334999084472656,
+        0.9336903095245361,
+        -1.0008584260940552
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 212,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 212,
       "type": "VEC2"
     }
   ],
@@ -93,20 +135,27 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 10432,
+      "byteLength": 18016,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 10432,
-      "byteLength": 5304,
+      "byteOffset": 18016,
+      "byteLength": 6348,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 15736,
-      "byteLength": 17792,
+      "byteOffset": 24364,
+      "byteLength": 10176,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34540,
+      "byteLength": 6784,
       "byteStride": 32,
       "target": 34962
     }
@@ -114,7 +163,7 @@
   "buffers": [
     {
       "uri": "Resonator_SMD_Abracon_ABM8G_3.2x2.5mm.bin",
-      "byteLength": 33528
+      "byteLength": 41324
     }
   ],
   "extensionsUsed": [
@@ -147,6 +196,21 @@
       "uri": "../shared_textures/plastic_matte_black_color.ktx2",
       "mimeType": "image/ktx2",
       "name": "plastic_matte_black_color"
+    },
+    {
+      "uri": "../shared_textures/metal_connector_normal.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_normal"
+    },
+    {
+      "uri": "../shared_textures/metal_connector_color.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_color"
+    },
+    {
+      "uri": "../shared_textures/metal_connector_roughness.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_roughness"
     }
   ],
   "materials": [
@@ -227,6 +291,59 @@
       "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_matte_black"
+    },
+    {
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0,
+          "clearcoatRoughnessFactor": 0.46590909361839294
+        },
+        "KHR_materials_ior": {
+          "ior": 1
+        },
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            1,
+            1,
+            1
+          ],
+          "sheenRoughnessFactor": 0.5
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.9590908885002136
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 6,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 5,
+        "scale": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "name": "gltf_metal_connector"
     }
   ],
   "meshes": [
@@ -244,13 +361,23 @@
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "indices": 4,
           "mode": 4,
           "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 5,
+          "mode": 4,
+          "material": 2
         }
       ],
       "name": "SHAPE_9_IndexedFaceSet.002"
@@ -261,7 +388,7 @@
       "extras": {
         "REF": "Y",
         "PRIO": 0,
-        "model_diagonal": 4.173723148162219
+        "model_diagonal": 4.173123472098658
       },
       "mesh": 0,
       "name": "Resonator_SMD_Abracon_ABM8G_3.2x2.5mm"
@@ -313,6 +440,30 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 2
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 4
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 6
         }
       },
       "sampler": 0

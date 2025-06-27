@@ -47,20 +47,12 @@
       "byteOffset": 1032,
       "componentType": 5123,
       "normalized": false,
-      "count": 90,
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 1212,
-      "componentType": 5123,
-      "normalized": false,
       "count": 630,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 2472,
+      "byteOffset": 2292,
       "componentType": 5123,
       "normalized": false,
       "count": 6,
@@ -68,40 +60,6 @@
     },
     {
       "bufferView": 2,
-      "byteOffset": 0,
-      "componentType": 5126,
-      "normalized": false,
-      "count": 32,
-      "type": "VEC3",
-      "max": [
-        -0.8500000834465027,
-        0.974998950958252,
-        -0.8499999642372131
-      ],
-      "min": [
-        -1.1500002145767212,
-        0.974998950958252,
-        -1.1500000953674316
-      ]
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 12,
-      "componentType": 5126,
-      "normalized": false,
-      "count": 32,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 24,
-      "componentType": 5126,
-      "normalized": false,
-      "count": 32,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
@@ -119,7 +77,7 @@
       ]
     },
     {
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
@@ -127,7 +85,7 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
+      "bufferView": 2,
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
@@ -135,7 +93,7 @@
       "type": "VEC2"
     },
     {
-      "bufferView": 4,
+      "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
@@ -153,7 +111,7 @@
       ]
     },
     {
-      "bufferView": 4,
+      "bufferView": 3,
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
@@ -161,7 +119,7 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 4,
+      "bufferView": 3,
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
@@ -184,26 +142,19 @@
     {
       "buffer": 0,
       "byteOffset": 9216,
-      "byteLength": 2484,
+      "byteLength": 2304,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 11700,
-      "byteLength": 1024,
-      "byteStride": 32,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 12724,
+      "byteOffset": 11520,
       "byteLength": 11008,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 23732,
+      "byteOffset": 22528,
       "byteLength": 128,
       "byteStride": 32,
       "target": 34962
@@ -212,15 +163,12 @@
   "buffers": [
     {
       "uri": "Vishay_PowerPAK_1212-8_Single-vishay-si7613dn-t1-ge3.bin",
-      "byteLength": 23860
+      "byteLength": 22656
     }
   ],
   "extensionsUsed": [
-    "KHR_materials_clearcoat",
     "KHR_materials_ior",
-    "KHR_materials_sheen",
     "KHR_materials_specular",
-    "KHR_materials_transmission",
     "KHR_texture_basisu"
   ],
   "extensionsRequired": [
@@ -236,16 +184,6 @@
       "uri": "../shared_textures/metal_pins_color.ktx2",
       "mimeType": "image/ktx2",
       "name": "metal_pins_color"
-    },
-    {
-      "uri": "../shared_textures/white_markings_normal.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "white_markings_normal"
-    },
-    {
-      "uri": "../shared_textures/white_markings_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "white_markings_color"
     },
     {
       "uri": "../shared_textures/plastic_chip_normal.ktx2",
@@ -312,62 +250,6 @@
       "name": "gltf_metal_pins"
     },
     {
-      "extensions": {
-        "KHR_materials_clearcoat": {
-          "clearcoatFactor": 0,
-          "clearcoatRoughnessFactor": 0.67090904712677
-        },
-        "KHR_materials_ior": {
-          "ior": 1.4500000476837158
-        },
-        "KHR_materials_sheen": {
-          "sheenColorFactor": [
-            1,
-            1,
-            1
-          ],
-          "sheenRoughnessFactor": 0.5
-        },
-        "KHR_materials_specular": {
-          "specularColorFactor": [
-            1.3181817531585693,
-            1.3181817531585693,
-            1.3181817531585693
-          ]
-        },
-        "KHR_materials_transmission": {
-          "transmissionFactor": 0.23181819915771484
-        }
-      },
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
-          1.0
-        ],
-        "metallicFactor": 0.019999999552965164,
-        "roughnessFactor": 0.4636361598968506,
-        "baseColorTexture": {
-          "index": 2,
-          "texCoord": 0
-        }
-      },
-      "normalTexture": {
-        "index": 3,
-        "scale": 1.0
-      },
-      "emissiveFactor": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
-      "doubleSided": true,
-      "name": "gltf_white_markings"
-    },
-    {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1.0,
@@ -378,12 +260,12 @@
         "metallicFactor": 0.13699999451637268,
         "roughnessFactor": 0.37063413858413696,
         "baseColorTexture": {
-          "index": 4,
+          "index": 2,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 3,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -407,16 +289,16 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 6,
+          "index": 4,
           "texCoord": 0
         },
         "metallicRoughnessTexture": {
-          "index": 8,
+          "index": 6,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 7,
+        "index": 5,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -445,9 +327,9 @@
         },
         {
           "attributes": {
-            "POSITION": 7,
-            "NORMAL": 8,
-            "TEXCOORD_0": 9
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "indices": 4,
           "mode": 4,
@@ -455,33 +337,23 @@
         },
         {
           "attributes": {
-            "POSITION": 10,
-            "NORMAL": 11,
-            "TEXCOORD_0": 12
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
           },
           "indices": 5,
           "mode": 4,
           "material": 2
-        },
-        {
-          "attributes": {
-            "POSITION": 13,
-            "NORMAL": 14,
-            "TEXCOORD_0": 15
-          },
-          "indices": 6,
-          "mode": 4,
-          "material": 3
         }
       ],
-      "name": "SHAPE_9_IndexedFaceSet.002"
+      "name": "Vishay_PowerPAK_1212-8_Single-vishay-si7613dn-t1-ge3"
     }
   ],
   "nodes": [
     {
       "extras": {
-        "REF": "Q",
         "PRIO": 0,
+        "DISPLAY_ROT": "90",
         "model_diagonal": 4.799416922440756
       },
       "mesh": 0,
@@ -684,23 +556,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 7
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 6
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 8
         }
       },
       "sampler": 0
