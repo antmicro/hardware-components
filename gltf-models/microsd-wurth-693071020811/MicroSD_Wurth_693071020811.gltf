@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 19654,
+      "count": 19698,
       "type": "VEC3",
       "max": [
         7.375999927520752,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 19654,
+      "count": 19698,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,7 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 19654,
+      "count": 19698,
       "type": "VEC2"
     },
     {
@@ -97,7 +97,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 4945,
+      "count": 4977,
       "type": "VEC3",
       "max": [
         8.199999809265137,
@@ -115,7 +115,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 4945,
+      "count": 4977,
       "type": "VEC3"
     },
     {
@@ -123,7 +123,7 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 4945,
+      "count": 4977,
       "type": "VEC2"
     }
   ],
@@ -135,27 +135,27 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 628928,
+      "byteLength": 630336,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 628928,
+      "byteOffset": 630336,
       "byteLength": 206876,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 835804,
+      "byteOffset": 837212,
       "byteLength": 410560,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1246364,
-      "byteLength": 158240,
+      "byteOffset": 1247772,
+      "byteLength": 159264,
       "byteStride": 32,
       "target": 34962
     }
@@ -163,7 +163,7 @@
   "buffers": [
     {
       "uri": "MicroSD_Wurth_693071020811.bin",
-      "byteLength": 1404604
+      "byteLength": 1407036
     }
   ],
   "extensionsUsed": [
@@ -188,14 +188,14 @@
       "name": "plastic_matte_black_color"
     },
     {
-      "uri": "../shared_textures/metal_pins_gold_normal.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_normal.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_gold_normal"
+      "name": "metal_goldpins_1_normal"
     },
     {
-      "uri": "../shared_textures/metal_pins_gold_color.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_color.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_gold_color"
+      "name": "metal_goldpins_1_color"
     },
     {
       "uri": "../shared_textures/metal_connector_normal.ktx2",
@@ -245,11 +245,23 @@
     },
     {
       "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0,
+          "clearcoatRoughnessFactor": 0.2890909016132355
+        },
         "KHR_materials_ior": {
           "ior": 1.4500000476837158
         },
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            1,
+            1,
+            1
+          ],
+          "sheenRoughnessFactor": 0.5
+        },
         "KHR_materials_specular": {
-          "specularFactor": 0
+          "specularFactor": 0.9499998092651367
         }
       },
       "pbrMetallicRoughness": {
@@ -259,8 +271,8 @@
           1.0,
           1.0
         ],
-        "metallicFactor": 0.8136364221572876,
-        "roughnessFactor": 0.28863638639450073,
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.2522728145122528,
         "baseColorTexture": {
           "index": 2,
           "texCoord": 0
@@ -278,7 +290,7 @@
       "alphaMode": "OPAQUE",
       "alphaCutoff": 0.5,
       "doubleSided": true,
-      "name": "gltf_metal_pins_gold"
+      "name": "gltf_metal_goldpins_1"
     },
     {
       "extensions": {
@@ -374,8 +386,8 @@
   "nodes": [
     {
       "extras": {
-        "REF": "J",
-        "model_diagonal": 22.380481777640693
+        "DISPLAY_ROT": "180",
+        "model_diagonal": 22.38047216082117
       },
       "mesh": 0,
       "name": "MicroSD_Wurth_693071020811"
