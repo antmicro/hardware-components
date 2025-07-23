@@ -4,7 +4,7 @@
     (property  "Value" "USB-C_WE_632723300011"  (at  15.24 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
     (property  "Footprint" "USB-C_WE_632723300011:USB-C_Receptacle_WE_632723300011"  (at  15.24 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
     (property  "Datasheet" "https://www.we-online.com/components/products/datasheet/632723300011.pdf"  (at  15.24 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
+    (property  "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole"  (at  15.24 -22.86 0) (effects   (font (size 1.27 1.27))  (justify left bottom)  (hide yes)))
     (property  "Manufacturer" "Würth Elektronik"  (at  15.24 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
     (property  "MPN" "632723300011"  (at  15.24 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
     (property  "Author" "Antmicro"  (at  15.24 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
@@ -16,8 +16,8 @@
         (fill   (type background
 ))      )
       (circle (center -20.066 -33.274) (radius 0.284)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
+        (stroke (width 0.254) (type solid))
+        (fill   (type outline
 ))      )
       (polyline
         (pts
@@ -26,8 +26,8 @@
           (xy -18.542 -31.623)
           (xy -19.812 -31.623)
         )
-        (stroke (width 0.254) (type default))
-        (fill   (type background
+        (stroke (width 0.254) (type solid))
+        (fill   (type outline
 ))      )
       (polyline
         (pts
@@ -56,12 +56,12 @@
         (fill   (type background
 ))      )
       (circle (center -19.177 -36.068) (radius 0.5236)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
+        (stroke (width 0.254) (type solid))
+        (fill   (type outline
 ))      )
-      (rectangle (start -18.669 -33.274) (end -17.907 -32.512)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
+      (rectangle (start -18.669 -32.512) (end -17.907 -33.274)
+        (stroke (width 0.254) (type solid))
+        (fill   (type outline
 ))      )
       (polyline
         (pts
@@ -71,17 +71,17 @@
         (stroke (width 0.254) (type default))
         (fill   (type background
 ))      )
-      (rectangle (start -15.24 -36.83) (end -13.97 -29.21)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
+      (rectangle (start -15.24 -29.21) (end -13.97 -36.83)
+        (stroke (width 0.254) (type solid))
+        (fill   (type outline
 ))      )
       (arc (start -15.24 -29.21) (mid -14.605 -28.5777) (end -13.97 -29.21)
         (stroke (width 0.254) (type default))
         (fill   (type background
 ))      )
       (arc (start -15.24 -29.21) (mid -14.605 -28.5777) (end -13.97 -29.21)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
+        (stroke (width 0.254) (type solid))
+        (fill   (type outline
 ))      )
       (arc (start -16.51 -29.21) (mid -14.605 -27.3133) (end -12.7 -29.21)
         (stroke (width 0.254) (type default))
@@ -96,8 +96,8 @@
         (fill   (type background
 ))      )
       (arc (start -13.97 -36.83) (mid -14.605 -37.4623) (end -15.24 -36.83)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
+        (stroke (width 0.254) (type solid))
+        (fill   (type outline
 ))      )
       (polyline
         (pts
@@ -107,7 +107,7 @@
         (stroke (width 0.254) (type default))
         (fill   (type background
 ))      )
-      (pin passive line (at 0 0 180) (length 3.81)
+      (pin power_in line (at 0 0 180) (length 3.81)
         (name "VBUS" (effects   (font (size 1.27 1.27))))
         (number "A4" (effects   (font (size 1.27 1.27))))
       )
