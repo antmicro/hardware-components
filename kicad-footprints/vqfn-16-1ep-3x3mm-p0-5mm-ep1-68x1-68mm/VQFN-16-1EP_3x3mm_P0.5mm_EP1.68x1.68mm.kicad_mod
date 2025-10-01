@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
-		(at 0 2.999 0)
+		(at 0 2.95 0)
 		(layer "F.Fab")
 		(uuid "eec8bbdf-dd1d-4d60-b9e2-1f7309988aec")
 		(effects
@@ -53,8 +53,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.5 -1.5)
-		(end -1.5 -0.951)
+		(start -1.5 -1.2)
+		(end -1.5 -1)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -63,8 +63,18 @@
 		(uuid "1fa52073-f1e0-4532-864f-878b28a48374")
 	)
 	(fp_line
+		(start -1.5 -1.2)
+		(end -1.2 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "801b096d-fa3e-41b0-a0f6-2976b73f42e1")
+	)
+	(fp_line
 		(start -1.5 1.499)
-		(end -1.5 0.95)
+		(end -1.5 1)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -74,7 +84,7 @@
 	)
 	(fp_line
 		(start -1.5 1.499)
-		(end -0.951 1.499)
+		(end -1 1.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -83,8 +93,8 @@
 		(uuid "a5e465b3-5e24-4120-8404-8d2bddc64a2d")
 	)
 	(fp_line
-		(start -0.95 -1.501)
-		(end -1.5 -1.5)
+		(start -1 -1.501)
+		(end -1.2 -1.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -93,7 +103,7 @@
 		(uuid "2bae6387-5a20-405f-b41c-0c926a29a812")
 	)
 	(fp_line
-		(start 0.95 1.499)
+		(start 1 1.499)
 		(end 1.499 1.499)
 		(stroke
 			(width 0.15)
@@ -104,7 +114,7 @@
 	)
 	(fp_line
 		(start 1.499 -1.5)
-		(end 0.95 -1.5)
+		(end 1 -1.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -113,17 +123,7 @@
 		(uuid "1cbaba2b-6fd4-4d29-8672-5de0d09e658f")
 	)
 	(fp_line
-		(start 1.499 0.95)
-		(end 1.499 1.499)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1d40765c-5f63-4090-b520-fc4014e26266")
-	)
-	(fp_line
-		(start 1.5 -0.95)
+		(start 1.5 -1)
 		(end 1.499 -1.5)
 		(stroke
 			(width 0.15)
@@ -132,9 +132,19 @@
 		(layer "F.SilkS")
 		(uuid "68a4f959-b7ec-4ee9-b22a-7b9ead39f217")
 	)
+	(fp_line
+		(start 1.5 1)
+		(end 1.499 1.499)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d40765c-5f63-4090-b520-fc4014e26266")
+	)
 	(fp_circle
-		(center -1.75 -1.07071)
-		(end -1.7 -1.07071)
+		(center -1.6 -1.6)
+		(end -1.55 -1.6)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -215,45 +225,16 @@
 		(layer "User.5")
 		(uuid "d7f461b9-4158-4498-ba3c-ca675e0a7b21")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.5 -1.5)
-		(end -1.5 1.499)
-		(stroke
-			(width 0.02)
-			(type solid)
-		)
-		(layer "User.9")
-		(uuid "930d2b6d-87be-4e94-a080-019b9b5723cb")
-	)
-	(fp_line
-		(start -1.5 1.499)
 		(end 1.499 1.499)
 		(stroke
 			(width 0.02)
 			(type solid)
 		)
+		(fill no)
 		(layer "User.9")
-		(uuid "dc3ddf71-bc44-45c2-88ea-3ef9e1efc80e")
-	)
-	(fp_line
-		(start 1.499 -1.5)
-		(end -1.5 -1.5)
-		(stroke
-			(width 0.02)
-			(type solid)
-		)
-		(layer "User.9")
-		(uuid "168787c2-11ba-4a66-a599-e63ee2161e72")
-	)
-	(fp_line
-		(start 1.499 1.499)
-		(end 1.499 -1.5)
-		(stroke
-			(width 0.02)
-			(type solid)
-		)
-		(layer "User.9")
-		(uuid "93ad5208-740b-4483-a96a-cd5d7ebe972e")
+		(uuid "108c1a65-24cb-47f7-bced-52cca8f45119")
 	)
 	(fp_text user "License: Apache-2.0"
 		(at -1.901 7.4 0)
