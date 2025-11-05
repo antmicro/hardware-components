@@ -35,6 +35,14 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 20,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
@@ -93,6 +101,14 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 150,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
@@ -125,45 +141,53 @@
       "normalized": false,
       "count": 4,
       "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 640,
-      "byteStride": 32,
+      "byteLength": 800,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 640,
+      "byteOffset": 800,
       "byteLength": 528,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 1168,
-      "byteLength": 4800,
-      "byteStride": 32,
+      "byteOffset": 1328,
+      "byteLength": 6000,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 5968,
-      "byteLength": 128,
-      "byteStride": 32,
+      "byteOffset": 7328,
+      "byteLength": 160,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Oscillator_SMD_Microchip_DSC1103DI2_2.5x2x0.85mm-microchip-technology-dsc1103di2-125-0000.bin",
-      "byteLength": 6096
+      "byteLength": 7488
     }
   ],
   "extensionsUsed": [
@@ -237,7 +261,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -274,7 +297,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -290,15 +312,16 @@
         "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 4,
-          "texCoord": 0
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
           "index": 6,
-          "texCoord": 0
+          "texCoord": 1
         }
       },
       "normalTexture": {
         "index": 5,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -307,7 +330,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_microchip-technology-dsc1103di2-marking"
     }
@@ -319,29 +341,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }

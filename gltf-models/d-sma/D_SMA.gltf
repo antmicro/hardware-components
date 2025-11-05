@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 82,
+      "count": 72,
       "type": "VEC3",
       "max": [
         2.126999855041504,
@@ -23,8 +23,16 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 82,
+      "count": 72,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 72,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
@@ -77,6 +85,14 @@
       "type": "VEC3"
     },
     {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
@@ -101,6 +117,14 @@
       "normalized": false,
       "count": 96,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 96,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -111,35 +135,35 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1968,
-      "byteStride": 24,
+      "byteLength": 2304,
+      "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1968,
+      "byteOffset": 2304,
       "byteLength": 600,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 2568,
-      "byteLength": 96,
-      "byteStride": 24,
+      "byteOffset": 2904,
+      "byteLength": 128,
+      "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 2664,
-      "byteLength": 2304,
-      "byteStride": 24,
+      "byteOffset": 3032,
+      "byteLength": 3072,
+      "byteStride": 32,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "D_SMA.bin",
-      "byteLength": 4968
+      "byteLength": 6104
     }
   ],
   "extensionsUsed": [
@@ -312,27 +336,30 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
-          "indices": 2,
+          "indices": 3,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 7,
-            "NORMAL": 8
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 2
         }

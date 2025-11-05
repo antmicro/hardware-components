@@ -5,17 +5,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 345,
+      "count": 369,
       "type": "VEC3",
       "max": [
-        2.4200003147125244,
-        1.1001278162002563,
-        1.6001309156417847
+        1.6580625772476196,
+        1.100127935409546,
+        2.3594987392425537
       ],
       "min": [
-        -2.424999952316284,
-        -3.8743019104003906e-07,
-        -1.600000023841858
+        -1.542068362236023,
+        -2.980232238769531e-07,
+        -2.485501527786255
       ]
     },
     {
@@ -23,8 +23,16 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 345,
+      "count": 369,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 369,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
@@ -55,17 +63,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 393,
+      "count": 417,
       "type": "VEC3",
       "max": [
-        2.5,
-        1.0999202728271484,
-        1.5999633073806763
+        1.6578950881958008,
+        1.0999205112457275,
+        2.4344987869262695
       ],
       "min": [
-        -2.5,
-        -3.8743019104003906e-07,
-        -1.600000023841858
+        -1.5420684814453125,
+        -2.980232238769531e-07,
+        -2.5655016899108887
       ]
     },
     {
@@ -73,25 +81,33 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 393,
+      "count": 417,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 417,
+      "type": "VEC2"
     },
     {
       "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 112,
+      "count": 120,
       "type": "VEC3",
       "max": [
-        2.3499999046325684,
+        1.5080294609069824,
         1.2999569177627563,
-        1.4500975608825684
+        2.284498691558838
       ],
       "min": [
-        -2.3499999046325684,
+        -1.3920683860778809,
         1.0999996662139893,
-        -1.4500000476837158
+        -2.415501594543457
       ]
     },
     {
@@ -99,8 +115,16 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 112,
+      "count": 120,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 120,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -111,35 +135,35 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 8280,
-      "byteStride": 24,
+      "byteLength": 11808,
+      "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 8280,
+      "byteOffset": 11808,
       "byteLength": 4672,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 12952,
-      "byteLength": 9432,
-      "byteStride": 24,
+      "byteOffset": 16480,
+      "byteLength": 13344,
+      "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 22384,
-      "byteLength": 2688,
-      "byteStride": 24,
+      "byteOffset": 29824,
+      "byteLength": 3840,
+      "byteStride": 32,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Oscillator_SMD_YIC_OSC-S5_5x3.2mm.bin",
-      "byteLength": 25072
+      "byteLength": 33664
     }
   ],
   "extensionsUsed": [
@@ -317,27 +341,30 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
           },
-          "indices": 2,
+          "indices": 3,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 7,
-            "NORMAL": 8
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 2
         }
@@ -348,7 +375,8 @@
   "nodes": [
     {
       "extras": {
-        "model_diagonal": 6.077005984110858
+        "DISPLAY_ROT": "90",
+        "model_diagonal": 6.0770064764837715
       },
       "mesh": 0,
       "name": "Oscillator_SMD_YIC_OSC-S5_5x3.2mm"
