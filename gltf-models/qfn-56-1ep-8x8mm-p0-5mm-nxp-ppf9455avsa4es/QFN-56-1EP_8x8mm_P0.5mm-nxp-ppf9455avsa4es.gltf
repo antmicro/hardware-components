@@ -35,6 +35,14 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 66,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
@@ -63,7 +71,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 5018,
+      "count": 3802,
       "type": "VEC3",
       "max": [
         4.009999752044678,
@@ -81,7 +89,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 5018,
+      "count": 3802,
       "type": "VEC3"
     },
     {
@@ -89,7 +97,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 5018,
+      "count": 3802,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3802,
       "type": "VEC2"
     },
     {
@@ -125,6 +141,14 @@
       "normalized": false,
       "count": 4,
       "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -135,35 +159,35 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 2112,
-      "byteStride": 32,
+      "byteLength": 2640,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 2112,
+      "byteOffset": 2640,
       "byteLength": 18960,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 21072,
-      "byteLength": 160576,
-      "byteStride": 32,
+      "byteOffset": 21600,
+      "byteLength": 152080,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 181648,
-      "byteLength": 128,
-      "byteStride": 32,
+      "byteOffset": 173680,
+      "byteLength": 160,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "QFN-56-1EP_8x8mm_P0.5mm-nxp-ppf9455avsa4es.bin",
-      "byteLength": 181776
+      "byteLength": 173840
     }
   ],
   "extensionsUsed": [
@@ -288,15 +312,16 @@
         "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 4,
-          "texCoord": 0
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
           "index": 6,
-          "texCoord": 0
+          "texCoord": 1
         }
       },
       "normalTexture": {
         "index": 5,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -316,29 +341,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }

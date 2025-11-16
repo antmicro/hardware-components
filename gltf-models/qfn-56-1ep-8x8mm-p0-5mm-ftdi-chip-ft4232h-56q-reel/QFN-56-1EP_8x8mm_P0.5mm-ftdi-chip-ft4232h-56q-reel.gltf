@@ -35,6 +35,14 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 20,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
@@ -93,11 +101,19 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 20,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 5048,
+      "count": 3832,
       "type": "VEC3",
       "max": [
         4.049999713897705,
@@ -115,7 +131,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 5048,
+      "count": 3832,
       "type": "VEC3"
     },
     {
@@ -123,47 +139,55 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 5048,
+      "count": 3832,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3832,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 640,
-      "byteStride": 32,
+      "byteLength": 800,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 640,
+      "byteOffset": 800,
       "byteLength": 18960,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 19600,
-      "byteLength": 640,
-      "byteStride": 32,
+      "byteOffset": 19760,
+      "byteLength": 800,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 20240,
-      "byteLength": 161536,
-      "byteStride": 32,
+      "byteOffset": 20560,
+      "byteLength": 153280,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "QFN-56-1EP_8x8mm_P0.5mm-ftdi-chip-ft4232h-56q-reel.bin",
-      "byteLength": 181776
+      "byteLength": 173840
     }
   ],
   "extensionsUsed": [
@@ -224,15 +248,16 @@
         "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 0,
-          "texCoord": 0
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
           "index": 2,
-          "texCoord": 0
+          "texCoord": 1
         }
       },
       "normalTexture": {
         "index": 1,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -241,7 +266,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_ftdi-chip-ft4232h-56q-reel-marking"
     },
@@ -270,7 +294,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -307,7 +330,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     }
@@ -319,29 +341,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }

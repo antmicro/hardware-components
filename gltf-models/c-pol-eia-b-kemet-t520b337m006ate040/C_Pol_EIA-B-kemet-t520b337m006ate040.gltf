@@ -8,14 +8,14 @@
       "count": 70,
       "type": "VEC3",
       "max": [
-        0.677120566368103,
-        0.590529203414917,
-        -0.016281843185424805
+        1.7198861837387085,
+        2.1111984252929688,
+        1.4999443292617798
       ],
       "min": [
-        -0.6772102117538452,
-        -0.5905318260192871,
-        -0.831211507320404
+        -1.7201138734817505,
+        0.0412772074341774,
+        -1.4999507665634155
       ]
     },
     {
@@ -29,6 +29,14 @@
     {
       "bufferView": 0,
       "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 70,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
       "componentType": 5126,
       "normalized": false,
       "count": 70,
@@ -66,14 +74,14 @@
       "count": 222,
       "type": "VEC3",
       "max": [
-        0.7283016443252563,
-        0.4330686330795288,
-        -0.004410594701766968
+        1.849886178970337,
+        1.041351079940796,
+        1.0999943017959595
       ],
       "min": [
-        -0.7283912897109985,
-        -0.4330514669418335,
-        -0.40995150804519653
+        -1.850113868713379,
+        0.011277209036052227,
+        -1.0999506711959839
       ]
     },
     {
@@ -87,6 +95,14 @@
     {
       "bufferView": 2,
       "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 222,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
       "componentType": 5126,
       "normalized": false,
       "count": 222,
@@ -100,14 +116,14 @@
       "count": 4,
       "type": "VEC3",
       "max": [
-        0.6402748823165894,
-        0.5537149906158447,
-        -0.831211507320404
+        1.6262983083724976,
+        2.1112773418426514,
+        1.4064363241195679
       ],
       "min": [
-        -0.46711647510528564,
-        -0.5536763668060303,
-        -0.831211507320404
+        -1.1864758729934692,
+        2.1112773418426514,
+        -1.406337857246399
       ]
     },
     {
@@ -125,45 +141,53 @@
       "normalized": false,
       "count": 4,
       "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 2240,
-      "byteStride": 32,
+      "byteLength": 2800,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 2240,
+      "byteOffset": 2800,
       "byteLength": 1308,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 3548,
-      "byteLength": 7104,
-      "byteStride": 32,
+      "byteOffset": 4108,
+      "byteLength": 8880,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 10652,
-      "byteLength": 128,
-      "byteStride": 32,
+      "byteOffset": 12988,
+      "byteLength": 160,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "C_Pol_EIA-B-kemet-t520b337m006ate040.bin",
-      "byteLength": 10780
+      "byteLength": 13148
     }
   ],
   "extensionsUsed": [
@@ -237,7 +261,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -274,7 +297,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -290,15 +312,16 @@
         "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 4,
-          "texCoord": 0
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
           "index": 6,
-          "texCoord": 0
+          "texCoord": 1
         }
       },
       "normalTexture": {
         "index": 5,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -307,7 +330,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_kemet-t520b337m006ate040-marking"
     }
@@ -319,29 +341,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }
@@ -354,20 +379,9 @@
       "extras": {
         "REF": "C",
         "PRIO": 0,
-        "model_diagonal": 5.205765988129213
+        "model_diagonal": 5.2057658507324
       },
       "mesh": 0,
-      "rotation": [
-        0.7071068286895752,
-        0.0,
-        0.0,
-        0.7071067690849304
-      ],
-      "scale": [
-        2.5399999618530273,
-        2.5399999618530273,
-        2.5399999618530273
-      ],
       "name": "C_Pol_EIA-B-kemet-t520b337m006ate040"
     }
   ],
