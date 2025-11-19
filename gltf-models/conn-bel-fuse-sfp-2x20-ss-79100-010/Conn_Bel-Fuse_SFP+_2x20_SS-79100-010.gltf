@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 36454,
+      "count": 27526,
       "type": "VEC3",
       "max": [
         8.028935432434082,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 36454,
+      "count": 27526,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,7 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 36454,
+      "count": 27526,
       "type": "VEC2"
     },
     {
@@ -39,15 +39,23 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 100848,
+      "count": 76848,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 201696,
+      "byteOffset": 153696,
       "componentType": 5123,
       "normalized": false,
-      "count": 2412,
+      "count": 2244,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 158184,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 24000,
       "type": "SCALAR"
     },
     {
@@ -55,17 +63,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 926,
+      "count": 814,
       "type": "VEC3",
       "max": [
-        7.249881744384766,
-        25.249996185302734,
-        5.954601287841797
+        7.250456809997559,
+        25.05619239807129,
+        5.896993637084961
       ],
       "min": [
         -7.25,
         -3.3499999046325684,
-        -9.371002197265625
+        -8.391929626464844
       ]
     },
     {
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 926,
+      "count": 814,
       "type": "VEC3"
     },
     {
@@ -81,40 +89,81 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 926,
+      "count": 814,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8962,
+      "type": "VEC3",
+      "max": [
+        3.900280714035034,
+        -0.00024247169494628906,
+        3.998997211456299
+      ],
+      "min": [
+        -3.8999998569488525,
+        -2.070000410079956,
+        -6.789689540863037
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8962,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8962,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1166528,
+      "byteLength": 880832,
       "byteStride": 32,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1166528,
-      "byteLength": 206520,
+      "byteOffset": 880832,
+      "byteLength": 206184,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 1373048,
-      "byteLength": 29632,
+      "byteOffset": 1087016,
+      "byteLength": 26048,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1113064,
+      "byteLength": 286784,
       "byteStride": 32,
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "uri": "Conn_Bel-Fuse_SFP%2B_2x20_SS-79100-010.bin",
-      "byteLength": 1402680
+      "uri": "Conn_Bel-Fuse_SFP+_2x20_SS-79100-010.bin",
+      "byteLength": 1399848
     }
   ],
   "extensionsUsed": [
@@ -157,6 +206,16 @@
       "uri": "../shared_textures/plastic_glossy_black_roughness.ktx2",
       "mimeType": "image/ktx2",
       "name": "plastic_glossy_black_roughness"
+    },
+    {
+      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_pins_normal"
+    },
+    {
+      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_pins_color"
     }
   ],
   "materials": [
@@ -209,7 +268,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_connector"
     },
@@ -242,9 +300,44 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_glossy_black"
+    },
+    {
+      "extensions": {
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.7818182110786438,
+        "roughnessFactor": 0.28863638639450073,
+        "baseColorTexture": {
+          "index": 6,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 7,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "gltf_metal_pins"
     }
   ],
   "meshes": [
@@ -262,13 +355,23 @@
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
           },
           "indices": 4,
           "mode": 4,
           "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 5,
+          "mode": 4,
+          "material": 2
         }
       ],
       "name": "Conn_Bel-Fuse_SFP+_2x20_SS-79100-010"
@@ -356,6 +459,22 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 5
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 7
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 6
         }
       },
       "sampler": 0
