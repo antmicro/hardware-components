@@ -9,27 +9,11 @@
     (property  "Manufacturer" "Texas Instruments"  (at  41.91 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
     (property  "Author" "Antmicro"  (at  41.91 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
     (property  "License" "Apache-2.0"  (at  41.91 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "IC"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
+    (property  "ki_keywords" "IC, RoHS, SWITCH"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
     (symbol "SN3257QDYYRQ1_1_1" 
       (rectangle (start 2.54 2.54) (end 22.86 -33.02)
         (stroke (width 0.254) (type default))
         (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 6.985 -27.94)
-          (xy 8.89 -27.94)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 6.985 -30.48)
-          (xy 8.89 -30.48)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type none
 ))      )
       (polyline
         (pts
@@ -94,10 +78,6 @@
         )
         (stroke (width 0.254) (type default))
         (fill   (type background
-))      )
-      (rectangle (start 8.89 -26.67) (end 16.51 -31.75)
-        (stroke (width 0.254) (type default))
-        (fill   (type none
 ))      )
       (circle (center 10.414 -5.08) (radius 0.254)
         (stroke (width 0.254) (type default))
@@ -187,6 +167,10 @@
         (stroke (width 0.254) (type default))
         (fill   (type none
 ))      )
+      (rectangle (start 16.51 -26.67) (end 8.89 -31.75)
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
       (polyline
         (pts
           (xy 18.288 -7.62)
@@ -218,6 +202,22 @@
         )
         (stroke (width 0.254) (type default))
         (fill   (type background
+))      )
+      (polyline
+        (pts
+          (xy 18.415 -27.94)
+          (xy 16.51 -27.94)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type none
+))      )
+      (polyline
+        (pts
+          (xy 18.415 -30.48)
+          (xy 16.51 -30.48)
+        )
+        (stroke (width 0.254) (type default))
+        (fill   (type none
 ))      )
       (pin power_in line (at 0 0 0) (length 2.54)
         (name "VDD" (effects   (font (size 1.27 1.27))))
@@ -255,13 +255,9 @@
         (name "S4B" (effects   (font (size 1.27 1.27))))
         (number "13" (effects   (font (size 1.27 1.27))))
       )
-      (pin input line (at 0 -27.94 0) (length 2.54)
-        (name "SEL" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -30.48 0) (length 2.54)
-        (name "~{EN}" (effects   (font (size 1.27 1.27))))
-        (number "15" (effects   (font (size 1.27 1.27))))
+      (pin power_in line (at 0 -30.48 0) (length 2.54)
+        (name "GND" (effects   (font (size 1.27 1.27))))
+        (number "8" (effects   (font (size 1.27 1.27))))
       )
       (pin passive line (at 25.4 -7.62 180) (length 2.54)
         (name "D1" (effects   (font (size 1.27 1.27))))
@@ -279,9 +275,13 @@
         (name "D4" (effects   (font (size 1.27 1.27))))
         (number "12" (effects   (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 25.4 -30.48 180) (length 2.54)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "8" (effects   (font (size 1.27 1.27))))
+      (pin input line (at 25.4 -27.94 180) (length 2.54)
+        (name "SEL" (effects   (font (size 1.27 1.27))))
+        (number "1" (effects   (font (size 1.27 1.27))))
+      )
+      (pin input line (at 25.4 -30.48 180) (length 2.54)
+        (name "~{EN}" (effects   (font (size 1.27 1.27))))
+        (number "15" (effects   (font (size 1.27 1.27))))
       )
     )
      (embedded_fonts no)  )
