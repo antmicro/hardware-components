@@ -1,63 +1,242 @@
 (kicad_symbol_lib
-  (symbol "PTA6043-2010CIB203"  (pin_names (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "POT"  (at  15.24 0 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "PTA6043-2010CIB203"  (at  15.24 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "PTA6043-2010CIB203:Trimpot_THT_PTA6043-2010CIB203"  (at  15.24 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://eu.mouser.com/datasheet/3/40/1/pta.pdf"  (at  15.24 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "Linear Slide Potentiometer 20K"  (at  15.24 -20.32 0) (effects   (font (size 1.27 1.27))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "PTA6043-2010CIB203"  (at  15.24 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Manufacturer" "Bourns"  (at  15.24 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Author" "Antmicro"  (at  15.24 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  15.24 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "SMT, RESISTOR, PASSIVE, POTENTIOMETER"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "PTA6043-2010CIB203_0_1" 
-      (rectangle (start 1.27 1.016) (end 6.35 -1.016)
-        (stroke (width 0.254) (type default))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 3.048 1.524)
-          (xy 4.572 1.524)
-        )
-        (stroke (width 0) (type default))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 3.81 2.54)
-          (xy 3.81 1.524)
-        )
-        (stroke (width 0) (type default))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 3.81 -1.016)
-          (xy 3.81 -3.81)
-          (xy 6.35 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill   (type none
-))      )
-    )
-    (symbol "PTA6043-2010CIB203_1_1" 
-      (pin passive line (at 0 0 0) (length 1.27)
-        (name "1" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 3.81 270) (length 1.27)
-        (name "2" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 0 180) (length 1.27)
-        (name "3" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 -3.81 180) (length 1.27)
-        (name "MH" (effects   (font (size 1.27 1.27))))
-        (number "MH" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "PTA6043-2010CIB203"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "POT"
+			(at 15.24 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTA6043-2010CIB203"
+			(at 15.24 -2.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PTA6043-2010CIB203"
+			(at 15.24 -5.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/40/1/pta.pdf"
+			(at 15.24 -7.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Linear Slide Potentiometer 20K"
+			(at 15.24 -20.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "PTA6043-2010CIB203"
+			(at 15.24 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 15.24 -12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 15.24 -15.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 15.24 -17.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMT, RESISTOR, PASSIVE, POTENTIOMETER"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PTA6043-2010CIB203_0_1"
+			(rectangle
+				(start 1.27 1.016)
+				(end 6.35 -1.016)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 1.524) (xy 4.572 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 2.54) (xy 3.81 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.016) (xy 3.81 -3.81) (xy 6.35 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PTA6043-2010CIB203_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 3.81 270)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -3.81 180)
+				(length 1.27)
+				(name "MH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

@@ -1,54 +1,280 @@
 (kicad_symbol_lib
-  (symbol "ATSHA204A-MAHCZ-S"  (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "U"  (at  38.1 0 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "ATSHA204A-MAHCZ-S"  (at  38.1 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "ATSHA204A-MAHCZ-S:UDFN-8-1EP_2x3x0.55mm_P0.5mm_EP1.5x1.3mm"  (at  38.1 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://eu.mouser.com/datasheet/3/282/1/ATSHA204A-Data-Sheet-40002025A.pdf"  (at  38.1 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "CryptoAuthentication, Single-Wire, 8-Pad UDFN"  (at  38.1 -20.32 0) (effects   (font (size 1.27 1.27))  (justify left bottom)  (hide yes)))
-    (property  "Manufacturer" "Microchip Technology"  (at  38.1 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "ATSHA204A-MAHCZ-S"  (at  38.1 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Author" "Antmicro"  (at  38.1 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  38.1 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "SMT, IC"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "ATSHA204A-MAHCZ-S_0_1" 
-      (rectangle (start 2.54 2.54) (end 12.7 -7.62)
-        (stroke (width 0) (type default))
-        (fill   (type background
-))      )
-    )
-    (symbol "ATSHA204A-MAHCZ-S_1_1" 
-      (pin power_in line (at 0 0 0) (length 2.54)
-        (name "VCC" (effects   (font (size 1.27 1.27))))
-        (number "8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -5.08 0) (length 2.54)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "4" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "6" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 2.54 -2.54 0) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 2.54 -2.54 0) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 2.54 -2.54 0) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 2.54 -2.54 0) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 0 180) (length 2.54)
-        (name "SDA" (effects   (font (size 1.27 1.27))))
-        (number "5" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "ATSHA204A-MAHCZ-S"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 38.1 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ATSHA204A-MAHCZ-S"
+			(at 38.1 -2.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ATSHA204A-MAHCZ-S"
+			(at 38.1 -5.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/282/1/ATSHA204A-Data-Sheet-40002025A.pdf"
+			(at 38.1 -7.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "CryptoAuthentication, Single-Wire, 8-Pad UDFN"
+			(at 38.1 -20.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 38.1 -10.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "ATSHA204A-MAHCZ-S"
+			(at 38.1 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 38.1 -15.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 38.1 -17.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMT, IC"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ATSHA204A-MAHCZ-S_0_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 12.7 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ATSHA204A-MAHCZ-S_1_1"
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

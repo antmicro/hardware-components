@@ -1,72 +1,361 @@
 (kicad_symbol_lib
-  (symbol "IIS2MDCTR"  (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "U"  (at  38.1 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "IIS2MDCTR"  (at  38.1 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "IIS2MDCTR:LGA-12_2x2mm_P0.5mm"  (at  38.1 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://www.st.com/resource/en/datasheet/iis2mdc.pdf"  (at  38.1 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "Board Mount High accuracy Hall Effect/Magnetic Sensor, ultralow-power, 3-axis digital output magnetometer"  (at  38.1 -22.86 0) (effects   (font (size 1.27 1.27))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "IIS2MDCTR"  (at  38.1 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Manufacturer" "STMicroelectronics"  (at  38.1 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Author" "Antmicro"  (at  38.1 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  38.1 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "IMU, MEMS, SMT"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (property  "ki_fp_filters" "InvenSense?QFN*3x3mm*P0.4mm*"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "IIS2MDCTR_1_1" 
-      (rectangle (start 2.54 2.54) (end 20.32 -15.24)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (pin power_in line (at 0 0 0) (length 2.54)
-        (name "V_{DD}" (effects   (font (size 1.27 1.27))))
-        (number "9" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -2.54 0) (length 2.54)
-        (name "V_{DDIO}" (effects   (font (size 1.27 1.27))))
-        (number "10" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -5.08 0) (length 2.54)
-        (name "CS" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -7.62 0) (length 2.54)
-        (name "SCL" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-        (alternate "SPC" input line)
-      )
-      (pin bidirectional line (at 0 -10.16 0) (length 2.54)
-        (name "SDA" (effects   (font (size 1.27 1.27))))
-        (number "4" (effects   (font (size 1.27 1.27))))
-        (alternate "SDI" input line)
-        (alternate "SDO" output line)
-      )
-      (pin passive line (at 0 -12.7 0) (length 2.54)
-        (name "C1" (effects   (font (size 1.27 1.27))))
-        (number "5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 20.32 -10.16 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "11" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 20.32 -10.16 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "12" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 20.32 -10.16 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 22.86 0 180) (length 2.54)
-        (name "INT/DRDY" (effects   (font (size 1.27 1.27))))
-        (number "7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 22.86 -12.7 180) (length 2.54)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "6" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -12.7 180) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "8" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "IIS2MDCTR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 38.1 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "IIS2MDCTR"
+			(at 38.1 -7.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "IIS2MDCTR"
+			(at 38.1 -10.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/iis2mdc.pdf"
+			(at 38.1 -12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Board Mount High accuracy Hall Effect/Magnetic Sensor, ultralow-power, 3-axis digital output magnetometer"
+			(at 38.1 -22.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "IIS2MDCTR"
+			(at 38.1 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 38.1 -15.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 38.1 -17.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 38.1 -20.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "IMU, MEMS, SMT"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "InvenSense?QFN*3x3mm*P0.4mm*"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "IIS2MDCTR_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 20.32 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "V_{DD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "V_{DDIO}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPC" input line)
+			)
+			(pin bidirectional line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SDI" input line)
+				(alternate "SDO" output line)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 2.54)
+				(name "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 20.32 -10.16 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 20.32 -10.16 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 20.32 -10.16 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 22.86 0 180)
+				(length 2.54)
+				(name "INT/DRDY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -12.7 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -12.7 180)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

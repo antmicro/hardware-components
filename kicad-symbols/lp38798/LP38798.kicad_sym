@@ -1,72 +1,365 @@
 (kicad_symbol_lib
-  (symbol "LP38798"  (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "U"  (at  35.56 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "LP38798"  (at  35.56 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "LP38798:WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm"  (at  35.56 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://www.ti.com/lit/gpn/lp38798"  (at  35.56 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "LDO Voltage Regulators 800mA Ultra-Low Noise Hi PSRR"  (at  35.56 -22.86 0) (effects   (font (size 1.27 1.27))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "LP38798SD-ADJ/NOPB"  (at  35.56 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Manufacturer" "Texas Instruments"  (at  35.56 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Author" "Antmicro"  (at  35.56 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  35.56 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "LDO, POWER, SMT, LINEAR"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "LP38798_1_1" 
-      (rectangle (start 2.54 2.54) (end 20.32 -25.4)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (pin power_in line (at 0 0 0) (length 2.54)
-        (name "IN" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54) (hide yes)
-        (name "IN" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -2.54 0) (length 2.54)
-        (name "IN(CP)" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -7.62 0) (length 2.54)
-        (name "EN" (effects   (font (size 1.27 1.27))))
-        (number "5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 0 -12.7 0) (length 2.54)
-        (name "CP" (effects   (font (size 1.27 1.27))))
-        (number "4" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -17.78 0) (length 2.54)
-        (name "GND(CP)" (effects   (font (size 1.27 1.27))))
-        (number "6" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -20.32 0) (length 2.54)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -22.86 0) (length 2.54)
-        (name "EP" (effects   (font (size 1.27 1.27))))
-        (number "13" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 22.86 0 180) (length 2.54)
-        (name "OUT" (effects   (font (size 1.27 1.27))))
-        (number "11" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 0 180) (length 2.54) (hide yes)
-        (name "OUT" (effects   (font (size 1.27 1.27))))
-        (number "12" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 22.86 -2.54 180) (length 2.54)
-        (name "OUT(FB)" (effects   (font (size 1.27 1.27))))
-        (number "10" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -7.62 180) (length 2.54)
-        (name "SET" (effects   (font (size 1.27 1.27))))
-        (number "9" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -15.24 180) (length 2.54)
-        (name "FB" (effects   (font (size 1.27 1.27))))
-        (number "8" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "LP38798"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 35.56 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LP38798"
+			(at 35.56 -7.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LP38798"
+			(at 35.56 -10.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lp38798"
+			(at 35.56 -12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators 800mA Ultra-Low Noise Hi PSRR"
+			(at 35.56 -22.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "LP38798SD-ADJ/NOPB"
+			(at 35.56 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 35.56 -15.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 35.56 -17.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 35.56 -20.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "LDO, POWER, SMT, LINEAR"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LP38798_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 20.32 -25.4)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "IN(CP)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -12.7 0)
+				(length 2.54)
+				(name "CP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -17.78 0)
+				(length 2.54)
+				(name "GND(CP)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20.32 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 -2.54 180)
+				(length 2.54)
+				(name "OUT(FB)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -7.62 180)
+				(length 2.54)
+				(name "SET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -15.24 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

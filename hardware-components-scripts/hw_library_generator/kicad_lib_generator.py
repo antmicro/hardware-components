@@ -7,7 +7,7 @@ from typing import Dict
 from rich.console import Console
 
 import typer
-from kiutils.symbol import SymbolLib
+from askiff.symbol import SymbolFile
 from unidecode import unidecode
 
 
@@ -42,7 +42,7 @@ def to_id(string: str) -> str:
 
 class KiCadLibManager:
     # Create dict for created libs
-    symbols_libs: Dict[str, SymbolLib] = {}
+    symbols_libs: Dict[str, SymbolFile] = {}
 
     def copy_footprint(self, footprint: str, libs_path: Path, footprint_lib: str) -> None:
         # Check if footprint exists
@@ -68,8 +68,8 @@ class KiCadLibManager:
             print(f"Symbol: {symbol} does not exist. Skipping")
             return
 
-        # Load symbol as lib
-        src_lib = SymbolLib.from_file(str(src))
+        # Load symbol
+        src_lib = SymbolFile.from_file(src)
 
         # Process symbol and its optional template
         for lib_symbol in src_lib.symbols:
@@ -102,8 +102,8 @@ class KiCadLibManager:
 
         # Create symbol library if not exists
         if symbol_lib not in self.symbols_libs:
-            dest_lib = SymbolLib()
-            dest_lib.filePath = str(symbol_lib_path)
+            dest_lib = SymbolFile()
+            dest_lib.fs_path = symbol_lib_path
             self.symbols_libs[symbol_lib] = dest_lib
 
         if footprint_lib is None:

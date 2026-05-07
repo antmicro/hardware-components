@@ -1,423 +1,2022 @@
 (kicad_symbol_lib
-  (symbol "CYRS17B512-133AZMB"  (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "U"  (at  40.64 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "CYRS17B512-133AZMB"  (at  40.64 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "CYRS17B512-133AZMB:TQFP-100_14x20mm_P0.65mm"  (at  40.64 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-cyrs17b512-512-mb-64-mb-serial-nor-flash-spi-qspi-3-datasheet-en.pdf"  (at  40.64 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "Radiation hardened FLASH - NOR Memory IC, 512Mbit SPI - Quad I/O, 133 MHz, TQFP-100 (14x20)"  (at  40.64 -25.4 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "CYRS17B512-133AZMB"  (at  40.64 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Manufacturer" "Infineon"  (at  40.64 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Author" "Antmicro"  (at  40.64 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  40.64 -22.86 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "SMT, MEMORY, IC, SPI, FLASH"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "CYRS17B512-133AZMB_1_1" 
-      (rectangle (start 3.81 2.54) (end 22.86 -20.32)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (pin bidirectional line (at 0 0 0) (length 3.81)
-        (name "SI" (effects   (font (size 1.27 1.27))))
-        (number "12" (effects   (font (size 1.27 1.27))))
-        (alternate "IO0" passive line)
-      )
-      (pin bidirectional line (at 0 -2.54 0) (length 3.81)
-        (name "SO" (effects   (font (size 1.27 1.27))))
-        (number "13" (effects   (font (size 1.27 1.27))))
-        (alternate "IO1" passive line)
-      )
-      (pin bidirectional line (at 0 -5.08 0) (length 3.81)
-        (name "~{WP}" (effects   (font (size 1.27 1.27))))
-        (number "19" (effects   (font (size 1.27 1.27))))
-        (alternate "IO2" passive line)
-      )
-      (pin bidirectional line (at 0 -7.62 0) (length 3.81)
-        (name "IO3" (effects   (font (size 1.27 1.27))))
-        (number "20" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -10.16 0) (length 3.81)
-        (name "SCK" (effects   (font (size 1.27 1.27))))
-        (number "16" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -12.7 0) (length 3.81)
-        (name "~{CS}" (effects   (font (size 1.27 1.27))))
-        (number "8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -15.24 0) (length 3.81)
-        (name "~{RESET}" (effects   (font (size 1.27 1.27))))
-        (number "7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 0 -17.78 0) (length 3.81)
-        (name "~{INT}" (effects   (font (size 1.27 1.27))))
-        (number "24" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "26" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "27" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "28" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "29" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "37" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "38" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "39" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "4" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "41" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "42" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "43" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "44" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "45" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "46" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "47" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "48" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "49" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "50" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "51" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "52" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "53" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "54" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "55" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "56" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "57" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "58" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "61" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "62" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "68" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "69" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "70" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "71" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "74" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "75" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "76" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "77" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "78" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "79" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "80" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "81" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "82" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "83" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "84" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "85" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "86" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "87" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "88" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "89" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "91" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "92" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "93" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -12.7 180) (length 3.81) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "94" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "25" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "32" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "33" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "34" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "6" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "64" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "65" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "66" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "97" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "98" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 22.86 -15.24 180) (length 3.81) (hide yes)
-        (name "DNU" (effects   (font (size 1.27 1.27))))
-        (number "99" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 26.67 0 180) (length 3.81)
-        (name "VDD" (effects   (font (size 1.27 1.27))))
-        (number "10" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 0 180) (length 3.81) (hide yes)
-        (name "VDD" (effects   (font (size 1.27 1.27))))
-        (number "23" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 0 180) (length 3.81) (hide yes)
-        (name "VDD" (effects   (font (size 1.27 1.27))))
-        (number "36" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 0 180) (length 3.81) (hide yes)
-        (name "VDD" (effects   (font (size 1.27 1.27))))
-        (number "59" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 0 180) (length 3.81) (hide yes)
-        (name "VDD" (effects   (font (size 1.27 1.27))))
-        (number "73" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 0 180) (length 3.81) (hide yes)
-        (name "VDD" (effects   (font (size 1.27 1.27))))
-        (number "95" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 26.67 -2.54 180) (length 3.81)
-        (name "VDDIO" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -2.54 180) (length 3.81) (hide yes)
-        (name "VDDIO" (effects   (font (size 1.27 1.27))))
-        (number "14" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -2.54 180) (length 3.81) (hide yes)
-        (name "VDDIO" (effects   (font (size 1.27 1.27))))
-        (number "18" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -2.54 180) (length 3.81) (hide yes)
-        (name "VDDIO" (effects   (font (size 1.27 1.27))))
-        (number "30" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "100" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "11" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "15" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "17" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "21" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "22" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "31" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "35" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "40" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "60" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "63" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "67" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "72" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "9" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "90" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 26.67 -17.78 180) (length 3.81) (hide yes)
-        (name "VSS" (effects   (font (size 1.27 1.27))))
-        (number "96" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "CYRS17B512-133AZMB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 40.64 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CYRS17B512-133AZMB"
+			(at 40.64 -7.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CYRS17B512-133AZMB"
+			(at 40.64 -10.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-cyrs17b512-512-mb-64-mb-serial-nor-flash-spi-qspi-3-datasheet-en.pdf"
+			(at 40.64 -12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Radiation hardened FLASH - NOR Memory IC, 512Mbit SPI - Quad I/O, 133 MHz, TQFP-100 (14x20)"
+			(at 40.64 -25.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "CYRS17B512-133AZMB"
+			(at 40.64 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 40.64 -17.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 40.64 -20.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 40.64 -22.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMT, MEMORY, IC, SPI, FLASH"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CYRS17B512-133AZMB_1_1"
+			(rectangle
+				(start 3.81 2.54)
+				(end 22.86 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 0 0 0)
+				(length 3.81)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" passive line)
+			)
+			(pin bidirectional line
+				(at 0 -2.54 0)
+				(length 3.81)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" passive line)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 3.81)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" passive line)
+			)
+			(pin bidirectional line
+				(at 0 -7.62 0)
+				(length 3.81)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10.16 0)
+				(length 3.81)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 3.81)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 0)
+				(length 3.81)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -17.78 0)
+				(length 3.81)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "87"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "89"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "92"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -12.7 180)
+				(length 3.81)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "97"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -15.24 180)
+				(length 3.81)
+				(hide yes)
+				(name "DNU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 26.67 0 180)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 0 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 0 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 0 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 0 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 0 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 26.67 -2.54 180)
+				(length 3.81)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -2.54 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -2.54 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -2.54 180)
+				(length 3.81)
+				(hide yes)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 -17.78 180)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

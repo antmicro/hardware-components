@@ -1,190 +1,897 @@
 (kicad_symbol_lib
-  (symbol "PF5023"  (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "U"  (at  58.42 -1.27 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "PF5023"  (at  58.42 -6.35 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "PF5023:QFN-40-1EP_6x6x0.9mm_P0.5mm_EP4x4mm"  (at  58.42 -8.89 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PF5023.pdf"  (at  58.42 -11.43 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "Power management integrated circuit (PMIC) for high performance applications"  (at  58.42 -24.13 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "MPF5023AMBA0ES"  (at  58.42 -3.81 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Manufacturer" "NXP"  (at  58.42 -16.51 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Author" "Antmicro"  (at  58.42 -19.05 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  58.42 -21.59 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "SMT, PMIC, IC, VOLTAGE, REGULATOR, SWITCHING, DC-DC, CONTROLLER"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "PF5023_1_0" 
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "42" (effects   (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "PF5023_1_1" 
-      (rectangle (start 2.54 3.81) (end 40.64 -78.74)
-        (stroke (width 0.254) (type solid))
-        (fill   (type background
-))      )
-      (pin power_in line (at 0 0 0) (length 2.54)
-        (name "VIN" (effects   (font (size 1.27 1.27))))
-        (number "17" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -6.35 0) (length 2.54)
-        (name "SW1IN" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -8.89 0) (length 2.54)
-        (name "SW2IN" (effects   (font (size 1.27 1.27))))
-        (number "5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 0 -11.43 0) (length 2.54)
-        (name "SW3IN" (effects   (font (size 1.27 1.27))))
-        (number "6" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -17.78 0) (length 2.54)
-        (name "VDDIO" (effects   (font (size 1.27 1.27))))
-        (number "36" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -24.13 0) (length 2.54)
-        (name "PWRON" (effects   (font (size 1.27 1.27))))
-        (number "31" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -26.67 0) (length 2.54)
-        (name "STANDBY" (effects   (font (size 1.27 1.27))))
-        (number "22" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -34.29 0) (length 2.54)
-        (name "EN1" (effects   (font (size 1.27 1.27))))
-        (number "38" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -36.83 0) (length 2.54)
-        (name "EN2" (effects   (font (size 1.27 1.27))))
-        (number "39" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -39.37 0) (length 2.54)
-        (name "EN3" (effects   (font (size 1.27 1.27))))
-        (number "13" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -45.72 0) (length 2.54)
-        (name "WDI" (effects   (font (size 1.27 1.27))))
-        (number "34" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -48.26 0) (length 2.54)
-        (name "SYNC" (effects   (font (size 1.27 1.27))))
-        (number "27" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -54.61 0) (length 2.54)
-        (name "SDA" (effects   (font (size 1.27 1.27))))
-        (number "29" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -57.15 0) (length 2.54)
-        (name "SCL" (effects   (font (size 1.27 1.27))))
-        (number "30" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -67.31 0) (length 2.54)
-        (name "TBBEN" (effects   (font (size 1.27 1.27))))
-        (number "35" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -69.85 0) (length 2.54)
-        (name "VDDOTP" (effects   (font (size 1.27 1.27))))
-        (number "28" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -72.39 0) (length 2.54)
-        (name "AGND" (effects   (font (size 1.27 1.27))))
-        (number "18" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -74.93 0) (length 2.54)
-        (name "EPAD" (effects   (font (size 1.27 1.27))))
-        (number "41" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "10" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "12" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "14" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "15" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "16" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "33" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 40.64 -72.39 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "9" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 43.18 -2.54 180) (length 2.54)
-        (name "V1P5A" (effects   (font (size 1.27 1.27))))
-        (number "23" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 43.18 -5.08 180) (length 2.54)
-        (name "V1P5D" (effects   (font (size 1.27 1.27))))
-        (number "24" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 43.18 -12.7 180) (length 2.54)
-        (name "SW1FB" (effects   (font (size 1.27 1.27))))
-        (number "40" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 43.18 -15.24 180) (length 2.54)
-        (name "SW1LX" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 43.18 -22.86 180) (length 2.54)
-        (name "SW2FB" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at 43.18 -25.4 180) (length 2.54)
-        (name "SW2LX" (effects   (font (size 1.27 1.27))))
-        (number "4" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 43.18 -33.02 180) (length 2.54)
-        (name "SW3FB" (effects   (font (size 1.27 1.27))))
-        (number "11" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 43.18 -35.56 180) (length 2.54)
-        (name "SW3LX" (effects   (font (size 1.27 1.27))))
-        (number "7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 43.18 -45.72 180) (length 2.54)
-        (name "PGOOD" (effects   (font (size 1.27 1.27))))
-        (number "26" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 43.18 -48.26 180) (length 2.54)
-        (name "PGOOD1" (effects   (font (size 1.27 1.27))))
-        (number "19" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 43.18 -50.8 180) (length 2.54)
-        (name "PGOOD2" (effects   (font (size 1.27 1.27))))
-        (number "20" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 43.18 -53.34 180) (length 2.54)
-        (name "PGOOD3" (effects   (font (size 1.27 1.27))))
-        (number "32" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 43.18 -60.96 180) (length 2.54)
-        (name "RESETBMCU" (effects   (font (size 1.27 1.27))))
-        (number "37" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 43.18 -64.77 180) (length 2.54)
-        (name "INTB" (effects   (font (size 1.27 1.27))))
-        (number "25" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 43.18 -68.58 180) (length 2.54)
-        (name "XFAILB" (effects   (font (size 1.27 1.27))))
-        (number "21" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "PF5023"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 58.42 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PF5023"
+			(at 58.42 -6.35 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PF5023"
+			(at 58.42 -8.89 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PF5023.pdf"
+			(at 58.42 -11.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Power management integrated circuit (PMIC) for high performance applications"
+			(at 58.42 -24.13 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "MPF5023AMBA0ES"
+			(at 58.42 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "NXP"
+			(at 58.42 -16.51 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 58.42 -19.05 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 58.42 -21.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMT, PMIC, IC, VOLTAGE, REGULATOR, SWITCHING, DC-DC, CONTROLLER"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PF5023_1_0"
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PF5023_1_1"
+			(rectangle
+				(start 2.54 3.81)
+				(end 40.64 -78.74)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 0)
+				(length 2.54)
+				(name "SW1IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 0)
+				(length 2.54)
+				(name "SW2IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -11.43 0)
+				(length 2.54)
+				(name "SW3IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -17.78 0)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -24.13 0)
+				(length 2.54)
+				(name "PWRON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -26.67 0)
+				(length 2.54)
+				(name "STANDBY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -34.29 0)
+				(length 2.54)
+				(name "EN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -36.83 0)
+				(length 2.54)
+				(name "EN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -39.37 0)
+				(length 2.54)
+				(name "EN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -45.72 0)
+				(length 2.54)
+				(name "WDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -48.26 0)
+				(length 2.54)
+				(name "SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -54.61 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -57.15 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -67.31 0)
+				(length 2.54)
+				(name "TBBEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -69.85 0)
+				(length 2.54)
+				(name "VDDOTP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -72.39 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -74.93 0)
+				(length 2.54)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 40.64 -72.39 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 43.18 -2.54 180)
+				(length 2.54)
+				(name "V1P5A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 43.18 -5.08 180)
+				(length 2.54)
+				(name "V1P5D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -12.7 180)
+				(length 2.54)
+				(name "SW1FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 43.18 -15.24 180)
+				(length 2.54)
+				(name "SW1LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -22.86 180)
+				(length 2.54)
+				(name "SW2FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 43.18 -25.4 180)
+				(length 2.54)
+				(name "SW2LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 43.18 -33.02 180)
+				(length 2.54)
+				(name "SW3FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 43.18 -35.56 180)
+				(length 2.54)
+				(name "SW3LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -45.72 180)
+				(length 2.54)
+				(name "PGOOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -48.26 180)
+				(length 2.54)
+				(name "PGOOD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -50.8 180)
+				(length 2.54)
+				(name "PGOOD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -53.34 180)
+				(length 2.54)
+				(name "PGOOD3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -60.96 180)
+				(length 2.54)
+				(name "RESETBMCU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 43.18 -64.77 180)
+				(length 2.54)
+				(name "INTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 43.18 -68.58 180)
+				(length 2.54)
+				(name "XFAILB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

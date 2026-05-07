@@ -1,120 +1,368 @@
 (kicad_symbol_lib
-  (symbol "74LVC1G08GM"  (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "U"  (at  33.02 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "74LVC1G08GM"  (at  33.02 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "74LVC1G08GM:XSON-6_1x1.45mm_P0.5mm"  (at  33.02 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf"  (at  33.02 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "2-input AND Schmitt trigger, 1.65 V to 5.5 V, XSON6, -40 °C to +125 °C"  (at  33.02 -25.4 0) (effects   (font (size 1.27 1.27))  (justify left bottom)  (hide yes)))
-    (property  "Manufacturer" "Nexperia"  (at  33.02 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "74LVC1G08GM"  (at  33.02 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Author" "Antmicro"  (at  33.02 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  33.02 -22.86 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "SMT, LOGIC, IC, GATE"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "74LVC1G08GM_1_1" 
-      (rectangle (start 2.54 2.54) (end 16.51 -10.16)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 8.2067 -4.749)
-          (xy 6.9367 -4.749)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 8.224 -2.9274)
-          (xy 6.954 -2.9274)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 9.3793 -3.2146)
-          (xy 9.3793 -4.4846)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (arc (start 11.2928 -3.8411) (mid 10.8432 -4.9242) (end 9.7603 -5.3736)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (arc (start 9.7603 -2.3256) (mid 10.8372 -2.7691) (end 11.2928 -3.8411)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 9.7603 -2.3256)
-          (xy 8.2363 -2.3256)
-          (xy 8.2363 -5.3736)
-          (xy 9.7603 -5.3736)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 9.7603 -3.2146)
-          (xy 9.7603 -4.4846)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 9.7603 -4.4846)
-          (xy 8.8713 -4.4846)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 10.2683 -3.2146)
-          (xy 9.3793 -3.2146)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 12.7 -3.81)
-          (xy 11.43 -3.81)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (text "" (at 2.54 -3.048 0)
-        (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom))      )
-      (pin power_in line (at 0 0 0) (length 2.54)
-        (name "VCC" (effects   (font (size 1.27 1.27))))
-        (number "6" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -2.54 0) (length 2.54)
-        (name "A" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -5.08 0) (length 2.54)
-        (name "B" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -7.62 0) (length 2.54)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 16.51 -7.62 180) (length 2.54) (hide yes)
-        (name "NC" (effects   (font (size 1.27 1.27))))
-        (number "5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin output line (at 19.05 -3.81 180) (length 2.54)
-        (name "Y" (effects   (font (size 1.27 1.27))))
-        (number "4" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "74LVC1G08GM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 33.02 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "74LVC1G08GM"
+			(at 33.02 -10.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "74LVC1G08GM"
+			(at 33.02 -12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf"
+			(at 33.02 -15.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2-input AND Schmitt trigger, 1.65 V to 5.5 V, XSON6, -40 °C to +125 °C"
+			(at 33.02 -25.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 33.02 -17.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "74LVC1G08GM"
+			(at 33.02 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 33.02 -20.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 33.02 -22.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMT, LOGIC, IC, GATE"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LVC1G08GM_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 16.51 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.2067 -4.749) (xy 6.9367 -4.749)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.224 -2.9274) (xy 6.954 -2.9274)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.3793 -3.2146) (xy 9.3793 -4.4846)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 11.2928 -3.8411)
+				(mid 10.8432 -4.9242)
+				(end 9.7603 -5.3736)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 9.7603 -2.3256)
+				(mid 10.8372 -2.7691)
+				(end 11.2928 -3.8411)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.7603 -2.3256) (xy 8.2363 -2.3256) (xy 8.2363 -5.3736) (xy 9.7603 -5.3736)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.7603 -3.2146) (xy 9.7603 -4.4846)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.7603 -4.4846) (xy 8.8713 -4.4846)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.2683 -3.2146) (xy 9.3793 -3.2146)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -3.81) (xy 11.43 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text ""
+				(at 2.54 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 19.05 -3.81 180)
+				(length 2.54)
+				(name "Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

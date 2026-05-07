@@ -1,108 +1,319 @@
 (kicad_symbol_lib
-  (symbol "EPC7020GSH"  (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "Q"  (at  10.922 0.508 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "EPC7020GSH"  (at  10.922 -9.652 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "EPC7020GSH:EPC-Space_FSMD-G"  (at  10.922 -4.572 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://epc.space/documents/datasheets/EPC7020G-datasheet.pdf"  (at  10.922 -7.112 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "200 V, 14.5 mΩ, 200 A pulsed radiation-hardened GaN"  (at  10.922 -19.812 0) (effects   (font (size 1.27 1.27))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "EPC7020GSH"  (at  10.922 -2.032 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Manufacturer" "EPC Space"  (at  10.922 -12.192 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Author" "Antmicro"  (at  10.922 -14.732 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  10.922 -17.272 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, GAN"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "EPC7020GSH_1_1" 
-      (polyline
-        (pts
-          (xy 2.54 -5.08)
-          (xy 3.81 -5.08)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 4.445 0)
-          (xy 1.905 0)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 4.445 1.27)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 5.08 1.905)
-          (xy 5.08 -1.905)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 5.08 -1.27)
-          (xy 5.842 -0.762)
-          (xy 5.842 -1.778)
-          (xy 5.08 -1.27)
-        )
-        (stroke (width 0.254) (type default))
-        (fill   (type outline
-))      )
-      (circle (center 6.35 0) (radius 3.302)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (polyline
-        (pts
-          (xy 7.62 3.81)
-          (xy 7.62 1.397)
-          (xy 5.08 1.397)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 7.62 -1.27)
-          (xy 3.81 -5.08)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (polyline
-        (pts
-          (xy 7.62 -3.81)
-          (xy 7.62 -1.27)
-          (xy 5.08 -1.27)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill   (type none
-))      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "G" (effects   (font (size 1.27 1.27))))
-        (number "1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54) (hide yes)
-        (name "G" (effects   (font (size 1.27 1.27))))
-        (number "2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 2.54)
-        (name "SS" (effects   (font (size 1.27 1.27))))
-        (number "5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 6.35 270) (length 2.54)
-        (name "D" (effects   (font (size 1.27 1.27))))
-        (number "3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 -6.35 90) (length 2.54)
-        (name "S" (effects   (font (size 1.27 1.27))))
-        (number "4" (effects   (font (size 1.27 1.27))))
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "EPC7020GSH"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 10.922 0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EPC7020GSH"
+			(at 10.922 -9.652 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "EPC7020GSH"
+			(at 10.922 -4.572 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://epc.space/documents/datasheets/EPC7020G-datasheet.pdf"
+			(at 10.922 -7.112 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "200 V, 14.5 mΩ, 200 A pulsed radiation-hardened GaN"
+			(at 10.922 -19.812 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "EPC7020GSH"
+			(at 10.922 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "EPC Space"
+			(at 10.922 -12.192 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 10.922 -14.732 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 10.922 -17.272 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, GAN"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "EPC7020GSH_1_1"
+			(polyline
+				(pts
+					(xy 2.54 -5.08) (xy 3.81 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 0) (xy 1.905 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 4.445 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 1.905) (xy 5.08 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.27) (xy 5.842 -0.762) (xy 5.842 -1.778) (xy 5.08 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 6.35 0)
+				(radius 3.302)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 3.81) (xy 7.62 1.397) (xy 5.08 1.397)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -1.27) (xy 3.81 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -3.81) (xy 7.62 -1.27) (xy 5.08 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 6.35 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -6.35 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

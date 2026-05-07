@@ -1,288 +1,1232 @@
 (kicad_symbol_lib
-  (symbol "Bluetooth_NORA-B206-00B"  (exclude_from_sim no) (in_bom yes) (on_board yes)
-    (property  "Reference" "U"  (at  43.18 -2.54 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Value" "Bluetooth_NORA-B206-00B"  (at  43.18 -7.62 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Footprint" "Bluetooth_NORA-B206-00B:Bluetooth_Module_NORA-B206"  (at  43.18 -10.16 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Datasheet" "https://content.u-blox.com/sites/default/files/documents/NORA-B2_DataSheet_UBXDOC-1023859458-38975.pdf"  (at  43.18 -12.7 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Description" "Bluetooth Modules - 802.15.1 nRF54L15, PCB antenna, open CPU"  (at  43.18 -15.24 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "MPN" "NORA-B206-00B"  (at  43.18 -5.08 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)))
-    (property  "Manufacturer" "u-blox"  (at  43.18 -17.78 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "Author" "Antmicro"  (at  43.18 -20.32 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "License" "Apache-2.0"  (at  43.18 -22.86 0) (effects   (font (size 1.27 1.27) (thickness 0.15))  (justify left bottom)  (hide yes)))
-    (property  "ki_keywords" "MODULE, WIFI, BLUETOOTH"  (at  0 0 0) (effects   (font (size 1.27 1.27))  (hide yes)))
-    (symbol "Bluetooth_NORA-B206-00B_1_1" 
-      (rectangle (start 2.54 2.54) (end 26.67 -53.34)
-        (stroke (width 0.254) (type default))
-        (fill   (type background
-))      )
-      (pin power_in line (at 0 0 0) (length 2.54)
-        (name "VCC" (effects   (font (size 1.27 1.27))))
-        (number "A7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54) (hide yes)
-        (name "VCC" (effects   (font (size 1.27 1.27))))
-        (number "A8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54) (hide yes)
-        (name "VCC" (effects   (font (size 1.27 1.27))))
-        (number "B7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -5.08 0) (length 2.54)
-        (name "P2.00" (effects   (font (size 1.27 1.27))))
-        (number "F2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -7.62 0) (length 2.54)
-        (name "P2.01" (effects   (font (size 1.27 1.27))))
-        (number "F1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -10.16 0) (length 2.54)
-        (name "P2.02" (effects   (font (size 1.27 1.27))))
-        (number "D2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -12.7 0) (length 2.54)
-        (name "P2.03" (effects   (font (size 1.27 1.27))))
-        (number "D1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -15.24 0) (length 2.54)
-        (name "P2.04" (effects   (font (size 1.27 1.27))))
-        (number "E2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -17.78 0) (length 2.54)
-        (name "P2.05" (effects   (font (size 1.27 1.27))))
-        (number "E1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -20.32 0) (length 2.54)
-        (name "P2.06" (effects   (font (size 1.27 1.27))))
-        (number "B1" (effects   (font (size 1.27 1.27))))
-        (alternate "TRACECLK" bidirectional line)
-      )
-      (pin bidirectional line (at 0 -22.86 0) (length 2.54)
-        (name "P2.07" (effects   (font (size 1.27 1.27))))
-        (number "C4" (effects   (font (size 1.27 1.27))))
-        (alternate "SWO" bidirectional line)
-        (alternate "TRACEDATA[0]" bidirectional line)
-      )
-      (pin bidirectional line (at 0 -25.4 0) (length 2.54)
-        (name "P2.08" (effects   (font (size 1.27 1.27))))
-        (number "C2" (effects   (font (size 1.27 1.27))))
-        (alternate "TRACEDATA[1]" bidirectional line)
-      )
-      (pin bidirectional line (at 0 -27.94 0) (length 2.54)
-        (name "P2.09" (effects   (font (size 1.27 1.27))))
-        (number "C1" (effects   (font (size 1.27 1.27))))
-        (alternate "TRACEDATA[2]" bidirectional line)
-      )
-      (pin bidirectional line (at 0 -30.48 0) (length 2.54)
-        (name "P2.10" (effects   (font (size 1.27 1.27))))
-        (number "B3" (effects   (font (size 1.27 1.27))))
-        (alternate "TRACEDATA[3]" bidirectional line)
-      )
-      (pin bidirectional line (at 0 -35.56 0) (length 2.54)
-        (name "SWDIO" (effects   (font (size 1.27 1.27))))
-        (number "H2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -38.1 0) (length 2.54)
-        (name "SWDCLK" (effects   (font (size 1.27 1.27))))
-        (number "J2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -43.18 0) (length 2.54)
-        (name "~{RESET}" (effects   (font (size 1.27 1.27))))
-        (number "J3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -50.8 0) (length 2.54)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "A1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "A9" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "B2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "B8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "E4" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "E5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "F4" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "F5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "K2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "K3" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "K5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "K7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "K8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "L1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "L2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "M1" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "M2" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "M8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -50.8 0) (length 2.54) (hide yes)
-        (name "GND" (effects   (font (size 1.27 1.27))))
-        (number "M9" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 29.21 0 180) (length 2.54)
-        (name "P0.00" (effects   (font (size 1.27 1.27))))
-        (number "A5" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 29.21 -2.54 180) (length 2.54)
-        (name "P0.01" (effects   (font (size 1.27 1.27))))
-        (number "A6" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 29.21 -5.08 180) (length 2.54)
-        (name "P0.02" (effects   (font (size 1.27 1.27))))
-        (number "C8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 29.21 -5.08 180) (length 2.54) (hide yes)
-        (name "P0.02" (effects   (font (size 1.27 1.27))))
-        (number "G7" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 29.21 -7.62 180) (length 2.54)
-        (name "P0.03" (effects   (font (size 1.27 1.27))))
-        (number "J9" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 29.21 -10.16 180) (length 2.54)
-        (name "P0.04" (effects   (font (size 1.27 1.27))))
-        (number "H8" (effects   (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 29.21 -15.24 180) (length 2.54)
-        (name "P1.00" (effects   (font (size 1.27 1.27))))
-        (number "B6" (effects   (font (size 1.27 1.27))))
-        (alternate "XL1" passive line)
-      )
-      (pin bidirectional line (at 29.21 -17.78 180) (length 2.54)
-        (name "P1.01" (effects   (font (size 1.27 1.27))))
-        (number "C6" (effects   (font (size 1.27 1.27))))
-        (alternate "XL2" passive line)
-      )
-      (pin bidirectional line (at 29.21 -20.32 180) (length 2.54)
-        (name "P1.02" (effects   (font (size 1.27 1.27))))
-        (number "C5" (effects   (font (size 1.27 1.27))))
-        (alternate "NFC1" input line)
-      )
-      (pin bidirectional line (at 29.21 -22.86 180) (length 2.54)
-        (name "P1.03" (effects   (font (size 1.27 1.27))))
-        (number "B5" (effects   (font (size 1.27 1.27))))
-        (alternate "NFC2" input line)
-      )
-      (pin bidirectional line (at 29.21 -25.4 180) (length 2.54)
-        (name "P1.04" (effects   (font (size 1.27 1.27))))
-        (number "G8" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN0" input line)
-        (alternate "ASO[0]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -27.94 180) (length 2.54)
-        (name "P1.05" (effects   (font (size 1.27 1.27))))
-        (number "G9" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN1" input line)
-        (alternate "ASI[0]" bidirectional line)
-        (alternate "RADIO[6]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -30.48 180) (length 2.54)
-        (name "P1.06" (effects   (font (size 1.27 1.27))))
-        (number "F8" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN2" input line)
-        (alternate "ASO[1]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -33.02 180) (length 2.54)
-        (name "P1.07" (effects   (font (size 1.27 1.27))))
-        (number "F9" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN3" input line)
-        (alternate "ASI[1]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -35.56 180) (length 2.54)
-        (name "P1.08" (effects   (font (size 1.27 1.27))))
-        (number "E9" (effects   (font (size 1.27 1.27))))
-        (alternate "EXTREF" input line)
-      )
-      (pin bidirectional line (at 29.21 -38.1 180) (length 2.54)
-        (name "P1.09" (effects   (font (size 1.27 1.27))))
-        (number "D8" (effects   (font (size 1.27 1.27))))
-        (alternate "ASO[2]" bidirectional line)
-        (alternate "RADIO[0]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -40.64 180) (length 2.54)
-        (name "P1.10" (effects   (font (size 1.27 1.27))))
-        (number "H9" (effects   (font (size 1.27 1.27))))
-        (alternate "ASI[2]" bidirectional line)
-        (alternate "RADIO[1]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -43.18 180) (length 2.54)
-        (name "P1.11" (effects   (font (size 1.27 1.27))))
-        (number "A3" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN4" input line)
-        (alternate "ASO[3]" bidirectional line)
-        (alternate "RADIO[2]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -45.72 180) (length 2.54)
-        (name "P1.12" (effects   (font (size 1.27 1.27))))
-        (number "B4" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN5" input line)
-        (alternate "ASI[3]" bidirectional line)
-        (alternate "RADIO[3]" bidirectional line)
-      )
-      (pin bidirectional line (at 29.21 -48.26 180) (length 2.54)
-        (name "P1.13" (effects   (font (size 1.27 1.27))))
-        (number "G5" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN6" input line)
-        (alternate "RADIO[4]" bidirectional line)
-      )
-      (pin passive line (at 29.21 -48.26 180) (length 2.54) (hide yes)
-        (name "P1.13" (effects   (font (size 1.27 1.27))))
-        (number "J8" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN6" passive line)
-        (alternate "RADIO[4]" passive line)
-      )
-      (pin bidirectional line (at 29.21 -50.8 180) (length 2.54)
-        (name "P1.14" (effects   (font (size 1.27 1.27))))
-        (number "E8" (effects   (font (size 1.27 1.27))))
-        (alternate "AIN7" input line)
-        (alternate "RADIO[5]" bidirectional line)
-      )
-    )
-     (embedded_fonts no)  )
+	(version 20251024)
+	(generator "askiff")
+	(generator_version "9.0")
+	(symbol "Bluetooth_NORA-B206-00B"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 43.18 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Bluetooth_NORA-B206-00B"
+			(at 43.18 -7.62 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Bluetooth_NORA-B206-00B"
+			(at 43.18 -10.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/NORA-B2_DataSheet_UBXDOC-1023859458-38975.pdf"
+			(at 43.18 -12.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Bluetooth Modules - 802.15.1 nRF54L15, PCB antenna, open CPU"
+			(at 43.18 -15.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "NORA-B206-00B"
+			(at 43.18 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "u-blox"
+			(at 43.18 -17.78 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 43.18 -20.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 43.18 -22.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "MODULE, WIFI, BLUETOOTH"
+			(at 0 0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Bluetooth_NORA-B206-00B_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 26.67 -53.34)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "P2.00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "P2.01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name "P2.02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -12.7 0)
+				(length 2.54)
+				(name "P2.03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -15.24 0)
+				(length 2.54)
+				(name "P2.04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -17.78 0)
+				(length 2.54)
+				(name "P2.05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -20.32 0)
+				(length 2.54)
+				(name "P2.06"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "TRACECLK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 0 -22.86 0)
+				(length 2.54)
+				(name "P2.07"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SWO" bidirectional line)
+				(alternate "TRACEDATA[0]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 0 -25.4 0)
+				(length 2.54)
+				(name "P2.08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "TRACEDATA[1]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 0 -27.94 0)
+				(length 2.54)
+				(name "P2.09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "TRACEDATA[2]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 0 -30.48 0)
+				(length 2.54)
+				(name "P2.10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "TRACEDATA[3]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 0 -35.56 0)
+				(length 2.54)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -38.1 0)
+				(length 2.54)
+				(name "SWDCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -43.18 0)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -50.8 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 29.21 0 180)
+				(length 2.54)
+				(name "P0.00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 29.21 -2.54 180)
+				(length 2.54)
+				(name "P0.01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 29.21 -5.08 180)
+				(length 2.54)
+				(name "P0.02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 29.21 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "P0.02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 29.21 -7.62 180)
+				(length 2.54)
+				(name "P0.03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 29.21 -10.16 180)
+				(length 2.54)
+				(name "P0.04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 29.21 -15.24 180)
+				(length 2.54)
+				(name "P1.00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XL1" passive line)
+			)
+			(pin bidirectional line
+				(at 29.21 -17.78 180)
+				(length 2.54)
+				(name "P1.01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XL2" passive line)
+			)
+			(pin bidirectional line
+				(at 29.21 -20.32 180)
+				(length 2.54)
+				(name "P1.02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "NFC1" input line)
+			)
+			(pin bidirectional line
+				(at 29.21 -22.86 180)
+				(length 2.54)
+				(name "P1.03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "NFC2" input line)
+			)
+			(pin bidirectional line
+				(at 29.21 -25.4 180)
+				(length 2.54)
+				(name "P1.04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN0" input line)
+				(alternate "ASO[0]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -27.94 180)
+				(length 2.54)
+				(name "P1.05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN1" input line)
+				(alternate "ASI[0]" bidirectional line)
+				(alternate "RADIO[6]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -30.48 180)
+				(length 2.54)
+				(name "P1.06"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN2" input line)
+				(alternate "ASO[1]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -33.02 180)
+				(length 2.54)
+				(name "P1.07"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN3" input line)
+				(alternate "ASI[1]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -35.56 180)
+				(length 2.54)
+				(name "P1.08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EXTREF" input line)
+			)
+			(pin bidirectional line
+				(at 29.21 -38.1 180)
+				(length 2.54)
+				(name "P1.09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ASO[2]" bidirectional line)
+				(alternate "RADIO[0]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -40.64 180)
+				(length 2.54)
+				(name "P1.10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ASI[2]" bidirectional line)
+				(alternate "RADIO[1]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -43.18 180)
+				(length 2.54)
+				(name "P1.11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN4" input line)
+				(alternate "ASO[3]" bidirectional line)
+				(alternate "RADIO[2]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -45.72 180)
+				(length 2.54)
+				(name "P1.12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN5" input line)
+				(alternate "ASI[3]" bidirectional line)
+				(alternate "RADIO[3]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 29.21 -48.26 180)
+				(length 2.54)
+				(name "P1.13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN6" input line)
+				(alternate "RADIO[4]" bidirectional line)
+			)
+			(pin passive line
+				(at 29.21 -48.26 180)
+				(length 2.54)
+				(hide yes)
+				(name "P1.13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN6" passive line)
+				(alternate "RADIO[4]" passive line)
+			)
+			(pin bidirectional line
+				(at 29.21 -50.8 180)
+				(length 2.54)
+				(name "P1.14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN7" input line)
+				(alternate "RADIO[5]" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
