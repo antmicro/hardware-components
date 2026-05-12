@@ -2,10 +2,7 @@
 	(version 20251024)
 	(generator "askiff")
 	(generator_version "9.0")
-	(symbol "POT_100k_R0141-2-100k"
-		(pin_numbers
-			(hide yes)
-		)
+	(symbol "POT_100k_RV09AF-40-20K-B100K"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19,7 +16,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "POT_100k_R0141-2-100k"
+		(property "Value" "POT_100k_RV09AF-40-20K-B100K"
 			(at 20.32 -5.08 0)
 			(hide yes)
 			(effects
@@ -30,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "POT_100k_R0141-2-100k"
+		(property "Footprint" "POT_100k_RV09AF-40-20K-B100K"
 			(at 20.32 -7.62 0)
 			(hide yes)
 			(effects
@@ -41,7 +38,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/48eb4fb11c5e0c9b1cd467745dfbcb98/R0141-2.pdf"
+		(property "Datasheet" "mouser.com/datasheet/3/140/1/RV09AF.pdf"
 			(at 20.32 -10.16 0)
 			(hide yes)
 			(effects
@@ -52,7 +49,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Single turn potentiometer, horizontal,  100kΩ, 30mW"
+		(property "Description" "Rotary potentiometer, vertical,  100 kΩ,  50 mW"
 			(at 20.32 -22.86 0)
 			(hide yes)
 			(effects
@@ -62,7 +59,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "R0141-2-100k"
+		(property "MPN" "RV09AF-40-20K-B100K"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -72,7 +69,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "SR Passives"
+		(property "Manufacturer" "Bourns"
 			(at 20.32 -15.24 0)
 			(hide yes)
 			(effects
@@ -114,10 +111,10 @@
 				)
 			)
 		)
-		(symbol "POT_100k_R0141-2-100k_0_1"
+		(symbol "POT_100k_RV09AF-40-20K-B100K_0_1"
 			(rectangle
-				(start 0.635 0.889)
-				(end 4.445 -0.889)
+				(start 1.27 1.016)
+				(end 6.35 -1.016)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -128,7 +125,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.905) (xy 2.54 1.016) (xy 2.286 1.524) (xy 2.794 1.524) (xy 2.54 1.016)
+					(xy 3.81 2.54) (xy 3.81 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 2.032) (xy 3.81 1.143) (xy 3.556 1.651) (xy 4.064 1.651) (xy 3.81 1.143)
 				)
 				(stroke
 					(width 0)
@@ -138,11 +147,23 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 3.81 -1.016) (xy 3.81 -3.81) (xy 6.35 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "POT_100k_R0141-2-100k_1_1"
+		(symbol "POT_100k_RV09AF-40-20K-B100K_1_1"
 			(pin passive line
 				(at 0 0 0)
-				(length 0.635)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -159,8 +180,8 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -2.54 90)
-				(length 0.635)
+				(at 3.81 3.81 270)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -168,7 +189,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -177,8 +198,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 2.54 270)
-				(length 0.635)
+				(at 7.62 0 180)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -195,8 +216,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -2.54 90)
-				(length 0.635)
+				(at 7.62 -3.81 180)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -204,25 +225,7 @@
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 0.635)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
+				(number "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
