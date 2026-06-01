@@ -7,7 +7,7 @@
     "mpn":"MDT580M01001",
     "displayName":null,
     "description":"Key M Card Edge Connector, Dual Side, 67 Contacts, Surface Mount, Right Angle, 5.80H",
-    "keywords":"HORIZONTAL, SMT, PCIE, CONNECTOR",
+    "keywords":"HORIZONTAL, SMT, PCIE, CONNECTOR, No-RoHS",
     "gitHub":null,
     "public":true,
     "blender_model":"Bus_M.2_Socket_Key_M_Amphenol_MDT580M01001",
@@ -17,7 +17,7 @@
             "reference":"1",
             "pin_name":"GND",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"power_in"
         },
         {
             "reference":"2",
@@ -41,7 +41,7 @@
             "reference":"5",
             "pin_name":"PER3_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"6",
@@ -53,7 +53,7 @@
             "reference":"7",
             "pin_name":"PER3_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"8",
@@ -77,7 +77,7 @@
             "reference":"11",
             "pin_name":"PET3_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"12",
@@ -89,7 +89,7 @@
             "reference":"13",
             "pin_name":"PET3_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"14",
@@ -113,7 +113,7 @@
             "reference":"17",
             "pin_name":"PER2_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"18",
@@ -125,7 +125,7 @@
             "reference":"19",
             "pin_name":"PER2_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"20",
@@ -149,7 +149,7 @@
             "reference":"23",
             "pin_name":"PET2_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"24",
@@ -161,7 +161,7 @@
             "reference":"25",
             "pin_name":"PET2_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"26",
@@ -185,7 +185,7 @@
             "reference":"29",
             "pin_name":"PER1_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"30",
@@ -197,7 +197,7 @@
             "reference":"31",
             "pin_name":"PER1_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"32",
@@ -221,7 +221,7 @@
             "reference":"35",
             "pin_name":"PET1_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"36",
@@ -233,7 +233,7 @@
             "reference":"37",
             "pin_name":"PET1_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"38",
@@ -251,31 +251,31 @@
             "reference":"40",
             "pin_name":"SMB_CLK",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"41",
             "pin_name":"PER0_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"42",
             "pin_name":"SMB_DATA",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"bidirectional"
         },
         {
             "reference":"43",
             "pin_name":"PER0_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"44",
             "pin_name":"ALERT",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"45",
@@ -293,7 +293,7 @@
             "reference":"47",
             "pin_name":"PET0_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"48",
@@ -305,13 +305,13 @@
             "reference":"49",
             "pin_name":"PET0_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"50",
-            "pin_name":"PERST#",
+            "pin_name":"~{PERST}",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"51",
@@ -321,27 +321,27 @@
         },
         {
             "reference":"52",
-            "pin_name":"CLKREQ#",
+            "pin_name":"~{CLKREQ}",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"output"
         },
         {
             "reference":"53",
             "pin_name":"REFCLK_N",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"54",
-            "pin_name":"PEWAKE#",
+            "pin_name":"~{PEWAKE}",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"55",
             "pin_name":"REFCLK_P",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"56",
@@ -371,7 +371,7 @@
             "reference":"68",
             "pin_name":"SUSCLK",
             "alternate_pin_names":[],
-            "electrical_type":"passive"
+            "electrical_type":"input"
         },
         {
             "reference":"69",
@@ -416,14 +416,14 @@
             "electrical_type":"passive"
         },
         {
-            "reference":"SH1",
-            "pin_name":"SHIELD",
+            "reference":"MP1",
+            "pin_name":"MP",
             "alternate_pin_names":[],
             "electrical_type":"passive"
         },
         {
-            "reference":"SH2",
-            "pin_name":"SHIELD",
+            "reference":"MP2",
+            "pin_name":"MP",
             "alternate_pin_names":[],
             "electrical_type":"passive"
         }
