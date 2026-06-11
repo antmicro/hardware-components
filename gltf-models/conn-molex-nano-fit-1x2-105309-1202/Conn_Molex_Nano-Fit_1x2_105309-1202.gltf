@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 605,
+      "count": 1600,
       "type": "VEC3",
       "max": [
         4.260124206542969,
@@ -23,23 +23,39 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 605,
+      "count": 1600,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1600,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1600,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 1800,
+      "count": 3624,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 3600,
+      "byteOffset": 7248,
       "componentType": 5123,
       "normalized": false,
-      "count": 552,
+      "count": 1302,
       "type": "SCALAR"
     },
     {
@@ -47,15 +63,15 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 682,
       "type": "VEC3",
       "max": [
-        2.8577497005462646,
+        2.860340118408203,
         7.59999942779541,
         0.5774539709091187
       ],
       "min": [
-        -0.2774999141693115,
+        -0.28018325567245483,
         -3.200000047683716,
         -0.577499270439148
       ]
@@ -65,8 +81,24 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 682,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 682,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 682,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -77,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 14520,
-      "byteStride": 24,
+      "byteLength": 64000,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 14520,
-      "byteLength": 4704,
+      "byteOffset": 64000,
+      "byteLength": 9852,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 19224,
-      "byteLength": 6144,
-      "byteStride": 24,
+      "byteOffset": 73852,
+      "byteLength": 27280,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Conn_Molex_Nano-Fit_1x2_105309-1202.bin",
-      "byteLength": 25368
+      "byteLength": 101132
     }
   ],
   "extensionsUsed": [
@@ -111,44 +143,35 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_matte_black_normal.ktx2",
+      "uri": "../shared_textures/plastic_matte_black_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_matte_black_normal"
+      "name": "plastic_matte_black_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_matte_black_color.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_matte_black_color"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     }
   ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009721336886286736,
+          0.009721336886286736,
+          0.009721336886286736,
           1.0
         ],
         "metallicFactor": 0.09154544770717621,
-        "roughnessFactor": 0.4615432620048523,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.4615432620048523
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -179,12 +202,12 @@
         "metallicFactor": 0.7818182110786438,
         "roughnessFactor": 0.28863638639450073,
         "baseColorTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -203,18 +226,22 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 2,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 4,
-            "NORMAL": 5
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 3,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -254,14 +281,6 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
         }
       },
@@ -270,7 +289,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 3
+          "source": 2
         }
       },
       "sampler": 0
@@ -278,7 +297,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 2
+          "source": 1
         }
       },
       "sampler": 0

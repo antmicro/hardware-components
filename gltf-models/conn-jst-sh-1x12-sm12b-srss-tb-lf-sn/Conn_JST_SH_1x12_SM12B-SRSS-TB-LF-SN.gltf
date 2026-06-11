@@ -5,15 +5,15 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 624,
+      "count": 1729,
       "type": "VEC3",
       "max": [
-        6.699999809265137,
-        2.134681224822998,
-        2.675057888031006
+        6.702999591827393,
+        2.138093948364258,
+        2.674818992614746
       ],
       "min": [
-        -6.699999809265137,
+        -6.702999591827393,
         -0.0050000278279185295,
         -2.2750000953674316
       ]
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 624,
+      "count": 1729,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 624,
+      "count": 1729,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1729,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 1020,
+      "count": 3297,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 2040,
+      "byteOffset": 6596,
       "componentType": 5123,
       "normalized": false,
-      "count": 912,
+      "count": 2511,
       "type": "SCALAR"
     },
     {
@@ -55,17 +63,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 352,
+      "count": 1229,
       "type": "VEC3",
       "max": [
         6.999999523162842,
-        2.9553232192993164,
-        2.6746487617492676
+        2.9548866748809814,
+        2.6750669479370117
       ],
       "min": [
         -6.999999523162842,
-        0.05499982088804245,
-        -1.5749999284744263
+        0.05199982225894928,
+        -1.5779999494552612
       ]
     },
     {
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 352,
+      "count": 1229,
       "type": "VEC3"
     },
     {
@@ -81,7 +89,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 352,
+      "count": 1229,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1229,
       "type": "VEC2"
     }
   ],
@@ -93,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 19968,
-      "byteStride": 32,
+      "byteLength": 69160,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 19968,
-      "byteLength": 3864,
+      "byteOffset": 69160,
+      "byteLength": 11620,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 23832,
-      "byteLength": 11264,
-      "byteStride": 32,
+      "byteOffset": 80780,
+      "byteLength": 49160,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Conn_JST_SH_1x12_SM12B-SRSS-TB-LF-SN.bin",
-      "byteLength": 35096
+      "byteLength": 129940
     }
   ],
   "extensionsUsed": [
@@ -127,24 +143,24 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/plastic_case_beige_normal.ktx2",
+      "uri": "../shared_textures/plastic_case_beige_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_case_beige_normal"
+      "name": "plastic_case_beige_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_case_beige_color.ktx2",
+      "uri": "../shared_textures/plastic_case_beige_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_case_beige_color"
+      "name": "plastic_case_beige_color512"
     }
   ],
   "materials": [
@@ -228,19 +244,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }

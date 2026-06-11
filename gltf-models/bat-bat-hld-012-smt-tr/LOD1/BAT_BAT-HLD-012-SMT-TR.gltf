@@ -1,0 +1,236 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1155,
+      "type": "VEC3",
+      "max": [
+        7.619999885559082,
+        3.556278944015503,
+        4.69913911819458
+      ],
+      "min": [
+        -7.619999885559082,
+        -1.0547557849349687e-07,
+        -4.698999881744385
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1155,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1155,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1155,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3048,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "pygltflib@v1.16.5",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 46200,
+      "byteStride": 40,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46200,
+      "byteLength": 6096,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "BAT_BAT-HLD-012-SMT-TR.bin",
+      "byteLength": 52296
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_ior",
+    "KHR_materials_sheen",
+    "KHR_materials_specular",
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ],
+  "images": [
+    {
+      "uri": "../../shared_textures/metal_connector_normal256.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_normal256"
+    },
+    {
+      "uri": "../../shared_textures/metal_connector_color256.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_color256"
+    },
+    {
+      "uri": "../../shared_textures/metal_connector_roughness256.ktx2",
+      "mimeType": "image/ktx2",
+      "name": "metal_connector_roughness256"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0,
+          "clearcoatRoughnessFactor": 0.46590909361839294
+        },
+        "KHR_materials_ior": {
+          "ior": 1
+        },
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            1,
+            1,
+            1
+          ],
+          "sheenRoughnessFactor": 0.5
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.9590908885002136
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "gltf_metal_connector"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "BAT_BAT-HLD-012-SMT-TR"
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "REF": "BAT",
+        "model_diagonal": 18.25445507905274
+      },
+      "mesh": 0,
+      "name": "BAT_BAT-HLD-012-SMT-TR"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extras": {
+        "NWLazySource": "Noise Texture",
+        "NWLazyTarget": "ColorRamp",
+        "NWSourceSocket": 0
+      },
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
+        }
+      },
+      "sampler": 0
+    }
+  ]
+}

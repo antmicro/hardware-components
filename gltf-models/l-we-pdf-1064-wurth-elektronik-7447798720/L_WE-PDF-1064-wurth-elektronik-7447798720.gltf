@@ -35,6 +35,14 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 526,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
@@ -101,6 +109,14 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 760,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
@@ -129,6 +145,14 @@
     {
       "bufferView": 3,
       "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 646,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
       "componentType": 5126,
       "normalized": false,
       "count": 646,
@@ -167,52 +191,60 @@
       "normalized": false,
       "count": 24,
       "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 16832,
-      "byteStride": 32,
+      "byteLength": 21040,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 16832,
+      "byteOffset": 21040,
       "byteLength": 10392,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 27224,
-      "byteLength": 24320,
-      "byteStride": 32,
+      "byteOffset": 31432,
+      "byteLength": 30400,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 51544,
-      "byteLength": 20672,
-      "byteStride": 32,
+      "byteOffset": 61832,
+      "byteLength": 25840,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 72216,
-      "byteLength": 768,
-      "byteStride": 32,
+      "byteOffset": 87672,
+      "byteLength": 960,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "L_WE-PDF-1064-wurth-elektronik-7447798720.bin",
-      "byteLength": 72984
+      "byteLength": 88632
     }
   ],
   "extensionsUsed": [
@@ -227,34 +259,34 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/res_ceramic_normal.ktx2",
+      "uri": "../shared_textures/res_ceramic_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "res_ceramic_normal"
+      "name": "res_ceramic_normal512"
     },
     {
-      "uri": "../shared_textures/res_ceramic_color.ktx2",
+      "uri": "../shared_textures/res_ceramic_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "res_ceramic_color"
+      "name": "res_ceramic_color512"
     },
     {
-      "uri": "../shared_textures/metal_goldpins_2_normal.ktx2",
+      "uri": "../shared_textures/metal_goldpins_2_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_goldpins_2_normal"
+      "name": "metal_goldpins_2_normal512"
     },
     {
-      "uri": "../shared_textures/metal_goldpins_2_color.ktx2",
+      "uri": "../shared_textures/metal_goldpins_2_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_goldpins_2_color"
+      "name": "metal_goldpins_2_color512"
     },
     {
       "uri": "wurth-elektronik-7447798720-marking_normal.ktx2",
@@ -306,7 +338,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -351,7 +382,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_res_ceramic"
     },
@@ -400,7 +430,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_goldpins_2"
     },
@@ -416,15 +445,16 @@
         "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 6,
-          "texCoord": 0
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
           "index": 8,
-          "texCoord": 0
+          "texCoord": 1
         }
       },
       "normalTexture": {
         "index": 7,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -433,7 +463,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_wurth-elektronik-7447798720-marking"
     }
@@ -445,39 +474,43 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 7,
-            "NORMAL": 8,
-            "TEXCOORD_0": 9
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 10,
-            "NORMAL": 11,
-            "TEXCOORD_0": 12
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14,
+            "TEXCOORD_1": 15
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         },
         {
           "attributes": {
-            "POSITION": 13,
-            "NORMAL": 14,
-            "TEXCOORD_0": 15
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18,
+            "TEXCOORD_1": 19
           },
-          "indices": 6,
+          "indices": 7,
           "mode": 4,
           "material": 3
         }

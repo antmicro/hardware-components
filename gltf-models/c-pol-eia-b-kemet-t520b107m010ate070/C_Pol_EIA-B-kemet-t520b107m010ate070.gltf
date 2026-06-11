@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 226,
+      "count": 680,
       "type": "VEC3",
       "max": [
         1.849886178970337,
@@ -14,7 +14,7 @@
       ],
       "min": [
         -1.850113868713379,
-        0.003510008566081524,
+        0.003510009031742811,
         -1.0999506711959839
       ]
     },
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 226,
+      "count": 680,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 226,
+      "count": 680,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 680,
       "type": "VEC2"
     },
     {
@@ -39,20 +47,20 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 528,
+      "count": 1212,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 1056,
+      "byteOffset": 2424,
       "componentType": 5123,
       "normalized": false,
-      "count": 186,
+      "count": 438,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 1428,
+      "byteOffset": 3300,
       "componentType": 5123,
       "normalized": false,
       "count": 36,
@@ -63,7 +71,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 90,
+      "count": 222,
       "type": "VEC3",
       "max": [
         1.7198861837387085,
@@ -81,7 +89,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 90,
+      "count": 222,
       "type": "VEC3"
     },
     {
@@ -89,7 +97,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 90,
+      "count": 222,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 222,
       "type": "VEC2"
     },
     {
@@ -125,6 +141,14 @@
       "normalized": false,
       "count": 16,
       "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 16,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -135,35 +159,35 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 7232,
-      "byteStride": 32,
+      "byteLength": 27200,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 7232,
-      "byteLength": 1500,
+      "byteOffset": 27200,
+      "byteLength": 3372,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 8732,
-      "byteLength": 2880,
-      "byteStride": 32,
+      "byteOffset": 30572,
+      "byteLength": 8880,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 11612,
-      "byteLength": 512,
-      "byteStride": 32,
+      "byteOffset": 39452,
+      "byteLength": 640,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "C_Pol_EIA-B-kemet-t520b107m010ate070.bin",
-      "byteLength": 12124
+      "byteLength": 40092
     }
   ],
   "extensionsUsed": [
@@ -179,34 +203,29 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
+      "name": "plastic_chip_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
+      "uri": "../shared_textures/white_markings_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "white_markings_normal512"
     },
     {
-      "uri": "../shared_textures/white_markings_normal.ktx2",
+      "uri": "../shared_textures/white_markings_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "white_markings_normal"
-    },
-    {
-      "uri": "../shared_textures/white_markings_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "white_markings_color"
+      "name": "white_markings_color512"
     }
   ],
   "materials": [
@@ -249,20 +268,16 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 2,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -312,12 +327,12 @@
         "metallicFactor": 0.019999999552965164,
         "roughnessFactor": 0.4636361598968506,
         "baseColorTexture": {
-          "index": 4,
+          "index": 3,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 4,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -337,29 +352,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }
@@ -415,14 +433,6 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 3
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 2
         }
       },
@@ -431,7 +441,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 5
+          "source": 4
         }
       },
       "sampler": 0
@@ -439,7 +449,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 4
+          "source": 3
         }
       },
       "sampler": 0

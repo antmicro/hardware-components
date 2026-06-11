@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 154,
+      "count": 526,
       "type": "VEC3",
       "max": [
         1.499000072479248,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 154,
+      "count": 526,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 154,
+      "count": 526,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 526,
       "type": "VEC2"
     },
     {
@@ -39,23 +47,23 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 438,
+      "count": 1254,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 876,
+      "byteOffset": 2508,
       "componentType": 5123,
       "normalized": false,
-      "count": 1032,
+      "count": 3555,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 2940,
+      "byteOffset": 9620,
       "componentType": 5123,
       "normalized": false,
-      "count": 6,
+      "count": 39,
       "type": "SCALAR"
     },
     {
@@ -63,11 +71,11 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 686,
+      "count": 2117,
       "type": "VEC3",
       "max": [
         1.499000072479248,
-        0.15097053349018097,
+        0.15298347175121307,
         1.499000072479248
       ],
       "min": [
@@ -81,7 +89,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 686,
+      "count": 2117,
       "type": "VEC3"
     },
     {
@@ -89,7 +97,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 686,
+      "count": 2117,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2117,
       "type": "VEC2"
     },
     {
@@ -97,16 +113,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 17,
       "type": "VEC3",
       "max": [
         1.499000072479248,
-        0.9909999966621399,
+        0.9910129904747009,
         1.499000072479248
       ],
       "min": [
         -1.499000072479248,
-        0.9909999966621399,
+        0.9890000224113464,
         -1.499000072479248
       ]
     },
@@ -115,7 +131,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 17,
       "type": "VEC3"
     },
     {
@@ -123,47 +139,55 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 17,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 17,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 4928,
-      "byteStride": 32,
+      "byteLength": 21040,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 4928,
-      "byteLength": 2952,
+      "byteOffset": 21040,
+      "byteLength": 9700,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 7880,
-      "byteLength": 21952,
-      "byteStride": 32,
+      "byteOffset": 30740,
+      "byteLength": 84680,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 29832,
-      "byteLength": 128,
-      "byteStride": 32,
+      "byteOffset": 115420,
+      "byteLength": 680,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm-on-semiconductor-nb3l202kmntxg.bin",
-      "byteLength": 29960
+      "byteLength": 116100
     }
   ],
   "extensionsUsed": [
@@ -176,24 +200,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
+      "name": "plastic_chip_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
       "uri": "on-semiconductor-nb3l202kmntxg-marking_normal.ktx2",
@@ -215,20 +234,16 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -237,7 +252,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -260,12 +274,12 @@
         "metallicFactor": 0.7818182110786438,
         "roughnessFactor": 0.28863638639450073,
         "baseColorTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -274,7 +288,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -289,16 +302,17 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 4,
-          "texCoord": 0
+          "index": 3,
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
-          "index": 6,
-          "texCoord": 0
+          "index": 5,
+          "texCoord": 1
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 4,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -307,7 +321,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_on-semiconductor-nb3l202kmntxg-marking"
     }
@@ -319,29 +332,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }
@@ -357,7 +373,7 @@
         "model_diagonal": 4.354088966905326
       },
       "mesh": 0,
-      "name": "VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm-on-semiconductor-nb3l202"
+      "name": "VQFN-16-1EP_3x3mm_P0.5mm"
     }
   ],
   "samplers": [
@@ -390,23 +406,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 3
         }
       },
       "sampler": 0
@@ -422,7 +422,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 5
+          "source": 1
         }
       },
       "sampler": 0
@@ -438,7 +438,15 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 6
+          "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
         }
       },
       "sampler": 0

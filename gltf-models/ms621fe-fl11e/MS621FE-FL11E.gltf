@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 264,
+      "count": 353,
       "type": "VEC3",
       "max": [
         3.423419237136841,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 264,
+      "count": 353,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 264,
+      "count": 353,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 353,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 1428,
+      "count": 1626,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 2856,
+      "byteOffset": 3252,
       "componentType": 5123,
       "normalized": false,
-      "count": 228,
+      "count": 624,
       "type": "SCALAR"
     },
     {
@@ -55,7 +63,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 108,
+      "count": 324,
       "type": "VEC3",
       "max": [
         1.023545265197754,
@@ -64,7 +72,7 @@
       ],
       "min": [
         -0.976582944393158,
-        0.0,
+        2.5915061763193137e-10,
         -4.6563029289245605
       ]
     },
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 108,
+      "count": 324,
       "type": "VEC3"
     },
     {
@@ -81,40 +89,48 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 108,
+      "count": 324,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 324,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 8448,
-      "byteStride": 32,
+      "byteLength": 14120,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 8448,
-      "byteLength": 3312,
+      "byteOffset": 14120,
+      "byteLength": 4500,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 11760,
-      "byteLength": 3456,
-      "byteStride": 32,
+      "byteOffset": 18620,
+      "byteLength": 12960,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "MS621FE-FL11E.bin",
-      "byteLength": 15216
+      "byteLength": 31580
     }
   ],
   "extensionsUsed": [
@@ -129,24 +145,24 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/aluminum_lathed_normal.ktx2",
+      "uri": "../shared_textures/aluminum_lathed_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_lathed_normal"
+      "name": "aluminum_lathed_normal512"
     },
     {
-      "uri": "../shared_textures/aluminum_lathed_color.ktx2",
+      "uri": "../shared_textures/aluminum_lathed_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_lathed_color"
+      "name": "aluminum_lathed_color512"
     },
     {
-      "uri": "../shared_textures/metal_connector_2_normal.ktx2",
+      "uri": "../shared_textures/metal_connector_2_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_2_normal"
+      "name": "metal_connector_2_normal512"
     },
     {
-      "uri": "../shared_textures/metal_connector_2_roughness.ktx2",
+      "uri": "../shared_textures/metal_connector_2_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_2_roughness"
+      "name": "metal_connector_2_roughness512"
     }
   ],
   "materials": [
@@ -195,7 +211,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_aluminum_lathed"
     },
@@ -216,7 +231,7 @@
       },
       "normalTexture": {
         "index": 2,
-        "scale": 1.0
+        "scale": 0.6000000238418579
       },
       "emissiveFactor": [
         0.0,
@@ -224,7 +239,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_connector_2"
     }
@@ -236,19 +250,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }

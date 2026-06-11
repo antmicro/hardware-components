@@ -5,15 +5,15 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 792,
+      "count": 2092,
       "type": "VEC3",
       "max": [
-        3.5003535747528076,
+        3.5003538131713867,
         10.697405815124512,
         12.800399780273438
       ],
       "min": [
-        -1.02120041847229,
+        -1.0212002992630005,
         -1.6002000570297241,
         -1.1500000953674316
       ]
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 792,
+      "count": 2092,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 792,
+      "count": 2092,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2092,
       "type": "VEC2"
     },
     {
@@ -39,33 +47,33 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 1992,
+      "count": 3984,
       "type": "SCALAR"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 25344,
-      "byteStride": 32,
+      "byteLength": 83680,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 25344,
-      "byteLength": 3984,
+      "byteOffset": 83680,
+      "byteLength": 7968,
       "target": 34963
     }
   ],
   "buffers": [
     {
       "uri": "Mech_Lightpipe_Bivar_SLP3-300-250-F.bin",
-      "byteLength": 29328
+      "byteLength": 91648
     }
   ],
   "extensionsUsed": [
@@ -81,14 +89,14 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/light_guide_normal.ktx2",
+      "uri": "../shared_textures/light_guide_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "light_guide_normal"
+      "name": "light_guide_normal512"
     },
     {
-      "uri": "../shared_textures/light_guide_color.ktx2",
+      "uri": "../shared_textures/light_guide_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "light_guide_color"
+      "name": "light_guide_color512"
     }
   ],
   "materials": [
@@ -144,7 +152,6 @@
         0.0
       ],
       "alphaMode": "BLEND",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_light_guide"
     }
@@ -156,9 +163,10 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         }

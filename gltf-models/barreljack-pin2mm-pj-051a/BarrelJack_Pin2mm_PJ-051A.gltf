@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 1929,
+      "count": 4368,
       "type": "VEC3",
       "max": [
         5.750000476837158,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 1929,
+      "count": 4368,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 1929,
+      "count": 4368,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4368,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 6183,
+      "count": 10182,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 12368,
+      "byteOffset": 20364,
       "componentType": 5123,
       "normalized": false,
-      "count": 1041,
+      "count": 2766,
       "type": "SCALAR"
     },
     {
@@ -55,7 +63,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 465,
+      "count": 1444,
       "type": "VEC3",
       "max": [
         5.75,
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 465,
+      "count": 1444,
       "type": "VEC3"
     },
     {
@@ -81,40 +89,48 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 465,
+      "count": 1444,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1444,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 61728,
-      "byteStride": 32,
+      "byteLength": 174720,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 61728,
-      "byteLength": 14452,
+      "byteOffset": 174720,
+      "byteLength": 25896,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 76180,
-      "byteLength": 14880,
-      "byteStride": 32,
+      "byteOffset": 200616,
+      "byteLength": 57760,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "BarrelJack_Pin2mm_PJ-051A.bin",
-      "byteLength": 91060
+      "byteLength": 258376
     }
   ],
   "extensionsUsed": [
@@ -129,29 +145,24 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_connector_normal.ktx2",
+      "uri": "../shared_textures/metal_connector_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_normal"
+      "name": "metal_connector_normal512"
     },
     {
-      "uri": "../shared_textures/metal_connector_color.ktx2",
+      "uri": "../shared_textures/metal_connector_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_color"
+      "name": "metal_connector_color512"
     },
     {
-      "uri": "../shared_textures/metal_connector_roughness.ktx2",
+      "uri": "../shared_textures/metal_connector_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_roughness"
+      "name": "metal_connector_roughness512"
     },
     {
-      "uri": "../shared_textures/plastic_matte_black_normal.ktx2",
+      "uri": "../shared_textures/plastic_matte_black_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_matte_black_normal"
-    },
-    {
-      "uri": "../shared_textures/plastic_matte_black_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "plastic_matte_black_color"
+      "name": "plastic_matte_black_normal512"
     }
   ],
   "materials": [
@@ -204,27 +215,22 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_connector"
     },
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009721336886286736,
+          0.009721336886286736,
+          0.009721336886286736,
           1.0
         ],
         "metallicFactor": 0.09154544770717621,
-        "roughnessFactor": 0.4615432620048523,
-        "baseColorTexture": {
-          "index": 3,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.4615432620048523
       },
       "normalTexture": {
-        "index": 4,
+        "index": 3,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -233,7 +239,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_matte_black"
     }
@@ -245,19 +250,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -314,14 +321,6 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 2
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 4
         }
       },
       "sampler": 0

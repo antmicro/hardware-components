@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 1984,
+      "count": 7075,
       "type": "VEC3",
       "max": [
         8.149999618530273,
@@ -23,23 +23,39 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 1984,
+      "count": 7075,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 7075,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 7075,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 6264,
+      "count": 14130,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 12528,
+      "byteOffset": 28260,
       "componentType": 5123,
       "normalized": false,
-      "count": 20688,
+      "count": 45606,
       "type": "SCALAR"
     },
     {
@@ -47,16 +63,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 8004,
+      "count": 22586,
       "type": "VEC3",
       "max": [
-        6.099999904632568,
-        1.9175364971160889,
-        2.6498472690582275
+        6.102999687194824,
+        1.9214595556259155,
+        2.6502182483673096
       ],
       "min": [
-        -6.099999904632568,
-        -7.450580596923828e-09,
+        -6.102999687194824,
+        -7.3162782499025525e-09,
         -2.6500003337860107
       ]
     },
@@ -65,8 +81,24 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 8004,
+      "count": 22586,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 22586,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 22586,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -77,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 47616,
-      "byteStride": 24,
+      "byteLength": 283000,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 47616,
-      "byteLength": 53904,
+      "byteOffset": 283000,
+      "byteLength": 119472,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 101520,
-      "byteLength": 192096,
-      "byteStride": 24,
+      "byteOffset": 402472,
+      "byteLength": 903440,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Conn_Plug_Molex_SlimStack_2x25_529910508.bin",
-      "byteLength": 293616
+      "byteLength": 1305912
     }
   ],
   "extensionsUsed": [
@@ -113,44 +145,35 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_matte_black_normal.ktx2",
+      "uri": "../shared_textures/plastic_matte_black_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_matte_black_normal"
+      "name": "plastic_matte_black_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_matte_black_color.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_matte_black_color"
+      "name": "metal_goldpins_1_normal512"
     },
     {
-      "uri": "../shared_textures/metal_goldpins_1_normal.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_goldpins_1_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_color"
+      "name": "metal_goldpins_1_color512"
     }
   ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009721336886286736,
+          0.009721336886286736,
+          0.009721336886286736,
           1.0
         ],
         "metallicFactor": 0.09154544770717621,
-        "roughnessFactor": 0.4615432620048523,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.4615432620048523
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -193,12 +216,12 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 0.2522728145122528,
         "baseColorTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -217,18 +240,22 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 2,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 4,
-            "NORMAL": 5
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 3,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -267,14 +294,6 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
         }
       },
@@ -283,7 +302,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 3
+          "source": 2
         }
       },
       "sampler": 0
@@ -291,7 +310,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 2
+          "source": 1
         }
       },
       "sampler": 0

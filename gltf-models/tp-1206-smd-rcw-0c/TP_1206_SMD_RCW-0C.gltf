@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 500,
+      "count": 1516,
       "type": "VEC3",
       "max": [
         1.6004998683929443,
@@ -14,7 +14,7 @@
       ],
       "min": [
         -1.5994999408721924,
-        9.974333181617112e-08,
+        9.981747695064769e-08,
         -0.8114999532699585
       ]
     },
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 500,
+      "count": 1516,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 500,
+      "count": 1516,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1516,
       "type": "VEC2"
     },
     {
@@ -39,33 +47,33 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 1188,
+      "count": 2760,
       "type": "SCALAR"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 16000,
-      "byteStride": 32,
+      "byteLength": 60640,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 16000,
-      "byteLength": 2376,
+      "byteOffset": 60640,
+      "byteLength": 5520,
       "target": 34963
     }
   ],
   "buffers": [
     {
       "uri": "TP_1206_SMD_RCW-0C.bin",
-      "byteLength": 18376
+      "byteLength": 66160
     }
   ],
   "extensionsUsed": [
@@ -80,14 +88,14 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/aluminum_lathed_normal.ktx2",
+      "uri": "../shared_textures/aluminum_lathed_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_lathed_normal"
+      "name": "aluminum_lathed_normal512"
     },
     {
-      "uri": "../shared_textures/aluminum_lathed_color.ktx2",
+      "uri": "../shared_textures/aluminum_lathed_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_lathed_color"
+      "name": "aluminum_lathed_color512"
     }
   ],
   "materials": [
@@ -136,7 +144,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_aluminum_lathed"
     }
@@ -148,9 +155,10 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         }

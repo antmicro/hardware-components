@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 240,
+      "count": 555,
       "type": "VEC3",
       "max": [
         0.7262402176856995,
@@ -23,8 +23,24 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 240,
+      "count": 555,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 555,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 555,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
@@ -55,7 +71,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 369,
+      "count": 521,
       "type": "VEC3",
       "max": [
         0.8464771509170532,
@@ -73,15 +89,31 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 369,
+      "count": 521,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 521,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 521,
+      "type": "VEC2"
     },
     {
       "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 40,
       "type": "VEC3",
       "max": [
         0.6318817138671875,
@@ -99,8 +131,24 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 40,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 40,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 40,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -111,35 +159,35 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 5760,
-      "byteStride": 24,
+      "byteLength": 22200,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 5760,
+      "byteOffset": 22200,
       "byteLength": 5740,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 11500,
-      "byteLength": 8856,
-      "byteStride": 24,
+      "byteOffset": 27940,
+      "byteLength": 20840,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 20356,
-      "byteLength": 384,
-      "byteStride": 24,
+      "byteOffset": 48780,
+      "byteLength": 1600,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "L_Coilcraft-XFL4020.bin",
-      "byteLength": 20740
+      "byteLength": 50380
     }
   ],
   "extensionsUsed": [
@@ -155,29 +203,29 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/white_markings_normal.ktx2",
+      "uri": "../shared_textures/white_markings_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "white_markings_normal"
+      "name": "white_markings_normal512"
     },
     {
-      "uri": "../shared_textures/white_markings_color.ktx2",
+      "uri": "../shared_textures/white_markings_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "white_markings_color"
+      "name": "white_markings_color512"
     },
     {
-      "uri": "../shared_textures/inductor_ceramic_2_color.ktx2",
+      "uri": "../shared_textures/inductor_ceramic_2_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "inductor_ceramic_2_color"
+      "name": "inductor_ceramic_2_color512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     }
   ],
   "materials": [
@@ -327,27 +375,33 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 2,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 3,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 7,
-            "NORMAL": 8
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 4,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }
@@ -379,7 +433,7 @@
         2.5399999618530273,
         2.5399999618530273
       ],
-      "name": "L_Coilcraft-XFL4020"
+      "name": "SHAPE_9_IndexedFaceSet"
     }
   ],
   "samplers": [

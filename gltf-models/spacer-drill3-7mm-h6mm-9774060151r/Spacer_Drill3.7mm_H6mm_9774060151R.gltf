@@ -5,16 +5,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 52,
+      "count": 94,
       "type": "VEC3",
       "max": [
-        1.0066721439361572,
-        6.0,
-        1.0066721439361572
+        1.0063939094543457,
+        5.997000217437744,
+        1.0063939094543457
       ],
       "min": [
         -1.006500005722046,
-        -1.399999976158142,
+        -1.3969999551773071,
         -1.006500005722046
       ]
     },
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 52,
+      "count": 94,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 52,
+      "count": 94,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 94,
       "type": "VEC2"
     },
     {
@@ -47,7 +55,7 @@
       "byteOffset": 288,
       "componentType": 5123,
       "normalized": false,
-      "count": 720,
+      "count": 1584,
       "type": "SCALAR"
     },
     {
@@ -55,7 +63,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 248,
+      "count": 686,
       "type": "VEC3",
       "max": [
         2.550006151199341,
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 248,
+      "count": 686,
       "type": "VEC3"
     },
     {
@@ -81,40 +89,48 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 248,
+      "count": 686,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 686,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1664,
-      "byteStride": 32,
+      "byteLength": 3760,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1664,
-      "byteLength": 1728,
+      "byteOffset": 3760,
+      "byteLength": 3456,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 3392,
-      "byteLength": 7936,
-      "byteStride": 32,
+      "byteOffset": 7216,
+      "byteLength": 27440,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Spacer_Drill3.7mm_H6mm_9774060151R.bin",
-      "byteLength": 11328
+      "byteLength": 34656
     }
   ],
   "extensionsUsed": [
@@ -129,29 +145,29 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/metal_connector_normal.ktx2",
+      "uri": "../shared_textures/metal_connector_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_normal"
+      "name": "metal_connector_normal512"
     },
     {
-      "uri": "../shared_textures/metal_connector_color.ktx2",
+      "uri": "../shared_textures/metal_connector_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_color"
+      "name": "metal_connector_color512"
     },
     {
-      "uri": "../shared_textures/metal_connector_roughness.ktx2",
+      "uri": "../shared_textures/metal_connector_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_roughness"
+      "name": "metal_connector_roughness512"
     }
   ],
   "materials": [
@@ -188,7 +204,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -241,7 +256,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_connector"
     }
@@ -253,19 +267,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -281,7 +297,7 @@
         "model_diagonal": 10.333440833814379
       },
       "mesh": 0,
-      "name": "Spacer_Drill3.7mm_H6mm_9774060151R"
+      "name": "SHAPE_6_IndexedFaceSet"
     }
   ],
   "samplers": [

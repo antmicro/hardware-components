@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 5285,
+      "count": 20394,
       "type": "VEC3",
       "max": [
         2.550107002258301,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 5285,
+      "count": 20394,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 5285,
+      "count": 20394,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 20394,
       "type": "VEC2"
     },
     {
@@ -39,7 +47,7 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 13608,
+      "count": 29232,
       "type": "SCALAR"
     }
   ],
@@ -51,21 +59,21 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 169120,
-      "byteStride": 32,
+      "byteLength": 815760,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 169120,
-      "byteLength": 27216,
+      "byteOffset": 815760,
+      "byteLength": 58464,
       "target": 34963
     }
   ],
   "buffers": [
     {
       "uri": "Spacer_Drill3.7mm_H7mm_9774070151R.bin",
-      "byteLength": 196336
+      "byteLength": 874224
     }
   ],
   "extensionsUsed": [
@@ -80,19 +88,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_connector_normal.ktx2",
+      "uri": "../shared_textures/metal_connector_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_normal"
+      "name": "metal_connector_normal512"
     },
     {
-      "uri": "../shared_textures/metal_connector_color.ktx2",
+      "uri": "../shared_textures/metal_connector_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_color"
+      "name": "metal_connector_color512"
     },
     {
-      "uri": "../shared_textures/metal_connector_roughness.ktx2",
+      "uri": "../shared_textures/metal_connector_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_roughness"
+      "name": "metal_connector_roughness512"
     }
   ],
   "materials": [
@@ -156,9 +164,10 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         }

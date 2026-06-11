@@ -5,16 +5,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 1200,
+      "count": 3748,
       "type": "VEC3",
       "max": [
-        1.399999976158142,
-        0.875053346157074,
-        1.1250152587890625
+        1.3996511697769165,
+        0.8750132918357849,
+        1.124967336654663
       ],
       "min": [
-        -1.399999976158142,
-        -4.917531271075859e-08,
+        -1.3996511697769165,
+        0.0003487334179226309,
         -1.125
       ]
     },
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 1200,
+      "count": 3748,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 1200,
+      "count": 3748,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3748,
       "type": "VEC2"
     },
     {
@@ -39,23 +47,23 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 2976,
+      "count": 6432,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 5952,
+      "byteOffset": 12864,
       "componentType": 5123,
       "normalized": false,
-      "count": 78,
+      "count": 186,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 6108,
+      "byteOffset": 13236,
       "componentType": 5123,
       "normalized": false,
-      "count": 6,
+      "count": 42,
       "type": "SCALAR"
     },
     {
@@ -63,11 +71,11 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 52,
+      "count": 128,
       "type": "VEC3",
       "max": [
         0.8000182509422302,
-        1.449981689453125,
+        1.4450253248214722,
         1.4500000476837158
       ],
       "min": [
@@ -81,7 +89,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 52,
+      "count": 128,
       "type": "VEC3"
     },
     {
@@ -89,7 +97,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 52,
+      "count": 128,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 128,
       "type": "VEC2"
     },
     {
@@ -97,17 +113,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 32,
       "type": "VEC3",
       "max": [
-        0.7497034668922424,
-        1.4499999284744263,
-        1.3996940851211548
+        0.750076413154602,
+        1.449975848197937,
+        1.4001299142837524
       ],
       "min": [
-        -0.7496940493583679,
-        1.4499999284744263,
-        -1.3996938467025757
+        -0.7501298189163208,
+        1.445019006729126,
+        -1.4001296758651733
       ]
     },
     {
@@ -115,7 +131,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 32,
       "type": "VEC3"
     },
     {
@@ -123,47 +139,55 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 32,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 32,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 38400,
-      "byteStride": 32,
+      "byteLength": 149920,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 38400,
-      "byteLength": 6120,
+      "byteOffset": 149920,
+      "byteLength": 13320,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 44520,
-      "byteLength": 1664,
-      "byteStride": 32,
+      "byteOffset": 163240,
+      "byteLength": 5120,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 46184,
-      "byteLength": 128,
-      "byteStride": 32,
+      "byteOffset": 168360,
+      "byteLength": 1280,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "SOT-23-8-analog-devices-ltc2950cts8-1.bin",
-      "byteLength": 46312
+      "byteLength": 169640
     }
   ],
   "extensionsUsed": [
@@ -176,24 +200,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
-    },
-    {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "plastic_chip_normal512"
     },
     {
       "uri": "analog-devices-ltc2950cts8-1-marking_normal.ktx2",
@@ -245,27 +264,22 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 2,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -274,7 +288,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -289,16 +302,17 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 4,
-          "texCoord": 0
+          "index": 3,
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
-          "index": 6,
-          "texCoord": 0
+          "index": 5,
+          "texCoord": 1
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 4,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -307,7 +321,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_analog-devices-ltc2950cts8-1-marking"
     }
@@ -319,29 +332,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }
@@ -542,23 +558,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 3
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 2
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 5
         }
       },
       "sampler": 0
@@ -574,7 +574,15 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 6
+          "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
         }
       },
       "sampler": 0

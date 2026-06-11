@@ -5,15 +5,15 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 100,
+      "count": 269,
       "type": "VEC3",
       "max": [
-        0.6499999761581421,
-        0.700030505657196,
-        0.44999393820762634
+        0.652999997138977,
+        0.6999930739402771,
+        0.450002521276474
       ],
       "min": [
-        -0.6499999761581421,
+        -0.652999997138977,
         0.0,
         -0.44999995827674866
       ]
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 100,
+      "count": 269,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 100,
+      "count": 269,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 269,
       "type": "VEC2"
     },
     {
@@ -39,20 +47,20 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 186,
+      "count": 435,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 372,
+      "byteOffset": 872,
       "componentType": 5123,
       "normalized": false,
-      "count": 60,
+      "count": 195,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 492,
+      "byteOffset": 1264,
       "componentType": 5123,
       "normalized": false,
       "count": 6,
@@ -63,17 +71,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 40,
+      "count": 113,
       "type": "VEC3",
       "max": [
         0.8499999642372131,
         0.1999572515487671,
-        0.1750030368566513
+        0.17802146077156067
       ],
       "min": [
         -0.8499999642372131,
         0.0,
-        -0.17499999701976776
+        -0.17800000309944153
       ]
     },
     {
@@ -81,7 +89,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 40,
+      "count": 113,
       "type": "VEC3"
     },
     {
@@ -89,7 +97,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 40,
+      "count": 113,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 113,
       "type": "VEC2"
     },
     {
@@ -125,45 +141,53 @@
       "normalized": false,
       "count": 4,
       "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 3200,
-      "byteStride": 32,
+      "byteLength": 10760,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 3200,
-      "byteLength": 504,
+      "byteOffset": 10760,
+      "byteLength": 1276,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 3704,
-      "byteLength": 1280,
-      "byteStride": 32,
+      "byteOffset": 12036,
+      "byteLength": 4520,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 4984,
-      "byteLength": 128,
-      "byteStride": 32,
+      "byteOffset": 16556,
+      "byteLength": 160,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "SOD-523-nexperia-pesd5z5-0f.bin",
-      "byteLength": 5112
+      "byteLength": 16716
     }
   ],
   "extensionsUsed": [
@@ -176,24 +200,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
+      "name": "plastic_chip_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
       "uri": "nexperia-pesd5z5-0f-marking_normal.ktx2",
@@ -215,20 +234,16 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -237,7 +252,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -260,12 +274,12 @@
         "metallicFactor": 0.7818182110786438,
         "roughnessFactor": 0.28863638639450073,
         "baseColorTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -274,7 +288,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -289,16 +302,17 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 4,
-          "texCoord": 0
+          "index": 3,
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
-          "index": 6,
-          "texCoord": 0
+          "index": 5,
+          "texCoord": 1
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 4,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -307,7 +321,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_nexperia-pesd5z5-0f-marking"
     }
@@ -319,29 +332,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }
@@ -390,23 +406,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 3
         }
       },
       "sampler": 0
@@ -422,7 +422,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 5
+          "source": 1
         }
       },
       "sampler": 0
@@ -438,7 +438,15 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 6
+          "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
         }
       },
       "sampler": 0

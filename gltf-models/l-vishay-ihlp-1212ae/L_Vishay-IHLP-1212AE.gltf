@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 96,
+      "count": 296,
       "type": "VEC3",
       "max": [
         1.5060316324234009,
@@ -23,23 +23,39 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 96,
+      "count": 296,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 296,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 296,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 276,
+      "count": 564,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 552,
+      "byteOffset": 1128,
       "componentType": 5123,
       "normalized": false,
-      "count": 168,
+      "count": 552,
       "type": "SCALAR"
     },
     {
@@ -47,7 +63,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 96,
+      "count": 296,
       "type": "VEC3",
       "max": [
         1.6651712656021118,
@@ -65,8 +81,24 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 96,
+      "count": 296,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 296,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 296,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -77,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 2304,
-      "byteStride": 24,
+      "byteLength": 11840,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 2304,
-      "byteLength": 888,
+      "byteOffset": 11840,
+      "byteLength": 2232,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 3192,
-      "byteLength": 2304,
-      "byteStride": 24,
+      "byteOffset": 14072,
+      "byteLength": 11840,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "L_Vishay-IHLP-1212AE.bin",
-      "byteLength": 5496
+      "byteLength": 25912
     }
   ],
   "extensionsUsed": [
@@ -113,19 +145,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/inductor_ceramic_2_color.ktx2",
+      "uri": "../shared_textures/inductor_ceramic_2_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "inductor_ceramic_2_color"
+      "name": "inductor_ceramic_2_color512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     }
   ],
   "materials": [
@@ -220,18 +252,22 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 2,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 4,
-            "NORMAL": 5
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 3,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }

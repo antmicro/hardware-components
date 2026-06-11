@@ -5,16 +5,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 3904,
+      "count": 17296,
       "type": "VEC3",
       "max": [
-        2.1000001430511475,
-        1.8999093770980835,
-        2.082090377807617
+        2.102999687194824,
+        1.9000558853149414,
+        2.0821847915649414
       ],
       "min": [
-        -2.1000006198883057,
-        4.827920747629832e-07,
+        -2.1030006408691406,
+        4.83054350297607e-07,
         -2.117910385131836
       ]
     },
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 3904,
+      "count": 17296,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 3904,
+      "count": 17296,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 17296,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 12024,
+      "count": 29439,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 24048,
+      "byteOffset": 58880,
       "componentType": 5123,
       "normalized": false,
-      "count": 636,
+      "count": 1413,
       "type": "SCALAR"
     },
     {
@@ -55,7 +63,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 687,
       "type": "VEC3",
       "max": [
         2.1999995708465576,
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 687,
       "type": "VEC3"
     },
     {
@@ -81,7 +89,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 687,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 687,
       "type": "VEC2"
     }
   ],
@@ -93,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 124928,
-      "byteStride": 32,
+      "byteLength": 691840,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 124928,
-      "byteLength": 25320,
+      "byteOffset": 691840,
+      "byteLength": 61708,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 150248,
-      "byteLength": 8192,
-      "byteStride": 32,
+      "byteOffset": 753548,
+      "byteLength": 27480,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "L_1716_4441Metric.bin",
-      "byteLength": 158440
+      "byteLength": 781028
     }
   ],
   "extensionsUsed": [
@@ -129,19 +145,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/inductor_ceramic_1_color.ktx2",
+      "uri": "../shared_textures/inductor_ceramic_1_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "inductor_ceramic_1_color"
+      "name": "inductor_ceramic_1_color512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     }
   ],
   "materials": [
@@ -237,19 +253,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -264,7 +282,7 @@
         "model_diagonal": 6.372597661742262
       },
       "mesh": 0,
-      "name": "L_1716_4441Metric"
+      "name": "L_Bourns_SRP4020"
     }
   ],
   "samplers": [

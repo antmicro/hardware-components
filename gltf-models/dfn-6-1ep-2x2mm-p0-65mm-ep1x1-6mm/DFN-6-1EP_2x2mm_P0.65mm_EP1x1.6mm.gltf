@@ -5,17 +5,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 389,
+      "count": 1049,
       "type": "VEC3",
       "max": [
         1.0007599592208862,
-        0.20060400664806366,
-        0.8204523324966431
+        0.20219223201274872,
+        0.8218845129013062
       ],
       "min": [
         -1.0007599592208862,
         0.0,
-        -0.8204200267791748
+        -0.8219200372695923
       ]
     },
     {
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 389,
+      "count": 1049,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 389,
+      "count": 1049,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1049,
       "type": "VEC2"
     },
     {
@@ -39,23 +47,23 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 921,
+      "count": 2223,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 1844,
+      "byteOffset": 4448,
       "componentType": 5123,
       "normalized": false,
-      "count": 399,
+      "count": 825,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 2644,
+      "byteOffset": 6100,
       "componentType": 5123,
       "normalized": false,
-      "count": 372,
+      "count": 756,
       "type": "SCALAR"
     },
     {
@@ -63,16 +71,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 143,
+      "count": 347,
       "type": "VEC3",
       "max": [
-        0.9905999302864075,
-        0.640087366104126,
-        0.9905999302864075
+        0.992099940776825,
+        0.640131413936615,
+        0.9905721545219421
       ],
       "min": [
-        -0.9905999302864075,
-        0.020320000126957893,
+        -0.992099940776825,
+        0.018819989636540413,
         -0.9905999302864075
       ]
     },
@@ -81,7 +89,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 143,
+      "count": 347,
       "type": "VEC3"
     },
     {
@@ -89,7 +97,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 143,
+      "count": 347,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 347,
       "type": "VEC2"
     },
     {
@@ -97,7 +113,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 136,
+      "count": 328,
       "type": "VEC3",
       "max": [
         -0.44999992847442627,
@@ -115,7 +131,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 136,
+      "count": 328,
       "type": "VEC3"
     },
     {
@@ -123,47 +139,55 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 136,
+      "count": 328,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 328,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 12448,
-      "byteStride": 32,
+      "byteLength": 41960,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 12448,
-      "byteLength": 3388,
+      "byteOffset": 41960,
+      "byteLength": 7612,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 15836,
-      "byteLength": 4576,
-      "byteStride": 32,
+      "byteOffset": 49572,
+      "byteLength": 13880,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 20412,
-      "byteLength": 4352,
-      "byteStride": 32,
+      "byteOffset": 63452,
+      "byteLength": 13120,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.bin",
-      "byteLength": 24764
+      "byteLength": 76572
     }
   ],
   "extensionsUsed": [
@@ -179,34 +203,29 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
+      "name": "plastic_chip_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
+      "uri": "../shared_textures/white_markings_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "white_markings_normal512"
     },
     {
-      "uri": "../shared_textures/white_markings_normal.ktx2",
+      "uri": "../shared_textures/white_markings_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "white_markings_normal"
-    },
-    {
-      "uri": "../shared_textures/white_markings_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "white_markings_color"
+      "name": "white_markings_color512"
     }
   ],
   "materials": [
@@ -243,27 +262,22 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 2,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -272,7 +286,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -314,12 +327,12 @@
         "metallicFactor": 0.019999999552965164,
         "roughnessFactor": 0.4636361598968506,
         "baseColorTexture": {
-          "index": 4,
+          "index": 3,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 4,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -328,7 +341,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_white_markings"
     }
@@ -340,29 +352,32 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 6,
-            "NORMAL": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         },
         {
           "attributes": {
-            "POSITION": 9,
-            "NORMAL": 10,
-            "TEXCOORD_0": 11
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13,
+            "TEXCOORD_1": 14
           },
-          "indices": 5,
+          "indices": 6,
           "mode": 4,
           "material": 2
         }
@@ -377,7 +392,7 @@
         "model_diagonal": 2.8887344154257533
       },
       "mesh": 0,
-      "name": "DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+      "name": "Shape_IndexedFaceSet.049"
     }
   ],
   "samplers": [
@@ -426,14 +441,6 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 3
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 2
         }
       },
@@ -442,7 +449,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 5
+          "source": 4
         }
       },
       "sampler": 0
@@ -450,7 +457,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 4
+          "source": 3
         }
       },
       "sampler": 0

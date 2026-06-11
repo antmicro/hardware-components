@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 160,
       "type": "VEC3",
       "max": [
         1.5999997854232788,
@@ -14,7 +14,7 @@
       ],
       "min": [
         -1.600000023841858,
-        0.0013397783041000366,
+        0.0013397784205153584,
         -1.2000000476837158
       ]
     },
@@ -23,23 +23,39 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 160,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 160,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 160,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 108,
+      "count": 318,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 216,
+      "byteOffset": 636,
       "componentType": 5123,
       "normalized": false,
-      "count": 30,
+      "count": 114,
       "type": "SCALAR"
     },
     {
@@ -47,17 +63,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 20,
+      "count": 60,
       "type": "VEC3",
       "max": [
-        0.8500657081604004,
-        0.9266506433486938,
-        1.2626513242721558
+        0.8499565124511719,
+        0.9289378523826599,
+        1.2661572694778442
       ],
       "min": [
         -0.8500000238418579,
-        0.023324191570281982,
-        -1.1626514196395874
+        0.021205609664320946,
+        -1.1661909818649292
       ]
     },
     {
@@ -65,8 +81,24 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 20,
+      "count": 60,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 60,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 60,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -77,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1344,
-      "byteStride": 24,
+      "byteLength": 6400,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1344,
-      "byteLength": 276,
+      "byteOffset": 6400,
+      "byteLength": 864,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 1620,
-      "byteLength": 480,
-      "byteStride": 24,
+      "byteOffset": 7264,
+      "byteLength": 2400,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "C_1210_3225Metric.bin",
-      "byteLength": 2100
+      "byteLength": 9664
     }
   ],
   "extensionsUsed": [
@@ -112,24 +144,24 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/cap_ceramic_1_normal.ktx2",
+      "uri": "../shared_textures/cap_ceramic_1_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "cap_ceramic_1_normal"
+      "name": "cap_ceramic_1_normal512"
     },
     {
-      "uri": "../shared_textures/cap_ceramic_1_color.ktx2",
+      "uri": "../shared_textures/cap_ceramic_1_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "cap_ceramic_1_color"
+      "name": "cap_ceramic_1_color512"
     }
   ],
   "materials": [
@@ -220,18 +252,22 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 2,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 4,
-            "NORMAL": 5
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 3,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }

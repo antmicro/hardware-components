@@ -5,16 +5,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 28,
+      "count": 78,
       "type": "VEC3",
       "max": [
         1.75,
-        1.9974154233932495,
+        1.9974063634872437,
         1.6000548601150513
       ],
       "min": [
         -1.75,
-        0.01999983936548233,
+        0.01699983887374401,
         -1.600000023841858
       ]
     },
@@ -23,23 +23,39 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 28,
+      "count": 78,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 78,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 78,
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 48,
+      "count": 138,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 96,
+      "byteOffset": 276,
       "componentType": 5123,
       "normalized": false,
-      "count": 156,
+      "count": 330,
       "type": "SCALAR"
     },
     {
@@ -47,7 +63,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 64,
+      "count": 176,
       "type": "VEC3",
       "max": [
         1.75,
@@ -65,8 +81,24 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 64,
+      "count": 176,
       "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 176,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 176,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -77,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 672,
-      "byteStride": 24,
+      "byteLength": 3120,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 672,
-      "byteLength": 408,
+      "byteOffset": 3120,
+      "byteLength": 936,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 1080,
-      "byteLength": 1536,
-      "byteStride": 24,
+      "byteOffset": 4056,
+      "byteLength": 7040,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "L_WE-PMFI-353220.bin",
-      "byteLength": 2616
+      "byteLength": 11096
     }
   ],
   "extensionsUsed": [
@@ -113,19 +145,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/inductor_ceramic_2_color.ktx2",
+      "uri": "../shared_textures/inductor_ceramic_2_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "inductor_ceramic_2_color"
+      "name": "inductor_ceramic_2_color512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     }
   ],
   "materials": [
@@ -220,18 +252,22 @@
         {
           "attributes": {
             "POSITION": 0,
-            "NORMAL": 1
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 2,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 4,
-            "NORMAL": 5
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 3,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }

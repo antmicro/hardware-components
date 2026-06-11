@@ -5,16 +5,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 96,
       "type": "VEC3",
       "max": [
-        1.0064647197723389,
-        6.999999523162842,
-        1.0064647197723389
+        1.0065639019012451,
+        6.997000217437744,
+        1.0065639019012451
       ],
       "min": [
         -1.006500005722046,
-        -1.399999976158142,
+        -1.3969999551773071,
         -1.006500005722046
       ]
     },
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 96,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 96,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 96,
       "type": "VEC2"
     },
     {
@@ -47,7 +55,7 @@
       "byteOffset": 288,
       "componentType": 5123,
       "normalized": false,
-      "count": 720,
+      "count": 1584,
       "type": "SCALAR"
     },
     {
@@ -55,7 +63,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 658,
       "type": "VEC3",
       "max": [
         2.550091505050659,
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 658,
       "type": "VEC3"
     },
     {
@@ -81,7 +89,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 256,
+      "count": 658,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 658,
       "type": "VEC2"
     }
   ],
@@ -93,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1792,
-      "byteStride": 32,
+      "byteLength": 3840,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1792,
-      "byteLength": 1728,
+      "byteOffset": 3840,
+      "byteLength": 3456,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 3520,
-      "byteLength": 8192,
-      "byteStride": 32,
+      "byteOffset": 7296,
+      "byteLength": 26320,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Spacer_Drill3.7mm_H7mm_9774070151.bin",
-      "byteLength": 11712
+      "byteLength": 33616
     }
   ],
   "extensionsUsed": [
@@ -128,19 +144,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/aluminum_rough_normal.ktx2",
+      "uri": "../shared_textures/aluminum_rough_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_rough_normal"
+      "name": "aluminum_rough_normal512"
     },
     {
-      "uri": "../shared_textures/aluminum_rough_color.ktx2",
+      "uri": "../shared_textures/aluminum_rough_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_rough_color"
+      "name": "aluminum_rough_color512"
     },
     {
-      "uri": "../shared_textures/aluminum_rough_metallic_roughness.ktx2",
+      "uri": "../shared_textures/aluminum_rough_metallic_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_rough_metallic_roughness"
+      "name": "aluminum_rough_metallic_roughness512"
     }
   ],
   "materials": [
@@ -196,19 +212,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 0
         }

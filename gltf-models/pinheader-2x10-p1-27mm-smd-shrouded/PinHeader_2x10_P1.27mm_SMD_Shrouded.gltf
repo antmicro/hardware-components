@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 1372,
+      "count": 4538,
       "type": "VEC3",
       "max": [
         9.524999618530273,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 1372,
+      "count": 4538,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 1372,
+      "count": 4538,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4538,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 2904,
+      "count": 8664,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 5808,
+      "byteOffset": 17328,
       "componentType": 5123,
       "normalized": false,
-      "count": 5220,
+      "count": 11778,
       "type": "SCALAR"
     },
     {
@@ -55,15 +63,15 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 2428,
+      "count": 6170,
       "type": "VEC3",
       "max": [
-        6.015000343322754,
-        4.800253868103027,
-        2.8050057888031006
+        6.01200008392334,
+        4.799917221069336,
+        2.805340528488159
       ],
       "min": [
-        -5.914999961853027,
+        -5.917163848876953,
         -3.595650071019918e-07,
         -2.805000066757202
       ]
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 2428,
+      "count": 6170,
       "type": "VEC3"
     },
     {
@@ -81,7 +89,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 2428,
+      "count": 6170,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6170,
       "type": "VEC2"
     }
   ],
@@ -93,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 43904,
-      "byteStride": 32,
+      "byteLength": 181520,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 43904,
-      "byteLength": 16248,
+      "byteOffset": 181520,
+      "byteLength": 40884,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 60152,
-      "byteLength": 77696,
-      "byteStride": 32,
+      "byteOffset": 222404,
+      "byteLength": 246800,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "PinHeader_2x10_P1.27mm_SMD_Shrouded.bin",
-      "byteLength": 137848
+      "byteLength": 469204
     }
   ],
   "extensionsUsed": [
@@ -129,53 +145,44 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_glossy_black_normal.ktx2",
+      "uri": "../shared_textures/plastic_glossy_black_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_glossy_black_normal"
+      "name": "plastic_glossy_black_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_glossy_black_color.ktx2",
+      "uri": "../shared_textures/plastic_glossy_black_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_glossy_black_color"
+      "name": "plastic_glossy_black_roughness512"
     },
     {
-      "uri": "../shared_textures/plastic_glossy_black_roughness.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_glossy_black_roughness"
+      "name": "metal_goldpins_1_normal512"
     },
     {
-      "uri": "../shared_textures/metal_goldpins_1_normal.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_goldpins_1_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_color"
+      "name": "metal_goldpins_1_color512"
     }
   ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009134065359830856,
+          0.009134065359830856,
+          0.009134065359830856,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
         "roughnessFactor": 1.0,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        },
         "metallicRoughnessTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -218,12 +225,12 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 0.2522728145122528,
         "baseColorTexture": {
-          "index": 3,
+          "index": 2,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 4,
+        "index": 3,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -243,19 +250,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -302,14 +311,6 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
         }
       },
@@ -318,15 +319,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 2
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 4
+          "source": 1
         }
       },
       "sampler": 0
@@ -335,6 +328,14 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
         }
       },
       "sampler": 0

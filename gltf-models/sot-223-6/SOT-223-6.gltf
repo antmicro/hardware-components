@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 136,
       "type": "VEC3",
       "max": [
         3.250000238418579,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 136,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 136,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 136,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 84,
+      "count": 228,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 168,
+      "byteOffset": 456,
       "componentType": 5123,
       "normalized": false,
-      "count": 1656,
+      "count": 3672,
       "type": "SCALAR"
     },
     {
@@ -55,17 +63,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 672,
+      "count": 1746,
       "type": "VEC3",
       "max": [
-        2.7702114582061768,
-        0.7701969742774963,
-        3.5544040203094482
+        2.769803762435913,
+        0.7699678540229797,
+        3.554142475128174
       ],
       "min": [
         -2.7699992656707764,
-        4.470348358154297e-08,
-        -3.5544049739837646
+        0.0002615117118693888,
+        -3.5541434288024902
       ]
     },
     {
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 672,
+      "count": 1746,
       "type": "VEC3"
     },
     {
@@ -81,7 +89,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 672,
+      "count": 1746,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1746,
       "type": "VEC2"
     }
   ],
@@ -93,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1792,
-      "byteStride": 32,
+      "byteLength": 5440,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1792,
-      "byteLength": 3480,
+      "byteOffset": 5440,
+      "byteLength": 7800,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 5272,
-      "byteLength": 21504,
-      "byteStride": 32,
+      "byteOffset": 13240,
+      "byteLength": 69840,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "SOT-223-6.bin",
-      "byteLength": 26776
+      "byteLength": 83080
     }
   ],
   "extensionsUsed": [
@@ -127,44 +143,35 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
+      "name": "plastic_chip_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     }
   ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -195,12 +202,12 @@
         "metallicFactor": 0.7818182110786438,
         "roughnessFactor": 0.28863638639450073,
         "baseColorTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -220,19 +227,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -271,14 +280,6 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
         }
       },
@@ -287,7 +288,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 3
+          "source": 2
         }
       },
       "sampler": 0
@@ -295,7 +296,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 2
+          "source": 1
         }
       },
       "sampler": 0

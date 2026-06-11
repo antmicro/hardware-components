@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 205,
       "type": "VEC3",
       "max": [
         0.30000001192092896,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 205,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 56,
+      "count": 205,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 205,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 108,
+      "count": 363,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 216,
+      "byteOffset": 728,
       "componentType": 5123,
       "normalized": false,
-      "count": 24,
+      "count": 57,
       "type": "SCALAR"
     },
     {
@@ -55,17 +63,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 39,
       "type": "VEC3",
       "max": [
         0.18069671094417572,
-        0.29406455159187317,
-        0.14406438171863556
+        0.29618149995803833,
+        0.14618436992168427
       ],
       "min": [
-        -0.18005718290805817,
-        0.005932653322815895,
-        -0.14406751096248627
+        -0.17933602631092072,
+        0.003812851384282112,
+        -0.1461842805147171
       ]
     },
     {
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 39,
       "type": "VEC3"
     },
     {
@@ -81,40 +89,48 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 39,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 39,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1792,
-      "byteStride": 32,
+      "byteLength": 8200,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1792,
-      "byteLength": 264,
+      "byteOffset": 8200,
+      "byteLength": 844,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 2056,
-      "byteLength": 512,
-      "byteStride": 32,
+      "byteOffset": 9044,
+      "byteLength": 1560,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "C_0201.bin",
-      "byteLength": 2568
+      "byteLength": 10604
     }
   ],
   "extensionsUsed": [
@@ -128,24 +144,24 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/cap_ceramic_1_normal.ktx2",
+      "uri": "../shared_textures/cap_ceramic_1_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "cap_ceramic_1_normal"
+      "name": "cap_ceramic_1_normal512"
     },
     {
-      "uri": "../shared_textures/cap_ceramic_1_color.ktx2",
+      "uri": "../shared_textures/cap_ceramic_1_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "cap_ceramic_1_color"
+      "name": "cap_ceramic_1_color512"
     }
   ],
   "materials": [
@@ -182,7 +198,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -227,7 +242,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_cap_ceramic_1"
     }
@@ -239,19 +253,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }

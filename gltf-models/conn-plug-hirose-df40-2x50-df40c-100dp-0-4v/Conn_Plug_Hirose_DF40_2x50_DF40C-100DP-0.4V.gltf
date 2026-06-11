@@ -5,17 +5,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 1008,
+      "count": 3113,
       "type": "VEC3",
       "max": [
         10.76099967956543,
         1.1402519941329956,
-        0.9194869995117188
+        0.9221968054771423
       ],
       "min": [
         -10.75899887084961,
         0.049999989569187164,
-        -0.9300007820129395
+        -0.9325452446937561
       ]
     },
     {
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 1008,
+      "count": 3113,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 1008,
+      "count": 3113,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3113,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 2640,
+      "count": 6207,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 5280,
-      "componentType": 5123,
+      "byteOffset": 12416,
+      "componentType": 5125,
       "normalized": false,
-      "count": 73752,
+      "count": 158013,
       "type": "SCALAR"
     },
     {
@@ -55,16 +63,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 27852,
+      "count": 75815,
       "type": "VEC3",
       "max": [
-        10.740999221801758,
-        1.1472257375717163,
-        1.4796751737594604
+        10.74280071258545,
+        1.1474181413650513,
+        1.4801732301712036
       ],
       "min": [
-        -10.73900032043457,
-        0.0,
+        -10.740799903869629,
+        1.1058370885663749e-10,
         -1.490000605583191
       ]
     },
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 27852,
+      "count": 75815,
       "type": "VEC3"
     },
     {
@@ -81,40 +89,48 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 27852,
+      "count": 75815,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 75815,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 32256,
-      "byteStride": 32,
+      "byteLength": 124520,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 32256,
-      "byteLength": 152784,
+      "byteOffset": 124520,
+      "byteLength": 644468,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 185040,
-      "byteLength": 891264,
-      "byteStride": 32,
+      "byteOffset": 768988,
+      "byteLength": 3032600,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "Conn_Plug_Hirose_DF40_2x50_DF40C-100DP-0.4V.bin",
-      "byteLength": 1076304
+      "byteLength": 3801588
     }
   ],
   "extensionsUsed": [
@@ -129,53 +145,44 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_glossy_black_normal.ktx2",
+      "uri": "../shared_textures/plastic_glossy_black_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_glossy_black_normal"
+      "name": "plastic_glossy_black_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_glossy_black_color.ktx2",
+      "uri": "../shared_textures/plastic_glossy_black_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_glossy_black_color"
+      "name": "plastic_glossy_black_roughness512"
     },
     {
-      "uri": "../shared_textures/plastic_glossy_black_roughness.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_glossy_black_roughness"
+      "name": "metal_goldpins_1_normal512"
     },
     {
-      "uri": "../shared_textures/metal_goldpins_1_normal.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_goldpins_1_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_color"
+      "name": "metal_goldpins_1_color512"
     }
   ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009134065359830856,
+          0.009134065359830856,
+          0.009134065359830856,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
         "roughnessFactor": 1.0,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        },
         "metallicRoughnessTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -184,7 +191,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_glossy_black"
     },
@@ -219,12 +225,12 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 0.2522728145122528,
         "baseColorTexture": {
-          "index": 3,
+          "index": 2,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 4,
+        "index": 3,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -233,7 +239,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_goldpins_1"
     }
@@ -245,19 +250,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -273,7 +280,7 @@
         "model_diagonal": 21.754271068562257
       },
       "mesh": 0,
-      "name": "Conn_Plug_Hirose_DF40_2x50_DF40C-100DP-0.4V"
+      "name": "SHAPE_9_IndexedFaceSet"
     }
   ],
   "samplers": [
@@ -297,14 +304,6 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
         }
       },
@@ -313,15 +312,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 2
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 4
+          "source": 1
         }
       },
       "sampler": 0
@@ -330,6 +321,14 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
         }
       },
       "sampler": 0

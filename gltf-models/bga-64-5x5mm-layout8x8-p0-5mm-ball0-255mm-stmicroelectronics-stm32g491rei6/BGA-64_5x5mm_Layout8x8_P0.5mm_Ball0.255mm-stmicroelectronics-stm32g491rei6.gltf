@@ -55,15 +55,15 @@
       "byteOffset": 86016,
       "componentType": 5123,
       "normalized": false,
-      "count": 30,
+      "count": 93,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 86076,
+      "byteOffset": 86204,
       "componentType": 5123,
       "normalized": false,
-      "count": 6,
+      "count": 39,
       "type": "SCALAR"
     },
     {
@@ -71,7 +71,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 20,
+      "count": 55,
       "type": "VEC3",
       "max": [
         2.578000068664551,
@@ -89,7 +89,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 20,
+      "count": 55,
       "type": "VEC3"
     },
     {
@@ -97,7 +97,7 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 20,
+      "count": 55,
       "type": "VEC2"
     },
     {
@@ -105,7 +105,7 @@
       "byteOffset": 32,
       "componentType": 5126,
       "normalized": false,
-      "count": 20,
+      "count": 55,
       "type": "VEC2"
     },
     {
@@ -113,16 +113,16 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 19,
       "type": "VEC3",
       "max": [
         2.578000068664551,
-        0.5339999794960022,
+        0.5341471433639526,
         2.578000068664551
       ],
       "min": [
         -2.578000068664551,
-        0.5339999794960022,
+        0.5309999585151672,
         -2.578000068664551
       ]
     },
@@ -131,7 +131,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 19,
       "type": "VEC3"
     },
     {
@@ -139,7 +139,7 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 19,
       "type": "VEC2"
     },
     {
@@ -147,12 +147,12 @@
       "byteOffset": 32,
       "componentType": 5126,
       "normalized": false,
-      "count": 4,
+      "count": 19,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
@@ -166,20 +166,20 @@
     {
       "buffer": 0,
       "byteOffset": 423080,
-      "byteLength": 86088,
+      "byteLength": 86284,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 509168,
-      "byteLength": 800,
+      "byteOffset": 509364,
+      "byteLength": 2200,
       "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 509968,
-      "byteLength": 160,
+      "byteOffset": 511564,
+      "byteLength": 760,
       "byteStride": 40,
       "target": 34962
     }
@@ -187,7 +187,7 @@
   "buffers": [
     {
       "uri": "BGA-64_5x5mm_Layout8x8_P0.5mm_Ball0.255mm-stmicroelectronics-stm32g491rei6.bin",
-      "byteLength": 510128
+      "byteLength": 512324
     }
   ],
   "extensionsUsed": [
@@ -200,24 +200,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
-    },
-    {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "plastic_chip_normal512"
     },
     {
       "uri": "stmicroelectronics-stm32g491rei6-marking_normal.ktx2",
@@ -269,27 +264,22 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 2,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -298,7 +288,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -313,16 +302,16 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 4,
+          "index": 3,
           "texCoord": 1
         },
         "metallicRoughnessTexture": {
-          "index": 6,
+          "index": 5,
           "texCoord": 1
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 4,
         "texCoord": 1,
         "scale": 1.0
       },
@@ -332,7 +321,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_stmicroelectronics-stm32g491rei6-marking"
     }
@@ -425,23 +413,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 3
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 2
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 5
         }
       },
       "sampler": 0
@@ -457,7 +429,15 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 6
+          "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
         }
       },
       "sampler": 0

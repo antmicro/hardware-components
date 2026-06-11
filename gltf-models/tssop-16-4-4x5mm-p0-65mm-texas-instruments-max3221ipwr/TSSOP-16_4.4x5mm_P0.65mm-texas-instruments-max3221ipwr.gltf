@@ -202,7 +202,7 @@
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
@@ -257,24 +257,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/plastic_chip_normal.ktx2",
+      "uri": "../shared_textures/plastic_chip_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_normal"
+      "name": "plastic_chip_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_chip_color.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_chip_color"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
-    },
-    {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
       "uri": "texas-instruments-max3221ipwr-marking_normal.ktx2",
@@ -292,39 +287,35 @@
       "name": "texas-instruments-max3221ipwr-marking_metallic_roughness"
     },
     {
-      "uri": "../shared_textures/plastic_cast_black_normal.ktx2",
+      "uri": "../shared_textures/plastic_cast_black_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_cast_black_normal"
+      "name": "plastic_cast_black_normal512"
     },
     {
-      "uri": "../shared_textures/plastic_cast_black_color.ktx2",
+      "uri": "../shared_textures/plastic_cast_black_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_cast_black_color"
+      "name": "plastic_cast_black_color512"
     },
     {
-      "uri": "../shared_textures/plastic_cast_black_roughness.ktx2",
+      "uri": "../shared_textures/plastic_cast_black_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "plastic_cast_black_roughness"
+      "name": "plastic_cast_black_roughness512"
     }
   ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1.0,
-          1.0,
-          1.0,
+          0.009133999235928059,
+          0.009134066291153431,
+          0.009134061634540558,
           1.0
         ],
         "metallicFactor": 0.13699999451637268,
-        "roughnessFactor": 0.37063413858413696,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        }
+        "roughnessFactor": 0.37063413858413696
       },
       "normalTexture": {
-        "index": 1,
+        "index": 0,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -333,7 +324,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_chip"
     },
@@ -356,12 +346,12 @@
         "metallicFactor": 0.7818182110786438,
         "roughnessFactor": 0.28863638639450073,
         "baseColorTexture": {
-          "index": 2,
+          "index": 1,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 3,
+        "index": 2,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -370,7 +360,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -385,16 +374,16 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 4,
+          "index": 3,
           "texCoord": 1
         },
         "metallicRoughnessTexture": {
-          "index": 6,
+          "index": 5,
           "texCoord": 1
         }
       },
       "normalTexture": {
-        "index": 5,
+        "index": 4,
         "texCoord": 1,
         "scale": 1.0
       },
@@ -404,7 +393,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_texas-instruments-max3221ipwr-marking"
     },
@@ -419,16 +407,16 @@
         "metallicFactor": 0.13699999451637268,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 7,
+          "index": 6,
           "texCoord": 0
         },
         "metallicRoughnessTexture": {
-          "index": 9,
+          "index": 8,
           "texCoord": 0
         }
       },
       "normalTexture": {
-        "index": 8,
+        "index": 7,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -437,7 +425,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_plastic_cast_black"
     }
@@ -534,23 +521,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 1
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
           "source": 0
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 3
         }
       },
       "sampler": 0
@@ -566,7 +537,7 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
-          "source": 5
+          "source": 1
         }
       },
       "sampler": 0
@@ -575,6 +546,30 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 4
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 7
         }
       },
       "sampler": 0
@@ -591,22 +586,6 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 8
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 7
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 9
         }
       },
       "sampler": 0

@@ -7,6 +7,7 @@ from typing import Dict
 from rich.console import Console
 
 import typer
+from askiff.const import Version
 from askiff.symbol import SymbolFile
 from unidecode import unidecode
 
@@ -24,8 +25,6 @@ footprit_extenstion = ".kicad_mod"
 symbol_lib_extension = ".kicad_sym"
 sexp_symbol_start_index = 3
 def_kicad_lib = "Hardware Components"
-
-symbol_lib_header = "(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor))"
 
 err_console = Console(stderr=True)
 
@@ -102,7 +101,7 @@ class KiCadLibManager:
 
         # Create symbol library if not exists
         if symbol_lib not in self.symbols_libs:
-            dest_lib = SymbolFile()
+            dest_lib = SymbolFile(version=Version.K9.sym)
             dest_lib.fs_path = symbol_lib_path
             self.symbols_libs[symbol_lib] = dest_lib
 

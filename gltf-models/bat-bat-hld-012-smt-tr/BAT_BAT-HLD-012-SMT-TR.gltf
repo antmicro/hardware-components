@@ -35,6 +35,14 @@
       "type": "VEC2"
     },
     {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1155,
+      "type": "VEC2"
+    },
+    {
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5123,
@@ -44,20 +52,20 @@
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 36960,
-      "byteStride": 32,
+      "byteLength": 46200,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 36960,
+      "byteOffset": 46200,
       "byteLength": 6096,
       "target": 34963
     }
@@ -65,7 +73,7 @@
   "buffers": [
     {
       "uri": "BAT_BAT-HLD-012-SMT-TR.bin",
-      "byteLength": 43056
+      "byteLength": 52296
     }
   ],
   "extensionsUsed": [
@@ -80,19 +88,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_connector_normal.ktx2",
+      "uri": "../shared_textures/metal_connector_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_normal"
+      "name": "metal_connector_normal512"
     },
     {
-      "uri": "../shared_textures/metal_connector_color.ktx2",
+      "uri": "../shared_textures/metal_connector_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_color"
+      "name": "metal_connector_color512"
     },
     {
-      "uri": "../shared_textures/metal_connector_roughness.ktx2",
+      "uri": "../shared_textures/metal_connector_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_connector_roughness"
+      "name": "metal_connector_roughness512"
     }
   ],
   "materials": [
@@ -145,7 +153,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_connector"
     }
@@ -157,9 +164,10 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         }

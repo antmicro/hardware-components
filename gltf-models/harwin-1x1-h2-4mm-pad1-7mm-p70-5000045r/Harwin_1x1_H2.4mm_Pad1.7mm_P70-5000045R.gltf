@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 817,
+      "count": 1599,
       "type": "VEC3",
       "max": [
         0.7499450445175171,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 817,
+      "count": 1599,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 817,
+      "count": 1599,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1599,
       "type": "VEC2"
     },
     {
@@ -39,33 +47,33 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 3306,
+      "count": 4602,
       "type": "SCALAR"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 26144,
-      "byteStride": 32,
+      "byteLength": 63960,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 26144,
-      "byteLength": 6612,
+      "byteOffset": 63960,
+      "byteLength": 9204,
       "target": 34963
     }
   ],
   "buffers": [
     {
       "uri": "Harwin_1x1_H2.4mm_Pad1.7mm_P70-5000045R.bin",
-      "byteLength": 32756
+      "byteLength": 73164
     }
   ],
   "extensionsUsed": [
@@ -80,14 +88,14 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_goldpins_1_normal.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_normal"
+      "name": "metal_goldpins_1_normal512"
     },
     {
-      "uri": "../shared_textures/metal_goldpins_1_color.ktx2",
+      "uri": "../shared_textures/metal_goldpins_1_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_goldpins_1_color"
+      "name": "metal_goldpins_1_color512"
     }
   ],
   "materials": [
@@ -136,7 +144,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_goldpins_1"
     }
@@ -148,9 +155,10 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         }

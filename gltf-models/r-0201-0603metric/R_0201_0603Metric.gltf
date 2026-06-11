@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 46,
+      "count": 143,
       "type": "VEC3",
       "max": [
         1.0,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 46,
+      "count": 143,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 46,
+      "count": 143,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 143,
       "type": "VEC2"
     },
     {
@@ -39,15 +47,15 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 108,
+      "count": 348,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 216,
+      "byteOffset": 696,
       "componentType": 5123,
       "normalized": false,
-      "count": 24,
+      "count": 72,
       "type": "SCALAR"
     },
     {
@@ -55,17 +63,17 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 32,
       "type": "VEC3",
       "max": [
-        0.4983985424041748,
-        1.8359500169754028,
-        0.920163631439209
+        0.49837183952331543,
+        1.8831003904342651,
+        0.9431211352348328
       ],
       "min": [
         -0.49730801582336426,
-        0.17052292823791504,
-        -0.920163631439209
+        0.1216634213924408,
+        -0.9431211352348328
       ]
     },
     {
@@ -73,7 +81,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 32,
       "type": "VEC3"
     },
     {
@@ -81,40 +89,48 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 16,
+      "count": 32,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 32,
       "type": "VEC2"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 1472,
-      "byteStride": 32,
+      "byteLength": 5720,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 1472,
-      "byteLength": 264,
+      "byteOffset": 5720,
+      "byteLength": 840,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 1736,
-      "byteLength": 512,
-      "byteStride": 32,
+      "byteOffset": 6560,
+      "byteLength": 1280,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "R_0201_0603Metric.bin",
-      "byteLength": 2248
+      "byteLength": 7840
     }
   ],
   "extensionsUsed": [
@@ -128,24 +144,24 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     },
     {
-      "uri": "../shared_textures/res_ceramic_normal.ktx2",
+      "uri": "../shared_textures/res_ceramic_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "res_ceramic_normal"
+      "name": "res_ceramic_normal512"
     },
     {
-      "uri": "../shared_textures/res_ceramic_color.ktx2",
+      "uri": "../shared_textures/res_ceramic_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "res_ceramic_color"
+      "name": "res_ceramic_color512"
     }
   ],
   "materials": [
@@ -182,7 +198,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_metal_pins"
     },
@@ -227,7 +242,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_res_ceramic"
     }
@@ -239,19 +253,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }
@@ -270,7 +286,7 @@
         0.11500000208616257,
         0.15000000596046448
       ],
-      "name": "R_0201_0603Metric"
+      "name": "0201_res"
     }
   ],
   "samplers": [

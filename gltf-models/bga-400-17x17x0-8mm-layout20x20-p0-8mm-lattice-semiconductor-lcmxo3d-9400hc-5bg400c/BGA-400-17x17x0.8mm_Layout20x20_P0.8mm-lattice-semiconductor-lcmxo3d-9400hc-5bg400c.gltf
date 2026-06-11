@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 24,
+      "count": 72,
       "type": "VEC3",
       "max": [
         8.5,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 24,
+      "count": 72,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 24,
+      "count": 72,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 72,
       "type": "VEC2"
     },
     {
@@ -39,12 +47,12 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 36,
+      "count": 132,
       "type": "SCALAR"
     },
     {
       "bufferView": 1,
-      "byteOffset": 72,
+      "byteOffset": 264,
       "componentType": 5125,
       "normalized": false,
       "count": 436800,
@@ -83,6 +91,14 @@
       "normalized": false,
       "count": 89200,
       "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 89200,
+      "type": "VEC2"
     }
   ],
   "asset": {
@@ -93,28 +109,28 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 768,
-      "byteStride": 32,
+      "byteLength": 2880,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 768,
-      "byteLength": 1747272,
+      "byteOffset": 2880,
+      "byteLength": 1747464,
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteOffset": 1748040,
-      "byteLength": 2854400,
-      "byteStride": 32,
+      "byteOffset": 1750344,
+      "byteLength": 3568000,
+      "byteStride": 40,
       "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "BGA-400-17x17x0.8mm_Layout20x20_P0.8mm-lattice-semiconductor-lcmxo3d-9400hc-5bg400c.bin",
-      "byteLength": 4602440
+      "byteLength": 5318344
     }
   ],
   "extensionsUsed": [
@@ -142,14 +158,14 @@
       "name": "lattice-semiconductor-lcmxo3d-9400hc-5bg400c-marking_metal-lattice-semiconductor-lcmxo3d-9400hc-5bg400c-marking_rough"
     },
     {
-      "uri": "../shared_textures/metal_pins_normal.ktx2",
+      "uri": "../shared_textures/metal_pins_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_normal"
+      "name": "metal_pins_normal512"
     },
     {
-      "uri": "../shared_textures/metal_pins_color.ktx2",
+      "uri": "../shared_textures/metal_pins_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "metal_pins_color"
+      "name": "metal_pins_color512"
     }
   ],
   "materials": [
@@ -165,15 +181,16 @@
         "roughnessFactor": 1.0,
         "baseColorTexture": {
           "index": 0,
-          "texCoord": 0
+          "texCoord": 1
         },
         "metallicRoughnessTexture": {
           "index": 2,
-          "texCoord": 0
+          "texCoord": 1
         }
       },
       "normalTexture": {
         "index": 1,
+        "texCoord": 1,
         "scale": 1.0
       },
       "emissiveFactor": [
@@ -229,19 +246,21 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         },
         {
           "attributes": {
-            "POSITION": 5,
-            "NORMAL": 6,
-            "TEXCOORD_0": 7
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
           },
-          "indices": 4,
+          "indices": 5,
           "mode": 4,
           "material": 1
         }

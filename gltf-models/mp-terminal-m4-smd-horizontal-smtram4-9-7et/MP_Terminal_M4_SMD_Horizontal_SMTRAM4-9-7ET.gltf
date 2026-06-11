@@ -5,7 +5,7 @@
       "byteOffset": 0,
       "componentType": 5126,
       "normalized": false,
-      "count": 824,
+      "count": 2434,
       "type": "VEC3",
       "max": [
         4.764956951141357,
@@ -23,7 +23,7 @@
       "byteOffset": 12,
       "componentType": 5126,
       "normalized": false,
-      "count": 824,
+      "count": 2434,
       "type": "VEC3"
     },
     {
@@ -31,7 +31,15 @@
       "byteOffset": 24,
       "componentType": 5126,
       "normalized": false,
-      "count": 824,
+      "count": 2434,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2434,
       "type": "VEC2"
     },
     {
@@ -39,33 +47,33 @@
       "byteOffset": 0,
       "componentType": 5123,
       "normalized": false,
-      "count": 2316,
+      "count": 4836,
       "type": "SCALAR"
     }
   ],
   "asset": {
-    "generator": "pygltflib@v1.16.4",
+    "generator": "pygltflib@v1.16.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 26368,
-      "byteStride": 32,
+      "byteLength": 97360,
+      "byteStride": 40,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteOffset": 26368,
-      "byteLength": 4632,
+      "byteOffset": 97360,
+      "byteLength": 9672,
       "target": 34963
     }
   ],
   "buffers": [
     {
       "uri": "MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET.bin",
-      "byteLength": 31000
+      "byteLength": 107032
     }
   ],
   "extensionsUsed": [
@@ -79,19 +87,19 @@
   ],
   "images": [
     {
-      "uri": "../shared_textures/aluminum_rough_normal.ktx2",
+      "uri": "../shared_textures/aluminum_rough_normal512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_rough_normal"
+      "name": "aluminum_rough_normal512"
     },
     {
-      "uri": "../shared_textures/aluminum_rough_color.ktx2",
+      "uri": "../shared_textures/aluminum_rough_color512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_rough_color"
+      "name": "aluminum_rough_color512"
     },
     {
-      "uri": "../shared_textures/aluminum_rough_metallic-aluminum_rough_roughness.ktx2",
+      "uri": "../shared_textures/aluminum_rough_metallic_roughness512.ktx2",
       "mimeType": "image/ktx2",
-      "name": "aluminum_rough_metallic-aluminum_rough_roughness"
+      "name": "aluminum_rough_metallic_roughness512"
     }
   ],
   "materials": [
@@ -136,7 +144,6 @@
         0.0
       ],
       "alphaMode": "OPAQUE",
-      "alphaCutoff": 0.5,
       "doubleSided": true,
       "name": "gltf_aluminum_rough"
     }
@@ -148,9 +155,10 @@
           "attributes": {
             "POSITION": 0,
             "NORMAL": 1,
-            "TEXCOORD_0": 2
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
-          "indices": 3,
+          "indices": 4,
           "mode": 4,
           "material": 0
         }
@@ -165,7 +173,7 @@
         "model_diagonal": 18.40192577146593
       },
       "mesh": 0,
-      "name": "MP_Terminal_M4_SMD_Horizontal_SMTRAM4-9-7ET"
+      "name": "SMTRAM4-9-7ET"
     }
   ],
   "samplers": [
