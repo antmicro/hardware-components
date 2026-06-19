@@ -365,11 +365,6 @@
       "name": "black_markings_color512"
     },
     {
-      "uri": "../shared_textures/black_markings_metallic_roughness512.ktx2",
-      "mimeType": "image/ktx2",
-      "name": "black_markings_metallic_roughness512"
-    },
-    {
       "uri": "molex-mdbt50q-atms-marking_normal.ktx2",
       "mimeType": "image/ktx2",
       "name": "molex-mdbt50q-atms-marking_normal"
@@ -393,10 +388,10 @@
         },
         "KHR_materials_specular": {
           "specularTexture": {
-            "index": 11
+            "index": 10
           },
           "specularColorTexture": {
-            "index": 12
+            "index": 11
           }
         }
       },
@@ -558,14 +553,10 @@
           1.0,
           1.0
         ],
-        "metallicFactor": 1.0,
-        "roughnessFactor": 1.0,
+        "metallicFactor": 0.019999999552965164,
+        "roughnessFactor": 0.4636361598968506,
         "baseColorTexture": {
           "index": 5,
-          "texCoord": 0
-        },
-        "metallicRoughnessTexture": {
-          "index": 7,
           "texCoord": 0
         }
       },
@@ -593,16 +584,16 @@
         "metallicFactor": 1.0,
         "roughnessFactor": 1.0,
         "baseColorTexture": {
-          "index": 8,
+          "index": 7,
           "texCoord": 1
         },
         "metallicRoughnessTexture": {
-          "index": 10,
+          "index": 9,
           "texCoord": 1
         }
       },
       "normalTexture": {
-        "index": 9,
+        "index": 8,
         "texCoord": 1,
         "scale": 1.0
       },
@@ -766,6 +757,14 @@
     {
       "extensions": {
         "KHR_texture_basisu": {
+          "source": 10
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
           "source": 9
         }
       },
@@ -775,22 +774,6 @@
       "extensions": {
         "KHR_texture_basisu": {
           "source": 11
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 10
-        }
-      },
-      "sampler": 0
-    },
-    {
-      "extensions": {
-        "KHR_texture_basisu": {
-          "source": 12
         }
       },
       "sampler": 0
