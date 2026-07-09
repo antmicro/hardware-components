@@ -1,7 +1,7 @@
 (footprint "Conn_Harwin_Gecko-Latch_2x8_G125-MV11605L1R_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.42 -3.14 0)
@@ -52,6 +52,52 @@
 		)
 	)
 	(attr through_hole)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "In1.Cu")
+		(layer "In2.Cu")
+		(layer "In3.Cu")
+		(layer "In4.Cu")
+		(layer "In5.Cu")
+		(layer "In6.Cu")
+		(layer "In7.Cu")
+		(layer "In8.Cu")
+		(layer "In9.Cu")
+		(layer "In10.Cu")
+		(layer "In11.Cu")
+		(layer "In12.Cu")
+		(layer "In13.Cu")
+		(layer "In14.Cu")
+		(layer "In15.Cu")
+		(layer "In16.Cu")
+		(layer "In17.Cu")
+		(layer "In18.Cu")
+		(layer "User.1")
+		(layer "In19.Cu")
+		(layer "User.2")
+		(layer "In20.Cu")
+		(layer "User.3")
+		(layer "In21.Cu")
+		(layer "User.4")
+		(layer "In22.Cu")
+		(layer "User.5")
+		(layer "In23.Cu")
+		(layer "User.6")
+		(layer "In24.Cu")
+		(layer "User.7")
+		(layer "In25.Cu")
+		(layer "User.8")
+		(layer "In26.Cu")
+		(layer "User.9")
+		(layer "In27.Cu")
+		(layer "In28.Cu")
+		(layer "In29.Cu")
+		(layer "In30.Cu")
+		(layer "In31.Cu")
+		(layer "In32.Cu")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.85 -1.95)
 		(end 3.1 -1.95)
@@ -1388,9 +1434,9 @@
 		)
 	)
 	(fp_text user ""
-		(at 0.0695 2.57 270)
+		(at 0.0695 0.07 270)
 		(layer "User.9")
-		(uuid "2f698ae1-f3ce-4988-a743-8bf6b9b78cf4")
+		(uuid "beba8928-1d0e-4a56-b8c4-a07c6158c7cc")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1412,45 +1458,33 @@
 		)
 	)
 	(fp_text user ""
+		(at 0.0695 2.57 270)
+		(layer "User.9")
+		(uuid "2f698ae1-f3ce-4988-a743-8bf6b9b78cf4")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user ""
+		(at 0.0695 3.820033 270)
+		(layer "User.9")
+		(uuid "e1d4ed34-47e3-40d0-8fba-798b20008ad2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user ""
 		(at 0.0695 5.07 270)
 		(layer "User.9")
 		(uuid "459438f5-ffff-4b9d-81da-12ee8f357683")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user ""
-		(at 0.0695 8.820033 270)
-		(layer "User.9")
-		(uuid "506843f2-96b7-4396-9e74-339293a2db49")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user ""
-		(at 0.0695 0.07 270)
-		(layer "User.9")
-		(uuid "beba8928-1d0e-4a56-b8c4-a07c6158c7cc")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user ""
-		(at 0.0695 7.57 270)
-		(layer "User.9")
-		(uuid "d3c1b338-e937-4358-8ec0-2560045ee561")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1472,9 +1506,21 @@
 		)
 	)
 	(fp_text user ""
-		(at 0.0695 3.820033 270)
+		(at 0.0695 7.57 270)
 		(layer "User.9")
-		(uuid "e1d4ed34-47e3-40d0-8fba-798b20008ad2")
+		(uuid "d3c1b338-e937-4358-8ec0-2560045ee561")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user ""
+		(at 0.0695 8.820033 270)
+		(layer "User.9")
+		(uuid "506843f2-96b7-4396-9e74-339293a2db49")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1487,14 +1533,14 @@
 		(at 0.625 -1.25 270)
 		(size 1 1.9)
 		(drill oval 1 1.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "afdd1abe-6d8b-40ba-900d-01fcd65e5246")
 	)
 	(pad "" np_thru_hole oval
 		(at 0.625 10 270)
 		(size 1 1.9)
 		(drill oval 1 1.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "b4177064-b40b-40e6-8b64-f471663ce83f")
 	)
 	(pad "1" thru_hole rect

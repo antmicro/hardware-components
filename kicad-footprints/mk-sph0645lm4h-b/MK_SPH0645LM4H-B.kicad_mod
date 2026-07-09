@@ -1,7 +1,7 @@
 (footprint "MK_SPH0645LM4H-B"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Footprint based on: https://eu.mouser.com/datasheet/2/218/ph0645lm4h_b_datasheet_rev_c-1525723.pdf")
 	(property "Reference" "REF**"
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 0.6625 0)
@@ -4235,10 +4249,10 @@
 		(layer "User.9")
 		(uuid "eba8c667-d2b1-45da-a5bf-7346eec50859")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at 5.14 5.53 0)
+	(fp_text user "${REFERENCE}"
+		(at 3.490845 3.17 0)
 		(layer "F.Fab")
-		(uuid "69203bfd-7eca-4735-99c9-92c6de428d6c")
+		(uuid "dcde62e7-0fa6-456d-8db4-7bf819b76d2b")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -4259,10 +4273,10 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 3.490845 3.17 0)
+	(fp_text user "License: Apache-2.0"
+		(at 5.14 5.53 0)
 		(layer "F.Fab")
-		(uuid "dcde62e7-0fa6-456d-8db4-7bf819b76d2b")
+		(uuid "69203bfd-7eca-4735-99c9-92c6de428d6c")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -4275,7 +4289,7 @@
 		(at 0 0)
 		(size 0.77 0.77)
 		(drill 0.77)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "b13eccf2-4b91-4e6d-96a3-c3cb441f0dc0")
 	)
 	(pad "1" smd rect

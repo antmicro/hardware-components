@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "askiff")
 	(generator_version "9.0")
 	(symbol "PAC1954T-E_VQFN"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 38.1 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,49 +22,59 @@
 		)
 		(property "Value" "PAC1954T-E_VQFN"
 			(at 38.1 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PAC1954T-E_VQFN"
 			(at 38.1 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/PAC195X-Family-Data-Sheet-DS20006539.pdf"
 			(at 38.1 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Description" "Current/Voltage Monitor Regulator High-Side 16-VQFN (3x3)"
 			(at 38.1 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MPN" "PAC1954T-E/4MX"
 			(at 38.1 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,53 +85,63 @@
 		)
 		(property "Manufacturer" "Microchip Technology"
 			(at 38.1 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
 			(at 38.1 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "License" "Apache-2.0"
 			(at 38.1 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "MONITOR, VOLTAGE, IC, SMT, RoHS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "UQFN*1EP*4x4mm*P0.65mm*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PAC1954T-E_VQFN_1_1"
@@ -132,6 +156,24 @@
 					(type background)
 				)
 			)
+			(pin bidirectional line
+				(at 0 -8.89 0)
+				(length 2.54)
+				(name "SLOW/~{ALERT1}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 0 0 0)
 				(length 2.54)
@@ -143,6 +185,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -22.86 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -187,60 +247,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -8.89 0)
-				(length 2.54)
-				(name "SLOW/~{ALERT1}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -11.43 0)
-				(length 2.54)
-				(name "GPIO/~{ALERT2}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -13.97 0)
-				(length 2.54)
-				(name "~{PWRDN}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 0 -16.51 0)
 				(length 2.54)
 				(name "ADDRSEL"
@@ -258,17 +264,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -20.32 0)
+			(pin input line
+				(at 25.4 -15.24 180)
 				(length 2.54)
-				(name "EP"
+				(name "IN3-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -276,17 +282,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -22.86 0)
+			(pin input line
+				(at 25.4 -12.7 180)
 				(length 2.54)
-				(name "GND"
+				(name "IN3+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -21.59 180)
+				(length 2.54)
+				(name "IN4-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -19.05 180)
+				(length 2.54)
+				(name "IN4+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -366,17 +408,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 25.4 -12.7 180)
+			(pin bidirectional line
+				(at 0 -11.43 0)
 				(length 2.54)
-				(name "IN3+"
+				(name "GPIO/~{ALERT2}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -385,16 +427,16 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -15.24 180)
+				(at 0 -13.97 0)
 				(length 2.54)
-				(name "IN3-"
+				(name "~{PWRDN}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -402,35 +444,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 25.4 -19.05 180)
+			(pin passive line
+				(at 0 -20.32 0)
 				(length 2.54)
-				(name "IN4+"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 -21.59 180)
-				(length 2.54)
-				(name "IN4-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)

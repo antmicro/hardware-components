@@ -1,7 +1,7 @@
 (footprint "Antenna_ANT-LTE-CER-T"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 8 3.7 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -15.7 -2.7)
 		(end 15.7 -2.7)
@@ -138,10 +152,10 @@
 			)
 		)
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -20.25 8.711 0)
+	(fp_text user "${REFERENCE}"
+		(at -20.25 6.311 0)
 		(layer "F.Fab")
-		(uuid "1f1acfe3-a692-40c0-aaf8-4f32df513b74")
+		(uuid "2eca47ec-6b9e-43ca-b509-a8b12e4d07d0")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -162,10 +176,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -20.25 6.311 0)
+	(fp_text user "License: Apache-2.0"
+		(at -20.25 8.711 0)
 		(layer "F.Fab")
-		(uuid "2eca47ec-6b9e-43ca-b509-a8b12e4d07d0")
+		(uuid "1f1acfe3-a692-40c0-aaf8-4f32df513b74")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -205,8 +219,6 @@
 		(uuid "f769a2bb-0fcc-479c-b997-e528fda035d3")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -220,7 +232,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -235,6 +246,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

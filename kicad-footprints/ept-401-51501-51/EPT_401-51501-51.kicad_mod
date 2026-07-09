@@ -1,7 +1,7 @@
 (footprint "EPT_401-51501-51"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -32.766 -11.176 180)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -24.638 -1.524)
 		(end -30.226 -1.524)
@@ -34956,10 +34970,10 @@
 		(layer "User.9")
 		(uuid "a970ce13-b69d-4012-80ed-78787158caa3")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -33.15 14.4 0)
+	(fp_text user "${REFERENCE}"
+		(at -33.15 13.2 0)
 		(layer "F.Fab")
-		(uuid "19a30acd-8105-4a89-8e01-ffd518718f8c")
+		(uuid "ba5cd2ce-fa3c-417a-b008-f1e8210a6fff")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -34968,10 +34982,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -33.15 13.2 0)
+	(fp_text user "Author: Antmicro"
+		(at -33.15 14.4 0)
 		(layer "F.Fab")
-		(uuid "ba5cd2ce-fa3c-417a-b008-f1e8210a6fff")
+		(uuid "19a30acd-8105-4a89-8e01-ffd518718f8c")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -34996,7 +35010,7 @@
 		(at -28.85 -6)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "34e22abe-a07a-453c-8b2e-0b1d1d6cd500")
 	)
 	(pad "" smd rect
@@ -35009,21 +35023,21 @@
 		(at -28.85 6)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "0e324303-6a69-4a1c-ab92-f5e22e3800ab")
 	)
 	(pad "" np_thru_hole circle
 		(at 28.85 -6)
 		(size 1.6 1.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "6ca6cba1-0925-4615-a0f9-a1e23ea2a820")
 	)
 	(pad "" np_thru_hole circle
 		(at 28.85 6)
 		(size 1.6 1.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "1fc9156e-fe77-4769-ac8b-eefc2202117e")
 	)
 	(pad "A1" smd rect

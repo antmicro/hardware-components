@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "askiff")
 	(generator_version "9.0")
 	(symbol "SAMD21RT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 43.18 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,49 +22,59 @@
 		)
 		(property "Value" "SAMD21RT"
 			(at 43.18 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SAMD21RT"
 			(at 43.18 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D21-DA1-Family-Data-Sheet-DS40001882H.pdf"
 			(at 43.18 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Description" "Radiation Tolerant ARM MCU, SAM32 Family SAM D2X Series Microcontrollers, ARM Cortex-M0+, 32 bit, 48 MHz, 128 KB"
 			(at 43.18 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SAMD21RT"
 			(at 43.18 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,44 +85,52 @@
 		)
 		(property "Manufacturer" "Microchip Technology"
 			(at 43.18 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "License" "Apache-2.0"
 			(at 43.18 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
 			(at 43.18 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SMT, MICROCONTROLLER, IC, ARM"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SAMD21RT_1_1"
@@ -124,87 +146,16 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(length 2.54)
-				(name "VDDIN"
+				(name "GNDANA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "56"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
-			(pin power_in line
-				(at 0 -2.54 0)
-				(length 2.54)
-				(name "VDDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 2.54)
-				(hide yes)
-				(name "VDDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 2.54)
-				(hide yes)
-				(name "VDDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -240,40 +191,17 @@
 				(alternate "TIM2_CH2" passive line)
 				(alternate "USART2_RTS" passive line)
 			)
-			(pin input line
-				(at 0 -10.16 0)
-				(length 2.54)
-				(name "~{RESET}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at 0 -2.54 0)
 				(length 2.54)
-				(name "GNDANA"
+				(name "VDDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -334,6 +262,30 @@
 				(alternate "USART2_RTS" passive line)
 			)
 			(pin passive line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin passive line
 				(at 0 -17.78 0)
 				(length 2.54)
 				(hide yes)
@@ -345,6 +297,53 @@
 					)
 				)
 				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin input line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -392,6 +391,29 @@
 					)
 				)
 				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VDDIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1121,98 +1143,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
-				(length 2.54)
-				(name "PB00"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 2.54)
-				(name "PB01"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
-			(pin passive line
-				(at 0 -5.08 0)
-				(length 2.54)
-				(name "PB02"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "63"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
-			(pin passive line
-				(at 0 -7.62 0)
-				(length 2.54)
-				(name "PB03"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC_IN1" passive line)
-				(alternate "COMP1_INP" passive line)
-				(alternate "LCD_SEG0" passive line)
-				(alternate "TIM2_CH2" passive line)
-				(alternate "USART2_RTS" passive line)
-			)
-			(pin passive line
 				(at 0 -10.16 0)
 				(length 2.54)
 				(name "PB04"
@@ -1614,6 +1544,98 @@
 					)
 				)
 				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "PB00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "PB01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "PB02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC_IN1" passive line)
+				(alternate "COMP1_INP" passive line)
+				(alternate "LCD_SEG0" passive line)
+				(alternate "TIM2_CH2" passive line)
+				(alternate "USART2_RTS" passive line)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "PB03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
 					(effects
 						(font
 							(size 1.27 1.27)

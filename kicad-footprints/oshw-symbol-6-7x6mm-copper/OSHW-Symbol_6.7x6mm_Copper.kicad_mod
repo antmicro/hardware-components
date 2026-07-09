@@ -1,7 +1,7 @@
 (footprint "OSHW-Symbol_6.7x6mm_Copper"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Open Source Hardware Symbol")
 	(tags "Logo Symbol OSHW")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 0.555814 -2.531069) (xy 0.639635 -2.086445) (xy 0.94892 -1.958947) (xy 1.258206 -1.831449) (xy 1.629246 -2.083754)
@@ -147,18 +161,6 @@
 		(layer "F.CrtYd")
 		(uuid "adb94e5a-b7a6-46dc-b9d0-45113d1512f5")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -4.44 8.02 0)
-		(layer "F.Fab")
-		(uuid "32fd0475-511e-4d52-bada-90300f668e2d")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at -4.44 5.62 0)
 		(layer "F.Fab")
@@ -175,6 +177,18 @@
 		(at -4.44 6.82 0)
 		(layer "F.Fab")
 		(uuid "b181d248-db05-4672-8cc9-11596474614a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -4.44 8.02 0)
+		(layer "F.Fab")
+		(uuid "32fd0475-511e-4d52-bada-90300f668e2d")
 		(effects
 			(font
 				(size 0.7 0.7)

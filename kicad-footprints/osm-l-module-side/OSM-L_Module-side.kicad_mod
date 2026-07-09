@@ -1,7 +1,7 @@
 (footprint "OSM-L_Module-side"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 2 -1.1 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start 0 0)
 		(end 45 45)
@@ -316,10 +330,10 @@
 		(uuid "97a80df3-db28-440f-8a75-05662bd6c69c")
 	)
 	(fp_text user "Placement area"
-		(at 33.125 15 90)
+		(at 11.875 15 90)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "36f6d214-9d5e-4e7a-a0a3-f1f3f08f52ff")
+		(uuid "ac22dcf6-b018-4310-adc7-7f2f46ca0a82")
 		(effects
 			(font
 				(size 1 1)
@@ -340,10 +354,10 @@
 		)
 	)
 	(fp_text user "Placement area"
-		(at 11.875 15 90)
+		(at 33.125 15 90)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "ac22dcf6-b018-4310-adc7-7f2f46ca0a82")
+		(uuid "36f6d214-9d5e-4e7a-a0a3-f1f3f08f52ff")
 		(effects
 			(font
 				(size 1 1)
@@ -364,10 +378,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "Author: Antmicro"
-		(at 0 50.3 0)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 48.4 0)
 		(layer "F.Fab")
-		(uuid "2d9f21b0-60ef-45c1-80c0-c8c577e1b736")
+		(uuid "858f655c-e692-4bee-8414-9123af8c4561")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -388,10 +402,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -0.1 48.4 0)
+	(fp_text user "Author: Antmicro"
+		(at 0 50.3 0)
 		(layer "F.Fab")
-		(uuid "858f655c-e692-4bee-8414-9123af8c4561")
+		(uuid "2d9f21b0-60ef-45c1-80c0-c8c577e1b736")
 		(effects
 			(font
 				(size 0.7 0.7)

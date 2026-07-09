@@ -1,7 +1,7 @@
 (footprint "PCIe_x8_Molex_0755860007"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -7.3 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -15.1 -5.719)
 		(end -14 -5.719)
@@ -3426,10 +3440,10 @@
 		(layer "User.9")
 		(uuid "2a50bd55-70e7-4776-9017-18c13cc3c8be")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -42.1 17.926 0)
+	(fp_text user "${REFERENCE}"
+		(at -42.1 15.526 0)
 		(layer "F.Fab")
-		(uuid "68970716-31c3-4c9e-850b-5b2eb9b314b5")
+		(uuid "dddb1c4b-e390-46dc-81b7-1c4ef71dbcc1")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -3450,10 +3464,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -42.1 15.526 0)
+	(fp_text user "License: Apache-2.0"
+		(at -42.1 17.926 0)
 		(layer "F.Fab")
-		(uuid "dddb1c4b-e390-46dc-81b7-1c4ef71dbcc1")
+		(uuid "68970716-31c3-4c9e-850b-5b2eb9b314b5")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -3466,7 +3480,7 @@
 		(at -14.4 2.88)
 		(size 1.55 1.55)
 		(drill 1.55)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(solder_mask_margin 0.127)
 		(solder_paste_margin -1518.485687)
 		(uuid "a2109b52-78d5-44bc-83a0-5e62eb6ce908")
@@ -3475,7 +3489,7 @@
 		(at 14.4 2.88)
 		(size 1.55 1.55)
 		(drill 1.55)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(solder_mask_margin 0.127)
 		(solder_paste_margin -1518.485687)
 		(uuid "aeedbc60-123d-484a-badb-198aac1444a3")
@@ -3957,8 +3971,6 @@
 		(uuid "b00e1eaf-52dd-4fc5-bb6b-85d3e0ca64a5")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "0ff7fa9b-26aa-4c3f-9bd0-481f61165908")
 		(hatch edge 0.5)
@@ -3966,7 +3978,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -3981,6 +3992,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -3989,8 +4001,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "2379f0eb-1e74-4b25-9ca1-80bb0a1b3e07")
 		(hatch edge 0.5)
@@ -3998,7 +4008,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -4013,6 +4022,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

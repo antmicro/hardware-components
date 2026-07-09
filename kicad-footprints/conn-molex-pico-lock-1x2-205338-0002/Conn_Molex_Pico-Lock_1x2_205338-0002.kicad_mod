@@ -1,7 +1,7 @@
 (footprint "Conn_Molex_Pico-Lock_1x2_205338-0002"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "J"
 		(at -1.325 -6.81 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -3.194 4.726) (xy -4.596 4.726) (xy -4.596 1.774) (xy -3.194 1.774)
@@ -642,10 +656,10 @@
 		(layer "User.9")
 		(uuid "0f477807-328d-44c8-8d7f-d2e43529ba22")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -5.99 9.39 0)
+	(fp_text user "${REFERENCE}"
+		(at -5.99 8.19 0)
 		(layer "F.Fab")
-		(uuid "21bbc660-b345-4a7d-9e3c-61e509fc0b07")
+		(uuid "a2e5eb0a-6ce2-4bb9-8432-ddf44c5a8d39")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -654,10 +668,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -5.99 8.19 0)
+	(fp_text user "Author: Antmicro"
+		(at -5.99 9.39 0)
 		(layer "F.Fab")
-		(uuid "a2e5eb0a-6ce2-4bb9-8432-ddf44c5a8d39")
+		(uuid "21bbc660-b345-4a7d-9e3c-61e509fc0b07")
 		(effects
 			(font
 				(size 0.7 0.7)

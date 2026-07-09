@@ -1,7 +1,7 @@
 (footprint "C_1210_3225Metric_H2mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 1210")
 	(tags "capacitor SMD 1210")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.8 -1.39)
 		(end 0.8 -1.39)
@@ -167,10 +181,10 @@
 		(layer "User.9")
 		(uuid "c171d83e-00ca-4912-902b-ae8fc0f41539")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -2.1 5.749 0)
+	(fp_text user "${REFERENCE}"
+		(at -2.1 4.749 0)
 		(layer "F.Fab")
-		(uuid "07b9f335-b59d-4467-939d-99016158ed55")
+		(uuid "95a64b01-464b-4f90-b1e1-7c4dc007e201")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -179,10 +193,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -2.1 4.749 0)
+	(fp_text user "Author: Antmicro"
+		(at -2.1 5.749 0)
 		(layer "F.Fab")
-		(uuid "95a64b01-464b-4f90-b1e1-7c4dc007e201")
+		(uuid "07b9f335-b59d-4467-939d-99016158ed55")
 		(effects
 			(font
 				(size 0.7 0.7)

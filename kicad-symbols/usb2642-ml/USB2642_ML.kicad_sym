@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "askiff")
 	(generator_version "9.0")
 	(symbol "USB2642_ML"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 76.2 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,50 +22,60 @@
 		)
 		(property "Value" "USB2642_ML"
 			(at 76.2 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "USB2642_ML"
 			(at 76.2 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00001578D.pdf"
 			(at 76.2 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Description" "USB Interface, USB Hub and Flash Media Controller, USB 2.0, 3 V, 3.6 V, QFN, 48 Pins"
 			(at 76.2 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MPN" "USB2642/ML"
 			(at 76.2 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,44 +86,52 @@
 		)
 		(property "Manufacturer" "Microchip Technology"
 			(at 76.2 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "License" "Apache-2.0"
 			(at 76.2 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
 			(at 76.2 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "USB, HUB, INTERFACE, CONTROLLER, FLASH "
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "USB2642_ML_1_1"
@@ -125,16 +147,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 49.53 -12.7 180)
 				(length 2.54)
-				(name "VDD33_1"
+				(name "USBDN_DM2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -143,17 +165,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 49.53 -10.16 180)
 				(length 2.54)
-				(hide yes)
-				(name "VDD33_2"
+				(name "USBDN_DP2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -162,17 +183,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 49.53 -26.67 180)
 				(length 2.54)
-				(hide yes)
-				(name "VDD33_3"
+				(name "USBDN_DM3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -181,73 +201,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 49.53 -24.13 180)
 				(length 2.54)
-				(hide yes)
-				(name "VDD33_4"
+				(name "USBDN_DP3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 2.54)
-				(name "VDD33_(OTP)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 0)
-				(length 2.54)
-				(hide yes)
-				(name "VDDA33_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 0)
-				(length 2.54)
-				(hide yes)
-				(name "VDDA33_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -274,16 +237,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at 49.53 -7.62 180)
 				(length 2.54)
-				(name "VBUS_DET"
+				(name "PRTCTL2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "39"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -292,124 +255,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 0)
+				(at 49.53 -21.59 180)
 				(length 2.54)
-				(name "USBUP_DP"
+				(name "PRTCTL3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -20.32 0)
-				(length 2.54)
-				(name "USBUP_DM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -31.75 0)
-				(length 2.54)
-				(name "XTAL1_(CLKIN)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -40.64 0)
-				(length 2.54)
-				(name "XTAL2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -52.07 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -54.61 0)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -57.15 0)
-				(length 2.54)
-				(name "GPO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -490,16 +345,52 @@
 				)
 			)
 			(pin passive line
-				(at 0 -77.47 0)
+				(at 0 0 0)
 				(length 2.54)
-				(name "REG_EN"
+				(name "VDD33_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 49.53 -33.02 180)
+				(length 2.54)
+				(name "SD_WP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 49.53 -36.83 180)
+				(length 2.54)
+				(name "SD_NCD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -526,16 +417,17 @@
 				)
 			)
 			(pin passive line
-				(at 0 -82.55 0)
+				(at 0 0 0)
 				(length 2.54)
-				(name "VDD18PLL"
+				(hide yes)
+				(name "VDD33_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "46"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -544,16 +436,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -90.17 0)
+				(at 49.53 -57.15 180)
 				(length 2.54)
-				(name "RESET_N"
+				(name "SD_D1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "38"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -562,16 +454,161 @@
 				)
 			)
 			(pin passive line
-				(at 0 -92.71 0)
+				(at 49.53 -54.61 180)
 				(length 2.54)
-				(name "RBIAS"
+				(name "SD_D0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "47"
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 49.53 -72.39 180)
+				(length 2.54)
+				(name "SD_D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 49.53 -69.85 180)
+				(length 2.54)
+				(name "SD_D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 49.53 -74.93 180)
+				(length 2.54)
+				(name "SD_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -77.47 0)
+				(length 2.54)
+				(name "REG_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 49.53 -67.31 180)
+				(length 2.54)
+				(name "SD_D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 49.53 -44.45 180)
+				(length 2.54)
+				(name "SD_CMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD33_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "VDD33_(OTP)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -618,16 +655,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -97.79 0)
+				(at 0 -52.07 0)
 				(length 2.54)
-				(name "TEST0"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "40"
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -636,16 +673,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -100.33 0)
+				(at 49.53 -64.77 180)
 				(length 2.54)
-				(name "VSS"
+				(name "SD_D4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "49"
+				(number "30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -673,214 +710,16 @@
 				)
 			)
 			(pin passive line
-				(at 49.53 -7.62 180)
+				(at 49.53 -62.23 180)
 				(length 2.54)
-				(name "PRTCTL2"
+				(name "SD_D3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -10.16 180)
-				(length 2.54)
-				(name "USBDN_DP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -12.7 180)
-				(length 2.54)
-				(name "USBDN_DM2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -21.59 180)
-				(length 2.54)
-				(name "PRTCTL3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -24.13 180)
-				(length 2.54)
-				(name "USBDN_DP3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -26.67 180)
-				(length 2.54)
-				(name "USBDN_DM3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -33.02 180)
-				(length 2.54)
-				(name "SD_WP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -36.83 180)
-				(length 2.54)
-				(name "SD_NCD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -40.64 180)
-				(length 2.54)
-				(name "CRD_PWR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -44.45 180)
-				(length 2.54)
-				(name "SD_CMD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -54.61 180)
-				(length 2.54)
-				(name "SD_D0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 49.53 -57.15 180)
-				(length 2.54)
-				(name "SD_D1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -907,16 +746,17 @@
 				)
 			)
 			(pin passive line
-				(at 49.53 -62.23 180)
+				(at 0 0 0)
 				(length 2.54)
-				(name "SD_D3"
+				(hide yes)
+				(name "VDD33_4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "32"
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -925,16 +765,16 @@
 				)
 			)
 			(pin passive line
-				(at 49.53 -64.77 180)
+				(at 49.53 -40.64 180)
 				(length 2.54)
-				(name "SD_D4"
+				(name "CRD_PWR"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "30"
+				(number "35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -943,16 +783,16 @@
 				)
 			)
 			(pin passive line
-				(at 49.53 -67.31 180)
+				(at 0 -54.61 0)
 				(length 2.54)
-				(name "SD_D5"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -961,16 +801,16 @@
 				)
 			)
 			(pin passive line
-				(at 49.53 -69.85 180)
+				(at 0 -57.15 0)
 				(length 2.54)
-				(name "SD_D6"
+				(name "GPO1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -979,16 +819,16 @@
 				)
 			)
 			(pin passive line
-				(at 49.53 -72.39 180)
+				(at 0 -90.17 0)
 				(length 2.54)
-				(name "SD_D7"
+				(name "RESET_N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -997,16 +837,198 @@
 				)
 			)
 			(pin passive line
-				(at 49.53 -74.93 180)
+				(at 0 -15.24 0)
 				(length 2.54)
-				(name "SD_CLK"
+				(name "VBUS_DET"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -97.79 0)
+				(length 2.54)
+				(name "TEST0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDDA33_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 2.54)
+				(name "USBUP_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 2.54)
+				(name "USBUP_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40.64 0)
+				(length 2.54)
+				(name "XTAL2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -31.75 0)
+				(length 2.54)
+				(name "XTAL1_(CLKIN)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -82.55 0)
+				(length 2.54)
+				(name "VDD18PLL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -92.71 0)
+				(length 2.54)
+				(name "RBIAS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDDA33_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -100.33 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
 					(effects
 						(font
 							(size 1.27 1.27)

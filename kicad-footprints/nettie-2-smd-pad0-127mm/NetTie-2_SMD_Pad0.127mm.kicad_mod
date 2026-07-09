@@ -1,7 +1,7 @@
 (footprint "NetTie-2_SMD_Pad0.127mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Net tie, 2 pin, 0.127mm  SMD pads")
 	(tags "net tie")
@@ -55,7 +55,21 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
 	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -0.0635 -0.0635) (xy 0.0625 -0.0635) (xy 0.0625 0.0635) (xy -0.0635 0.0635)
@@ -81,10 +95,10 @@
 		(layer "F.CrtYd")
 		(uuid "72ffb501-bd43-4a73-bab3-b2c322d2d321")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -0.128 5.6 0)
+	(fp_text user "${REFERENCE}"
+		(at -0.128 3.2 0)
 		(layer "F.Fab")
-		(uuid "02592214-8e8d-48ad-83b5-8b6878a7c146")
+		(uuid "e3535e49-eae9-4f88-a2ae-66dd4a16670c")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -105,10 +119,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -0.128 3.2 0)
+	(fp_text user "License: Apache-2.0"
+		(at -0.128 5.6 0)
 		(layer "F.Fab")
-		(uuid "e3535e49-eae9-4f88-a2ae-66dd4a16670c")
+		(uuid "02592214-8e8d-48ad-83b5-8b6878a7c146")
 		(effects
 			(font
 				(size 0.7 0.7)

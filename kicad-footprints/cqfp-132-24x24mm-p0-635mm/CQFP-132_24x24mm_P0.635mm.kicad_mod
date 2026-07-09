@@ -1,7 +1,7 @@
 (footprint "CQFP-132_24x24mm_P0.635mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "SMJ320C50HFGM50 ")
 	(property "Reference" "REF**"
@@ -55,6 +55,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -12.501 -12.502)
 		(end -12.501 12.502)
@@ -26976,10 +26990,11 @@
 		(layer "User.9")
 		(uuid "4eadd35c-04fe-4bb0-a444-6120652e07aa")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -16.4 20.8 0)
+	(fp_text user "${REFERENCE}"
+		(at -16.4 19.4 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "02a993c4-e826-4de0-8882-c860113ad8f2")
+		(uuid "e5be1917-ac20-4c14-894d-876e6e3cc86b")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -26988,11 +27003,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -16.4 19.4 0)
-		(unlocked yes)
+	(fp_text user "License: Apache-2.0"
+		(at -16.4 20.8 0)
 		(layer "F.Fab")
-		(uuid "e5be1917-ac20-4c14-894d-876e6e3cc86b")
+		(uuid "02a993c4-e826-4de0-8882-c860113ad8f2")
 		(effects
 			(font
 				(size 0.7 0.7)

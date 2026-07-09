@@ -1,7 +1,7 @@
 (footprint "Socket_Amphenol_HPCE_2x17_10107844-002LF"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -15.1 0)
@@ -51,6 +51,20 @@
 			)
 		)
 	)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -9.789 -4.6) (xy -14.168 -4.6) (xy -14.168 -11.91) (xy -9.789 -11.91)
@@ -7374,14 +7388,14 @@
 		(at -35.329 -4.12)
 		(size 3.7 3.7)
 		(drill 3.7)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "ac2ecc6b-0a27-4ac4-bc14-a39db9c81b1f")
 	)
 	(pad "" np_thru_hole circle
 		(at 35.331 -4.12)
 		(size 3.7 3.7)
 		(drill 3.7)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "101f0870-3549-46eb-bc38-e5a07fd0f205")
 	)
 	(pad "P1/2" smd rect

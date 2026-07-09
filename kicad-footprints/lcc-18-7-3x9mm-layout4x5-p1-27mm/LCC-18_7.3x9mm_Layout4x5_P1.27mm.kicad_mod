@@ -1,7 +1,7 @@
 (footprint "LCC-18_7.3x9mm_Layout4x5_P1.27mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Layout according to C-LCC-18-950")
 	(property "Reference" "REF**"
@@ -59,6 +59,20 @@
 		)
 	)
 	(attr smd allow_soldermask_bridges)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center -0.635 -4.85)
 		(end -0.585 -4.85)
@@ -216,11 +230,10 @@
 		(layer "User.9")
 		(uuid "4f3a3dff-fcbf-4589-9aa1-8e47837fa220")
 	)
-	(fp_text user "${REFERENCE}"
-		(at -4.18 9.66 0)
-		(unlocked yes)
+	(fp_text user "Author: Antmicro"
+		(at -4.2 7.23 0)
 		(layer "F.Fab")
-		(uuid "27c286a2-9f0d-4b95-a61d-45ee0a2e7479")
+		(uuid "dd1b06dc-4b83-4615-aa61-68823d2fb2e7")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -241,10 +254,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "Author: Antmicro"
-		(at -4.2 7.23 0)
+	(fp_text user "${REFERENCE}"
+		(at -4.18 9.66 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "dd1b06dc-4b83-4615-aa61-68823d2fb2e7")
+		(uuid "27c286a2-9f0d-4b95-a61d-45ee0a2e7479")
 		(effects
 			(font
 				(size 0.7 0.7)

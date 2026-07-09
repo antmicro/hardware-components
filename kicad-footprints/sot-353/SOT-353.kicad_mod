@@ -1,7 +1,7 @@
 (footprint "SOT-353"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "5-lead Small Outline SMT package (aka SC-70-5, SC-88A or TSSOP5): reflow soldering footprint")
 	(tags "SOT-353 sot353 SC-70-5 sc70 SC-88A sc88a TSSOP5")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.15 0.7)
 		(end -1.15 -0.65)
@@ -2317,10 +2331,10 @@
 		(layer "User.9")
 		(uuid "9bead9db-196e-4c1d-9134-729f7b82fb38")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -1.206 5.227 0)
+	(fp_text user "${REFERENCE}"
+		(at -1.206 4.027 0)
 		(layer "F.Fab")
-		(uuid "34e9ab4a-d118-49c3-92ed-3678d327c960")
+		(uuid "d991427e-6304-49d0-ba32-b0917424f8f8")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -2329,10 +2343,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -1.206 4.027 0)
+	(fp_text user "Author: Antmicro"
+		(at -1.206 5.227 0)
 		(layer "F.Fab")
-		(uuid "d991427e-6304-49d0-ba32-b0917424f8f8")
+		(uuid "34e9ab4a-d118-49c3-92ed-3678d327c960")
 		(effects
 			(font
 				(size 0.7 0.7)

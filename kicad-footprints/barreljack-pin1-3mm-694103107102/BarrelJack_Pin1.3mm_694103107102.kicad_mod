@@ -1,7 +1,7 @@
 (footprint "BarrelJack_Pin1.3mm_694103107102"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.45 4)
 		(end -4.45 -4)
@@ -8499,6 +8513,30 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at -4.85 9 0)
+		(layer "F.Fab")
+		(uuid "9825ae30-ac8b-4f37-8e56-b27e7981e35a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -4.85 10.2 0)
+		(layer "F.Fab")
+		(uuid "ea12e044-0984-4aec-bc17-74b2b15113d1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "plug:"
 		(at 5.334 -0.254 0)
 		(unlocked yes)
@@ -8512,35 +8550,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -4.85 9 0)
-		(layer "F.Fab")
-		(uuid "9825ae30-ac8b-4f37-8e56-b27e7981e35a")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "Ø3.5/1.35mm"
 		(at 5.334 1.016 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ce5e2263-ed86-4a8f-9ed4-a9fbb147154b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "Author: Antmicro"
-		(at -4.85 10.2 0)
-		(layer "F.Fab")
-		(uuid "ea12e044-0984-4aec-bc17-74b2b15113d1")
 		(effects
 			(font
 				(size 0.7 0.7)

@@ -1,7 +1,7 @@
 (footprint "OV9281"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr " B&W CMOS 1 Megapixel (1280x800) Image Sensor with OmniPixel®3‑GS Technology ")
 	(tags "CMOS, Sensor, Image")
@@ -56,6 +56,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -2.9655 -2.368)
 		(end 2.4705 2.296)
@@ -192,18 +206,6 @@
 		(layer "User.9")
 		(uuid "ab076ee5-2657-4770-bdd3-247b7fba1a18")
 	)
-	(fp_text user "X: 247,5 um, Y: -36 um"
-		(at -1.9 0.4 0)
-		(layer "Cmts.User")
-		(uuid "59481b28-041a-4a95-b8c3-0ee18a20471a")
-		(effects
-			(font
-				(size 0.2 0.2)
-				(thickness 0.05)
-			)
-			(justify left)
-		)
-	)
 	(fp_text user "Sensor offset:"
 		(at -1.9 -0.5 0)
 		(layer "Cmts.User")
@@ -211,6 +213,18 @@
 		(effects
 			(font
 				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "X: 247,5 um, Y: -36 um"
+		(at -1.9 0.4 0)
+		(layer "Cmts.User")
+		(uuid "59481b28-041a-4a95-b8c3-0ee18a20471a")
+		(effects
+			(font
+				(size 0.2 0.2)
 				(thickness 0.05)
 			)
 			(justify left)

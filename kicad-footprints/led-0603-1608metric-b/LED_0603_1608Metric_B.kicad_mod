@@ -1,7 +1,7 @@
 (footprint "LED_0603_1608Metric_B"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "LED SMD 0603 Blue")
 	(tags "LED SMD 0603 Blue")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.18 -0.319)
 		(end -1.18 0.321)
@@ -3097,10 +3111,10 @@
 		(layer "User.9")
 		(uuid "634cddae-738e-424f-bc2b-765a10305bad")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -1.31 5.769 0)
+	(fp_text user "${REFERENCE}"
+		(at -1.31 3.769 0)
 		(layer "F.Fab")
-		(uuid "20f8b390-16f1-4d68-962a-23b7f0d35f7e")
+		(uuid "ee87c123-6162-4141-a72e-00e8eba08f11")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -3121,10 +3135,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -1.31 3.769 0)
+	(fp_text user "License: Apache-2.0"
+		(at -1.31 5.769 0)
 		(layer "F.Fab")
-		(uuid "ee87c123-6162-4141-a72e-00e8eba08f11")
+		(uuid "20f8b390-16f1-4d68-962a-23b7f0d35f7e")
 		(effects
 			(font
 				(size 0.7 0.7)

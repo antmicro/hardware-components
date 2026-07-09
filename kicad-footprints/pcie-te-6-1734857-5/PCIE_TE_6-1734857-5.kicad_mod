@@ -1,7 +1,7 @@
 (footprint "PCIE_TE_6-1734857-5"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -17.87 5.96 90)
@@ -50,6 +50,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -17.2 8.02)
 		(end -17.2 3.414986)
@@ -62666,10 +62680,10 @@
 		(layer "User.9")
 		(uuid "d43b1432-9994-419e-8dbb-d2a13e00c1d5")
 	)
-	(fp_text user "B32"
-		(at 15.65 9.014986 0)
+	(fp_text user "B1"
+		(at -16.35 8.664986 0)
 		(layer "F.SilkS")
-		(uuid "05b9d9ba-fbc8-4c09-a369-ca76bb5ef7db")
+		(uuid "e9262a03-9bab-4b4b-883f-bed9bc4467e0")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -62677,10 +62691,10 @@
 			)
 		)
 	)
-	(fp_text user "B1"
-		(at -16.35 8.664986 0)
+	(fp_text user "B32"
+		(at 15.65 9.014986 0)
 		(layer "F.SilkS")
-		(uuid "e9262a03-9bab-4b4b-883f-bed9bc4467e0")
+		(uuid "05b9d9ba-fbc8-4c09-a369-ca76bb5ef7db")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -62724,17 +62738,6 @@
 			)
 		)
 	)
-	(fp_text user "License: Apache-2.0"
-		(at 0 11.9 0)
-		(layer "F.Fab")
-		(uuid "2c1b92dc-41f6-44ac-9580-7c4fc1b4aff2")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0.1 0)
 		(layer "F.Fab")
@@ -62750,6 +62753,17 @@
 		(at 0 10.7 0)
 		(layer "F.Fab")
 		(uuid "5e71beb1-92c4-4b6a-a0c9-56ff31922b1c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at 0 11.9 0)
+		(layer "F.Fab")
+		(uuid "2c1b92dc-41f6-44ac-9580-7c4fc1b4aff2")
 		(effects
 			(font
 				(size 0.7 0.7)

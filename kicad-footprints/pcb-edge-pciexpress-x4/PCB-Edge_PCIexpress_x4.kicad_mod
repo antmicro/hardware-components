@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_PCIexpress_x4"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "PCIexpress x4")
 	(tags "PCIexpress")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -0.85 -2) (xy 33.65 -2) (xy 33.65 3.5) (xy -0.85 3.5)
@@ -220,18 +234,6 @@
 		(layer "Edge.Cuts")
 		(uuid "19873661-3622-4762-87c7-00e1d5648899")
 	)
-	(fp_text user "PCB Thickness 1.57 mm"
-		(at -0.8 6.25 180)
-		(layer "Cmts.User")
-		(uuid "45592120-9408-4b8f-9696-57d9b6eb904c")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "Edge connector beveling"
 		(at -0.85 4.825 180)
 		(layer "Cmts.User")
@@ -244,10 +246,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -0.75 11.05 0)
-		(layer "F.Fab")
-		(uuid "45e9f490-426e-4726-a174-9feb55021639")
+	(fp_text user "PCB Thickness 1.57 mm"
+		(at -0.8 6.25 180)
+		(layer "Cmts.User")
+		(uuid "45592120-9408-4b8f-9696-57d9b6eb904c")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -272,6 +274,18 @@
 		(at -0.75 9.85 0)
 		(layer "F.Fab")
 		(uuid "d468971f-831d-4264-aeff-ad7eef9225c1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -0.75 11.05 0)
+		(layer "F.Fab")
+		(uuid "45e9f490-426e-4726-a174-9feb55021639")
 		(effects
 			(font
 				(size 0.7 0.7)

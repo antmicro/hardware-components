@@ -1,7 +1,7 @@
 (footprint "SC-70-8"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SC70")
 	(tags "Integrated Circuit")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.45 -1.075)
 		(end 0.5 -1.075)
@@ -2567,6 +2581,18 @@
 		(layer "User.9")
 		(uuid "5e45f850-2424-4445-9ef2-ef883b9408c7")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -1.82 3.35 0)
+		(layer "F.Fab")
+		(uuid "b97ee3ff-f136-41fa-a99d-bc41a3e7fdfe")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -1.82 4.55 0)
 		(layer "F.Fab")
@@ -2583,18 +2609,6 @@
 		(at -1.82 5.75 0)
 		(layer "F.Fab")
 		(uuid "5374f22a-9830-4d64-ab9c-8bf4288dff06")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -1.82 3.35 0)
-		(layer "F.Fab")
-		(uuid "b97ee3ff-f136-41fa-a99d-bc41a3e7fdfe")
 		(effects
 			(font
 				(size 0.7 0.7)

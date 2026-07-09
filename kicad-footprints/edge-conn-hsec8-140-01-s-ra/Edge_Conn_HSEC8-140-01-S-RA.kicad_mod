@@ -1,7 +1,7 @@
 (footprint "Edge_Conn_HSEC8-140-01-S-RA"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -19.8 4.499 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -17.387 4.142)
 		(end -16.92 3.647)
@@ -213,10 +227,10 @@
 		(layer "F.Fab")
 		(uuid "c2e9b16d-f82d-4bca-ab5a-46a241b92074")
 	)
-	(fp_text user "${REFERENCE}"
-		(at -22.37 10.08 0)
+	(fp_text user "PCB Edge"
+		(at -22.9 2.6 0)
 		(layer "F.Fab")
-		(uuid "8ed30e91-34df-4f5e-af84-cf3aa6f61fb1")
+		(uuid "c0ab24b1-088e-44cd-a636-727a96fb7d7f")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -225,10 +239,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "PCB Edge"
-		(at -22.9 2.6 0)
+	(fp_text user "${REFERENCE}"
+		(at -22.37 10.08 0)
 		(layer "F.Fab")
-		(uuid "c0ab24b1-088e-44cd-a636-727a96fb7d7f")
+		(uuid "8ed30e91-34df-4f5e-af84-cf3aa6f61fb1")
 		(effects
 			(font
 				(size 0.7 0.7)

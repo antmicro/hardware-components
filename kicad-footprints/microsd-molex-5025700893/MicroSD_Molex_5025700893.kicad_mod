@@ -1,7 +1,7 @@
 (footprint "MicroSD_Molex_5025700893"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -8.55 180)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.1 -8.1)
 		(end 7.1 -8.1)
@@ -26874,10 +26888,10 @@
 		(layer "User.9")
 		(uuid "abd17891-6b35-441c-9eca-18ef819cd323")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -7.55 12.55 0)
+	(fp_text user "${REFERENCE}"
+		(at -7.55 11.35 0)
 		(layer "F.Fab")
-		(uuid "b50a6963-756d-4e60-a40c-69e3746719e7")
+		(uuid "b6f4361e-9956-4741-9610-c201d7d7d010")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -26886,10 +26900,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -7.55 11.35 0)
+	(fp_text user "Author: Antmicro"
+		(at -7.55 12.55 0)
 		(layer "F.Fab")
-		(uuid "b6f4361e-9956-4741-9610-c201d7d7d010")
+		(uuid "b50a6963-756d-4e60-a40c-69e3746719e7")
 		(effects
 			(font
 				(size 0.7 0.7)

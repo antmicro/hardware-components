@@ -1,7 +1,7 @@
 (footprint "LGA-24_3x3mm_P0.4mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.1 -1.95 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -1.48 -0.75) (xy -1.08 -0.75) (xy -1.08 -0.45) (xy -1.48 -0.45)
@@ -764,10 +778,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -2 6.525 0)
+	(fp_text user "Author: Antmicro"
+		(at -2 5.3 0)
 		(layer "F.Fab")
-		(uuid "d69daf5f-e3ae-4a7b-83da-87d67aab1d8c")
+		(uuid "e342b292-f708-4f53-813d-645502ddbc4e")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -776,10 +790,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "Author: Antmicro"
-		(at -2 5.3 0)
+	(fp_text user "License: Apache-2.0"
+		(at -2 6.525 0)
 		(layer "F.Fab")
-		(uuid "e342b292-f708-4f53-813d-645502ddbc4e")
+		(uuid "d69daf5f-e3ae-4a7b-83da-87d67aab1d8c")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1061,8 +1075,6 @@
 		(uuid "adb06f36-42dd-4127-a495-3362064a4f6c")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "e6e80c26-1a37-4a0d-8032-255b7f44094c")
 		(hatch full 0.508)
@@ -1070,7 +1082,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -1085,6 +1096,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -1107,8 +1119,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -1121,7 +1131,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -1136,6 +1145,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -1144,8 +1154,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "B.Cu")
 		(uuid "1c6ef48b-fca5-40b6-b901-5d10d221783f")
 		(hatch full 0.508)
@@ -1153,7 +1161,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -1168,6 +1175,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

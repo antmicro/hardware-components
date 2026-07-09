@@ -1,7 +1,7 @@
 (footprint "Conn_Hermaphroditic_Molex_204843-0001_mirrored"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Mirrored wersion of Footprint based on https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/203/203456/2034560003_sd.pdf")
 	(property "Reference" "J**"
@@ -56,6 +56,20 @@
 	)
 	(solder_mask_margin 0.05)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -32.25 -9.3)
 		(end -32.25 -0.87)
@@ -107908,10 +107922,10 @@
 		(layer "User.9")
 		(uuid "1b1f18b0-30b6-43e2-b261-30073a2d1c6d")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -33.245 16.2 0)
+	(fp_text user "${REFERENCE}"
+		(at -33.245 13.8 0)
 		(layer "F.Fab")
-		(uuid "141f3493-cc6f-4dc6-8895-0406a5da8f9c")
+		(uuid "a11eebb0-dd1c-4eed-93bb-6c232fc9e8ce")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -107932,10 +107946,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -33.245 13.8 0)
+	(fp_text user "License: Apache-2.0"
+		(at -33.245 16.2 0)
 		(layer "F.Fab")
-		(uuid "a11eebb0-dd1c-4eed-93bb-6c232fc9e8ce")
+		(uuid "141f3493-cc6f-4dc6-8895-0406a5da8f9c")
 		(effects
 			(font
 				(size 0.7 0.7)

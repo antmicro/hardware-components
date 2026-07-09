@@ -1,7 +1,7 @@
 (footprint "WiFi_Module_WF121-A-V2"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -14.5 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.8 -12.5)
 		(end -7.8 -12.1)
@@ -40512,6 +40526,18 @@
 		(layer "User.9")
 		(uuid "1fc120fd-5d69-4d79-aae4-8d7728da6c3a")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -8.75 18 0)
+		(layer "F.Fab")
+		(uuid "5e5ea2da-ec99-40cc-aa95-45e7d755c940")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -8.75 19.2 0)
 		(layer "F.Fab")
@@ -40528,18 +40554,6 @@
 		(at -8.75 20.4 0)
 		(layer "F.Fab")
 		(uuid "5cf5c5f9-95af-4b83-9fb4-3199d20961c4")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -8.75 18 0)
-		(layer "F.Fab")
-		(uuid "5e5ea2da-ec99-40cc-aa95-45e7d755c940")
 		(effects
 			(font
 				(size 0.7 0.7)

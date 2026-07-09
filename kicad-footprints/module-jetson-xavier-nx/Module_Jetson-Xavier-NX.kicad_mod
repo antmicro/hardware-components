@@ -1,7 +1,7 @@
 (footprint "Module_Jetson-Xavier-NX"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -34.799 -22.5)
 		(end 34.799 22.5)
@@ -26195,6 +26209,19 @@
 		(layer "User.9")
 		(uuid "0f656b6e-7425-4e85-bf85-22d28d96185e")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -35.79 25.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f888540-5c51-4cdb-bcf7-645f3e83c97c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -35.79 26.7 0)
 		(layer "F.Fab")
@@ -26211,19 +26238,6 @@
 		(at -35.79 27.9 0)
 		(layer "F.Fab")
 		(uuid "1d737e57-dc23-417c-9a2c-ea1c5e7f58bc")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -35.79 25.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "7f888540-5c51-4cdb-bcf7-645f3e83c97c")
 		(effects
 			(font
 				(size 0.7 0.7)

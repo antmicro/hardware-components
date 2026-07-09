@@ -1,7 +1,7 @@
 (footprint "R_Array_4x0201_Panasonic_EXB18V"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.1 -1 180)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.8 -0.45)
 		(end -0.8 0.45)
@@ -534,6 +548,18 @@
 		(layer "User.9")
 		(uuid "ee04841a-1fde-49cf-a9d6-1ee49e95fb4e")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -1.051 3.2 0)
+		(layer "F.Fab")
+		(uuid "e133c3aa-6bcc-4d47-93d3-868a389f978b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -1.051 4.599 0)
 		(layer "F.Fab")
@@ -550,18 +576,6 @@
 		(at -1.051 6 0)
 		(layer "F.Fab")
 		(uuid "4ebc8bee-6ab2-4410-bd6c-6d584436bbde")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -1.051 3.2 0)
-		(layer "F.Fab")
-		(uuid "e133c3aa-6bcc-4d47-93d3-868a389f978b")
 		(effects
 			(font
 				(size 0.7 0.7)

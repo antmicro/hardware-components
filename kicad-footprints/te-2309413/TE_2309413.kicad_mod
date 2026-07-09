@@ -1,7 +1,7 @@
 (footprint "TE_2309413"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "260 pin DDR4 SODIMM Right Angle Socket, 9.2 mm (0.362 in) Stack Height, https://www.te.com/global-en/product-2309413-1.html")
 	(tags "ddr4 sodimm right angle 9.2mm height jetson som")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -38.906 -1.827)
 		(end -38.906 1.973)
@@ -36095,6 +36109,18 @@
 		(layer "User.9")
 		(uuid "07ab8325-035c-4870-9df3-061bd4b860e8")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -38 15.5 0)
+		(layer "F.Fab")
+		(uuid "a7636a76-46bc-4e18-9e4e-d9686fa54284")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -38 16.75 0)
 		(layer "F.Fab")
@@ -36111,18 +36137,6 @@
 		(at -38 18 0)
 		(layer "F.Fab")
 		(uuid "371dbaaa-54b6-4761-be4d-9a55f056eb81")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -38 15.5 0)
-		(layer "F.Fab")
-		(uuid "a7636a76-46bc-4e18-9e4e-d9686fa54284")
 		(effects
 			(font
 				(size 0.7 0.7)

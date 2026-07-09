@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "askiff")
 	(generator_version "9.0")
 	(symbol "LPC11U24FHI33"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 43.18 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,61 +22,73 @@
 		)
 		(property "Value" "LPC11U24FHI33"
 			(at 43.18 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "LPC11U24FHI33"
 			(at 43.18 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/LPC11U1X.pdf"
 			(at 43.18 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Description" "ARM MCU, LPC Family LPC1100 Series Microcontrollers, ARM Cortex-M0, 32 bit, 50 MHz, 32 KB"
 			(at 43.18 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "NXP"
 			(at 43.18 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MPN" "LPC11U24FHI33/301"
 			(at 43.18 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,33 +99,39 @@
 		)
 		(property "Author" "Antmicro"
 			(at 43.18 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "License" "Apache-2.0"
 			(at 43.18 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SMT, MICROCONTROLLER, RoHS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LPC11U24FHI33_1_1"
@@ -125,41 +147,24 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 27.94 -48.26 180)
 				(length 2.54)
-				(hide yes)
-				(name "VDD"
+				(name "PIO1_19"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "29"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-			)
-			(pin power_in line
-				(at 0 0 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
+				(alternate "SSEL1" passive line)
+				(alternate "~{DTR}" passive line)
 			)
 			(pin passive line
 				(at 0 -5.08 0)
@@ -179,6 +184,27 @@
 					)
 				)
 				(alternate "PIO_0" passive line)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 2.54)
+				(name "PIO0_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CLKOUT" passive line)
+				(alternate "CT32B0_MAT2" passive line)
+				(alternate "USB_FTOGGLE" passive line)
 			)
 			(pin passive line
 				(at 0 -10.16 0)
@@ -216,179 +242,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -20.32 0)
-				(length 2.54)
-				(name "USB_DP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -22.86 0)
-				(length 2.54)
-				(name "USB_DM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -27.94 0)
-				(length 2.54)
-				(name "TDI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "AD0" passive line)
-				(alternate "CT32B0_MAT3" passive line)
-				(alternate "PIO0_11" passive line)
-			)
-			(pin passive line
-				(at 0 -30.48 0)
-				(length 2.54)
-				(name "TDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "AD2" passive line)
-				(alternate "CT32B1_MAT0" passive line)
-				(alternate "PIO0_13" passive line)
-			)
-			(pin passive line
-				(at 0 -33.02 0)
-				(length 2.54)
-				(name "TMS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "AD1" passive line)
-				(alternate "CT32B1_CAP0" passive line)
-				(alternate "PIO0_12" passive line)
-			)
-			(pin passive line
-				(at 0 -35.56 0)
-				(length 2.54)
-				(name "~{TRST}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "AD3" passive line)
-				(alternate "CT32B1_MAT1" passive line)
-				(alternate "PIO0_14" passive line)
-			)
-			(pin passive line
-				(at 0 -40.64 0)
-				(length 2.54)
-				(name "SWDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "AD4" passive line)
-				(alternate "CT32B1_MAT2" passive line)
-				(alternate "PIO0_15" passive line)
-			)
-			(pin passive line
-				(at 0 -43.18 0)
-				(length 2.54)
-				(name "SWCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "CT16B0_MAT2" passive line)
-				(alternate "PIO0_10" passive line)
-				(alternate "SCK0" passive line)
-			)
 			(pin power_in line
-				(at 0 -48.26 0)
+				(at 0 0 0)
 				(length 2.54)
-				(name "VSS"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "33"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -397,25 +261,23 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 0 180)
+				(at 27.94 -34.29 180)
 				(length 2.54)
-				(name "PIO0_1"
+				(name "PIO0_20"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(alternate "CLKOUT" passive line)
-				(alternate "CT32B0_MAT2" passive line)
-				(alternate "USB_FTOGGLE" passive line)
+				(alternate "CT16B1_CAP0" passive line)
 			)
 			(pin passive line
 				(at 27.94 -2.54 180)
@@ -493,6 +355,62 @@
 					)
 				)
 				(alternate "SDA" passive line)
+			)
+			(pin passive line
+				(at 27.94 -36.83 180)
+				(length 2.54)
+				(name "PIO0_21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CT16B1_MAT0" passive line)
+				(alternate "MOSI1" passive line)
+			)
+			(pin passive line
+				(at 0 -22.86 0)
+				(length 2.54)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 2.54)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 			(pin passive line
 				(at 27.94 -12.7 180)
@@ -574,6 +492,153 @@
 				(alternate "MOSI0" passive line)
 			)
 			(pin passive line
+				(at 0 -43.18 0)
+				(length 2.54)
+				(name "SWCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CT16B0_MAT2" passive line)
+				(alternate "PIO0_10" passive line)
+				(alternate "SCK0" passive line)
+			)
+			(pin passive line
+				(at 27.94 -39.37 180)
+				(length 2.54)
+				(name "PIO0_22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AD6" passive line)
+				(alternate "CT16B1_MAT1" passive line)
+				(alternate "MISO1" passive line)
+			)
+			(pin passive line
+				(at 0 -27.94 0)
+				(length 2.54)
+				(name "TDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AD0" passive line)
+				(alternate "CT32B0_MAT3" passive line)
+				(alternate "PIO0_11" passive line)
+			)
+			(pin passive line
+				(at 0 -33.02 0)
+				(length 2.54)
+				(name "TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AD1" passive line)
+				(alternate "CT32B1_CAP0" passive line)
+				(alternate "PIO0_12" passive line)
+			)
+			(pin passive line
+				(at 0 -30.48 0)
+				(length 2.54)
+				(name "TDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AD2" passive line)
+				(alternate "CT32B1_MAT0" passive line)
+				(alternate "PIO0_13" passive line)
+			)
+			(pin passive line
+				(at 0 -35.56 0)
+				(length 2.54)
+				(name "~{TRST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AD3" passive line)
+				(alternate "CT32B1_MAT1" passive line)
+				(alternate "PIO0_14" passive line)
+			)
+			(pin passive line
+				(at 0 -40.64 0)
+				(length 2.54)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AD4" passive line)
+				(alternate "CT32B1_MAT2" passive line)
+				(alternate "PIO0_15" passive line)
+			)
+			(pin passive line
 				(at 27.94 -24.13 180)
 				(length 2.54)
 				(name "PIO0_16"
@@ -593,6 +658,65 @@
 				(alternate "AD5" passive line)
 				(alternate "CT32B1_MAT3" passive line)
 				(alternate "WAKEUP" passive line)
+			)
+			(pin passive line
+				(at 27.94 -41.91 180)
+				(length 2.54)
+				(name "PIO0_23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AD7" passive line)
+			)
+			(pin passive line
+				(at 27.94 -45.72 180)
+				(length 2.54)
+				(name "PIO1_15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CT16B0_MAT2" passive line)
+				(alternate "SCK1" passive line)
+				(alternate "~{DCD}" passive line)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 			(pin passive line
 				(at 27.94 -26.67 180)
@@ -655,125 +779,23 @@
 				(alternate "CT32B0_MAT1" passive line)
 				(alternate "TXD" passive line)
 			)
-			(pin passive line
-				(at 27.94 -34.29 180)
+			(pin power_in line
+				(at 0 -48.26 0)
 				(length 2.54)
-				(name "PIO0_20"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(alternate "CT16B1_CAP0" passive line)
-			)
-			(pin passive line
-				(at 27.94 -36.83 180)
-				(length 2.54)
-				(name "PIO0_21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "CT16B1_MAT0" passive line)
-				(alternate "MOSI1" passive line)
-			)
-			(pin passive line
-				(at 27.94 -39.37 180)
-				(length 2.54)
-				(name "PIO0_22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "AD6" passive line)
-				(alternate "CT16B1_MAT1" passive line)
-				(alternate "MISO1" passive line)
-			)
-			(pin passive line
-				(at 27.94 -41.91 180)
-				(length 2.54)
-				(name "PIO0_23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "AD7" passive line)
-			)
-			(pin passive line
-				(at 27.94 -45.72 180)
-				(length 2.54)
-				(name "PIO1_15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "CT16B0_MAT2" passive line)
-				(alternate "SCK1" passive line)
-				(alternate "~{DCD}" passive line)
-			)
-			(pin passive line
-				(at 27.94 -48.26 180)
-				(length 2.54)
-				(name "PIO1_19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "SSEL1" passive line)
-				(alternate "~{DTR}" passive line)
 			)
 		)
 		(embedded_fonts no)

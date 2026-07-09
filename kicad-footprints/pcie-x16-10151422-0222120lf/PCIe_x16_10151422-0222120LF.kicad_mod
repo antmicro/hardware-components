@@ -1,7 +1,7 @@
 (footprint "PCIe_x16_10151422-0222120LF"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -45.275 -12.655 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -44.5 -8.4)
 		(end -44.5 -1.37)
@@ -57476,10 +57490,10 @@
 		(layer "User.9")
 		(uuid "72080b79-4373-4ab2-9e15-52a62e3a0bbe")
 	)
-	(fp_text user "PCB EDGE"
-		(at 48.7 6.9 0)
+	(fp_text user "${REFERENCE}"
+		(at -48.45 9.85 0)
 		(layer "F.Fab")
-		(uuid "5032deef-b751-4a9e-9d40-38ea78212163")
+		(uuid "ef27e711-b77c-4e11-bb6e-3e0a901a75c8")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -57512,10 +57526,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -48.45 9.85 0)
+	(fp_text user "PCB EDGE"
+		(at 48.7 6.9 0)
 		(layer "F.Fab")
-		(uuid "ef27e711-b77c-4e11-bb6e-3e0a901a75c8")
+		(uuid "5032deef-b751-4a9e-9d40-38ea78212163")
 		(effects
 			(font
 				(size 0.7 0.7)

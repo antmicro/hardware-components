@@ -1,7 +1,7 @@
 (footprint "QFN-20-2EP-3.5x5x1.6mm_P0.5mm_MPS_MPM3630"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "MPM3630GQV-P ")
 	(property "Reference" "REF**"
@@ -55,6 +55,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.6 2.325)
 		(end -1.6 2.6)
@@ -1579,10 +1593,11 @@
 		(layer "User.9")
 		(uuid "3b090025-9567-40f5-b85c-aa2944bc7c9b")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -2.4 9.6 0)
+	(fp_text user "${REFERENCE}"
+		(at -2.4 7.2 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0f5c56b4-0bf8-4c0c-a9ae-416186dc87e5")
+		(uuid "ce010651-bc26-4ac3-9e32-172b1e5fbb54")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1603,11 +1618,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -2.4 7.2 0)
-		(unlocked yes)
+	(fp_text user "License: Apache-2.0"
+		(at -2.4 9.6 0)
 		(layer "F.Fab")
-		(uuid "ce010651-bc26-4ac3-9e32-172b1e5fbb54")
+		(uuid "0f5c56b4-0bf8-4c0c-a9ae-416186dc87e5")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1749,8 +1763,6 @@
 		(uuid "6f525f6e-87f2-441b-b499-0ed06ff62bcd")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "d7c5d4c1-dd8f-42cf-909a-ea2722c9327f")
 		(hatch full 0.508)
@@ -1758,7 +1770,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -1773,6 +1784,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

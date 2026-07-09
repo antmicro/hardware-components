@@ -1,7 +1,7 @@
 (footprint "Camera_Lens_18mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.05 -8 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9 -2)
 		(end -7.25 -2)
@@ -8380,10 +8394,10 @@
 		(layer "User.9")
 		(uuid "7228595f-87ef-435f-87f1-ed5da4563239")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -12 12.65 0)
+	(fp_text user "${REFERENCE}"
+		(at -12 10.25 0)
 		(layer "F.Fab")
-		(uuid "4cbdc363-9949-4ddd-abae-6c9fa2774f84")
+		(uuid "e9c464b0-c3c0-4f91-9e4a-2605b956515e")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -8404,10 +8418,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -12 10.25 0)
+	(fp_text user "License: Apache-2.0"
+		(at -12 12.65 0)
 		(layer "F.Fab")
-		(uuid "e9c464b0-c3c0-4f91-9e4a-2605b956515e")
+		(uuid "4cbdc363-9949-4ddd-abae-6c9fa2774f84")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -8420,14 +8434,14 @@
 		(at -9 0)
 		(size 1.4 1.4)
 		(drill 1.4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "d6d3c3ab-bc3c-4b45-8020-164a01e7f404")
 	)
 	(pad "" np_thru_hole circle
 		(at 9 0)
 		(size 1.4 1.4)
 		(drill 1.4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "61f88a07-47b0-48cd-ab9c-f89dda1dce6f")
 	)
 	(embedded_fonts no)

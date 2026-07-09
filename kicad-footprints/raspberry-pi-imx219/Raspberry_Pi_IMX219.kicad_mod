@@ -1,7 +1,7 @@
 (footprint "Raspberry_Pi_IMX219"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -13.7 0)
@@ -57,6 +57,20 @@
 			(justify left bottom)
 		)
 	)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -13 -13.5)
 		(end 13 13.5)
@@ -207,6 +221,19 @@
 		(layer "User.9")
 		(uuid "82bc0dfb-351b-4491-9fb8-d9d3ca318058")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -13 15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b2c8397e-7369-4a66-8857-b28a57a42d38")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -13 16.7 0)
 		(layer "F.Fab")
@@ -223,19 +250,6 @@
 		(at -13 17.9 0)
 		(layer "F.Fab")
 		(uuid "9788d723-c72c-4d73-8267-3b8ba1edc0cd")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -13 15.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "b2c8397e-7369-4a66-8857-b28a57a42d38")
 		(effects
 			(font
 				(size 0.7 0.7)

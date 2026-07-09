@@ -1,7 +1,7 @@
 (footprint "MSOP-8-1EP_3x3x1.1mm_P0.65mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://www.ti.com/lit/ds/symlink/tpa2005d1-q1.pdf")
 	(property "Reference" "REF**"
@@ -53,6 +53,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.6 1.6)
 		(end -1.6 1.298)
@@ -4995,18 +5009,6 @@
 		(layer "User.9")
 		(uuid "5e2d076b-2759-456e-b28b-0f5166fd1976")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -3.179 7 0)
-		(layer "F.Fab")
-		(uuid "9f66196e-7d22-402e-9b77-b407df98463f")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at -3.179 4.6 0)
 		(layer "F.Fab")
@@ -5023,6 +5025,18 @@
 		(at -3.179 5.8 0)
 		(layer "F.Fab")
 		(uuid "f78f7b6e-718d-441b-a900-40286e635538")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -3.179 7 0)
+		(layer "F.Fab")
+		(uuid "9f66196e-7d22-402e-9b77-b407df98463f")
 		(effects
 			(font
 				(size 0.7 0.7)

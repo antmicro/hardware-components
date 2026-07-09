@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_KYOCERA-AVX_KC2016Z_2x1.6mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.4 180)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.95 0.5)
 		(end -0.95 -0.5)
@@ -399,6 +413,18 @@
 		(layer "User.9")
 		(uuid "0e525658-8d9d-4dd9-a754-6b518334485b")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -1.05 3.4 0)
+		(layer "F.Fab")
+		(uuid "e21f12fb-e082-4cd2-a0b7-ad96f6cf10f3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -1.05 4.6 0)
 		(layer "F.Fab")
@@ -415,18 +441,6 @@
 		(at -1.05 5.8 0)
 		(layer "F.Fab")
 		(uuid "e09cf591-a95c-4f87-b426-ab64f8ac7cb9")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -1.05 3.4 0)
-		(layer "F.Fab")
-		(uuid "e21f12fb-e082-4cd2-a0b7-ad96f6cf10f3")
 		(effects
 			(font
 				(size 0.7 0.7)

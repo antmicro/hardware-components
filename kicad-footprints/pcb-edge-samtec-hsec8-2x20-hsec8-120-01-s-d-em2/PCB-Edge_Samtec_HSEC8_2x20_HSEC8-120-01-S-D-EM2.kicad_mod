@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_Samtec_HSEC8_2x20_HSEC8-120-01-S-D-EM2"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -7.6 0.6) (xy -8 1.2) (xy -7.2 1.2)
@@ -158,10 +172,11 @@
 		(layer "Edge.Cuts")
 		(uuid "a16b51fc-c6f3-479a-a9bd-1b3222daa8d4")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -12 7.2 0)
+	(fp_text user "${REFERENCE}"
+		(at -12 6 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9851b000-0a2b-404a-8c8a-3d01d94fcda8")
+		(uuid "9fef765b-da99-40b4-acc9-ffd0a0669e55")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -170,11 +185,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -12 6 0)
-		(unlocked yes)
+	(fp_text user "Author: Antmicro"
+		(at -12 7.2 0)
 		(layer "F.Fab")
-		(uuid "9fef765b-da99-40b4-acc9-ffd0a0669e55")
+		(uuid "9851b000-0a2b-404a-8c8a-3d01d94fcda8")
 		(effects
 			(font
 				(size 0.7 0.7)

@@ -1,7 +1,7 @@
 (footprint "C_Pol_KEMET-MS-D10mm-H12.2mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.8 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.925 -1.55)
 		(end -5.525 -1.55)
@@ -7122,10 +7136,10 @@
 		(layer "User.9")
 		(uuid "5520fe5c-7714-4cd7-95d5-6114bc81b1f5")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -6.6 11.289 0)
+	(fp_text user "${REFERENCE}"
+		(at -6.6 8.889 0)
 		(layer "F.Fab")
-		(uuid "05b6cf9a-3226-453a-9039-7c2942e919f1")
+		(uuid "704dd2c0-e61a-44fd-9a2a-08920263f764")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -7146,10 +7160,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -6.6 8.889 0)
+	(fp_text user "License: Apache-2.0"
+		(at -6.6 11.289 0)
 		(layer "F.Fab")
-		(uuid "704dd2c0-e61a-44fd-9a2a-08920263f764")
+		(uuid "05b6cf9a-3226-453a-9039-7c2942e919f1")
 		(effects
 			(font
 				(size 0.7 0.7)

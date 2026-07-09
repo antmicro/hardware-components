@@ -1,7 +1,7 @@
 (footprint "Bluetooth_Module_CYBLE-022001-00"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.6 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.3 -4.2)
 		(end -4.4 -5.1)
@@ -10442,18 +10456,6 @@
 		(layer "User.9")
 		(uuid "41fe0c06-e4e9-4adc-b54c-788291fcfa97")
 	)
-	(fp_text user "${REFERENCE}"
-		(at -5.35 10.6 0)
-		(layer "F.Fab")
-		(uuid "6d6b236d-af13-4687-b7c0-aacdd5deb425")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "REF**"
 		(at -5.35 9.4 0)
 		(layer "F.Fab")
@@ -10466,10 +10468,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -5.35 13 0)
+	(fp_text user "${REFERENCE}"
+		(at -5.35 10.6 0)
 		(layer "F.Fab")
-		(uuid "9e3e2962-2123-4c9c-9448-86a9b78ca58c")
+		(uuid "6d6b236d-af13-4687-b7c0-aacdd5deb425")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -10482,6 +10484,18 @@
 		(at -5.35 11.8 0)
 		(layer "F.Fab")
 		(uuid "a484b558-6ad9-4843-86b5-5e86bcc92da8")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -5.35 13 0)
+		(layer "F.Fab")
+		(uuid "9e3e2962-2123-4c9c-9448-86a9b78ca58c")
 		(effects
 			(font
 				(size 0.7 0.7)

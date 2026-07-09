@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_TE_MULTI-BEAM_2x5_1-2212115-4"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -11.9 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8 -10.86)
 		(end -7.25 -11.61)
@@ -700,8 +714,6 @@
 		(uuid "c10da3a8-0f18-4441-9ab6-c4640b4d6d7e")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "F.Adhes" "In4.Cu" "B.Adhes"
 			"In5.Cu" "F.Paste" "In6.Cu" "B.Paste" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
 			"In11.Cu" "Edge.Cuts" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
@@ -714,7 +726,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -729,6 +740,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_SODIMM_2x130_DDR4"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0.6 -3.9)
 		(end 0.65 -3.9)
@@ -468,10 +482,10 @@
 		(layer "User.9")
 		(uuid "76c772c6-14ec-45d1-accc-d68a48ed6304")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at 0 5.4 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.999 0)
 		(layer "F.Fab")
-		(uuid "739f3ce9-b168-4cb5-8f2c-f36624124eb2")
+		(uuid "b948fa1b-d9ed-487a-a824-beb0be688315")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -492,10 +506,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.999 0)
+	(fp_text user "License: Apache-2.0"
+		(at 0 5.4 0)
 		(layer "F.Fab")
-		(uuid "b948fa1b-d9ed-487a-a824-beb0be688315")
+		(uuid "739f3ce9-b168-4cb5-8f2c-f36624124eb2")
 		(effects
 			(font
 				(size 0.7 0.7)

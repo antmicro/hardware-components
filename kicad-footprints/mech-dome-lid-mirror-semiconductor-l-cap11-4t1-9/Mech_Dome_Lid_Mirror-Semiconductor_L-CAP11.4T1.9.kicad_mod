@@ -1,7 +1,7 @@
 (footprint "Mech_Dome_Lid_Mirror-Semiconductor_L-CAP11.4T1.9"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6 0)
@@ -53,6 +53,20 @@
 			)
 		)
 	)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -5.7 -5.7)
 		(end 5.7 5.7)
@@ -104,18 +118,6 @@
 		(layer "User.9")
 		(uuid "a745c993-e59b-4d16-b29f-bd98753c6ac4")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -6.1 12.6 0)
-		(layer "F.Fab")
-		(uuid "429dfeed-7a05-4db0-953e-6a7ec5810a93")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at -6.1 10.2 0)
 		(unlocked yes)
@@ -141,9 +143,19 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "License: Apache-2.0"
+		(at -6.1 12.6 0)
+		(layer "F.Fab")
+		(uuid "429dfeed-7a05-4db0-953e-6a7ec5810a93")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "3c3680b4-4a50-4f10-87e3-741d5268cc83")
 		(hatch edge 0.5)
@@ -151,7 +163,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -166,6 +177,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -174,8 +186,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "3a899939-c663-4f7b-865d-8a8690ab7bb1")
 		(hatch edge 0.5)
@@ -183,7 +193,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -198,6 +207,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -206,8 +216,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "5ea9dff9-9d10-4ff2-81c9-771397702465")
 		(hatch edge 0.5)
@@ -215,7 +223,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -230,6 +237,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -238,8 +246,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "bfde6a16-d0b7-4d18-bd41-86d887301118")
 		(hatch edge 0.5)
@@ -247,7 +253,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias allowed)
@@ -262,6 +267,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

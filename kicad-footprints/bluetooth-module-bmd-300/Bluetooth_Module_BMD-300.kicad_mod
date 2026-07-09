@@ -1,7 +1,7 @@
 (footprint "Bluetooth_Module_BMD-300"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -7.4 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.2 -6.9)
 		(end -5.2 -6.4)
@@ -1495,10 +1509,10 @@
 		(layer "User.9")
 		(uuid "f5754670-6a5d-4ded-9303-bec19ed09a7b")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -7.75 10.85 0)
+	(fp_text user "${REFERENCE}"
+		(at -7.75 8.45 0)
 		(layer "F.Fab")
-		(uuid "2a0f7a6c-412e-432a-b5fb-ae645d2a9ab3")
+		(uuid "ee269071-1fde-4802-8adc-5d8c6bd07afd")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1519,10 +1533,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -7.75 8.45 0)
+	(fp_text user "License: Apache-2.0"
+		(at -7.75 10.85 0)
 		(layer "F.Fab")
-		(uuid "ee269071-1fde-4802-8adc-5d8c6bd07afd")
+		(uuid "2a0f7a6c-412e-432a-b5fb-ae645d2a9ab3")
 		(effects
 			(font
 				(size 0.7 0.7)

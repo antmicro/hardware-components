@@ -1,7 +1,7 @@
 (footprint "MS621FE-FL11E"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.25 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start 1.2 -2.15)
 		(mid 0 4.834)
@@ -1461,6 +1475,18 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at -3.501 11.8 0)
+		(layer "F.Fab")
+		(uuid "b177a762-936e-4a98-9d88-99e3582c39d9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "COPPER KEEPOUT"
 		(at -0.2 -3.14 270)
 		(unlocked yes)
@@ -1470,18 +1496,6 @@
 			(font
 				(size 0.4 0.4)
 				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -3.501 11.8 0)
-		(layer "F.Fab")
-		(uuid "b177a762-936e-4a98-9d88-99e3582c39d9")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -1499,8 +1513,6 @@
 		(uuid "be8a7cf6-4c29-4771-a68a-3dc654415c03")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "F.CrtYd")
 		(uuid "b31e6386-3995-478c-a276-22178f943b5a")
 		(hatch edge 0.508)
@@ -1508,7 +1520,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -1523,6 +1534,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x6_P2.54mm_SMD"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -8.1 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.515 -7.62)
 		(end 2.565 -7.62)
@@ -1135,10 +1149,10 @@
 		(layer "User.9")
 		(uuid "ec713714-f876-486e-a66c-ad74617e1831")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -8.01 9.145 0)
+	(fp_text user "${REFERENCE}"
+		(at -8.01 7.945 0)
 		(layer "F.Fab")
-		(uuid "408e3d22-289d-4f40-a9b9-91d73866a5ad")
+		(uuid "8a322094-59b0-4a62-9bb0-2ab5f65743b4")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1147,10 +1161,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -8.01 7.945 0)
+	(fp_text user "Author: Antmicro"
+		(at -8.01 9.145 0)
 		(layer "F.Fab")
-		(uuid "8a322094-59b0-4a62-9bb0-2ab5f65743b4")
+		(uuid "408e3d22-289d-4f40-a9b9-91d73866a5ad")
 		(effects
 			(font
 				(size 0.7 0.7)

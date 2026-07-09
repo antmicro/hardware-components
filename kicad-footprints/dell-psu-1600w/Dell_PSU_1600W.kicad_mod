@@ -1,7 +1,7 @@
 (footprint "Dell_PSU_1600W"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -100 -43)
 		(end 100 43)
@@ -64,6 +78,19 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c6365089-3532-4dc5-b6ce-13c853e502c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -100 45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9592dfe-8386-41f5-ac28-a91a9f62d325")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "Author: Antmicro"
 		(at -100 46.2 0)
@@ -81,19 +108,6 @@
 		(at -100 47.4 0)
 		(layer "F.Fab")
 		(uuid "e73d446f-ebdd-4845-96da-4fc315668e5b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -100 45 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "e9592dfe-8386-41f5-ac28-a91a9f62d325")
 		(effects
 			(font
 				(size 0.7 0.7)

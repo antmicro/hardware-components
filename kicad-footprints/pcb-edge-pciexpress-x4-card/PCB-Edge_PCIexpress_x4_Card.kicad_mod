@@ -1,7 +1,7 @@
 (footprint "PCB-Edge_PCIexpress_x4_Card"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "PCIexpress x4 card")
 	(tags "PCIexpress")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -11.8 -4.5) (xy -11.8 -8) (xy -3.8 -8) (xy -3.8 -4.5)
@@ -1082,28 +1096,6 @@
 			)
 		)
 	)
-	(fp_text user "PCB Thickness 1.57 mm"
-		(at 6.2 2.225 180)
-		(layer "Cmts.User")
-		(uuid "45592120-9408-4b8f-9696-57d9b6eb904c")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Keep Out Cu"
-		(at -7.75 -3.5 0)
-		(layer "Cmts.User")
-		(uuid "4a7c2613-cd65-46a9-ba45-0f76a6843688")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "Keep out components and traces solder side"
 		(at -44.275 -74.325 270)
 		(layer "Cmts.User")
@@ -1126,10 +1118,21 @@
 			)
 		)
 	)
-	(fp_text user "Keep out components and traces both sides"
-		(at 120 -87.75 90)
+	(fp_text user "Maximum component height: solder side 2,67mm component side 14,49mm"
+		(at -10.77 -66.15 0)
 		(layer "Cmts.User")
-		(uuid "a34e0bb9-edc4-4c8f-b0d5-60105188f398")
+		(uuid "b3fa4b2c-8577-41f4-94e2-07b7e4ba8739")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Keep Out Cu"
+		(at -7.75 -3.5 0)
+		(layer "Cmts.User")
+		(uuid "4a7c2613-cd65-46a9-ba45-0f76a6843688")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1149,10 +1152,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "Maximum component height: solder side 2,67mm component side 14,49mm"
-		(at -10.77 -66.15 0)
+	(fp_text user "PCB Thickness 1.57 mm"
+		(at 6.2 2.225 180)
 		(layer "Cmts.User")
-		(uuid "b3fa4b2c-8577-41f4-94e2-07b7e4ba8739")
+		(uuid "45592120-9408-4b8f-9696-57d9b6eb904c")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1160,10 +1163,10 @@
 			)
 		)
 	)
-	(fp_text user "Keep out components and traces both sides"
-		(at 121.893243 -40.134926 90)
+	(fp_text user "Full height"
+		(at 37.7 -112.15 0)
 		(layer "Cmts.User")
-		(uuid "b60ad49e-536d-469b-90ee-5829c2aa5fc0")
+		(uuid "f421233f-ddb0-4e6d-9176-b840fbf0ff54")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1193,10 +1196,10 @@
 			)
 		)
 	)
-	(fp_text user "Full height"
-		(at 37.7 -112.15 0)
+	(fp_text user "Keep out components and traces both sides"
+		(at 120 -87.75 90)
 		(layer "Cmts.User")
-		(uuid "f421233f-ddb0-4e6d-9176-b840fbf0ff54")
+		(uuid "a34e0bb9-edc4-4c8f-b0d5-60105188f398")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1204,13 +1207,13 @@
 			)
 		)
 	)
-	(fp_text user "License: Apache-2.0"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "13a2d943-aea6-44cb-a404-18e0c43678f4")
+	(fp_text user "Keep out components and traces both sides"
+		(at 121.893243 -40.134926 90)
+		(layer "Cmts.User")
+		(uuid "b60ad49e-536d-469b-90ee-5829c2aa5fc0")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.7 0.7)
 				(thickness 0.15)
 			)
 		)
@@ -1219,6 +1222,17 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "5d42d472-5273-4cbb-8f5d-2303af571dfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "13a2d943-aea6-44cb-a404-18e0c43678f4")
 		(effects
 			(font
 				(size 1 1)

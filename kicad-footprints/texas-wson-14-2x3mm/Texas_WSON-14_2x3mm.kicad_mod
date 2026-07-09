@@ -1,7 +1,7 @@
 (footprint "Texas_WSON-14_2x3mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -1.549)
 		(end 1 -1.549)
@@ -1948,10 +1962,11 @@
 		(layer "User.9")
 		(uuid "1e5956ac-b098-4306-8d09-2cb7d9836882")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -1.75 13.25 0)
+	(fp_text user "${REFERENCE}"
+		(at -1.75 10.85 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0618d053-d113-4c8d-8ed3-42fc344fb159")
+		(uuid "9bb7eecd-db6e-4f28-bd34-4446e79fc61d")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1972,11 +1987,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -1.75 10.85 0)
-		(unlocked yes)
+	(fp_text user "License: Apache-2.0"
+		(at -1.75 13.25 0)
 		(layer "F.Fab")
-		(uuid "9bb7eecd-db6e-4f28-bd34-4446e79fc61d")
+		(uuid "0618d053-d113-4c8d-8ed3-42fc344fb159")
 		(effects
 			(font
 				(size 0.7 0.7)

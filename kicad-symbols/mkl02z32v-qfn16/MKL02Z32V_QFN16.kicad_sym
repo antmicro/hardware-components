@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "askiff")
 	(generator_version "9.0")
 	(symbol "MKL02Z32V_QFN16"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 38.1 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,49 +22,59 @@
 		)
 		(property "Value" "MKL02Z32V_QFN16"
 			(at 38.1 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "MKL02Z32V_QFN16"
 			(at 38.1 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf"
 			(at 38.1 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Description" "48MHz Cortex-M0+ 32KB Flash Microcontroller"
 			(at 38.1 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MPN" "MKL02Z32VFG4"
 			(at 38.1 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,44 +85,52 @@
 		)
 		(property "Manufacturer" "NXP"
 			(at 38.1 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
 			(at 38.1 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "License" "Apache-2.0"
 			(at 38.1 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SMT, MICROCONTROLLER, MEMORY, FLASH, RoHS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MKL02Z32V_QFN16_1_1"
@@ -142,138 +164,6 @@
 				)
 				(alternate "VREFH" power_in line)
 			)
-			(pin bidirectional line
-				(at 0 -3.81 0)
-				(length 2.54)
-				(name "PTB5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC0_SE1" input line)
-				(alternate "CMP0_IN1" input line)
-				(alternate "IRQ_12" passive line)
-				(alternate "TPM1_CH1" input line)
-				(alternate "~{NMI}" input line)
-			)
-			(pin bidirectional line
-				(at 0 -6.35 0)
-				(length 2.54)
-				(name "PTB4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "I2C0_SDA" open_collector line)
-				(alternate "IRQ_11" input line)
-				(alternate "UART0_RX" output line)
-			)
-			(pin bidirectional line
-				(at 0 -8.89 0)
-				(length 2.54)
-				(name "PTB3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "I2C0_SCL" open_collector line)
-				(alternate "IRQ_10" input line)
-				(alternate "UART0_TX" input line)
-			)
-			(pin bidirectional line
-				(at 0 -11.43 0)
-				(length 2.54)
-				(name "PTB2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC0_SE4" input line)
-				(alternate "IRQ_7" input line)
-				(alternate "UART0_RX" input line)
-				(alternate "UART0_TX" output line)
-			)
-			(pin bidirectional line
-				(at 0 -13.97 0)
-				(length 2.54)
-				(name "PTB1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC0_SE5" input line)
-				(alternate "CMP0_IN3" input line)
-				(alternate "IRQ_6" input line)
-				(alternate "UART0_RX" input line)
-				(alternate "UART0_TX" output line)
-			)
-			(pin bidirectional line
-				(at 0 -16.51 0)
-				(length 2.54)
-				(name "PTB0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC0_SE6" input line)
-				(alternate "EXTRG_IN" input line)
-				(alternate "IRQ_5" input line)
-				(alternate "SPI0_SCK" bidirectional line)
-			)
 			(pin power_in line
 				(at 0 -20.32 0)
 				(length 2.54)
@@ -292,71 +182,6 @@
 					)
 				)
 				(alternate "VREFL" power_in line)
-			)
-			(pin bidirectional line
-				(at 25.4 0 180)
-				(length 2.54)
-				(name "PTA2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "CMP0_OUT" output line)
-				(alternate "SWDIO" bidirectional line)
-			)
-			(pin bidirectional line
-				(at 25.4 -2.54 180)
-				(length 2.54)
-				(name "PTA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "IRQ_1" input line)
-				(alternate "LPTMR0_ALT1" input line)
-				(alternate "TPM_CLKIN0" input line)
-				(alternate "~{RESET_b}" input line)
-			)
-			(pin bidirectional line
-				(at 25.4 -5.08 180)
-				(length 2.54)
-				(name "PTA0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC0_SE12" input line)
-				(alternate "CMP0_IN2" input line)
-				(alternate "IRQ_0" input line)
-				(alternate "SWDCLK" passive line)
-				(alternate "TPM1_CH0" input line)
 			)
 			(pin bidirectional line
 				(at 25.4 -7.62 180)
@@ -461,6 +286,203 @@
 				(alternate "IRQ_4" input line)
 				(alternate "SPI0_MISO" input line)
 				(alternate "SPI0_MOSI" output line)
+			)
+			(pin bidirectional line
+				(at 0 -16.51 0)
+				(length 2.54)
+				(name "PTB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC0_SE6" input line)
+				(alternate "EXTRG_IN" input line)
+				(alternate "IRQ_5" input line)
+				(alternate "SPI0_SCK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 0 -13.97 0)
+				(length 2.54)
+				(name "PTB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC0_SE5" input line)
+				(alternate "CMP0_IN3" input line)
+				(alternate "IRQ_6" input line)
+				(alternate "UART0_RX" input line)
+				(alternate "UART0_TX" output line)
+			)
+			(pin bidirectional line
+				(at 0 -11.43 0)
+				(length 2.54)
+				(name "PTB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC0_SE4" input line)
+				(alternate "IRQ_7" input line)
+				(alternate "UART0_RX" input line)
+				(alternate "UART0_TX" output line)
+			)
+			(pin bidirectional line
+				(at 0 -8.89 0)
+				(length 2.54)
+				(name "PTB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C0_SCL" open_collector line)
+				(alternate "IRQ_10" input line)
+				(alternate "UART0_TX" input line)
+			)
+			(pin bidirectional line
+				(at 0 -6.35 0)
+				(length 2.54)
+				(name "PTB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C0_SDA" open_collector line)
+				(alternate "IRQ_11" input line)
+				(alternate "UART0_RX" output line)
+			)
+			(pin bidirectional line
+				(at 0 -3.81 0)
+				(length 2.54)
+				(name "PTB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC0_SE1" input line)
+				(alternate "CMP0_IN1" input line)
+				(alternate "IRQ_12" passive line)
+				(alternate "TPM1_CH1" input line)
+				(alternate "~{NMI}" input line)
+			)
+			(pin bidirectional line
+				(at 25.4 -5.08 180)
+				(length 2.54)
+				(name "PTA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC0_SE12" input line)
+				(alternate "CMP0_IN2" input line)
+				(alternate "IRQ_0" input line)
+				(alternate "SWDCLK" passive line)
+				(alternate "TPM1_CH0" input line)
+			)
+			(pin bidirectional line
+				(at 25.4 -2.54 180)
+				(length 2.54)
+				(name "PTA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IRQ_1" input line)
+				(alternate "LPTMR0_ALT1" input line)
+				(alternate "TPM_CLKIN0" input line)
+				(alternate "~{RESET_b}" input line)
+			)
+			(pin bidirectional line
+				(at 25.4 0 180)
+				(length 2.54)
+				(name "PTA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CMP0_OUT" output line)
+				(alternate "SWDIO" bidirectional line)
 			)
 		)
 		(embedded_fonts no)

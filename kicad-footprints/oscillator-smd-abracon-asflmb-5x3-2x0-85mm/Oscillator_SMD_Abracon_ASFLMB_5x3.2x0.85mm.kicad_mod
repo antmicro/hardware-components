@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD_Abracon_ASFLMB_5x3.2x0.85mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.9 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.6 -2.5)
 		(end -1.6 -1.9)
@@ -6815,6 +6829,18 @@
 		(layer "User.9")
 		(uuid "a6e35594-8b42-4f7d-903d-1f7b0649293b")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -2.8 5.06 0)
+		(layer "F.Fab")
+		(uuid "f0cea42b-32d8-40c1-a269-087aeeb4bf56")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -2.8 6.259 0)
 		(layer "F.Fab")
@@ -6831,18 +6857,6 @@
 		(at -2.8 7.459 0)
 		(layer "F.Fab")
 		(uuid "1edd088a-75c6-4774-b54d-838be85fcad0")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -2.8 5.06 0)
-		(layer "F.Fab")
-		(uuid "f0cea42b-32d8-40c1-a269-087aeeb4bf56")
 		(effects
 			(font
 				(size 0.7 0.7)

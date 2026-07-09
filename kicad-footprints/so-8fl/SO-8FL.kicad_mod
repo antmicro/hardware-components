@@ -1,7 +1,7 @@
 (footprint "SO-8FL"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "DFN5 5x6, 1.27P (SO−8FL)_.2021")
 	(tags "MOSFET (N-Channel)")
@@ -56,6 +56,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.187 -2.726)
 		(end -3.187 -2.5)
@@ -519,10 +533,10 @@
 		(layer "User.9")
 		(uuid "c55b1bfc-009d-49a8-b3dc-2293e4d4a556")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -3.79 7.89 0)
+	(fp_text user "${REFERENCE}"
+		(at -3.79 5.42 0)
 		(layer "F.Fab")
-		(uuid "0de1d3b3-a557-4c63-85d8-e978f49f41c1")
+		(uuid "555d56ad-fd2a-4077-9c3c-e09deb763a48")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -543,10 +557,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -3.79 5.42 0)
+	(fp_text user "License: Apache-2.0"
+		(at -3.79 7.89 0)
 		(layer "F.Fab")
-		(uuid "555d56ad-fd2a-4077-9c3c-e09deb763a48")
+		(uuid "0de1d3b3-a557-4c63-85d8-e978f49f41c1")
 		(effects
 			(font
 				(size 0.7 0.7)

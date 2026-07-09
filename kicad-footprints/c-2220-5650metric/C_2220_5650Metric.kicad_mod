@@ -1,7 +1,7 @@
 (footprint "C_2220_5650Metric"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 2220")
 	(tags "capacitor SMD 2220")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.415 -2.61)
 		(end 1.415 -2.61)
@@ -1527,6 +1541,18 @@
 		(layer "User.9")
 		(uuid "6bd287de-b25b-43b7-b270-f776c11d5b7d")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -3.7 5.9 0)
+		(layer "F.Fab")
+		(uuid "93f32312-182b-4afb-8647-19f7802ae5bf")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "License: Apache-2.0"
 		(at -3.7 6.9 0)
 		(layer "F.Fab")
@@ -1543,18 +1569,6 @@
 		(at -3.7 7.9 0)
 		(layer "F.Fab")
 		(uuid "7aaee08b-a7c2-4afc-a222-9822fd6f1aeb")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -3.7 5.9 0)
-		(layer "F.Fab")
-		(uuid "93f32312-182b-4afb-8647-19f7802ae5bf")
 		(effects
 			(font
 				(size 0.7 0.7)

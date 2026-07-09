@@ -1,7 +1,7 @@
 (footprint "SOIC-8_5.3x5.3x2mm_P1.27mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "8-Pin SOIC 208-mil")
 	(property "Reference" "REF**"
@@ -53,6 +53,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.8 -2.641)
 		(end -4.4 -2.641)
@@ -2556,10 +2570,10 @@
 		(layer "User.9")
 		(uuid "bdfddeb8-4a90-4661-8be6-fdcf8028aba7")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -4.675 6.938 0)
+	(fp_text user "${REFERENCE}"
+		(at -4.675 4.938 0)
 		(layer "F.Fab")
-		(uuid "8f961d2b-29a5-469a-b2d6-e9cda131ad82")
+		(uuid "e4f6813e-d1e1-457a-b2de-a5a3f54011aa")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -2580,10 +2594,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -4.675 4.938 0)
+	(fp_text user "License: Apache-2.0"
+		(at -4.675 6.938 0)
 		(layer "F.Fab")
-		(uuid "e4f6813e-d1e1-457a-b2de-a5a3f54011aa")
+		(uuid "8f961d2b-29a5-469a-b2d6-e9cda131ad82")
 		(effects
 			(font
 				(size 0.7 0.7)

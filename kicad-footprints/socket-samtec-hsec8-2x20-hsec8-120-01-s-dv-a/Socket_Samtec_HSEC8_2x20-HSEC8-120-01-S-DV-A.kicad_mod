@@ -1,7 +1,7 @@
 (footprint "Socket_Samtec_HSEC8_2x20-HSEC8-120-01-S-DV-A"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Footprint based on https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf")
 	(property "Reference" "REF**"
@@ -55,6 +55,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -10.3 -3.5)
 		(end 10.3 -3.5)
@@ -8358,6 +8372,18 @@
 		(layer "User.9")
 		(uuid "64530ad0-a0eb-488d-b608-2bf052ee2795")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -11 6 0)
+		(layer "F.Fab")
+		(uuid "e30fa969-95ca-491e-963b-28ac50d57d23")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -11 7.2 0)
 		(layer "F.Fab")
@@ -8374,18 +8400,6 @@
 		(at -11 8.4 0)
 		(layer "F.Fab")
 		(uuid "82999f0a-3811-4754-84f7-04a72fe3bb2b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -11 6 0)
-		(layer "F.Fab")
-		(uuid "e30fa969-95ca-491e-963b-28ac50d57d23")
 		(effects
 			(font
 				(size 0.7 0.7)

@@ -1,7 +1,7 @@
 (footprint "SW_DIP_SPSTx04_Slide_Copal_CVS-04xB_W5.9mm_P1mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD 3x-dip-switch SPST Copal_CVS-03xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)")
 	(tags "SMD DIP Switch SPST Slide")
@@ -56,6 +56,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.512 -2.911)
 		(end 1.608 -2.911)
@@ -2099,18 +2113,6 @@
 		(layer "User.9")
 		(uuid "0542bfaf-e9bc-4e0c-99f0-d352760d8b11")
 	)
-	(fp_text user "on"
-		(at 1.99 0.72 270)
-		(layer "F.Fab")
-		(uuid "3af3e657-dad6-4004-8114-22e569e24c22")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "Author: Antmicro"
 		(at -4.1 6.6 0)
 		(layer "F.Fab")
@@ -2139,6 +2141,18 @@
 		(at -4.1 9 0)
 		(layer "F.Fab")
 		(uuid "c1391455-8402-462b-8918-e12037030e9a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "on"
+		(at 1.99 0.72 270)
+		(layer "F.Fab")
+		(uuid "3af3e657-dad6-4004-8114-22e569e24c22")
 		(effects
 			(font
 				(size 0.7 0.7)

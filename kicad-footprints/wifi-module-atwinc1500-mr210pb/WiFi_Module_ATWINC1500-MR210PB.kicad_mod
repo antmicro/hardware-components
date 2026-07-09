@@ -1,7 +1,7 @@
 (footprint "WiFi_Module_ATWINC1500-MR210PB"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -12.5 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.5 -10.6)
 		(end -7.5 -10.4)
@@ -25345,6 +25359,18 @@
 		(layer "User.9")
 		(uuid "4e897001-d0f4-4939-8ee8-68ab141145c3")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -9.1 14.5 0)
+		(layer "F.Fab")
+		(uuid "6faaea30-ae25-4c5d-a446-bf8bd9a6ee4d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -9.1 15.7 0)
 		(layer "F.Fab")
@@ -25361,18 +25387,6 @@
 		(at -9.1 16.9 0)
 		(layer "F.Fab")
 		(uuid "54b183e4-674b-437c-ad94-f30a34de2cdb")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -9.1 14.5 0)
-		(layer "F.Fab")
-		(uuid "6faaea30-ae25-4c5d-a446-bf8bd9a6ee4d")
 		(effects
 			(font
 				(size 0.7 0.7)

@@ -1,7 +1,7 @@
 (footprint "Bluetooth_Module_BC118_1103394"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -10.2 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.3 -9.25)
 		(end -7.3 -9.1)
@@ -323,6 +337,18 @@
 		(layer "User.9")
 		(uuid "7926c172-1b73-4eb1-b701-ef9933a555cf")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -8.5 13.73 0)
+		(layer "F.Fab")
+		(uuid "65f785c4-528a-4f74-b801-e384c8d5aae7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Author: Antmicro"
 		(at -8.5 14.93 0)
 		(layer "F.Fab")
@@ -339,18 +365,6 @@
 		(at -8.5 16.13 0)
 		(layer "F.Fab")
 		(uuid "5ff001b5-de54-466f-94cd-994a0079dfee")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -8.5 13.73 0)
-		(layer "F.Fab")
-		(uuid "65f785c4-528a-4f74-b801-e384c8d5aae7")
 		(effects
 			(font
 				(size 0.7 0.7)

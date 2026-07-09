@@ -1,7 +1,7 @@
 (footprint "Amphenol_G14A421211112HR"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 5.4 -5.6 0)
@@ -55,6 +55,20 @@
 	)
 	(solder_paste_margin -0.06)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.8 -0.4)
 		(end -6.8 -3)
@@ -13991,19 +14005,6 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "PCB EDGE"
-		(at 2.8 2.95 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "cd2105b2-30a9-4554-bb6e-bb0417338c88")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "Author: Antmicro"
 		(at -8.22 11.085 0)
 		(layer "F.Fab")
@@ -14028,18 +14029,31 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "PCB EDGE"
+		(at 2.8 2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd2105b2-30a9-4554-bb6e-bb0417338c88")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at -5.42 -1.395 90)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "6672f8c8-4782-4cab-a6db-63d19718b54b")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.95 -1.395 90)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "4a485cef-a29b-492c-8f7c-ed0acd00a56e")
 	)
 	(pad "A1" smd roundrect

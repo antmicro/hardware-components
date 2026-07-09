@@ -1,7 +1,7 @@
 (footprint "R_0402_1005Metric"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0402")
 	(tags "resistor SMD 0402")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.925 -0.47)
 		(end 0.925 0.47)
@@ -187,10 +201,10 @@
 		(layer "User.9")
 		(uuid "e6dd4bc1-f5ed-4045-a6f4-c664dc72cdb7")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -0.95 5.169 0)
+	(fp_text user "${REFERENCE}"
+		(at -0.95 3.168 0)
 		(layer "F.Fab")
-		(uuid "060155c0-ab88-4c8d-9fda-ab0ed07f90de")
+		(uuid "d4bf243b-867b-464f-a3e8-c685b7bd49f9")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -211,10 +225,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -0.95 3.168 0)
+	(fp_text user "License: Apache-2.0"
+		(at -0.95 5.169 0)
 		(layer "F.Fab")
-		(uuid "d4bf243b-867b-464f-a3e8-c685b7bd49f9")
+		(uuid "060155c0-ab88-4c8d-9fda-ab0ed07f90de")
 		(effects
 			(font
 				(size 0.7 0.7)

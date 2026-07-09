@@ -1,7 +1,7 @@
 (footprint "Receptacle_SA800U-WF"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -19 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -25.82 10.592)
 		(end -25.82 12.592)
@@ -32540,46 +32554,10 @@
 		(layer "User.9")
 		(uuid "b636c569-d88f-4d5f-9cc1-a477b575de7e")
 	)
-	(fp_text user "${REFERENCE}-J2"
-		(at 0 14.4 0)
-		(layer "F.Fab")
-		(uuid "0a022673-bf2f-4c1c-a242-70ccbb65250b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "Author: Antmicro"
 		(at -28.99 21.824 0)
 		(layer "F.Fab")
 		(uuid "36d77fc1-d6c5-4843-af31-5f639a487ddf")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "FX10A-168S-SV"
-		(at 0 15.4 0)
-		(layer "F.Fab")
-		(uuid "623a6cf2-0931-4e42-8c4e-b2c92a778f0d")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}-J1"
-		(at 0 -14.6 0)
-		(layer "F.Fab")
-		(uuid "7884c78f-f0b3-4288-be35-19ecdc768ee0")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -32612,10 +32590,46 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "${REFERENCE}-J1"
+		(at 0 -14.6 0)
+		(layer "F.Fab")
+		(uuid "7884c78f-f0b3-4288-be35-19ecdc768ee0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "FX10A-168S-SV"
 		(at 0 -13.6 0)
 		(layer "F.Fab")
 		(uuid "9c76d2f3-cb67-46a4-8d37-0446248c07c9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}-J2"
+		(at 0 14.4 0)
+		(layer "F.Fab")
+		(uuid "0a022673-bf2f-4c1c-a242-70ccbb65250b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "FX10A-168S-SV"
+		(at 0 15.4 0)
+		(layer "F.Fab")
+		(uuid "623a6cf2-0931-4e42-8c4e-b2c92a778f0d")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -32649,7 +32663,7 @@
 		(at -21.189 -14.477 270)
 		(size 1.25 1.25)
 		(drill 1.25)
-		(layers "*.Mask" "F.Cu")
+		(layers "F.Cu" "*.Mask")
 		(uuid "3ffe6807-f5b8-46ae-8957-d9f788a6f880")
 	)
 	(pad "" np_thru_hole circle

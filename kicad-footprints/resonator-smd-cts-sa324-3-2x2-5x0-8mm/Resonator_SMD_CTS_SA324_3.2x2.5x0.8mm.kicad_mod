@@ -1,7 +1,7 @@
 (footprint "Resonator_SMD_CTS_SA324_3.2x2.5x0.8mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.05 0)
@@ -52,6 +52,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.4 -0.3)
 		(end -1.4 0.28)
@@ -6875,10 +6889,10 @@
 		(layer "User.9")
 		(uuid "4e06f0e9-3ceb-43a2-9ce3-a18374e7645a")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -1.75 6.084 0)
+	(fp_text user "${REFERENCE}"
+		(at -1.75 4.884 0)
 		(layer "F.Fab")
-		(uuid "03328ebd-0dbd-4063-b8d0-0dadb6cde0cf")
+		(uuid "0c57aa23-998c-433e-b643-703d3fe18690")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -6887,10 +6901,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -1.75 4.884 0)
+	(fp_text user "Author: Antmicro"
+		(at -1.75 6.084 0)
 		(layer "F.Fab")
-		(uuid "0c57aa23-998c-433e-b643-703d3fe18690")
+		(uuid "03328ebd-0dbd-4063-b8d0-0dadb6cde0cf")
 		(effects
 			(font
 				(size 0.7 0.7)

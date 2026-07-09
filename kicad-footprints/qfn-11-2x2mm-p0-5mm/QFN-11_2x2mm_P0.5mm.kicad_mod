@@ -1,7 +1,7 @@
 (footprint "QFN-11_2x2mm_P0.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.655361 -1.960738 0)
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.25 -0.951)
 		(end -1.25 -1.25)
@@ -1567,10 +1581,10 @@
 		(layer "User.9")
 		(uuid "72514d14-c4fd-4385-bd4c-aea5d6c49bdc")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -1.401 5.85 0)
+	(fp_text user "${REFERENCE}"
+		(at -1.401 3.45 0)
 		(layer "F.Fab")
-		(uuid "0a392826-71c6-4b61-82ca-0c7545a31269")
+		(uuid "a3866a2d-4d39-4947-b858-3ac5ff1ae4b5")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -1591,10 +1605,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -1.401 3.45 0)
+	(fp_text user "License: Apache-2.0"
+		(at -1.401 5.85 0)
 		(layer "F.Fab")
-		(uuid "a3866a2d-4d39-4947-b858-3ac5ff1ae4b5")
+		(uuid "0a392826-71c6-4b61-82ca-0c7545a31269")
 		(effects
 			(font
 				(size 0.7 0.7)

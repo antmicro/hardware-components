@@ -1,7 +1,7 @@
 (footprint "L_0402_1005Metric"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Inductor SMD 0402")
 	(tags "Inductor SMD 0402")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.925 -0.47)
 		(end 0.925 0.47)
@@ -6897,10 +6911,10 @@
 		(layer "User.9")
 		(uuid "b5559f6d-6fdf-420c-88ce-6f1e6813d047")
 	)
-	(fp_text user "Author: Antmicro"
-		(at -0.932 4.17 0)
+	(fp_text user "${REFERENCE}"
+		(at -0.932 3.168 0)
 		(layer "F.Fab")
-		(uuid "20ec2445-7073-4589-ab3e-865e3b4e944a")
+		(uuid "3997f11f-c676-4f3e-9908-4ca39369e58d")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -6909,10 +6923,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -0.932 3.168 0)
+	(fp_text user "Author: Antmicro"
+		(at -0.932 4.17 0)
 		(layer "F.Fab")
-		(uuid "3997f11f-c676-4f3e-9908-4ca39369e58d")
+		(uuid "20ec2445-7073-4589-ab3e-865e3b4e944a")
 		(effects
 			(font
 				(size 0.7 0.7)

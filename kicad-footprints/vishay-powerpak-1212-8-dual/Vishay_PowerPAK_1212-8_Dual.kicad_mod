@@ -1,7 +1,7 @@
 (footprint "Vishay_PowerPAK_1212-8_Dual"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "PowerPAK 1212-8 Dual (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72598/72598.pdf)")
 	(tags "Vishay_PowerPAK_1212-8_Dual")
@@ -54,6 +54,20 @@
 		)
 	)
 	(attr smd)
+	(stackup
+		(layer "F.Cu")
+		(layer "B.Cu")
+		(layer "User.1")
+		(layer "User.2")
+		(layer "User.3")
+		(layer "User.4")
+		(layer "User.5")
+		(layer "User.6")
+		(layer "User.7")
+		(layer "User.8")
+		(layer "User.9")
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.749 -1.75)
 		(end -0.624 -1.75)
@@ -525,10 +539,10 @@
 		(layer "User.9")
 		(uuid "515cf814-73a2-4c0f-9558-d01251ae29d4")
 	)
-	(fp_text user "License: Apache-2.0"
-		(at -1.94 7.075 0)
+	(fp_text user "${REFERENCE}"
+		(at -1.94 4.675 0)
 		(layer "F.Fab")
-		(uuid "49e73694-1085-42dd-8a9d-17a4c5174cec")
+		(uuid "feed0722-14b8-4e6b-9150-cdb4290e7f87")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -549,10 +563,10 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -1.94 4.675 0)
+	(fp_text user "License: Apache-2.0"
+		(at -1.94 7.075 0)
 		(layer "F.Fab")
-		(uuid "feed0722-14b8-4e6b-9150-cdb4290e7f87")
+		(uuid "49e73694-1085-42dd-8a9d-17a4c5174cec")
 		(effects
 			(font
 				(size 0.7 0.7)

@@ -11,7 +11,6 @@ from askiff.const import Version
 from askiff.symbol import SymbolFile
 from unidecode import unidecode
 
-
 app = typer.Typer()
 
 __file__path = Path(__file__)
@@ -101,7 +100,7 @@ class KiCadLibManager:
 
         # Create symbol library if not exists
         if symbol_lib not in self.symbols_libs:
-            dest_lib = SymbolFile(version=Version.K9.sym)
+            dest_lib = SymbolFile(version=Version.K10.sym)
             dest_lib.fs_path = symbol_lib_path
             self.symbols_libs[symbol_lib] = dest_lib
 
