@@ -114,6 +114,16 @@
 				(justify left bottom)
 			)
 		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "ADC, SPI, SMT"
 			(at 0 0 0)
 			(show_name no)
@@ -139,9 +149,9 @@
 		(symbol "AD74412RBCPZ_1_1"
 			(rectangle
 				(start 3.81 2.54)
-				(end 54.61 -85.09)
+				(end 17.78 -26.67)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type solid)
 				)
 				(fill
@@ -149,7 +159,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -8.89 0)
+				(at 0 -12.7 0)
 				(length 3.81)
 				(name "SENSEH_A"
 					(effects
@@ -167,7 +177,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -11.43 0)
+				(at 0 -15.24 0)
 				(length 3.81)
 				(name "SENSEHF_A"
 					(effects
@@ -185,7 +195,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -13.97 0)
+				(at 0 -21.59 0)
 				(length 3.81)
 				(name "SENSEL_A"
 					(effects
@@ -203,7 +213,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -16.51 0)
+				(at 0 -24.13 0)
 				(length 3.81)
 				(name "SENSELF_A"
 					(effects
@@ -221,7 +231,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -19.05 0)
+				(at 0 0 0)
 				(length 3.81)
 				(name "VIOUTP_A"
 					(effects
@@ -239,7 +249,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -21.59 0)
+				(at 0 -5.08 0)
 				(length 3.81)
 				(name "VIOUTN_A"
 					(effects
@@ -256,8 +266,528 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -8.89 0)
+				(length 3.81)
+				(name "CCOMP_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 3.81)
+				(name "CASCODE_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD74412RBCPZ_2_1"
+			(rectangle
+				(start 3.81 2.54)
+				(end 17.78 -26.67)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 0)
+				(length 3.81)
+				(name "VIOUTN_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 3.81)
+				(name "VIOUTP_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -24.13 0)
+				(length 3.81)
+				(name "SENSELF_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -21.59 0)
+				(length 3.81)
+				(name "SENSEL_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 0)
+				(length 3.81)
+				(name "SENSEHF_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 3.81)
+				(name "SENSEH_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 3.81)
+				(name "CASCODE_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 0)
+				(length 3.81)
+				(name "CCOMP_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD74412RBCPZ_3_1"
+			(rectangle
+				(start 3.81 2.54)
+				(end 17.78 -26.67)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 0)
+				(length 3.81)
+				(name "CCOMP_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 3.81)
+				(name "CASCODE_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 3.81)
+				(name "SENSEH_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 0)
+				(length 3.81)
+				(name "SENSEHF_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -21.59 0)
+				(length 3.81)
+				(name "SENSEL_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -24.13 0)
+				(length 3.81)
+				(name "SENSELF_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 3.81)
+				(name "VIOUTP_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 0)
+				(length 3.81)
+				(name "VIOUTN_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD74412RBCPZ_4_1"
+			(rectangle
+				(start 3.81 2.54)
+				(end 17.78 -26.67)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 0 -5.08 0)
+				(length 3.81)
+				(name "VIOUTN_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 0 0)
+				(length 3.81)
+				(name "VIOUTP_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -24.13 0)
+				(length 3.81)
+				(name "SENSELF_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -21.59 0)
+				(length 3.81)
+				(name "SENSEL_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 0)
+				(length 3.81)
+				(name "SENSEHF_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 3.81)
+				(name "SENSEH_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 0)
+				(length 3.81)
+				(name "CASCODE_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 0)
+				(length 3.81)
+				(name "CCOMP_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD74412RBCPZ_5_1"
+			(rectangle
+				(start 3.81 2.54)
+				(end 27.94 -35.56)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at 0 -82.55 0)
+				(at 0 -33.02 0)
 				(length 3.81)
 				(hide yes)
 				(name "AGND"
@@ -276,7 +806,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -2.54 0)
+				(at 0 -12.7 0)
 				(length 3.81)
 				(name "ALDO5V"
 					(effects
@@ -294,7 +824,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -5.08 0)
+				(at 0 -16.51 0)
 				(length 3.81)
 				(name "ALDO1V8"
 					(effects
@@ -312,223 +842,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -44.45 0)
-				(length 3.81)
-				(name "VIOUTN_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -41.91 0)
-				(length 3.81)
-				(name "VIOUTP_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -39.37 0)
-				(length 3.81)
-				(name "SENSELF_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -36.83 0)
-				(length 3.81)
-				(name "SENSEL_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -34.29 0)
-				(length 3.81)
-				(name "SENSEHF_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -31.75 0)
-				(length 3.81)
-				(name "SENSEH_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -46.99 0)
-				(length 3.81)
-				(name "CASCODE_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -49.53 0)
-				(length 3.81)
-				(name "CCOMP_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -63.5 180)
-				(length 3.81)
-				(name "GPO_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -66.04 180)
-				(length 3.81)
-				(name "GPO_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -68.58 180)
-				(length 3.81)
-				(name "GPO_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -71.12 180)
-				(length 3.81)
-				(name "GPO_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -54.61 0)
+				(at 31.75 0 180)
 				(length 3.81)
 				(name "CPUMP_P"
 					(effects
@@ -546,7 +860,7 @@
 				)
 			)
 			(pin power_in line
-				(at 58.42 -82.55 180)
+				(at 31.75 -33.02 180)
 				(length 3.81)
 				(name "DGND"
 					(effects
@@ -564,7 +878,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -57.15 0)
+				(at 31.75 -5.08 180)
 				(length 3.81)
 				(name "CPUMP_N"
 					(effects
@@ -582,7 +896,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -80.01 0)
+				(at 0 -30.48 0)
 				(length 3.81)
 				(name "AVSS"
 					(effects
@@ -600,7 +914,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -82.55 0)
+				(at 0 -33.02 0)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -618,7 +932,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -68.58 0)
+				(at 0 -21.59 0)
 				(length 3.81)
 				(name "REFIN"
 					(effects
@@ -636,7 +950,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -71.12 0)
+				(at 0 -24.13 0)
 				(length 3.81)
 				(name "REFOUT"
 					(effects
@@ -653,152 +967,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 58.42 -24.13 180)
-				(length 3.81)
-				(name "CCOMP_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 58.42 -26.67 180)
-				(length 3.81)
-				(name "CASCODE_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -8.89 180)
-				(length 3.81)
-				(name "SENSEH_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -11.43 180)
-				(length 3.81)
-				(name "SENSEHF_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -13.97 180)
-				(length 3.81)
-				(name "SENSEL_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -16.51 180)
-				(length 3.81)
-				(name "SENSELF_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 58.42 -19.05 180)
-				(length 3.81)
-				(name "VIOUTP_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 58.42 -21.59 180)
-				(length 3.81)
-				(name "VIOUTN_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
-				(at 3.81 -74.93 0)
+				(at 3.81 -17.78 0)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -817,7 +987,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -82.55 0)
+				(at 0 -33.02 0)
 				(length 3.81)
 				(hide yes)
 				(name "AGND"
@@ -836,7 +1006,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -77.47 0)
+				(at 0 -27.94 0)
 				(length 3.81)
 				(name "AGND_SENSE"
 					(effects
@@ -853,206 +1023,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 58.42 -43.18 180)
-				(length 3.81)
-				(name "VIOUTN_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -40.64 180)
-				(length 3.81)
-				(name "VIOUTP_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -38.1 180)
-				(length 3.81)
-				(name "SENSELF_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -35.56 180)
-				(length 3.81)
-				(name "SENSEL_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -33.02 180)
-				(length 3.81)
-				(name "SENSEHF_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -30.48 180)
-				(length 3.81)
-				(name "SENSEH_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 58.42 -48.26 180)
-				(length 3.81)
-				(name "CASCODE_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 58.42 -45.72 180)
-				(length 3.81)
-				(name "CCOMP_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -57.15 180)
-				(length 3.81)
-				(name "SDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -78.74 180)
-				(length 3.81)
-				(name "~{ADC_RDY}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 58.42 -76.2 180)
-				(length 3.81)
-				(name "~{ALERT}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "53"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at 58.42 -82.55 180)
+				(at 31.75 -33.02 180)
 				(length 3.81)
 				(hide yes)
 				(name "DGND"
@@ -1071,7 +1043,7 @@
 				)
 			)
 			(pin power_in line
-				(at 58.42 -2.54 180)
+				(at 31.75 -13.97 180)
 				(length 3.81)
 				(name "IOVDD"
 					(effects
@@ -1089,7 +1061,7 @@
 				)
 			)
 			(pin power_out line
-				(at 58.42 -5.08 180)
+				(at 31.75 -26.67 180)
 				(length 3.81)
 				(name "DLDO1V8"
 					(effects
@@ -1106,134 +1078,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -63.5 0)
-				(length 3.81)
-				(name "~{LDAC}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -59.69 180)
-				(length 3.81)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "59"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -54.61 180)
-				(length 3.81)
-				(name "SDI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 58.42 -52.07 180)
-				(length 3.81)
-				(name "~{SYNC}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -60.96 0)
-				(length 3.81)
-				(name "~{RESET}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -26.67 0)
-				(length 3.81)
-				(name "CCOMP_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "63"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -24.13 0)
-				(length 3.81)
-				(name "CASCODE_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at 0 -80.01 0)
+				(at 0 -30.48 0)
 				(length 3.81)
 				(hide yes)
 				(name "AVSS"
@@ -1270,7 +1116,7 @@
 				)
 			)
 			(pin power_in line
-				(at 58.42 0 180)
+				(at 31.75 -11.43 180)
 				(length 3.81)
 				(name "DVCC"
 					(effects
@@ -1280,6 +1126,235 @@
 					)
 				)
 				(number "[23,56]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AD74412RBCPZ_6_1"
+			(rectangle
+				(start 3.81 2.54)
+				(end 20.32 -16.51)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 24.13 0 180)
+				(length 3.81)
+				(name "GPO_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -2.54 180)
+				(length 3.81)
+				(name "GPO_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -5.08 180)
+				(length 3.81)
+				(name "GPO_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -7.62 180)
+				(length 3.81)
+				(name "GPO_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -11.43 0)
+				(length 3.81)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -13.97 180)
+				(length 3.81)
+				(name "~{ADC_RDY}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 24.13 -11.43 180)
+				(length 3.81)
+				(name "~{ALERT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 3.81)
+				(name "~{LDAC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -13.97 0)
+				(length 3.81)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -8.89 0)
+				(length 3.81)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -6.35 0)
+				(length 3.81)
+				(name "~{SYNC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 3.81)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
 					(effects
 						(font
 							(size 1.27 1.27)
